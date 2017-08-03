@@ -1,0 +1,59 @@
+{
+	"bootstrapped": true,
+	"channels":
+	[
+		"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\User\\channel_v3.json"
+	],
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"auto-save",
+		"AutoFileName",
+		"Autoprefixer",
+		"Better Completion",
+		"BracketHighlighter",
+		"Browser Sync",
+		"caniuse_local",
+		"Color Highlighter",
+		"ConvertToUTF8",
+		"CSScomb",
+		"Ctranslator tool",
+		"Diffy",
+		"DocBlockr",
+		"Emmet",
+		"Expand Selection to Quotes",
+		"FileHeader",
+		"GitStatusBar",
+		"Gulp",
+		"HTML-CSS-JS Prettify",
+		"IMESupport",
+		"INI",
+		"LESS",
+		"LocalizedMenu",
+		"MarkdownEditing",
+		"Package Control",
+		"PackageResourceViewer",
+		"QuoteHTML",
+		"Sass",
+		"SCSS",
+		"Seti_UI",
+		"SideBarEnhancements",
+		"Status Bar File Size",
+		"Status Bar Time",
+		"Statusbar Path",
+		"Stylus",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-jshint",
+		"SublimeREPL",
+		"Swig",
+		"Sync View Scroll",
+		"SyncedSideBar",
+		"Vue Syntax Highlight",
+		"Vuejs Complete Package",
+		"YandexTranslate"
+	]
+}

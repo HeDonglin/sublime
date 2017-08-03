@@ -1,0 +1,86 @@
+{
+  // 启用/禁用评估 GitGutter
+  //默认情况下，GitGutter会在每次加载，保存，激活或修改文件时评估更改。设置false为禁用评估并隐藏所有沟槽图标，状态消息和小地图标记。
+  "enable": true,
+
+ //Git路径
+ //如果GitGutter git在PATH上找不到，则git_binary可以将该设置设置为git二进制文件的位置。该值可能是直接字符串到git二进制文件：
+  //
+  //   "git_binary": "/usr/bin/git",
+  //
+  //或者它可以是sublime.platform（）返回的字典，因此可以在每个平台的基础上进行定制：
+  //
+    "git_binary": {
+        "default": "",
+        "windows": "d:/Program Files/Git/cmd/git.exe"
+    },
+  // "git_binary": "",
+
+  // 提交，分支，标签或远程进行比较
+  // 可以通过添加项目在每个项目的基础上进行设置
+  // 设置“git_gutter_compare_against”。
+  // 此设置仅更改默认（HEAD），但可以仍然使用其中一个命令临时覆盖commands
+  "compare_against": "HEAD",
+
+  //现场模式
+  //默认情况下，每次修改文件时，GitGutter会评估更改。设置false为在每次输入后禁用评估。
+  "live_mode": true,
+
+  //聚焦改变模式
+  "focus_change_mode": true,
+
+  //悬停Diff Popup
+  "enable_hover_diff_popup": true,
+
+  //差异弹出默认模式
+  "diff_popup_default_mode": "default",
+
+  //去抖延迟
+  "debounce_delay": 1000,
+
+  //忽略空白
+  "ignore_whitespace": "none",
+
+  //未加密的文件
+  "show_markers_on_untracked_file": true,
+
+  //添加--patience切换到git diff命令。 看到http://bramcohen.livejournal.com/73318.html for为什么你可能需要这个的一个例子。
+  "patience": true,
+
+  //显示状态栏文本
+  "show_status_bar_text": true,
+
+  //状态栏文本模板
+  "status_bar_text": [
+    "In {{repo}} on {{branch}}",
+    "{% if compare not in ('HEAD', branch) %}, Comparing against {{compare}}{% endif %}",
+    ", File is {{state}}",
+    "{% if deleted != 0 %}, {{deleted}}-{% endif %}",
+    "{% if inserted != 0 %}, {{inserted}}+{% endif %}",
+    "{% if modified != 0 %}, {{modified}}≠{% endif %}"
+  ],
+
+  // 小地图
+  // =0: 隐藏标记
+  // >0: 标记宽度
+  // -1: 突出全线
+  "show_in_minimap": 1,
+
+  // Determines whether the git_gutter_next_change and git_gutter_prev_change
+  // commands wrap around on reaching the beginning/ending of the file.
+  "next_prev_change_wrap": true,
+
+  //保护区,为了避免GitGutter超越更重要的沟槽图标，可以创建一个受保护区域的列表，GitGutter将不会添加Gutter图标。
+  "protected_regions": [
+    "sublimelinter-warning-gutter-marks",
+    "sublimelinter-error-gutter-marks",
+    "bookmarks"
+  ],
+
+  // 主题
+  // Bars.gitgutter-theme
+  // Bars Thin.gitgutter-theme
+  // Default.gitgutter-theme
+  // Default HiDPI.gitgutter-theme
+  "theme": "Default.gitgutter-theme"
+}

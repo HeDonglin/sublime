@@ -1,0 +1,41 @@
+{
+    // 兼容到哪些浏览器
+    // last 2 versions 每一个主流浏览器的最后2个版本
+    // last 2 Chrome versions 谷歌浏览器的最后两个版本
+    // > 5% 市场占有量大于5%
+    // > 5% in US 美国市场占有量大于5%
+    // > 5% in CN 中国市场占有量大于5%
+    // ie 6-8 ie浏览器6-8
+    // Firefox > 20 火狐版本>20
+    // Firefox >= 20 火狐版本>=20
+    // Firefox < 20 火狐<20
+    // Firefox <= 20 火狐<=20
+    // iOS 7 指定IOS 7浏览器
+    // "browsers": ["last 6 versions", "> 1%","> 1% in CN", "ie 8", "ie 7"],例如浏览器最后6个版本,市场份额大于3,中国市场份额大于,ie8,ie7浏览器
+     "browsers": ["last 6 versions"/*,"Firefox < 20", "opera < 15" , "> 1%", "> 0% in CN"*/],
+
+    //每次执行后是否保存
+    "prefixOnSave": false,
+
+    //声明中的值是否进行对齐
+    "cascade": true,
+
+    //是否启用@supports参数前缀
+    "supports": true,
+
+    //是否清除过期的前缀
+    "remove": true,
+
+    //是否使用flexbox前缀
+    "flexbox": true,
+
+    //是否开启IE网格布局前缀
+    "grid":true,
+
+    //使用/*autoprefixer: off*/来控制对某些样式不格式化;
+    // b {
+    //      /*autoprefixer: off*/
+    //        transition: 1s; 
+    // }
+    
+}

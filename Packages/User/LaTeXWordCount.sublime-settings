@@ -1,0 +1,27 @@
+//copy(*看看https://github.com/kevinstadler/SublimeLaTeXWordCount/issues/12)
+{
+    //数字是否应被忽略的字数
+    "ignore_numbers": true,
+
+    //定制的设置的字计数的乳胶的文件
+    "LaTeX": {
+
+    //经常表现为标记的命令。 命令不包含在
+    //this'白名单'将被剥夺了从前的文本的话
+    //计数，以将公式，任何命令在序言部分(前
+    //\\开始{文件})，抽象的，以及任何案文就是评论说出来
+    "markup_commands": ["text\\w+", "uppercase", "uline", "emph"],
+
+    //否排除\\部分，并\\款的标题从wordcount
+    "exclude_headers": true,
+
+    //否排除的内容\\脚注{}s
+    "exclude_footnotes": true,
+
+    //否排除所有附录内容
+    "exclude_appendices": true,
+
+    //否排除了抽象
+    "exclude_abstract": true
+    }
+}

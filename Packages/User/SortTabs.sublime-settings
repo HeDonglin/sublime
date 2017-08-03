@@ -1,0 +1,23 @@
+{
+    // 加载或保存文件时自动排序选项卡。
+    "sort on load save" : true,
+    // 用于自动排序的命令
+    // 如果未指定，则使用最后使用的排序命令
+    // 可用的命令是:
+    //  sort tabs by name //名称排序
+    //  sort tabs by file path //文件路径
+    //  sort tabs by type //类型
+    //  sort tabs by date //日期
+    //  sort tabs by last activation //上次激活排序
+    "sort on load save command" : "sort tabs by name",
+    // 仅排序当前组
+    "current group only" : true,
+    // Uncomment options you want to appear in the Tab Context menu
+    "tab context sort menu": [
+        // {"caption": "Name", "command": "sort tabs by name"},
+        // {"caption": "File Path", "command": "sort tabs by file path"},
+        // {"caption": "Type", "command": "sort tabs by type"},
+        // {"caption": "Date", "command": "sort tabs by date"},
+        // {"caption": "Last Activation", "command": "sort tabs by last activation"}
+    ]
+}

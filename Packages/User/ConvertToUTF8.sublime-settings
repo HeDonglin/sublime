@@ -1,0 +1,42 @@
+{
+    //检测失败时显示的编码列表
+    "encoding_list" : [
+        ["Chinese Simplified (GBK)", "GBK"],
+        ["Chinese Simplified (GB2312)", "GB2312"],
+        ["Chinese Simplified (GB18030)", "GB18030"],
+        ["Chinese Traditional (BIG5)", "BIG5"],
+        ["Korean (EUC-KR)", "EUC-KR"],
+        ["Japanese (CP932)", "CP932"],
+        ["Japanese (Shift_JIS)", "Shift_JIS"],
+        ["Japanese (EUC-JP)", "EUC-JP"],
+        ["UTF-8", "UTF-8"]
+    ],
+
+    // 最大编码缓存数量，0 表示不缓存（默认为 100）
+    "max_cache_size" : 100,
+
+    // 最大检测行数，0 表示不限制（默认为 600）
+    "max_detect_lines" : 600,
+
+    // 预览文件时是否将其内容转换为 UTF-8（默认为 false）
+    "preview_action" : false,
+
+    // 指定新建文件的默认编码（如 GBK），空值表示使用 Sublime Text 的 default_encoding 设置（默认为 ""）
+    "default_encoding_on_create" : "",
+
+    // 将文件保存到临时位置，并在切换窗口或标签时在后台自动重载（默认为 false）
+    "lazy_reload": false,
+
+    // 最低可信率，检测时超过这个值将触发自动转换（默认为0.95）
+    "confidence": 0.95,
+
+    // 将 Find Results 窗口里的内容转换成 UTF-8（默认为 false）
+    "convert_on_find": false,
+
+    // 文件装载时是否将其内容转换成 UTF-8（默认为 true）
+    "convert_on_load" : true,
+
+    //文件保存时是否将其内容转换成原有（或指定）编码（默认为 true）
+    "convert_on_save" : true
+
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "caption":"网页刷新",
+        "mnemonic":"B",
+        "id":"BrowserSync",
+        "children":
+        [
+            {
+                "caption": "配置文件",
+                "command": "open_file", "args":{"file": "${packages}/Browser Sync/browser_sync_launch.js"}
+            },
+           {
+                "caption": "菜单文件",
+                "command": "open_file", "args":{"file": "${packages}/Browser Sync/Main.sublime-menu"}
+            },
+            {
+                "caption": "选择文件",
+                "children":
+                [
+                    {"command":"change_browsersync_index", "args":{"index":0},"checkbox":true},
+                    {"command":"change_browsersync_index", "args":{"index":1},"checkbox":true},
+                    {"command":"change_browsersync_index", "args":{"index":2},"checkbox":true},
+                    {"command":"change_browsersync_index", "args":{"index":3},"checkbox":true},
+                    {"command":"change_browsersync_index", "args":{"index":4},"checkbox":true},
+                    {"command":"change_browsersync_index", "args":{"index":5},"checkbox":true},
+                    {"command":"change_browsersync_index", "args":{"index":6},"checkbox":true},
+                    {"command":"change_browsersync_index", "args":{"index":7},"checkbox":true},
+                    {"command":"change_browsersync_index", "args":{"index":8},"checkbox":true},
+                    {"command":"change_browsersync_index", "args":{"index":9},"checkbox":true},
+                ]
+            },
+            {
+                "caption":"启动",
+                "command":"start_browsersync"
+
+            }
+
+        ]
+
+    }
+
+]

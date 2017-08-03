@@ -1,0 +1,55 @@
+[
+    {
+        "caption": "Preferences",
+        "children": [
+            {
+                "caption": "Package Settings",
+                "children": [
+                    {
+                        "caption": "Sublime Better Completion",
+                        "children": [
+                            {
+                                "caption": "-"
+                            },
+                            {
+                                "args": {
+                                    "file": "${packages}/Better Completion/sbc-setting.sublime-settings"
+                                },
+                                "caption": "Settings \u2013 Default",
+                                "command": "open_file"
+                            },
+                            {
+                                "args": {
+                                    "file": "${packages}/User/sbc-setting.sublime-settings"
+                                },
+                                "caption": "Settings \u2013 User",
+                                "command": "open_file"
+                            },
+                            {
+                                "args": {
+                                    "file": "${packages}/User/sbc-api-my-javascript.sublime-settings"
+                                },
+                                "caption": "Settings \u2013 javascript",
+                                "command": "open_file"
+                            },
+                            {
+                                "args": {
+                                    "file": "${packages}/User/sbc-api-my-html.sublime-settings"
+                                },
+                                "caption": "Settings \u2013 html",
+                                "command": "open_file"
+                            },
+                            {
+                                "caption": "-"
+                            }
+                        ]
+                    }
+                ],
+                "id": "package-settings",
+                "mnemonic": "P"
+            }
+        ],
+        "id": "preferences",
+        "mnemonic": "n"
+    }
+]

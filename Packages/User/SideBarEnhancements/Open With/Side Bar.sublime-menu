@@ -1,0 +1,110 @@
+[
+	{"id": "side-bar-files-open-with",
+		"children":
+		[
+			// photoshop
+			{
+				"caption": "photoshop",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {"paths": [], "application": "D:\\Program Files (x86)\\PSCC32\\AdobePhotoshopCC_jjb_32\\Adobe Photoshop CC\\photoshop.exe", "extensions":".*"} ,
+				"open_automatically" : false
+			},
+			{"caption":"-"},
+			// 谷歌
+			{
+				"caption": "谷歌",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {"paths": [], "application": "c:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", "extensions":".*"} ,
+				"open_automatically" : false
+			},
+			//
+			// 火狐
+			{
+				"caption": "火狐",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {"paths": [], "application": "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe", "extensions":".*"},
+				"open_automatically" : false
+			},
+			// 欧朋
+			{
+				"caption": "欧朋",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {"paths": [], "application": "D:\\Program Files (x86)\\Opera\\launcher.exe", "extensions":".*"},
+				"open_automatically" : false
+			},
+			// 苹果
+			{
+				"caption": "苹果",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {"paths": [], "application": "D:\\Program Files (x86)\\Safari\\safari.exe", "extensions":".*"},
+				"open_automatically" : false
+			},
+			// ie6
+			{
+				"caption": "ie6",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {"paths": [], "application": "D:\\Program Files (x86)\\ie\\ie6.exe", "extensions":".*"},
+				"open_automatically" : false
+			},
+			// ie7
+			{
+				"caption": "ie7",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {"paths": [], "application": "D:\\Program Files (x86)\\ie\\ie7.exe", "extensions":".*"},
+				"open_automatically" : false
+			},
+			// ie8
+			{
+				"caption": "ie8",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {"paths": [], "application": "D:\\Program Files (x86)\\ie\\ie8.exe", "extensions":".*"},
+				"open_automatically" : false
+			},
+			// ie9
+			{
+				"caption": "ie9",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {"paths": [], "application": "D:\\Program Files (x86)\\ie\\ie9.exe", "extensions":".*"},
+				"open_automatically" : false
+			},
+			// ie10
+			{
+				"caption": "ie10",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {"paths": [], "application": "D:\\Program Files (x86)\\ie\\ie10.exe", "extensions":".*"},
+				"open_automatically" : false
+			},
+			// ie11
+			{
+				"caption": "ie11",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+			"args": {"paths": [], "application": "C:\\Program Files (x86)\\Internet Explorer\\iexplore.exe", "extensions":".*"},
+				"open_automatically" : false
+			},
+			{"caption":"-"}
+		]
+	}
+]
+

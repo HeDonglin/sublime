@@ -1,0 +1,72 @@
+[
+    {
+        "caption": "LocalizedMenu: Detect", 
+        "command": "localize_run", 
+        "args": {
+            "action": "detect"
+        }
+    }, 
+    {
+        "caption": "LocalizedMenu: Reset", 
+        "command": "localize_run", 
+        "args": {
+            "action": "reset"
+        }
+    }, 
+    {
+        "caption": "LocalizedMenu: Add Language…", 
+        "command": "localize_run", 
+        "args": {
+            "action": "add"
+        }
+    }, 
+    {
+        "caption": "LocalizedMenu: Submit Language…", 
+        "command": "localize_run", 
+        "args": {
+            "action": "submit"
+        }
+    }, 
+    {
+        "args": {
+            "locale": "en"
+        }, 
+        "command": "localize", 
+        "caption": "LocalizedMenu: English (en)"
+    }, 
+    {
+        "args": {
+            "locale": "en_GB"
+        }, 
+        "command": "localize", 
+        "caption": "LocalizedMenu: English (en_GB)"
+    }, 
+    {
+        "args": {
+            "locale": "en_US"
+        }, 
+        "command": "localize", 
+        "caption": "LocalizedMenu: English (en_US)"
+    }, 
+    {
+        "args": {
+            "locale": "zh"
+        }, 
+        "command": "localize", 
+        "caption": "LocalizedMenu: 中文 (zh)"
+    }, 
+    {
+        "args": {
+            "locale": "zh_CN"
+        }, 
+        "command": "localize", 
+        "caption": "LocalizedMenu: 简体中文 (zh_CN)"
+    }, 
+    {
+        "args": {
+            "locale": "zh_TW"
+        }, 
+        "command": "localize", 
+        "caption": "LocalizedMenu: 繁体中文 (zh_TW)"
+    }
+]

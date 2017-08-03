@@ -1,0 +1,20 @@
+{
+  "scope": "text.html - source - meta.tabTrigger, punctuation.definition.tag.begin",
+
+  "completions":
+  [
+    // Snippets provided by Pleasurazy
+    ["v-model\tv-model", "v-model=\"$1\""],
+    ["v-html\tv-html", "v-html=\"$1\""],
+    ["v-show\tv-show", "v-show=\"$1\""],
+    ["v-if\tv-if", "v-if=\"$1\""],
+    ["v-else\tv-else", "v-else=\"$1\""],
+    ["v-else-if\tv-else-if", "v-else-if=\"$1\""],
+    ["v-for\tv-for", "v-for=\"$1\""],
+    ["v-on\tv-on", "v-on=\"$1\""],
+    ["v-bind\tv-bind", "v-bind=\"$1\""],
+    ["v-pre\tv-pre", "v-pre=\"$1\""],
+    ["v-cloak\tv-cloak", "v-cloak=\"$1\""],
+    ["v-once\tv-once", "v-once=\"$1\""],
+  ]
+}

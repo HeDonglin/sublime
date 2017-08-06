@@ -732,7 +732,7 @@
     [ "withCredentials\tjsXMLHttpRequest", "withCredentials" ],
 // 方法
     [ "abort\tjsXMLHttpRequest()", "abort()" ],
-    [ "open\tjsXMLHttpRequest()", "open(${1:type},${2:url},${3:isAsync})" ],
+    [ "open\tjsXMLHttpRequest()", "open(${1:type},${2:url},${3:true})" ],
     [ "overrideMimeType\tjsXMLHttpRequest()", "overrideMimeType()" ],
     [ "send\tjsXMLHttpRequest()", "send($1)" ],
     [ "setRequestHeader\tjsXMLHttpRequest()", "setRequestHeader(${1:'content-type'},${2:'application/x-www-form-urlencoded'})" ],

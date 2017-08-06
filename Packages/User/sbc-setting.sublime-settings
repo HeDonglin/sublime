@@ -5,7 +5,7 @@
     "html": false,
     "lodash": false,
     "javascript": false,
-    "jquery": false,
+    "jquery": true,
     "jquery-sq": false,
     "php": false,
     "phpci": false,

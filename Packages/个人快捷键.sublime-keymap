@@ -638,7 +638,10 @@ paragraph
     6.查看一下当前使用的源：gem sources -l
     7.sublime 上安装 sass和sass build
     8.如果编译不成功大多数是目录路径是中文名导致，所以另存为到桌面ctrl+b即可编译成功；
-
+    9.动态显示结果：例如文件在桌面上有scss.scss文件
+        在Start Command Prompt with Ruby 输入
+        cd desktop
+        sass --watch scss.scss:scss.css
 配置java环境
     1.下载jdk文件-->http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
     2.配置变量环境

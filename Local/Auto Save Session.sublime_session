@@ -1546,7 +1546,7 @@
 					"file": "/C/Users/Administrator/Desktop/scss.scss",
 					"settings":
 					{
-						"buffer_size": 193,
+						"buffer_size": 230,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -1555,7 +1555,7 @@
 					"file": "/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
 					"settings":
 					{
-						"buffer_size": 36679,
+						"buffer_size": 36814,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -1564,7 +1564,7 @@
 					"file": "/C/Users/Administrator/Desktop/scss.css",
 					"settings":
 					{
-						"buffer_size": 231,
+						"buffer_size": 262,
 						"line_ending": "Windows"
 					}
 				}
@@ -1886,10 +1886,12 @@
 			],
 			"file_history":
 			[
+				"/C/Users/Administrator/Desktop/css",
+				"/C/Users/Administrator/Desktop/scss.css",
+				"/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
 				"/I/项目/webpack/src/app.vue",
 				"/I/项目/webpack/webpack.config.js",
-				"/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/SASS Build/SASS - Compressed.sublime-build",
 				"/I/项目/webpack/src/app.js",
 				"/I/项目/webpack/src/public/common.css",
@@ -2011,9 +2013,7 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Alignment/Default (Windows).sublime-keymap",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Default (Windows).sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/JSON.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-				"/I/笔记/note/gif/git--后悔药.png"
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/JSON.sublime-settings"
 			],
 			"find":
 			{
@@ -2195,15 +2195,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 193,
+								"buffer_size": 230,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										141,
-										141
+										212,
+										213
 									]
 								],
 								"settings":
@@ -2213,12 +2213,27 @@
 									{
 										"close":
 										{
+											"1":
+											[
+												228,
+												229
+											]
 										},
 										"icon":
 										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/dot.png",
+												"brackethighlighter.default"
+											]
 										},
 										"open":
 										{
+											"1":
+											[
+												148,
+												149
+											]
 										},
 										"unmatched":
 										{
@@ -2299,7 +2314,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 1,
 							"type": "text"
 						},
 						{
@@ -2308,15 +2323,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 36679,
+								"buffer_size": 36814,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										31372,
-										31372
+										31482,
+										31482
 									]
 								],
 								"settings":
@@ -2400,7 +2415,7 @@
 									"origPos":
 									[
 										0.0,
-										29727.0
+										0.0
 									],
 									"syncScroll": false,
 									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
@@ -2408,7 +2423,7 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 29919.0,
+								"translation.y": 25461.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -2426,15 +2441,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 231,
+								"buffer_size": 262,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										175,
-										175
+										0,
+										0
 									]
 								],
 								"settings":
@@ -2444,27 +2459,12 @@
 									{
 										"close":
 										{
-											"1":
-											[
-												191,
-												192
-											]
 										},
 										"icon":
 										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/dot.png",
-												"brackethighlighter.default"
-											]
 										},
 										"open":
 										{
-											"1":
-											[
-												148,
-												149
-											]
 										},
 										"unmatched":
 										{
@@ -2544,7 +2544,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 2,
 							"type": "text"
 						}
 					]
@@ -2578,7 +2578,7 @@
 				"cols":
 				[
 					0.0,
-					0.5,
+					0.745302713987,
 					1.0
 				],
 				"rows":
@@ -2613,7 +2613,7 @@
 				"height": 221.0
 			},
 			"pinned_build_system": "Packages/SASS Build/SASS.sublime-build",
-			"position": "0,2,3,-1,-1,-1,-1,1363,1013,524,2945",
+			"position": "0,2,3,-32000,-32000,-1,-1,1363,1013,524,2945",
 			"project": "webpack.sublime-project",
 			"replace":
 			{
@@ -2637,7 +2637,7 @@
 				[
 					[
 						"",
-						"I:\\笔记\\website.sublime-project"
+						"I:\\笔记\\note.sublime-project"
 					]
 				],
 				"width": 475.0
@@ -2677,8 +2677,8 @@
 		"recent_workspaces":
 		[
 			"/I/笔记/webpack.sublime-workspace",
-			"/I/笔记/website.sublime-workspace",
 			"/I/笔记/note.sublime-workspace",
+			"/I/笔记/website.sublime-workspace",
 			"/I/笔记/blog.sublime-workspace",
 			"/I/笔记/es6.sublime-workspace"
 		]

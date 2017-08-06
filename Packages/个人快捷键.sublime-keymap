@@ -372,17 +372,6 @@ postcss变量着色
 就可以显示在安装面板上了：Ctrl+Shift+P → Package Control: Install Package → Sublime-CSS3
 
 
-ruby 安装
-    勾选 Add Ruby executables to your PATH 选项
-    安装完ruby后，可在菜单中找到ruby，打开 Start Command Prompt with Ruby
-    gem install sass
-    如果没有安装成功，可以利用淘宝的RubyGems镜像安装sass。
-    把默认的https://rubygems.org源移除，gem sources --remove https://rubygems.org/
-    然后添加淘宝的源https://http://gems.ruby-china.org/ ，gem sources -a http://gems.ruby-china.org/
-    查看一下当前使用的源：gem sources -l
-    sublime 上安装 sass和sass build
-    如果编译不成功大多数是目录路径是中文导致，所以另存为到桌面ctrl+b即可编译成功；
-
 git 分布式版本管理工具
     分布式版本库:每个客户端都是完整的版本库,只要把修改的内容推送到服务器上即可,某个人电脑坏了,其他人也会保存有,不需担心(不需要联网);
     集中式版本库:版本库是集中存放在中央服务器的,修改项目需要先从服务器取得最新版本,然后修改,再将修改的版本提交到服务器(一旦服务器坏了整个项目有可能丢失所有历史更新记录)(需要联网);
@@ -638,6 +627,17 @@ paragraph
     equal, not_equal-->测试平等
     regex_match, not_regex_match-->匹配正则表达式。
     regex_contains, not_regex_contains-->匹配正则表达式（遏制）。
+配置ruby环境
+    1.下载ruby软件(迅雷！！！)-->https://rubyinstaller.org/downloads/
+    2.勾选 Add Ruby executables to your PATH 选项
+    3.安装完ruby后，可在菜单中找到ruby，打开 Start Command Prompt with Ruby
+    4.gem install sass
+    5.如果没有安装成功，可以利用淘宝的RubyGems镜像安装sass。
+        把默认的https://rubygems.org源移除，gem sources --remove https://rubygems.org/
+        然后添加淘宝的源https://http://gems.ruby-china.org/ ，gem sources -a http://gems.ruby-china.org/
+    6.查看一下当前使用的源：gem sources -l
+    7.sublime 上安装 sass和sass build
+    8.如果编译不成功大多数是目录路径是中文名导致，所以另存为到桌面ctrl+b即可编译成功；
 
 配置java环境
     1.下载jdk文件-->http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html

@@ -638,6 +638,11 @@ paragraph
     6.查看一下当前使用的源：gem sources -l
     7.sublime 上安装 sass和sass build
     8.如果编译不成功大多数是目录路径是中文名导致，所以另存为到桌面ctrl+b即可编译成功；
+        编译失败解决：
+        D:\Program Files\Ruby24-x64\lib\ruby\gems\2.4.0\gems\sass-3.5.1\lib\sass\engine.rb的文件把下面语句
+        Encoding.default_external = Encoding.find('utf-8')
+        放在所有的require XXXX 之后即可。
+
     9.动态显示结果：例如文件在桌面上有scss.scss文件
         在Start Command Prompt with Ruby 输入
         定位到目录

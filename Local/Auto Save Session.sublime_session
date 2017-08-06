@@ -1546,7 +1546,7 @@
 					"file": "/C/Users/Administrator/Desktop/scss.scss",
 					"settings":
 					{
-						"buffer_size": 230,
+						"buffer_size": 322,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -1555,7 +1555,7 @@
 					"file": "/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
 					"settings":
 					{
-						"buffer_size": 36980,
+						"buffer_size": 37187,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -1564,7 +1564,7 @@
 					"file": "/C/Users/Administrator/Desktop/scss.css",
 					"settings":
 					{
-						"buffer_size": 262,
+						"buffer_size": 267,
 						"line_ending": "Windows"
 					}
 				}
@@ -1886,6 +1886,7 @@
 			],
 			"file_history":
 			[
+				"/D/Program Files/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb",
 				"/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
 				"/C/Users/Administrator/Desktop/css",
 				"/C/Users/Administrator/Desktop/scss.css",
@@ -2012,8 +2013,7 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Alignment/Base File.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Alignment/Default (Windows).sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Default (Windows).sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/JSON.sublime-settings"
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Default (Windows).sublime-keymap"
 			],
 			"find":
 			{
@@ -2195,15 +2195,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 230,
+								"buffer_size": 322,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										227,
-										227
+										188,
+										188
 									]
 								],
 								"settings":
@@ -2213,27 +2213,12 @@
 									{
 										"close":
 										{
-											"1":
-											[
-												228,
-												229
-											]
 										},
 										"icon":
 										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/dot.png",
-												"brackethighlighter.default"
-											]
 										},
 										"open":
 										{
-											"1":
-											[
-												148,
-												149
-											]
 										},
 										"unmatched":
 										{
@@ -2304,14 +2289,14 @@
 									"origPos":
 									[
 										0.0,
-										96.0
+										0.0
 									],
 									"origin_encoding": "ASCII",
 									"syncScroll": false,
 									"syntax": "Packages/SCSS/SCSS.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 96.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
@@ -2323,15 +2308,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 36980,
+								"buffer_size": 37187,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										31510,
-										31510
+										31602,
+										31602
 									]
 								],
 								"settings":
@@ -2415,7 +2400,7 @@
 									"origPos":
 									[
 										0.0,
-										27335.0
+										27315.0
 									],
 									"syncScroll": false,
 									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
@@ -2423,7 +2408,7 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 27335.0,
+								"translation.y": 27315.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -2441,7 +2426,7 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 262,
+								"buffer_size": 267,
 								"regions":
 								{
 								},

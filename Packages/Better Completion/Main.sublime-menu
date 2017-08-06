@@ -40,6 +40,13 @@
                                 "command": "open_file"
                             },
                             {
+                                "args": {
+                                    "file": "${packages}/User/sbc-api-my-jquery.sublime-settings"
+                                },
+                                "caption": "Settings \u2013 jquery",
+                                "command": "open_file"
+                            },
+                            {
                                 "caption": "-"
                             }
                         ]

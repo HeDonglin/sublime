@@ -1279,6 +1279,10 @@
 				"selected_items":
 				[
 					[
+						"pos",
+						"posa\tposition: absolute;"
+					],
+					[
 						"tsf",
 						"trf-skx\ttransform: skewX(${1:angle});"
 					],
@@ -1674,7 +1678,34 @@
 					"file": "note/src/index.css",
 					"settings":
 					{
-						"buffer_size": 3670,
+						"buffer_size": 3672,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "note/src/index.js",
+					"settings":
+					{
+						"buffer_size": 837,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 11145,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "note/dist/css/index.css",
+					"settings":
+					{
+						"buffer_size": 4371,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -1776,16 +1807,20 @@
 			"command_palette":
 			{
 				"height": 428.0,
-				"last_filter": "",
+				"last_filter": "prvo",
 				"selected_items":
 				[
 					[
-						"remov",
-						"Package Control: Remove Package"
+						"prvo",
+						"PackageResourceViewer: Open Resource"
 					],
 					[
 						"pin",
 						"Package Control: Install Package"
+					],
+					[
+						"remov",
+						"Package Control: Remove Package"
 					],
 					[
 						"enp",
@@ -1794,10 +1829,6 @@
 					[
 						"dip",
 						"Package Control: Disable Package"
-					],
-					[
-						"prvo",
-						"PackageResourceViewer: Open Resource"
 					],
 					[
 						"dis",
@@ -2012,7 +2043,7 @@
 						"Set Syntax: JavaScript"
 					]
 				],
-				"width": 416.0
+				"width": 703.0
 			},
 			"console":
 			{
@@ -2039,8 +2070,15 @@
 			],
 			"file_history":
 			[
-				"/I/笔记/note/precss.css",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sublime-completions/sbc-api-jquery.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/Main.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
+				"/I/笔记/note/src/index.html",
+				"/I/笔记/note/precss.css",
 				"/C/Users/Administrator/.bashrc",
 				"/I/笔记/note/1.css",
 				"/I/笔记/note/dist/css/index.css",
@@ -2065,7 +2103,6 @@
 				"/I/笔记/note/src/1.css",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Cssnext/Cssnext.sublime-settings",
 				"/I/笔记/note/src/index.js",
-				"/I/笔记/note/src/index.html",
 				"/I/笔记/note/gulpfile.js",
 				"/I/笔记/note/src/public/mobile.js",
 				"/I/笔记/note/src/public/pc.js",
@@ -2104,7 +2141,6 @@
 				"/C/Users/Administrator/Documents/Tencent Files/839875083/FileRecv/webpack.config.js",
 				"/C/Users/Administrator/Downloads/common.js",
 				"/C/Users/Administrator/Desktop/1.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
 				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/Drag.js",
 				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/LimitDrag.js",
 				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/拖拽——继承.html",
@@ -2116,7 +2152,6 @@
 				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/JS继承1.html",
 				"/C/Users/Administrator/Downloads/0-7课件及源码/2-妙味课堂原创JavaScript视频教程——DOM(2课)、BOM课程资料/BOM/课程案例/回到顶部按钮3.html",
 				"/C/Users/Administrator/Downloads/index.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
 				"/I/笔记/note/index.html",
 				"/I/笔记/note/es6.js",
 				"/I/笔记/note/newFloder.bat",
@@ -2134,8 +2169,6 @@
 				"/I/项目/es6/src/1.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Package Control/Package Control.sublime-settings",
 				"/I/笔记/ES6视频/ECMAScript6课件/课程源码/06-07/源码/src/main_class的基本使用.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/Main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/data/Packages/Better Completion/sublime-commands/sbc.sublime-commands",
 				"/D/Program Files/Sublime Text 3126/data/Packages/Better Completion/sublime-completions/sbc-api-javascript.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/data/Packages/Better Completion/Main.sublime-menu",
@@ -2164,9 +2197,7 @@
 				"/G/webpack/src/index.js",
 				"/G/webpack/src/index.html",
 				"/G/webpack/src/index.css",
-				"/G/webpack/src/page/gg/gg.html",
-				"/G/webpack/src/module/module.html",
-				"/G/webpack/src/page/gg/gg.js"
+				"/G/webpack/src/page/gg/gg.html"
 			],
 			"find":
 			{
@@ -2262,6 +2293,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"\\\"",
+					"jquery",
+					"true",
 					"parent",
 					"extend",
 					"name",
@@ -2386,10 +2420,7 @@
 					"animate",
 					"toTop",
 					"你是谁",
-					"undefined",
-					"strSelect",
-					"sel",
-					"select"
+					"undefined"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2407,7 +2438,7 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 2,
 					"sheets":
 					[
 						{
@@ -2416,15 +2447,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 3670,
+								"buffer_size": 3672,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										934,
-										934
+										2814,
+										2814
 									]
 								],
 								"settings":
@@ -2436,8 +2467,8 @@
 										{
 											"1":
 											[
-												953,
-												954
+												2870,
+												2871
 											]
 										},
 										"icon":
@@ -2452,8 +2483,8 @@
 										{
 											"1":
 											[
-												917,
-												918
+												2813,
+												2814
 											]
 										},
 										"unmatched":
@@ -2462,16 +2493,16 @@
 									},
 									"bracket_highlighter.regions":
 									[
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
 										"bh_unmatched",
 										"bh_unmatched_center",
 										"bh_unmatched_open",
 										"bh_unmatched_close",
-										"bh_unmatched_content"
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
 									],
 									"c_time":
 									[
@@ -2525,7 +2556,7 @@
 									"origPos":
 									[
 										0.0,
-										1472.0
+										224.0
 									],
 									"origin_encoding": "UTF-8",
 									"syncScroll": false,
@@ -2534,10 +2565,1370 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 1280.0,
+								"translation.y": 224.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "note/src/index.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 837,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										837,
+										837
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										8,
+										2,
+										15,
+										9,
+										35,
+										9,
+										242,
+										248,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+									"is_init_dirty_state": false,
+									"origPos":
+									[
+										0.0,
+										672.0
+									],
+									"origin_encoding": "ASCII",
+									"syncScroll": false,
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 672.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 11145,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										272,
+										272
+									],
+									[
+										275,
+										275
+									],
+									[
+										312,
+										312
+									],
+									[
+										315,
+										315
+									],
+									[
+										364,
+										364
+									],
+									[
+										367,
+										367
+									],
+									[
+										416,
+										416
+									],
+									[
+										419,
+										419
+									],
+									[
+										454,
+										454
+									],
+									[
+										457,
+										457
+									],
+									[
+										501,
+										501
+									],
+									[
+										504,
+										504
+									],
+									[
+										539,
+										539
+									],
+									[
+										542,
+										542
+									],
+									[
+										627,
+										627
+									],
+									[
+										630,
+										630
+									],
+									[
+										681,
+										681
+									],
+									[
+										684,
+										684
+									],
+									[
+										735,
+										735
+									],
+									[
+										738,
+										738
+									],
+									[
+										779,
+										779
+									],
+									[
+										782,
+										782
+									],
+									[
+										1009,
+										1009
+									],
+									[
+										1012,
+										1012
+									],
+									[
+										1191,
+										1191
+									],
+									[
+										1194,
+										1194
+									],
+									[
+										1241,
+										1241
+									],
+									[
+										1244,
+										1244
+									],
+									[
+										1281,
+										1281
+									],
+									[
+										1284,
+										1284
+									],
+									[
+										1327,
+										1327
+									],
+									[
+										1330,
+										1330
+									],
+									[
+										1379,
+										1379
+									],
+									[
+										1382,
+										1382
+									],
+									[
+										1447,
+										1447
+									],
+									[
+										1450,
+										1450
+									],
+									[
+										1487,
+										1487
+									],
+									[
+										1490,
+										1490
+									],
+									[
+										1533,
+										1533
+									],
+									[
+										1536,
+										1536
+									],
+									[
+										1583,
+										1583
+									],
+									[
+										1586,
+										1586
+									],
+									[
+										1627,
+										1627
+									],
+									[
+										1630,
+										1630
+									],
+									[
+										1675,
+										1675
+									],
+									[
+										1678,
+										1678
+									],
+									[
+										1715,
+										1715
+									],
+									[
+										1718,
+										1718
+									],
+									[
+										1761,
+										1761
+									],
+									[
+										1764,
+										1764
+									],
+									[
+										1811,
+										1811
+									],
+									[
+										1814,
+										1814
+									],
+									[
+										1851,
+										1851
+									],
+									[
+										1854,
+										1854
+									],
+									[
+										1893,
+										1893
+									],
+									[
+										1896,
+										1896
+									],
+									[
+										1937,
+										1937
+									],
+									[
+										1940,
+										1940
+									],
+									[
+										1991,
+										1991
+									],
+									[
+										1994,
+										1994
+									],
+									[
+										2047,
+										2047
+									],
+									[
+										2050,
+										2050
+									],
+									[
+										2091,
+										2091
+									],
+									[
+										2094,
+										2094
+									],
+									[
+										2171,
+										2171
+									],
+									[
+										2174,
+										2174
+									],
+									[
+										2261,
+										2261
+									],
+									[
+										2264,
+										2264
+									],
+									[
+										2315,
+										2315
+									],
+									[
+										2318,
+										2318
+									],
+									[
+										2375,
+										2375
+									],
+									[
+										2378,
+										2378
+									],
+									[
+										2419,
+										2419
+									],
+									[
+										2422,
+										2422
+									],
+									[
+										2493,
+										2493
+									],
+									[
+										2496,
+										2496
+									],
+									[
+										2529,
+										2529
+									],
+									[
+										2532,
+										2532
+									],
+									[
+										2601,
+										2601
+									],
+									[
+										2604,
+										2604
+									],
+									[
+										2639,
+										2639
+									],
+									[
+										2642,
+										2642
+									],
+									[
+										2681,
+										2681
+									],
+									[
+										2684,
+										2684
+									],
+									[
+										2719,
+										2719
+									],
+									[
+										2722,
+										2722
+									],
+									[
+										2801,
+										2801
+									],
+									[
+										2804,
+										2804
+									],
+									[
+										2879,
+										2879
+									],
+									[
+										2882,
+										2882
+									],
+									[
+										2927,
+										2927
+									],
+									[
+										2930,
+										2930
+									],
+									[
+										2973,
+										2973
+									],
+									[
+										2976,
+										2976
+									],
+									[
+										3013,
+										3013
+									],
+									[
+										3016,
+										3016
+									],
+									[
+										3053,
+										3053
+									],
+									[
+										3056,
+										3056
+									],
+									[
+										3099,
+										3099
+									],
+									[
+										3102,
+										3102
+									],
+									[
+										3149,
+										3149
+									],
+									[
+										3152,
+										3152
+									],
+									[
+										3193,
+										3193
+									],
+									[
+										3196,
+										3196
+									],
+									[
+										3239,
+										3239
+									],
+									[
+										3242,
+										3242
+									],
+									[
+										3295,
+										3295
+									],
+									[
+										3298,
+										3298
+									],
+									[
+										3335,
+										3335
+									],
+									[
+										3338,
+										3338
+									],
+									[
+										3381,
+										3381
+									],
+									[
+										3384,
+										3384
+									],
+									[
+										3431,
+										3431
+									],
+									[
+										3434,
+										3434
+									],
+									[
+										3479,
+										3479
+									],
+									[
+										3482,
+										3482
+									],
+									[
+										3543,
+										3543
+									],
+									[
+										3546,
+										3546
+									],
+									[
+										3587,
+										3587
+									],
+									[
+										3590,
+										3590
+									],
+									[
+										3637,
+										3637
+									],
+									[
+										3640,
+										3640
+									],
+									[
+										3679,
+										3679
+									],
+									[
+										3682,
+										3682
+									],
+									[
+										3719,
+										3719
+									],
+									[
+										3722,
+										3722
+									],
+									[
+										3767,
+										3767
+									],
+									[
+										3770,
+										3770
+									],
+									[
+										3805,
+										3805
+									],
+									[
+										3808,
+										3808
+									],
+									[
+										3841,
+										3841
+									],
+									[
+										3844,
+										3844
+									],
+									[
+										3879,
+										3879
+									],
+									[
+										3882,
+										3882
+									],
+									[
+										3925,
+										3925
+									],
+									[
+										3928,
+										3928
+									],
+									[
+										3985,
+										3985
+									],
+									[
+										3988,
+										3988
+									],
+									[
+										4029,
+										4029
+									],
+									[
+										4032,
+										4032
+									],
+									[
+										4081,
+										4081
+									],
+									[
+										4084,
+										4084
+									],
+									[
+										4121,
+										4121
+									],
+									[
+										4124,
+										4124
+									],
+									[
+										4165,
+										4165
+									],
+									[
+										4168,
+										4168
+									],
+									[
+										4207,
+										4207
+									],
+									[
+										4210,
+										4210
+									],
+									[
+										4251,
+										4251
+									],
+									[
+										4254,
+										4254
+									],
+									[
+										4295,
+										4295
+									],
+									[
+										4298,
+										4298
+									],
+									[
+										4341,
+										4341
+									],
+									[
+										4344,
+										4344
+									],
+									[
+										4389,
+										4389
+									],
+									[
+										4392,
+										4392
+									],
+									[
+										4431,
+										4431
+									],
+									[
+										4434,
+										4434
+									],
+									[
+										4473,
+										4473
+									],
+									[
+										4476,
+										4476
+									],
+									[
+										4521,
+										4521
+									],
+									[
+										4524,
+										4524
+									],
+									[
+										4567,
+										4567
+									],
+									[
+										4570,
+										4570
+									],
+									[
+										4615,
+										4615
+									],
+									[
+										4618,
+										4618
+									],
+									[
+										4657,
+										4657
+									],
+									[
+										4660,
+										4660
+									],
+									[
+										4707,
+										4707
+									],
+									[
+										4710,
+										4710
+									],
+									[
+										4759,
+										4759
+									],
+									[
+										4762,
+										4762
+									],
+									[
+										4811,
+										4811
+									],
+									[
+										4814,
+										4814
+									],
+									[
+										4861,
+										4861
+									],
+									[
+										4864,
+										4864
+									],
+									[
+										4909,
+										4909
+									],
+									[
+										4912,
+										4912
+									],
+									[
+										4959,
+										4959
+									],
+									[
+										4962,
+										4962
+									],
+									[
+										5005,
+										5005
+									],
+									[
+										5008,
+										5008
+									],
+									[
+										6094,
+										6094
+									],
+									[
+										6097,
+										6097
+									],
+									[
+										6134,
+										6134
+									],
+									[
+										6137,
+										6137
+									],
+									[
+										6180,
+										6180
+									],
+									[
+										6183,
+										6183
+									],
+									[
+										6232,
+										6232
+									],
+									[
+										6235,
+										6235
+									],
+									[
+										6274,
+										6274
+									],
+									[
+										6277,
+										6277
+									],
+									[
+										6320,
+										6320
+									],
+									[
+										6323,
+										6323
+									],
+									[
+										6366,
+										6366
+									],
+									[
+										6369,
+										6369
+									],
+									[
+										6410,
+										6410
+									],
+									[
+										6413,
+										6413
+									],
+									[
+										6452,
+										6452
+									],
+									[
+										6455,
+										6455
+									],
+									[
+										6492,
+										6492
+									],
+									[
+										6495,
+										6495
+									],
+									[
+										6536,
+										6536
+									],
+									[
+										6539,
+										6539
+									],
+									[
+										6582,
+										6582
+									],
+									[
+										6585,
+										6585
+									],
+									[
+										6626,
+										6626
+									],
+									[
+										6629,
+										6629
+									],
+									[
+										6678,
+										6678
+									],
+									[
+										6681,
+										6681
+									],
+									[
+										6728,
+										6728
+									],
+									[
+										6731,
+										6731
+									],
+									[
+										6782,
+										6782
+									],
+									[
+										6785,
+										6785
+									],
+									[
+										6828,
+										6828
+									],
+									[
+										6831,
+										6831
+									],
+									[
+										6987,
+										6987
+									],
+									[
+										6990,
+										6990
+									],
+									[
+										7037,
+										7037
+									],
+									[
+										7040,
+										7040
+									],
+									[
+										7085,
+										7085
+									],
+									[
+										7088,
+										7088
+									],
+									[
+										7135,
+										7135
+									],
+									[
+										7138,
+										7138
+									],
+									[
+										7183,
+										7183
+									],
+									[
+										7186,
+										7186
+									],
+									[
+										7237,
+										7237
+									],
+									[
+										7240,
+										7240
+									],
+									[
+										7279,
+										7279
+									],
+									[
+										7282,
+										7282
+									],
+									[
+										7467,
+										7467
+									],
+									[
+										7470,
+										7470
+									],
+									[
+										7505,
+										7505
+									],
+									[
+										7508,
+										7508
+									],
+									[
+										7551,
+										7551
+									],
+									[
+										7554,
+										7554
+									],
+									[
+										7601,
+										7601
+									],
+									[
+										7604,
+										7604
+									],
+									[
+										7641,
+										7641
+									],
+									[
+										7644,
+										7644
+									],
+									[
+										7707,
+										7707
+									],
+									[
+										7710,
+										7710
+									],
+									[
+										10525,
+										10525
+									],
+									[
+										10528,
+										10528
+									],
+									[
+										10617,
+										10617
+									],
+									[
+										10620,
+										10620
+									],
+									[
+										10846,
+										10846
+									],
+									[
+										10849,
+										10849
+									],
+									[
+										10896,
+										10896
+									],
+									[
+										10899,
+										10899
+									],
+									[
+										10994,
+										10994
+									],
+									[
+										10997,
+										10997
+									],
+									[
+										11048,
+										11048
+									],
+									[
+										11051,
+										11051
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										8,
+										6,
+										18,
+										56,
+										12,
+										11,
+										37,
+										190,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"origPos":
+									[
+										0.0,
+										0.0
+									],
+									"syncScroll": false,
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 3,
+							"file": "note/dist/css/index.css",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4371,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1507,
+										1507
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										8,
+										6,
+										14,
+										32,
+										49,
+										1,
+										44,
+										76,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+									"is_init_dirty_state": false,
+									"origPos":
+									[
+										0.0,
+										12160.0
+									],
+									"origin_encoding": "ASCII",
+									"syncScroll": false,
+									"syntax": "Packages/Syntax Highlighting for PostCSS/Syntaxes/PostCSS.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 6227.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
 							"type": "text"
 						}
 					]
@@ -2560,11 +3951,18 @@
 						0,
 						1,
 						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
 					]
 				],
 				"cols":
 				[
 					0.0,
+					0.650059504268,
 					1.0
 				],
 				"rows":
@@ -2603,7 +4001,7 @@
 				"height": 227.0
 			},
 			"pinned_build_system": "Packages/User/node.sublime-build",
-			"position": "0,2,3,-32000,-32000,-1,-1,1363,1013,524,2945",
+			"position": "0,2,3,-1,-1,-1,-1,1363,1013,524,2945",
 			"project": "note.sublime-project",
 			"replace":
 			{

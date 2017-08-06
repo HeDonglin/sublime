@@ -5,7 +5,7 @@
     "html": false,
     "lodash": false,
     "javascript": false,
-    "jquery": true,
+    "jquery": false,
     "jquery-sq": false,
     "php": false,
     "phpci": false,
@@ -28,6 +28,9 @@
     "my-html": true,
 
     // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-javascript.sublime-settings
-    "my-javascript": true
+    "my-javascript": true,
+
+    // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-jquery.sublime-settings
+    "my-jquery": true,
   }
 }

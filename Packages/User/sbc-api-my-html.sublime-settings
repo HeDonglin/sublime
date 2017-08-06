@@ -3,18 +3,30 @@
 
   "completions":
   [
-    // Snippets provided by Pleasurazy
-    ["v-model\tv-model", "v-model=\"$1\""],
+    // vue指令
+    // 两种用法：<span v-text="msg"></span>
+    // 简写：<span>{{msg}}</span>
+    // 数据改变时，插值处的数据都发生改变
+    // 双大括号会将数据解释为纯文本,不能在属性上使用
+    ["v-text\tv-text", "v-text=\"$1\""],
+    // 数据改变时，插值处的内容不会更新
+    ["v-once\tv-once", "v-once"],
+    // 输出html需要v-html,你的站点上动态渲染的任意 HTML 可能会非常危险，因为它很容易导致 XSS 攻击。请只对可信内容使用 HTML 插值，绝不要对用户提供的内容插值。
     ["v-html\tv-html", "v-html=\"$1\""],
+    // 缩写为 @
+    ["v-on\tv-on", "v-on=\"$1\""],
+    // 缩写为 ：
+    // v-bind:class 指令可以与普通的 class 属性共存
+    // <div :class="{active:isActive}"></div> 如果isActive为true，那么active显示在class上
+    ["v-bind\tv-bind", "v-bind=\"$1\""],
     ["v-show\tv-show", "v-show=\"$1\""],
     ["v-if\tv-if", "v-if=\"$1\""],
-    ["v-else\tv-else", "v-else=\"$1\""],
+    ["v-else\tv-else", "v-else"],
     ["v-else-if\tv-else-if", "v-else-if=\"$1\""],
     ["v-for\tv-for", "v-for=\"$1\""],
-    ["v-on\tv-on", "v-on=\"$1\""],
-    ["v-bind\tv-bind", "v-bind=\"$1\""],
-    ["v-pre\tv-pre", "v-pre=\"$1\""],
-    ["v-cloak\tv-cloak", "v-cloak=\"$1\""],
-    ["v-once\tv-once", "v-once=\"$1\""],
+    ["v-model\tv-model", "v-model=\"$1\""],
+    ["v-pre\tv-pre", "v-pre"],
+    ["v-cloak\tv-cloak", "v-cloak"],
+
   ]
 }

@@ -13,7 +13,7 @@
     "show_css_completions": true,
 
     //应用Emmet CSS完成的范围列表
-    "css_completions_scope": "source.css - meta.selector.css - meta.property-value.css, source.scss - meta.selector.scss - meta.property-value.scss, source.less - meta.selector.css - meta.property-value.css,source.stylus - meta.selector.css - meta.property-value.css",
+    "css_completions_scope": "source.css - meta.selector.css - meta.property-value.css, source.scss - meta.selector.scss - meta.property-value.scss, source.less - meta.selector.css - meta.property-value.css,source.stylus - meta.selector.css - meta.property-value.css,source.post - meta.selector.css - meta.property-value.css,",
 
     //删除插件启动时的默认HTML标签完成,更改此选项后，您应该重新启动编辑器
     "remove_html_completions": false,

@@ -123,6 +123,9 @@
                 "posa": "position:absolute;",
                 "posr": "position:relative;",
                 "posf": "position:fixed;",
+                "posc":"position:center;",
+                "posp":"position:page;",
+                "post":"position:sticky;",
                 "t": "top:|;",
                 // 注意
                 "t:a": "top:auto;",

@@ -640,8 +640,15 @@ paragraph
     8.如果编译不成功大多数是目录路径是中文名导致，所以另存为到桌面ctrl+b即可编译成功；
     9.动态显示结果：例如文件在桌面上有scss.scss文件
         在Start Command Prompt with Ruby 输入
-        cd desktop
-        sass --watch scss.scss:scss.css
+        定位到目录
+            cd desktop
+        配置输出地址
+            sass scss/style.scss:css/style.css
+        两种监听方式
+            sass --watch 文件：文件
+            sass --watch 文件夹：文件夹
+            sass --watch style.scss:style.css
+
 配置java环境
     1.下载jdk文件-->http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
     2.配置变量环境

@@ -1555,7 +1555,7 @@
 					"file": "/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
 					"settings":
 					{
-						"buffer_size": 36814,
+						"buffer_size": 36980,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -1886,9 +1886,9 @@
 			],
 			"file_history":
 			[
+				"/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
 				"/C/Users/Administrator/Desktop/css",
 				"/C/Users/Administrator/Desktop/scss.css",
-				"/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
 				"/I/项目/webpack/src/app.vue",
 				"/I/项目/webpack/webpack.config.js",
@@ -2041,6 +2041,10 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"scss",
+					"css",
+					"scss",
+					"动态显示结果：例如文件在桌面上有scss",
 					"vue",
 					"less",
 					"ddd",
@@ -2164,11 +2168,7 @@
 					"i",
 					"html",
 					"index",
-					"html",
-					"from",
-					"startsWith",
-					"includes",
-					"copyWithin"
+					"html"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2202,8 +2202,8 @@
 								"selection":
 								[
 									[
-										212,
-										213
+										227,
+										227
 									]
 								],
 								"settings":
@@ -2304,14 +2304,14 @@
 									"origPos":
 									[
 										0.0,
-										0.0
+										96.0
 									],
 									"origin_encoding": "ASCII",
 									"syncScroll": false,
 									"syntax": "Packages/SCSS/SCSS.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 96.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
@@ -2323,15 +2323,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 36814,
+								"buffer_size": 36980,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										31482,
-										31482
+										31510,
+										31510
 									]
 								],
 								"settings":
@@ -2415,7 +2415,7 @@
 									"origPos":
 									[
 										0.0,
-										0.0
+										27335.0
 									],
 									"syncScroll": false,
 									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
@@ -2423,7 +2423,7 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 25461.0,
+								"translation.y": 27335.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -2578,7 +2578,7 @@
 				"cols":
 				[
 					0.0,
-					0.745302713987,
+					0.615866388309,
 					1.0
 				],
 				"rows":

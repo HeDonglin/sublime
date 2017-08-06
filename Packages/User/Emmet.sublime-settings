@@ -760,6 +760,22 @@
                 "bdcra": "border-color: rgba(${1:0}, ${2:0}, ${3:0}, 0.${4:5});",
                 //兼容ie678;
                 "op+": "opacity: 0.${1:5};\nfilter: alpha(opacity:${1=5}0);",
+
+                //precss
+                //按条件判断
+                "@if":"@if ${1:1} < ${2:2} {\n\t$3\n} \n@else {\n\t$4\n}",
+                //按数字循环
+                "@for":"@for \\$${1:i} from ${2:num1} to ${3:num2} {\n\t.${4:name}-\\$${1:i} {\n\t\t$6\n\t} \n}",
+                //按变量名的循环
+                "@each":"@for \\$${1:arg} in (${2:foo}, ${3:bar}, ${4:baz}){\n\t.${1:arg}-\\$(${1:arg}) {\n\t\t$6\n\t} \n}",
+                //混入，相当于调用函数
+                "@dm":"@define-mixin ${1:fnName} \\$${2:arg} {\n\t$3\n}",
+                "@mixin":"@mixin ${1:fnName} ${2:arg};",
+                //类似less中的写class就可以使用属性，但是这里需要些扩展@define-extend
+                "@de":"@define-extend ${1:class}{\n\t$2\n}",
+                "@extend":"@extend ${1:class};",
+                //根父级同级
+                "@at-root":"@at-root{\n\t$1\n}",
         }
     },
     //html片段

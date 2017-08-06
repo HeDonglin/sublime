@@ -1,0 +1,1 @@
+{"version": "1.6.1", "sublime_text": "*", "platforms": ["*"], "description": "Sublime Text plugin to sort CSS rules content with specified order.", "url": "https://packagecontrol.io/packages/PostCSS%20Sorting", "dependencies": []}

@@ -1,0 +1,16 @@
+{
+    // Sort order. Please visit https://github.com/hudochenkov/postcss-sorting for all rules and predefined configs
+    "sort-order": "default",
+
+    // 设置了一些空的线之间的嵌套的孩子的规则
+    "empty-lines-between-children-rules": 0,
+
+    // 设置了一些空的线之间的嵌套媒体的规则
+    "empty-lines-between-media-rules": 0,
+
+    // 保持空间的儿童的规则和保护空行为的意见之间的儿童的规则
+    "preserve-empty-lines-between-children-rules": false,
+
+    // 设置成真排序上的保存每一个文件与支持的语法
+    "sort-on-save": false
+}

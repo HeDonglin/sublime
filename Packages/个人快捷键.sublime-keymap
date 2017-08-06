@@ -1,3 +1,8 @@
+postcss变量着色
+    colorhiglighter对postcss的变量着色，colorHighlighter.py第1302行改为elif ext in [".sass", ".scss",".css"]:
+禁用插件ctrl+shift+p 输入dip
+启用插件ctrl+shift+p 输入enp
+
 // 主要快捷键
     ////////////////////////////////////
     f1 显隐贴图
@@ -37,7 +42,8 @@
     alt+7 打开有道字典
     alt+8 css补全前缀；
     alt+9 css前缀值同时更换(注意:先修改其中一个值,然后再使用)
-    alt+0 css 按顺序排序
+    // alt+0 css 按顺序排序（保留）
+    alt+0 postcss按顺序排序；
     alt+- 向下合并代码
     alt+= 添加结束标签
     alt+space 函数跳转

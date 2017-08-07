@@ -1,7 +1,3 @@
-postcss变量着色
-    colorhiglighter对postcss的变量着色，colorHighlighter.py第1302行改为elif ext in [".sass", ".scss",".css"]:
-禁用插件ctrl+shift+p 输入dip
-启用插件ctrl+shift+p 输入enp
 
 // 主要快捷键
     ////////////////////////////////////
@@ -37,7 +33,7 @@ postcss变量着色
     alt+2 折叠二层
     alt+3 折叠三层
     alt+4 折叠四层
-    alt+5
+    alt+5 解码url
     alt+6 标签半闭合
     alt+7 打开有道字典
     alt+8 css补全前缀；
@@ -61,14 +57,14 @@ postcss变量着色
     alt+[ 折叠
     alt+] 展开
     alt+a 快速定位标签头尾
-    alt+s 选择上一个标签及属性
+    alt+s 选择上一个标签、属性、值
     alt+d 跳转到上一个空内容或空属性值上
     alt+f 左
     alt+g 跳转到行首
     alt+h 跳转到行尾
     alt+j 右
     alt+k 跳转到下一个空内容或空属性值上
-    alt+l 选择下一个标签及属性
+    alt+l 选择下一个标签、属性、值
     alt+; 向内选择内容（要选择内容就在标签内alt+；两次就可以快速选择了，在内容出就alt+；一次）
     alt+' 向外选择内容
     alt+z 数学表达式求值
@@ -81,6 +77,12 @@ postcss变量着色
     alt+, 跳转上一个编辑点
     alt+. 跳转到下一个编辑点
     alt+/  光标在括号内跳转内容首尾
+    alt+left 递减0.1
+    alt+right 递增0.1
+    alt+up 递增1
+    alt+down 递减1
+    alt+shift+up 递增10
+    alt+shift+down 递减10
 
     ////////////////////////////////////
     ctrl+f1 贴图
@@ -164,7 +166,8 @@ postcss变量着色
     ctrl+alt+; gulp 运行最后一次运行的任务
     ctrl+alt+o gulp 打开任务列表
     ctrl+alt+p gulp 打开插件列表
-    ctrl+alt+↓ 相当于shift+鼠标右键,或者按住鼠标滚轮
+    ctrl+alt+up 相当于shift+鼠标右键,或者按住鼠标滚轮
+    ctrl+alt+down 相当于shift+鼠标右键,或者按住鼠标滚轮
     ctrl+alt+n 新建模板
     ctrl+alt+s 自动保存
 
@@ -638,12 +641,11 @@ paragraph
     6.查看一下当前使用的源：gem sources -l
     7.sublime 上安装 sass和sass build
     8.如果编译不成功大多数是目录路径是中文名导致，所以另存为到桌面ctrl+b即可编译成功；
-        编译失败解决：
+    9.文件里有中文编译失败解决：
         D:\Program Files\Ruby24-x64\lib\ruby\gems\2.4.0\gems\sass-3.5.1\lib\sass\engine.rb的文件把下面语句
         Encoding.default_external = Encoding.find('utf-8')
         放在所有的require XXXX 之后即可。
-
-    9.动态显示结果：例如文件在桌面上有scss.scss文件
+    10.动态显示结果：例如文件在桌面上有scss.scss文件
         在Start Command Prompt with Ruby 输入
         定位到目录
             cd desktop
@@ -835,3 +837,82 @@ FCCC7561 8A4A1741 68FA4223 ADCEDE07
 prvo-->default-->main.sublime-menu-->enter
 
 
+emmet插件在用户设置的配置说明
+    {
+        // --------------------------- README -------------------- ---------------
+        //   将这些键/值复制到User / Preferences.sublime-settings
+        //   这里没有效果
+
+        //如果`true`将禁用诸如ctrl + alt + n等的绑定
+        //方便我们的意大利朋友:)
+        "alt_gr": false,
+
+        //如果`true`将在'＃'上插入id =“$ 1”片段，类似于'。
+        //对于`raw html`有用，但是对于某些模板语言来说很烦人。
+        "auto_id_class": false,
+
+        //按Tab键禁用扩展缩写
+        "disable_tab_abbreviations": false,
+
+        //禁用插入格式化的linebreak
+        //打开和关闭HTML标签之间按Enter键
+        "disable_formatted_linebreak": false,
+
+        //启用默认Emmet键盘映射。许多用户抱怨Emmet的动作
+        //（特别是那些绑定到Alt键）的行为不正确
+        //非英文键盘布局。将此设置设置为`false`
+        //用户的Preferences.sublime-settings禁用所有默认值
+        // keybindings一次
+        "enable_emmet_keymap": true,
+
+        // 自动弹出面板的时候默认禁用tab扩展,设置为fasle的时候就会使用emmet的扩展；
+        "disable_tab_abbreviations_on_auto_complete": true
+    }
+emmet的高级技巧
+    最短的方式
+    在html文件中
+        #main-wrapper>#*2>.inner-wrapper>.wrapper
+        p#p${\$}*3
+    在json中转义
+        \\$或\\|
+    在css文件中
+        图片位置 ctrl+u即可填入对应的宽高值；
+    缩写 tab ctrl+e
+    向外选择内容，向内选择内容 alt+' alt+;
+    在该标签外添加标签,在该标签内添加标签 alt+v alt+n
+    跳转到上一个空内容或空属性值上，跳转到下一个空内容或空属性值上 alt+d alt+k
+    跳转到上一个属性、标签、值上，跳转到下一个属性、标签、值上 alt+s alt+l
+    注释css alt+shift+/
+    标签半闭合 alt+6
+    删除所在位置的标签 alt+b
+    根据上下文合并为一行；(官网说可以但是在sublime中没有实现)；
+    数学表达式 atl+z
+    递增或递减数字 alt+shift+↑ 递增10 alt+ ↑ 递增1 alt+ → 递增0.1
+    css前缀里的值同时修改 alt+9
+    过滤器，把父的分类出来更简约.b_m._c|bem ;b .b_m .b_c
+    前缀产商 -符号例如-bdrs -wm-bdrs
+    w： webkit
+    m： moz
+    s： ms
+    o： o
+    $@-*5 递减
+    $@*5 递增
+    $@2*5 从2开始递增
+    $$$*5 001 002 003 004 005
+    隐式标签如在<ul>.al</ul> 那么.al 会自动根据上下文解析为li.al
+    lorem默认生产30个字 或者lorem100 可以自定义生产100个字
+代码片段说明
+<snippet>
+    <content><![CDATA[ 你需要插入的代码片段${1:name} ]]></content>
+    <!-- 可选：快捷键，利用Tab自动补全代码的功能 -->
+    <tabTrigger>xyzzy</tabTrigger>
+    <!-- 可选：使用范围，不填写代表对所有文件有效。附：source.css和test.html分别对应不同文件。 -->
+    <scope>source.python</scope>
+    <!-- 可选：在snippet菜单中的显示说明（支持中文）。如果不定义，菜单则显示当前文件的文件名。 -->
+    <description>My Fancy Snippet</description>
+</snippet>
+
+postcss变量着色
+    colorhiglighter对postcss的变量着色，colorHighlighter.py第1302行改为elif ext in [".sass", ".scss",".css"]:
+禁用插件ctrl+shift+p 输入dip
+启用插件ctrl+shift+p 输入enp

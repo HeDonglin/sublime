@@ -18,6 +18,7 @@
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
+	"disable_tab_abbreviations_on_auto_complete": false,
 	"dpi_scale": 1.25,
 	"draw_centered": false,
 	"draw_indent_guides": true,

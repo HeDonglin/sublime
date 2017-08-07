@@ -123,9 +123,6 @@
                 "posa": "position:absolute;",
                 "posr": "position:relative;",
                 "posf": "position:fixed;",
-                "posc":"position:center;",
-                "posp":"position:page;",
-                "post":"position:sticky;",
                 "t": "top:|;",
                 // 注意
                 "t:a": "top:auto;",
@@ -743,6 +740,9 @@
                 "wfsmsa": "-webkit-font-smoothing:subpixel-antialiased;",
                 "wfsmn":"-webkit-font-smoothing:none;",
             //自编
+                "posc":"position:center;",
+                "posp":"position:page;",
+                "post":"position:sticky;",
                 "rgb":"rgb(${1:0}, ${2:0}, ${3:0});",
                 "rgba":"rgba(${1:0}, ${2:0}, ${3:0}, 0.${4:5});",
                 "bg+": "background: #${1:fff} url(${2}) ${3:no-repeat} ${4:0} ${5:0} ${6:padding-box};",

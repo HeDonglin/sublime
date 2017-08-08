@@ -15,7 +15,7 @@
     "show_css_completions": true,
 
     //应用Emmet CSS完成的范围列表
-    "css_completions_scope": "source.css - meta.selector.css - meta.property-value.css, source.scss - meta.selector.scss - meta.property-value.scss, source.less - meta.selector.css - meta.property-value.css,source.stylus - meta.selector.css - meta.property-value.css,source.post - meta.selector.css - meta.property-value.css,",
+    "css_completions_scope": "source.css - meta.selector.css - meta.property-value.css, source.scss - meta.selector.scss - meta.property-value.scss, source.less - meta.selector.css - meta.property-value.css,",
 
     //删除插件启动时的默认HTML标签完成,更改此选项后，您应该重新启动编辑器
     "remove_html_completions": false,
@@ -786,19 +786,17 @@
                     "bdcra": "border-color: rgba(${1:0}, ${2:0}, ${3:0}, 0.${4:5});",
                     //兼容ie678;
                     "op+": "opacity: 0.${1:5};\nfilter: alpha(opacity:${1=5}0);",
-
-                    //precss
-                    //按条件判断
+                    // precss
                     "@if":"@if ${1:1} < ${2:2} {\n\t$3\n} \n@else {\n\t$4\n}",
                     //按数字循环
                     "@for":"@for \\$${1:i} from ${2:num1} to ${3:num2} {\n\t.${4:name}-\\$${1:i} {\n\t\t$6\n\t} \n}",
                     //按变量名的循环
-                    "@each":"@for \\$${1:arg} in (${2:foo}, ${3:bar}, ${4:baz}){\n\t.${1:arg}-\\$(${1:arg}) {\n\t\t$6\n\t} \n}",
+                    "@each":"@each \\$${1:arg} in (${2:foo}, ${3:bar}, ${4:baz}){\n\t.${1:arg}-\\$(${1:arg}) {\n\t\t$6\n\t} \n}",
                     //混入，相当于调用函数
-                    "@dm":"@define-mixin ${1:fnName} \\$${2:arg} {\n\t$3\n}",
+                    "@define-mixin":"@define-mixin ${1:fnName} \\$${2:arg} {\n\t$3\n}",
                     "@mixin":"@mixin ${1:fnName} ${2:arg};",
-                    //类似less中的写class就可以使用属性，但是这里需要些扩展@define-extend
-                    "@de":"@define-extend ${1:class}{\n\t$2\n}",
+                    //扩展，类似less中的写class就可以使用属性，但是这里需要些扩展@define-extend
+                    "@define-extend":"@define-extend ${1:class}{\n\t$2\n}",
                     "@extend":"@extend ${1:class};",
                     //根父级同级
                     "@at-root":"@at-root{\n\t$1\n}",
@@ -1088,13 +1086,26 @@
         },
 
         "scss": {
-            "extends": "css"
+            "extends": "css",
+            "snippets": {
+                "@for":"@for \\$${1:i} from ${2:1} through ${3:3} {\n\t${4:.item}-#{\\$${1:i}} {\n\t\t$0\n}}",
+                "@forto":"@for \\$${1:i} from ${2:num1} to ${3:num2} {\n\t.${4:name}-\\$${1:i} {\n\t\t$6\n\t} \n}",
+                "@extend":"@extend ${1:class};",
+                "@if":"@if ${3:${1:1} < ${2:2}} {\n\t$4\n}",
+                "@ifelse":"@if ${3:${1:1} < ${2:2}} {\n\t$4\n} \n@else {\n\t$5\n}",
+                "@ifelseif":"@if ${3:${1:1} < ${2:2}} {\n\t$4\n} \n@else if ${7:${5:1} < ${6:2}} {\n\t$8\n}\n@else{\n\t$9\n}",
+                "@include":"@include ${1:fnName}($2);",
+                "@mixin":"@mixin ${1:fnName} (${2:\\$arg}){\n\t$3\n}",
+                "@each":"@each \\$${1:arg} in (${2:foo}, ${3:bar}, ${4:baz}){\n\t.${1:arg}-#{\\$$1}} {\n\t\t$6\n\t} \n}",
+                "@while":"@while ${2:\\$j > ${1:1}}{\n\t.class-#{\\$j}{\n\t\t$3\n\t}\n\t${5:\\$j : \\$j - ${4:2}};\n}",
+                "@warn":"@warn '${1:text}';",
+                "@error":"@error '${1:text}';"
+            }
         },
 
         "sass": {
-            "extends": "css"
+            "extends": "css",
         },
-
         "less": {
             "extends": "css"
         },

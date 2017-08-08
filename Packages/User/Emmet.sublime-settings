@@ -1,6 +1,8 @@
 //emmet用户主题设置
 {
     //阻止pyv8更新（重要！！！）
+    //https://github.com/emmetio/pyv8-binaries because
+    //区分32为和64位
     "disable_pyv8_update":true,
 
     //将任何修改的设置复制到`Use Emmet.sublime-settings`;

@@ -1,3 +1,5 @@
+由于pyv8区分32为和64位，复制data文件夹记得把pyv8替换
+https://github.com/emmetio/pyv8-binaries because
 
 主要快捷键
 

@@ -12,7 +12,7 @@
 		"/I/项目/website"
 	],
 	"last_version": 3126,
-	"last_window_id": 366,
+	"last_window_id": 375,
 	"log_indexing": false,
 	"settings":
 	{
@@ -23,6 +23,10 @@
 			{
 				"selected_items":
 				[
+					[
+						"cl",
+						"cl\tconsole.log"
+					],
 					[
 						"d",
 						"del\tTag"
@@ -356,10 +360,6 @@
 						"innerHTML\tjsElement"
 					],
 					[
-						"cl",
-						"cl\tconsole.log"
-					],
-					[
 						"fff",
 						"fff"
 					],
@@ -540,12 +540,24 @@
 						"PackageResourceViewer: Open Resource"
 					],
 					[
-						"enp",
-						"Package Control: Enable Package"
-					],
-					[
 						"pin",
 						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"emmet",
+						"Emmet: Reload Extensions"
+					],
+					[
+						"enp",
+						"Package Control: Enable Package"
 					],
 					[
 						"remov",
@@ -564,10 +576,6 @@
 						"PackageResourceViewer: Open Resource"
 					],
 					[
-						"remove",
-						"Package Control: Remove Package"
-					],
-					[
 						"remvo",
 						"Emmet: Remove Tag"
 					],
@@ -582,10 +590,6 @@
 					[
 						"enpack",
 						"Package Control: Enable Package"
-					],
-					[
-						"remo",
-						"Package Control: Remove Package"
 					],
 					[
 						"rem",
@@ -788,8 +792,32 @@
 			},
 			"file_history":
 			[
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/yaTranslate.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/ColorHighlighter.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
+				"/I/项目/style/src/index.html",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/Context.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Default (Windows).sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Default.sublime-commands",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Default (OSX).sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/CONTRIBUTING.md",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/semver.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/caniuse.json",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/__init__.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/pyv8loader.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/python-wrapper.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/context.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/emmet-app.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet-plugin.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet_completions/__init__.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Preferences.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/misc/generate-keymap.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet_completions/trackers.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet_completions/meta.py",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML/html_completions.py",
 				"/I/项目/style/src/style/stylus.styl",
 				"/I/项目/style/src/style/_base.styl",
@@ -804,7 +832,6 @@
 				"/I/项目/style/gulpfile.js",
 				"/I/项目/style/src/style/procss.css",
 				"/I/项目/style/src/style/scss.scss",
-				"/I/项目/style/src/index.html",
 				"/I/项目/style/src/css/sass.css",
 				"/I/项目/style/src/css/procss.css",
 				"/I/项目/style/src/css/style/less.css",
@@ -831,7 +858,6 @@
 				"/I/笔记/note/dist/css/index.css",
 				"/I/笔记/note/src/index.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sublime-completions/sbc-api-jquery.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/Main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
@@ -839,7 +865,6 @@
 				"/I/笔记/note/src/index.html",
 				"/C/Users/Administrator/.bashrc",
 				"/I/笔记/note/1.css",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/ColorHighlighter.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Highlighter/ColorHighlighter.py",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Highlighter/colors.py",
@@ -894,28 +919,7 @@
 				"/C/Users/Administrator/Documents/Tencent Files/839875083/FileRecv/webpack.config.js",
 				"/C/Users/Administrator/Downloads/common.js",
 				"/C/Users/Administrator/Desktop/1.js",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/Drag.js",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/LimitDrag.js",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/拖拽——继承.html",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/命名空间.html",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/引用2.html",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/JS继承2.html",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/拖拽2.html",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/继承.html",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/JS继承1.html",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/2-妙味课堂原创JavaScript视频教程——DOM(2课)、BOM课程资料/BOM/课程案例/回到顶部按钮3.html",
-				"/C/Users/Administrator/Downloads/index.js",
-				"/I/笔记/note/index.html",
-				"/I/笔记/note/es6.js",
-				"/I/笔记/note/newFloder.bat",
-				"/C/Users/Administrator/Downloads/jquery-3.2.1.min.map",
-				"/C/Users/Administrator/Downloads/jquery-3.2.1.js",
-				"/I/项目/es6/src/index.css",
-				"/I/项目/es6/src/index.html",
-				"/I/项目/es6/src/index.js",
-				"/I/项目/es6/gulpfile.js",
-				"/I/项目/es6/src/index.less",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings"
+				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/Drag.js"
 			],
 			"find":
 			{
@@ -1011,6 +1015,10 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"ctrl+m",
+					"Shift+Ctrl+M",
+					"lang",
+					"cas",
 					"disable_tab_abbreviations_on_auto_complete",
 					"unless",
 					"width",
@@ -1134,11 +1142,7 @@
 					"fadeOut",
 					"ddd",
 					"日志",
-					"ddd",
-					"日志",
-					"tobottom",
-					"iconfont",
-					"hide"
+					"ddd"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1159,7 +1163,7 @@
 			},
 			"input":
 			{
-				"height": 44.0
+				"height": 41.0
 			},
 			"menu_visible": true,
 			"output.GitSavvy":
@@ -1189,6 +1193,10 @@
 			"output.gulp_output":
 			{
 				"height": 238.0
+			},
+			"output.unsaved_changes":
+			{
+				"height": 247.0
 			},
 			"pinned_build_system": "Packages/User/node.sublime-build",
 			"replace":
@@ -1315,6 +1323,38 @@
 			{
 				"selected_items":
 				[
+					[
+						"cl",
+						"cl\tconsole.log"
+					],
+					[
+						"d",
+						"del\tTag"
+					],
+					[
+						"clas",
+						"class\tAttr"
+					],
+					[
+						"v",
+						"v-once\tv-once"
+					],
+					[
+						"bg",
+						"bgp\tbackground-position ${1:0} ${2:0}"
+					],
+					[
+						"gulp",
+						"gulps\tgulp.src('folder')"
+					],
+					[
+						"gulps",
+						"gulps\tgulp.src('folder')"
+					],
+					[
+						"gulpd",
+						"gulpd\tgulp.dest('folder')"
+					],
 					[
 						"pos",
 						"posa\tposition: absolute;"
@@ -1476,10 +1516,6 @@
 						"itSet"
 					],
 					[
-						"v",
-						"v-model\tv-model"
-					],
-					[
 						"vm",
 						"v-model"
 					],
@@ -1538,10 +1574,6 @@
 					[
 						"bgsz",
 						"bgsz\tbackground-size ${1:100%} ${2:100%}"
-					],
-					[
-						"bg",
-						"bg+\tbackground #${1:fff} url(${2}) ${3:no-repeat} ${4:0} ${5:0} ${6:padding-box}"
 					],
 					[
 						"reduce",
@@ -1628,10 +1660,6 @@
 						"innerHTML\tjsElement"
 					],
 					[
-						"cl",
-						"cl\tconsole.log"
-					],
-					[
 						"fff",
 						"fff"
 					],
@@ -1712,10 +1740,10 @@
 			"buffers":
 			[
 				{
-					"file": "note/emmet.js",
+					"file": "/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
 					"settings":
 					{
-						"buffer_size": 161,
+						"buffer_size": 125280,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -1829,12 +1857,24 @@
 						"PackageResourceViewer: Open Resource"
 					],
 					[
-						"remov",
+						"remove",
 						"Package Control: Remove Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"emmet",
+						"Emmet: Reload Extensions"
 					],
 					[
 						"enp",
 						"Package Control: Enable Package"
+					],
+					[
+						"remov",
+						"Package Control: Remove Package"
 					],
 					[
 						"dip",
@@ -1847,10 +1887,6 @@
 					[
 						"pvor",
 						"PackageResourceViewer: Open Resource"
-					],
-					[
-						"remove",
-						"Package Control: Remove Package"
 					],
 					[
 						"remvo",
@@ -1867,10 +1903,6 @@
 					[
 						"enpack",
 						"Package Control: Enable Package"
-					],
-					[
-						"remo",
-						"Package Control: Remove Package"
 					],
 					[
 						"rem",
@@ -2073,11 +2105,66 @@
 			},
 			"expanded_folders":
 			[
-				"/I/笔记/note"
+				"/I/项目/style",
+				"/I/项目/style/src",
+				"/I/项目/style/src/style"
 			],
 			"file_history":
 			[
-				"/I/笔记/note/1.css",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/AutoFileName/getimageinfo.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/AutoFileName/autofilename.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/AutoFileName/Default.sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/AutoFileName/Default.sublime-commands",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/AutoFileName/autofilename.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Preferences.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/yaTranslate.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/ColorHighlighter.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
+				"/I/项目/style/src/index.html",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/Context.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Default (Windows).sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Default.sublime-commands",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Default (OSX).sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/CONTRIBUTING.md",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/semver.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/caniuse.json",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/__init__.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/pyv8loader.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/python-wrapper.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/context.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/emmet-app.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet-plugin.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet_completions/__init__.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Preferences.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/misc/generate-keymap.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet_completions/trackers.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet_completions/meta.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML/html_completions.py",
+				"/I/项目/style/src/style/stylus.styl",
+				"/I/项目/style/src/style/_base.styl",
+				"/I/项目/style/src/css/stylus.css",
+				"/I/项目/style/src/style/sass.sass",
+				"/I/项目/style/src/style/_base.css",
+				"/I/项目/style/src/style/_aaa.styl",
+				"/I/项目/style/src/style/_base.less",
+				"/I/项目/style/src/style/_base.scss",
+				"/I/项目/style/src/style/less.less",
+				"/I/项目/style/src/css/less.css",
+				"/I/项目/style/gulpfile.js",
+				"/I/项目/style/src/style/procss.css",
+				"/I/项目/style/src/style/scss.scss",
+				"/I/项目/style/src/css/sass.css",
+				"/I/项目/style/src/css/procss.css",
+				"/I/项目/style/src/css/style/less.css",
+				"/I/项目/style/src/style/style/less.css",
+				"/I/项目/style/package.json",
+				"/C/Users/Administrator/Downloads/project2/project/gulpfile.js",
+				"/I/项目/style/pack.json",
 				"/C/Users/Administrator/Desktop/scss/stylus.styl",
 				"/C/Users/Administrator/Desktop/css/stylus.css",
 				"/C/Users/Administrator/Desktop/scss/procss.css",
@@ -2097,16 +2184,13 @@
 				"/I/笔记/note/dist/css/index.css",
 				"/I/笔记/note/src/index.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sublime-completions/sbc-api-jquery.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/Main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
 				"/I/笔记/note/src/index.html",
 				"/C/Users/Administrator/.bashrc",
-				"/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/ColorHighlighter.sublime-settings",
+				"/I/笔记/note/1.css",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Highlighter/ColorHighlighter.py",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Highlighter/colors.py",
@@ -2154,57 +2238,7 @@
 				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/dist/css/bootstrap-theme.css.map",
 				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/dist/css/bootstrap.css.map",
 				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/mixins/resize.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/mixins/clearfix.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/mixins.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/media.less",
-				"/I/笔记/note/server.js",
-				"/C/Users/Administrator/Documents/Tencent Files/839875083/FileRecv/webpack.config.js",
-				"/C/Users/Administrator/Downloads/common.js",
-				"/C/Users/Administrator/Desktop/1.js",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/Drag.js",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/LimitDrag.js",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/拖拽——继承.html",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/命名空间.html",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/引用2.html",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/JS继承2.html",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/拖拽2.html",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/继承.html",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/JS继承1.html",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/2-妙味课堂原创JavaScript视频教程——DOM(2课)、BOM课程资料/BOM/课程案例/回到顶部按钮3.html",
-				"/C/Users/Administrator/Downloads/index.js",
-				"/I/笔记/note/index.html",
-				"/I/笔记/note/es6.js",
-				"/I/笔记/note/newFloder.bat",
-				"/C/Users/Administrator/Downloads/jquery-3.2.1.min.map",
-				"/C/Users/Administrator/Downloads/jquery-3.2.1.js",
-				"/I/项目/es6/src/index.css",
-				"/I/项目/es6/src/index.html",
-				"/I/项目/es6/src/index.js",
-				"/I/项目/es6/gulpfile.js",
-				"/I/项目/es6/src/index.less",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
-				"/I/笔记/ES6视频/ECMAScript6课件/课程源码/06-07/源码/src/main.js",
-				"/I/笔记/ES6视频/ECMAScript6课件/课程源码/06-07/源码/index.html",
-				"/I/项目/es6/src/2.js",
-				"/I/项目/es6/src/1.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Package Control/Package Control.sublime-settings",
-				"/I/笔记/ES6视频/ECMAScript6课件/课程源码/06-07/源码/src/main_class的基本使用.js",
-				"/D/Program Files/Sublime Text 3126/data/Packages/Better Completion/sublime-commands/sbc.sublime-commands",
-				"/D/Program Files/Sublime Text 3126/data/Packages/Better Completion/sublime-completions/sbc-api-javascript.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/data/Packages/Better Completion/Main.sublime-menu",
-				"/I/项目/es6/server.js",
-				"/D/Program Files/Sublime Text 3126/data/Packages/User/sbc-api-my-html.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Vuejs Snippets/v-if.sublime-snippet",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Vuejs Snippets/v-for.sublime-snippet",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Vuejs Snippets/v-else.sublime-snippet",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Vuejs Snippets/v-bind.sublime-snippet",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sublime-completions/sbc-api-html.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/data/Packages/User/sbc-api-my-javascript.sublime-settings",
-				"/I/笔记/书籍/资料/《vue.js实战开发系列》20170107课件/双向数据绑定.html",
-				"/I/笔记/书籍/资料/《vue.js实战开发系列》20170107课件/指令.html",
-				"/I/笔记/书籍/资料/《vue.js实战开发系列》20170107课件/vue.js",
-				"/I/项目/es6/webpack.config.js",
-				"/I/项目/es6/newFloder.bat"
+				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/mixins/clearfix.less"
 			],
 			"find":
 			{
@@ -2300,6 +2334,48 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"ctrl+m",
+					"Shift+Ctrl+M",
+					"lang",
+					"cas",
+					"disable_tab_abbreviations_on_auto_complete",
+					"unless",
+					"width",
+					"top",
+					"left",
+					"css",
+					"styl",
+					"_base",
+					"base",
+					"可以不需要花括号",
+					"scss",
+					"sass",
+					"procss",
+					"less",
+					"scss",
+					"less",
+					"./src/css/",
+					"plumber",
+					"./src/css",
+					"npostcss",
+					"postcss",
+					"style",
+					"gulpPostcss",
+					"gulpSass",
+					"gulpLess",
+					"gulpStylus",
+					"postcss",
+					"gulpPostcss",
+					"dist",
+					"src",
+					"styl",
+					"sass",
+					"less",
+					"css",
+					"less",
+					"tasks",
+					"scss",
+					"gulp",
 					"left",
 					"$c",
 					"vendor",
@@ -2385,49 +2461,7 @@
 					"fadeOut",
 					"ddd",
 					"日志",
-					"ddd",
-					"日志",
-					"tobottom",
-					"iconfont",
-					"hide",
-					"show",
-					"f_nav",
-					"000",
-					"framework",
-					"前端框架",
-					"你好",
-					"addClass",
-					"000",
-					"color",
-					"target",
-					"this",
-					"solid",
-					"000",
-					"3",
-					"inset",
-					"6",
-					"无序列表",
-					"aA",
-					"removeClass",
-					"children",
-					"event",
-					"ev",
-					"target",
-					"end",
-					"active",
-					"call",
-					"activeColor2",
-					"clone()",
-					"html",
-					"bStop",
-					"bAuto",
-					"bSys",
-					"top",
-					"totop",
-					"false",
-					"scroll",
-					"scrolltop",
-					"animate"
+					"ddd"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2450,24 +2484,52 @@
 					[
 						{
 							"buffer": 0,
-							"file": "note/emmet.js",
+							"file": "/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 161,
+								"buffer_size": 125280,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										138,
-										138
+										124712,
+										124712
 									]
 								],
 								"settings":
 								{
 									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
+									],
 									"c_time":
 									[
 										128,
@@ -2497,14 +2559,14 @@
 										10,
 										7,
 										225,
-										8,
-										8,
-										4,
-										11,
-										58,
-										13,
-										43,
-										245,
+										5,
+										27,
+										17,
+										3,
+										23,
+										7,
+										51,
+										183,
 										113,
 										1,
 										133,
@@ -2515,17 +2577,18 @@
 										3,
 										46
 									],
-									"open_with_edit": true,
 									"origPos":
 									[
 										0.0,
-										0.0
+										89504.0
 									],
 									"syncScroll": false,
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 89504.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -2540,7 +2603,7 @@
 			},
 			"input":
 			{
-				"height": 44.0
+				"height": 41.0
 			},
 			"layout":
 			{
@@ -2591,11 +2654,15 @@
 			},
 			"output.gulp_output":
 			{
-				"height": 227.0
+				"height": 238.0
+			},
+			"output.unsaved_changes":
+			{
+				"height": 247.0
 			},
 			"pinned_build_system": "Packages/User/node.sublime-build",
-			"position": "0,2,3,-1,-1,-1,-1,1363,1013,524,2945",
-			"project": "note.sublime-project",
+			"position": "0,2,3,-1,-1,-1,-1,983,-48,144,1884",
+			"project": "style.sublime-project",
 			"replace":
 			{
 				"height": 82.0
@@ -2682,7 +2749,7 @@
 				[
 					[
 						"",
-						"I:\\笔记\\style.sublime-project"
+						"I:\\笔记\\webpack.sublime-project"
 					]
 				],
 				"width": 475.0
@@ -2715,17 +2782,17 @@
 				"max_columns": 2
 			},
 			"window_id": 332,
-			"workspace_name": "/I/笔记/note.sublime-workspace"
+			"workspace_name": "/I/笔记/style.sublime-workspace"
 		}
 	],
 	"workspaces":
 	{
 		"recent_workspaces":
 		[
+			"/I/笔记/style.sublime-workspace",
 			"/I/笔记/note.sublime-workspace",
 			"/I/笔记/es6.sublime-workspace",
 			"/I/笔记/webpack.sublime-workspace",
-			"/I/笔记/style.sublime-workspace",
 			"/I/笔记/website.sublime-workspace",
 			"/I/笔记/blog.sublime-workspace"
 		]

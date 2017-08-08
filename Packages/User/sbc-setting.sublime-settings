@@ -17,7 +17,7 @@
     "underscorejs": false,
     "react": false,
 
-    // Your own completions?
+    // 自己设置的片段，按照设置中的名称设置一一对应
     // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-angularjs.sublime-settings
     "my-angularjs": false,
 

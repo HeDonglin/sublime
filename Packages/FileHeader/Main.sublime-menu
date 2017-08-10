@@ -72,9 +72,7 @@
                                 },
                                 "caption": "Key Bindings – User"
                             },
-                            {
-                                "command": "open_dir", "args": {"dir": "$packages/FileHeader/template"}, "caption": "打开模板文件夹", "mnemonic": "B"
-                            },
+
                             { "caption": "-" }
                         ]
                     }

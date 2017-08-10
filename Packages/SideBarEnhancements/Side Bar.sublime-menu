@@ -645,7 +645,6 @@
             {
                 "command": "prompt_add_folder",
                 "caption": "将文件夹添加到项目中…",
-                "mnemonic": "d"
             },
             {
                 "caption": "-",

@@ -1,1 +1,1 @@
-{"url": "https://github.com/sublimehq/Packages/tree/master/CSS", "platforms": ["*"], "dependencies": [], "sublime_text": "*", "version": "2014.10.15.19.33.12", "description": "Better CSS3 syntax highlighting for Sublime Text (at this point just use official CSS package)"}
+{"dependencies": [], "url": "https://github.com/sublimehq/Packages/tree/master/CSS", "platforms": ["*"], "version": "2014.10.15.19.33.12", "sublime_text": "*", "description": "Better CSS3 syntax highlighting for Sublime Text (at this point just use official CSS package)"}

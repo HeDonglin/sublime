@@ -4,9 +4,9 @@
         "children":
         [
             { "caption": "-" },
-            { "id": "quit", "caption": "Quit Killing all Gulp Tasks", "command": "gulp_exit" }
+            { "id": "quit", "caption": "关闭所有Gulp任务并且退出", "command": "gulp_exit" }
         ]
-    }, 
+    },
     {
         "id": "view",
         "children":
@@ -14,8 +14,8 @@
             {
                 "caption": "Gulp",
                 "children": [
-                    { "caption": "Show Gulp Panel","command": "gulp_show_panel" },
-                    { "caption": "Hide Gulp Panel","command": "gulp_hide_panel" }
+                    { "caption": "显示 Gulp 面板","command": "gulp_show_panel" },
+                    { "caption": "隐藏 Gulp 面板","command": "gulp_hide_panel" }
                 ]
             }
         ]
@@ -28,16 +28,16 @@
                 "caption": "-",
                 "caption": "Gulp",
                 "children": [
-                    { "caption": "Run Default Task", "command": "gulp", "args": {"task_name": "default"} },
-                    { "caption": "Run Arbitrary Task", "command": "gulp_arbitrary" },
-                    { "caption": "Run Last Task", "command": "gulp_last" },
+                    { "caption": "运行默认的任务", "command": "gulp", "args": { "task_name": "default", "paths": [] } },
+                    { "caption": "运行任意的任务", "command": "gulp_arbitrary", "args": { "paths": [] } },
+                    { "caption": "运行最后的任务", "command": "gulp_last", "args": { "paths": [] } },
                     { "caption": "-" },
-                    { "caption": "List Tasks to Run", "command": "gulp" },
-                    { "caption": "Kill All Gulp Tasks", "command": "gulp_kill" },
-                    { "caption": "Kill Specific Gulp Tasks", "command": "gulp_kill_task" },
-                    { "caption": "Delete Cache", "command": "gulp_delete_cache" },
+                    { "caption": "列出要运行的任务","command": "gulp", "args": { "paths": [] } },
+                    { "caption": "删除缓存","command": "gulp_delete_cache", "args": { "paths": [] } },
+                    { "caption": "结束所有的gulp任务", "command": "gulp_kill" },
+                    { "caption": "结束特定的gulp任务", "command": "gulp_kill_task" },
                     { "caption": "-" },
-                    { "caption": "List Gulp Plugins", "command": "gulp_plugins" }
+                    { "caption": "插件列表","command": "gulp_plugins" }
                 ]
             }
         ]

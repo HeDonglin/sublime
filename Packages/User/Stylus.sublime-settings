@@ -1,6 +1,0 @@
-{
-        /*
-        ## Enable Compiling on save. It will compile into the same folder.
-    */
-    "compileOnSave": false,
-}

@@ -1,8 +1,10 @@
 {
+	"auto_upgrade": false,
 	"bootstrapped": true,
 	"channels":
 	[
-		"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\User\\channel_v3.json"
+		"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\User\\channel_v3.json",
+		"D:\\Program Files (x86)\\Sublime Text 3126(x86)\\data\\Packages\\User\\channel_v3.json"
 	],
 	"in_process_packages":
 	[
@@ -17,11 +19,11 @@
 		"BracketHighlighter",
 		"Browser Sync",
 		"caniuse_local",
-		"ChineseLocalizations",
 		"Color Highlighter",
 		"ConvertToUTF8",
 		"CSScomb",
 		"Ctranslator tool",
+		"dateutil",
 		"Diffy",
 		"DocBlockr",
 		"Emmet",
@@ -33,9 +35,10 @@
 		"IMESupport",
 		"INI",
 		"LESS",
-		"MarkdownEditing",
+		"LocalizedMenu",
 		"Package Control",
 		"PackageResourceViewer",
+		"PlainTasks",
 		"PostCSS Sorting",
 		"QuoteHTML",
 		"Sass",
@@ -63,6 +66,7 @@
 	],
 	"repositories":
 	[
-		"https://github.com/i-akhmadullin/Sublime-CSS3"
+		"https://github.com/i-akhmadullin/Sublime-CSS3",
+		"https://github.com/dateutil/dateutil"
 	]
 }

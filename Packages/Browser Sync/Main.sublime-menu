@@ -1,6 +1,6 @@
 [
     {
-        "caption":"网页刷新",
+        "caption":"预览(B)",
         "mnemonic":"B",
         "id":"BrowserSync",
         "children":

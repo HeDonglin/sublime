@@ -1,5 +1,4 @@
 
-
 主要快捷键
 
     ////////////////////////////////////
@@ -7,7 +6,7 @@
     show Unsaved Changes... 查看文件更改了哪些内容
     复制文件路径
 
-    ////////////////////////////////////
+    //////////////////////////////////
     f1 显隐贴图
     f2 下一个书签
     f3 查找下一个
@@ -124,6 +123,9 @@
     ctrl+i 显示面板搜索关键词
     ctrl+o 打开文件
     ctrl+p 搜索文件
+    ctrl+[ 向左缩进
+    ctrl+] 向右缩进
+    ctrl+\ 恢复缩进
     ctrl+a 全选
     ctrl+s 保存
     ctrl+d 选中单词
@@ -155,11 +157,12 @@
     ctrl+shift+s 另存为
     ctrl+shift+t 打开已关闭的标签文件;
     ctrl+shift+8 转为uft-8格式
+    ctrl+shift+9 大小写互换
     ctrl+shift+~ 打开控制台;
     ctrl+shift+v 缩进粘贴
     ctrl+shift+x 截图
     ctrl+shfit+j 选择到缩进
-    ctrl+shift+m 切换是否换行显示
+    ctrl+shift+w 切换是否换行显示
     ctrl+shfit+l 选择到段落
     ctrl+shift+/ 多行注释
 
@@ -177,7 +180,8 @@
     ctrl+alt+down 相当于shift+鼠标右键,或者按住鼠标滚轮
     ctrl+alt+n 新建模板
     ctrl+alt+s 自动保存
-
+    ctrl+alt+r 向上添加光标
+    ctrl+alt+m 向上添加光标
     ////////////////////////////////////
     alt+shift+1 分屏1列
     alt+shift+2 分屏2列
@@ -206,17 +210,15 @@
     alt+shift+c 清理对比结果
     alt+shfit+v 粘贴剪切板中的内容
     alt+shift+m 向下选中
-
+    alt+shift+i 选中内容拆分行添加光标
+    alt+shift+o 开启或关闭拼写检测
     ////////////////////
 
 用户设置
 {
-    // autofilename插件中鼠标放到属性值上会自动弹出面板，设置为true禁用此功能；
     "afn_use_keybinding": true,
     "atomic_save": false,
-    // 自动完成面板显示
     "auto_complete": true,
-    // 按以下字符就会打开自动完成面板
     "auto_complete_triggers":
     [
         {
@@ -230,7 +232,7 @@
     "caret_extra_top": 6,
     "caret_extra_width": 1,
     "caret_style": "smoll",
-    "color_scheme": "Packages/User/Monokai.tmTheme",
+    "color_scheme": "Packages/User/SublimeLinter/Mariana (SL).tmTheme",
     "default_encoding": "UTF-8",
     "default_line_ending": "unix",
     "disable_tab_abbreviations_on_auto_complete": false,
@@ -269,7 +271,7 @@
     [
         "gray_antialias"
     ],
-    "font_size": 14,
+    "font_size": 16,
     "highlight_line": true,
     "highlight_modified_tabs": true,
     "ignored_packages":
@@ -286,7 +288,6 @@
     "line_padding_top": 2,
     "match_tags": false,
     "open_files_in_new_window": false,
-    "original_color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
     "preview_on_click": true,
     "rulers":
     [
@@ -303,18 +304,19 @@
     "translate_tabs_to_spaces": true,
     "trim_trailing_white_space_on_save": true,
     "update_check": false,
-    //
     "word_separators": "./\\()\"':,;<>~!@#$%^&*|+-=[]{}`~?",
-    // 自动换行
     "word_wrap": true
 }
 
 插件列表
 {
     "bootstrapped": true,
+    // 安装完后设置禁止启动的时候更新
+    "auto_upgrade": false,
     "channels":
     [
-        "D:\\Program Files\\Sublime Text 3126\\data\\Packages\\User\\channel_v3.json"
+        "D:\\Program Files\\Sublime Text 3126\\data\\Packages\\User\\channel_v3.json",
+        "D:\\Program Files (x86)\\Sublime Text 3126(x86)\\data\\Packages\\User\\channel_v3.json"
     ],
     "in_process_packages":
     [
@@ -329,11 +331,11 @@
         "BracketHighlighter",
         "Browser Sync",
         "caniuse_local",
-        "ChineseLocalizations",
         "Color Highlighter",
         "ConvertToUTF8",
         "CSScomb",
         "Ctranslator tool",
+        "dateutil",
         "Diffy",
         "DocBlockr",
         "Emmet",
@@ -345,9 +347,10 @@
         "IMESupport",
         "INI",
         "LESS",
-        "MarkdownEditing",
+        "LocalizedMenu",
         "Package Control",
         "PackageResourceViewer",
+        "PlainTasks",
         "PostCSS Sorting",
         "QuoteHTML",
         "Sass",
@@ -375,9 +378,11 @@
     ],
     "repositories":
     [
-        "https://github.com/i-akhmadullin/Sublime-CSS3"
+        "https://github.com/i-akhmadullin/Sublime-CSS3",
+        "https://github.com/dateutil/dateutil"
     ]
 }
+
 
 配置快捷键
     1：首选项-->>package settings-->>快捷键设置
@@ -418,14 +423,26 @@
         regex_match, not_regex_match-->匹配正则表达式。
         regex_contains, not_regex_contains-->匹配正则表达式（遏制）。
 
-安装 package control 包控制台
-    1：ctrl+` 打开控制台然后拷贝下面一行代码粘贴进去即可
-    import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+注册码 :3126-->每行不能有空格
+—– BEGIN LICENSE —–
+Michael Barnes
+Single User License
+EA7E-821385
+8A353C41 872A0D5C DF9B2950 AFF6F667
+C458EA6D 8EA3C286 98D1D650 131A97AB
+AA919AEC EF20E143 B361B1E7 4C8B7F04
+B085E65E 2F5F5360 8489D422 FB8FC1AA
+93F6323C FD7F7544 3F39C318 D95E6480
+FCCC7561 8A4A1741 68FA4223 ADCEDE07
+200C25BE DBBC4855 C4CFB774 C5EC138C
+0FEC1CEF D9DCECEC D3A5DAD1 01316C36
+—— END LICENSE ——
 
-安装git上的包
-    添加git上的包：Ctrl+Shift+P → Package Control: Add Repository
-    例如：输入要 https://github.com/i-akhmadullin/Sublime-CSS3
-    就可以显示在安装面板上了：Ctrl+Shift+P → Package Control: Install Package → Sublime-CSS3
+安装 package control 包控制台
+    1：ctrl+shift+p--》》》》install package control
+    2：如果上面的方法不行那么就，ctrl+` 打开控制台然后拷贝下面一行代码粘贴进去即可
+    import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+    3：终极方法直接下载，https://packagecontrol.io/Package%20Control.sublime-package
 
 配置 package control，加快安装文件包
     1：下载channel_v3.json文件：https://packagecontrol.io/channel_v3.json
@@ -434,6 +451,20 @@
     [
         "D:\\Program Files\\Sublime Text 3142\\data\\Packages\\User\\channel_v3.json"
     ],
+    3:或者添加镜像：ctrl+`然后复制下面的即可
+    import urllib.request,os,hashlib; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://dn-52cik.qbox.me/' + pf.replace(' ', '%20')).read(); open(os.path.join( ipp, pf), 'wb' ).write(by)
+
+安装git上的包
+    添加git上的包：Ctrl+Shift+P → Package Control: Add Repository
+    例如：输入要 https://github.com/i-akhmadullin/Sublime-CSS3
+    就可以显示在安装面板上了：Ctrl+Shift+P → Package Control: Install Package → Sublime-CSS3
+
+安装 LocalizedMenu--》》换行插件目前支持3126以下版本
+
+安装 dateutil--》》--标准datetime模块，可用于Python》》复制一份解压到Packages文件夹下
+
+安装 PlainTasks--》》Todo工具
+    PlainTasks依赖另外一个包所以先安装dateutil插件，默认是下载在Installed Packages中，但是手动解压到（这是必要的！！！）D:\Program Files\Sublime Text 3126\Data\Packages下
 
 安装 PackageResourceViewer--》》插件管理包
     1：安装方式：ctrl+shift+p--输入PackageResourceViewer
@@ -5122,8 +5153,6 @@
     在每个窗口中按下快捷键就可以了
     2：
 
-安装 MarkdownEditing--》》》MarkdownEditing的高亮
-
 安装 SASS Build--》》》sass编译
 
 安装 SyncedSideBar--》》点击标签栏动态显示侧边栏中位置
@@ -5269,10 +5298,6 @@
 安装 QuoteHTML--》》》给html标签添加响应的单引号或者双引号--》》配置快捷键
 
 安装 FileHeader--》》文件模板--》》
-    设置打开地址ctrl+shift+p-->>FileHeader--main.sublime-menu
-    {
-        "command": "open_dir", "args": {"dir": "$packages/FileHeader/template"}, "caption": "打开模板文件夹", "mnemonic": "B"
-    },
 
 安装 auto-save--》》》自动保存--》》配置快捷键
 
@@ -6499,20 +6524,6 @@
                 echo "Hello World!";
 
 
-注册码 :3126-->每行不能有空格
-—– BEGIN LICENSE —–
-Michael Barnes
-Single User License
-EA7E-821385
-8A353C41 872A0D5C DF9B2950 AFF6F667
-C458EA6D 8EA3C286 98D1D650 131A97AB
-AA919AEC EF20E143 B361B1E7 4C8B7F04
-B085E65E 2F5F5360 8489D422 FB8FC1AA
-93F6323C FD7F7544 3F39C318 D95E6480
-FCCC7561 8A4A1741 68FA4223 ADCEDE07
-200C25BE DBBC4855 C4CFB774 C5EC138C
-0FEC1CEF D9DCECEC D3A5DAD1 01316C36
-—— END LICENSE ——
 
 
 

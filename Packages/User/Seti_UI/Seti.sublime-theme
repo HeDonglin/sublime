@@ -740,6 +740,7 @@
     // Sidebar files
     // 文件文字颜色
     {
+        // 文字类型，大小，颜色
         "class": "sidebar_label",
         "font.face": "Consolas",
         "color": [175, 175, 175],

@@ -4,6 +4,7 @@
     //--------------------------------------------------------
     // Tab set
     {
+        // 修改鼠标滚轮滚动切换标签
         "class": "tabset_control",
         "layer0.texture": "Seti_UI/Main/tabset-background.png",
         "layer0.inner_margin": [1, 7],
@@ -13,7 +14,7 @@
         "tab_width": 190,
         "tab_min_width": 95,
         "tab_height": 45,
-        "mouse_wheel_switch": false
+        "mouse_wheel_switch": true
     },
     // options
     {
@@ -51,6 +52,7 @@
         "layer0.texture": "Seti_UI/Main/tab-inactive.png",
         "layer0.inner_margin": 5,
         "layer0.opacity": 1
+
     },
     {
         "class": "tab_control",
@@ -138,10 +140,12 @@
     //  TAB LABELS
     //--------------------------------------------------------
     {
+        // 标签文字大小类型
         "class": "tab_label",
         "fade": true,
-        "font.size": 11,
-        "font.bold": false,
+        "font.face": "Consolas",
+        "font.size": 16,
+        "font.bold": true,
         "fg": [212,215,214]
     },
     {
@@ -329,6 +333,7 @@
         "layer0.inner_margin": 0
     },
     // Standard vertical scroll puck
+    // 侧边栏垂直滚动条
     {
         "class": "puck_control",
         "layer0.tint":[22,31,39],
@@ -338,6 +343,7 @@
         "blur": false
     },
     // Standard horizontal scroll puck
+    // 侧边栏水平滚动条
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
@@ -535,10 +541,10 @@
     // Status bar container
     {
         "class": "status_bar",
-        "layer0.tint": [13,16,17],
+        "layer0.tint": [79, 91, 102],
         // "layer0.tint": [15, 19, 23],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": [20, 10, 10, 10]
+        "content_margin": [20, 6, 10, 6]
     },
     // Status bar button
     {
@@ -548,17 +554,20 @@
     },
     // Status bar label
     {
+        // 状态栏
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
         "color": [170,170,170],
-        "font.bold": false
+        // "font.face": "Consolas",
+        "font.size": 16,
+        "font.bold": true
     },
     // panel switcher
     {
         "class": "panel_button_control",
         "layer0.texture": "Seti_UI/Main/panels.png",
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "content_margin": [12, 8]
+        "content_margin": [14, 10]
     },
 
     //========================================================
@@ -660,9 +669,10 @@
     },
     // Sidebar rows || selected files bg
     {
+        // 文件或文件夹背景色
         "class": "tree_row",
         "layer0.texture": null,
-        "layer0.tint": [114, 146, 161, 20],
+        "layer0.tint": [68, 83, 102, 255],
         "layer0.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     // Sidebar row selected
@@ -674,9 +684,9 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [200,200,200],
-        "font.bold": false,
-        "font.size": 11
+        "color": [55,72,74],
+        "font.bold": true,
+        "font.size": 18
     },
     {
         "class": "sidebar_heading",
@@ -685,26 +695,32 @@
     {
         "class": "sidebar_heading",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "color": [255,255,255]
+        "color": [2,174,255]
     },
     // Sidebar files
+    // 文件
     {
+        // 侧边栏字体大小和类型
         "class": "sidebar_label",
         "color": [170,170,170],
-        "font.bold": false,
-        "font.size": 11
+        "font.bold": true,
+        "font.face": "Consolas",
+        "font.size": 18
     },
     {
+        // 悬停在文件上的颜色
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "color": [255,255,255]
+        "color": [33, 255, 194, 255]
     },
     // Sidebar folder
+    // 文件夹
     {
+
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
         "color": [170,170,170],
-        "font.bold": false
+        "font.bold": true
     },
     {
         "class": "sidebar_label",
@@ -713,9 +729,10 @@
         "font.bold": true
     },
     {
+        // 悬停在文件夹上的颜色
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable","hover"]}],
-        "color": [255,255,255]
+        "color": [33, 255, 194, 255]
     },
     {
         "class": "icon_folder_dup",
@@ -1201,7 +1218,7 @@
 
     {
         "class": "quick_panel",
-        "row_padding": [10,12,10,11],
+        "row_padding": [20,12,10,11],
         "layer0.tint": [15,19,23],
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" }
     },

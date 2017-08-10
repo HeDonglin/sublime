@@ -444,16 +444,232 @@
 				"selected_items":
 				[
 					[
-						"opn",
-						"open_dir"
+						"less",
+						"less-loader"
 					],
 					[
-						"open",
-						"open_file"
+						"js",
+						"js"
 					],
 					[
-						"sc",
-						"script\tTag"
+						"ov",
+						"overflow"
+					],
+					[
+						"li",
+						"link\tTag"
+					],
+					[
+						"Seq",
+						"SeqNum"
+					],
+					[
+						"1",
+						"1"
+					],
+					[
+						"trfs",
+						"trfsc\ttransform scale(${1:x}, ${2:y})"
+					],
+					[
+						"trsf",
+						"trfsc\ttransform scale(${1:x}, ${2:y})"
+					],
+					[
+						"10",
+						"10"
+					],
+					[
+						"font",
+						"font-size"
+					],
+					[
+						"bgsz",
+						"bgsz\tbackground-size ${1:100%} ${2:100%}"
+					],
+					[
+						"bg",
+						"bg+\tbackground #${1:fff} url(${2}) ${3:no-repeat} ${4:0} ${5:0} ${6:padding-box}"
+					],
+					[
+						"reduce",
+						"reduceRight\tjsArray()"
+					],
+					[
+						"提所有",
+						"提交所有已改变和已暂存的文件"
+					],
+					[
+						"gete",
+						"getElementsByTagNameNS\tjsDOM()"
+					],
+					[
+						"imp",
+						"@imp\t@import '${1:./}';"
+					],
+					[
+						"c",
+						"c\tcolor: #${1:000};"
+					],
+					[
+						"v",
+						"v-v\tvisibility: visible;"
+					],
+					[
+						"i",
+						"images/"
+					],
+					[
+						"getE",
+						"getElementById\tjsDOM()"
+					],
+					[
+						"getElement",
+						"getElementById\tjsDOM()"
+					],
+					[
+						"getElemetn",
+						"getElementById\tjsDOM()"
+					],
+					[
+						"getEl",
+						"getElementsByClassName\tjsDOM()"
+					],
+					[
+						"on",
+						"onclick\tjsEvent"
+					],
+					[
+						"getElementB",
+						"getElementsByName\tjsDOM()"
+					],
+					[
+						"colmr",
+						"colmrc\tcolumn-rule-color"
+					],
+					[
+						"colmf",
+						"colmfb\tcolumn-fill: balance;"
+					],
+					[
+						"column",
+						"column-gap"
+					],
+					[
+						"wo",
+						"wowb\tword-wrap: break-word;"
+					],
+					[
+						"ww",
+						"wowb\tword-wrap: break-word;"
+					],
+					[
+						"ai",
+						"aib\talign-items: baseline;"
+					],
+					[
+						"fx",
+						"fx\tflex:{1:0} {2:1} {3:auto};"
+					],
+					[
+						"bdt",
+						"bdt+\tborder-top: ${1:1}px ${2:solid} #${3:000};"
+					],
+					[
+						"tsh",
+						"tsh+\ttext-shadow: ${1:0} ${2:0} ${3:0} #${4:000};"
+					],
+					[
+						"ts",
+						"tsh+\ttext-shadow: ${1:0} ${2:0} ${3:0} #${4:000};"
+					],
+					[
+						"inner",
+						"innerHTML\tjsElement"
+					],
+					[
+						"cl",
+						"cl\tconsole.log"
+					],
+					[
+						"fff",
+						"fff"
+					],
+					[
+						"text",
+						"text-decoration"
+					],
+					[
+						"onmouse",
+						"onmouseup\tjsEvent"
+					],
+					[
+						"tjse",
+						"tjsElement"
+					],
+					[
+						"inse",
+						"inserAdjacentElement\tjsDOM"
+					],
+					[
+						"set",
+						"setCapture\tjsEvent"
+					],
+					[
+						"setC",
+						"setCapture\tjsEvent()"
+					],
+					[
+						"his",
+						"history.replaceState\tjsHistory()"
+					],
+					[
+						"wa",
+						"wat\tatob"
+					],
+					[
+						"char",
+						"charCodeAt\t()"
+					],
+					[
+						"last",
+						"lastIndexOf\tlastIndexOf()"
+					],
+					[
+						"to",
+						"toString\ttoString"
+					],
+					[
+						"jo",
+						"jsdocs"
+					],
+					[
+						"if",
+						"if\t||"
+					],
+					[
+						"f",
+						"f+\tf++"
+					],
+					[
+						"fro",
+						"for\tfor (…) {…}"
+					],
+					[
+						"log",
+						"console.log\tjsProp"
+					],
+					[
+						"consol",
+						"console.log\tjsProp"
+					],
+					[
+						"for",
+						"for\tfor (…) {…} (Improved Native For-Loop)"
+					],
+					[
+						"fn",
+						"fun\tFunction"
 					]
 				]
 			},
@@ -463,112 +679,292 @@
 			"build_system": "",
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/Java/Ant.sublime-build",
+							""
+						],
+						[
+							"Packages/Java/JavaC.sublime-build",
+							""
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Java/JavaC.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						],
+						[
+							"Packages/User/node.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/node.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						],
+						[
+							"Packages/User/php.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/php.sublime-build",
+						""
+					]
+				]
 			],
 			"build_varint": "",
 			"command_palette":
 			{
 				"height": 428.0,
-				"last_filter": "prvo",
+				"last_filter": "pin",
 				"selected_items":
 				[
 					[
-						"prvo",
-						"PackageResourceViewer: Open Resource"
-					],
-					[
-						"ne",
-						"Tasks: New"
-					],
-					[
-						"new",
-						"Tasks: New"
-					],
-					[
-						"dis",
-						"Package Control: Disable Package"
-					],
-					[
-						"set",
-						"Set Syntax: HTML"
-					],
-					[
-						"PRVO",
-						"PackageResourceViewer: Open Resource"
-					],
-					[
-						"dispack",
-						"Package Control: Disable Package"
-					],
-					[
-						"removepack",
-						"Package Control: Remove Package"
-					],
-					[
-						"pci",
-						"Package Control: Install Package"
-					],
-					[
 						"pin",
-						"Package Control: Advanced Install Package"
-					],
-					[
-						"rem",
-						"Package Control: Remove Package"
-					],
-					[
-						"col",
-						"Color Scheme Editor: Edit current color scheme"
+						"Package Control: Install Package"
 					],
 					[
 						"remove",
 						"Package Control: Remove Package"
 					],
 					[
-						"scheme",
-						"Color Scheme Editor: Goto previous matching scope"
+						"prvo",
+						"PackageResourceViewer: Open Resource"
 					],
 					[
-						"color",
-						"Color Scheme Editor: Edit current color scheme"
+						"gitstat",
+						"git: status"
 					],
 					[
-						"newdocu",
-						"Tasks: New document"
+						"git",
+						"git: branch"
 					],
 					[
-						"packadd",
-						"Package Control: Add Repository"
-					],
-					[
-						"packremove",
+						"rem",
 						"Package Control: Remove Package"
 					],
 					[
-						"Package Control: Satisfy Dependencies",
-						"Package Control: Satisfy Dependencies"
+						"gitco",
+						"Git: Commit"
 					],
 					[
-						"upa",
-						"Package Control: Upgrade Package"
+						"remo",
+						"Package Control: Remove Package"
 					],
 					[
-						"pacaddrepo",
-						"Package Control: Add Repository"
+						"gits",
+						"Git: Status"
 					],
 					[
-						"PIN",
+						"gitad",
+						"Git: Diff All Files"
+					],
+					[
+						"removpack",
+						"Package Control: Remove Package"
+					],
+					[
+						"gitadd",
+						"Git: Quick Add"
+					],
+					[
+						"gitcom",
+						"Git: Commit"
+					],
+					[
+						"pi",
 						"Package Control: Install Package"
 					],
 					[
-						"emmet",
-						"Toggle Comment"
+						"gitst",
+						"Git: Status"
+					],
+					[
+						"PRVO",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"pic",
+						"Package Control: Install Package"
+					],
+					[
+						"git:status",
+						"Git: Status"
+					],
+					[
+						"git:l",
+						"Git: Log"
+					],
+					[
+						"gitcomm",
+						"Git: Commit"
+					],
+					[
+						"git:init",
+						"Git: Init"
+					],
+					[
+						"git init",
+						"Git: Init"
+					],
+					[
+						"git:remote",
+						"Git: Remote"
+					],
+					[
+						"git:add",
+						"Git: Add Remote"
+					],
+					[
+						"gitstatus",
+						"Git: Status"
+					],
+					[
+						"gitinit",
+						"Git: Init"
+					],
+					[
+						"git diff",
+						"Git: Diff"
+					],
+					[
+						"gitpu",
+						"Git: Pull"
+					],
+					[
+						"removepack",
+						"Package Control: Remove Package"
+					],
+					[
+						"re",
+						"Package Control: Remove Package"
+					],
+					[
+						"remov",
+						"Package Control: Remove Package"
+					],
+					[
+						"pr",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"pc",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"qu",
+						"BracketHighlighter: Swap Quotes"
+					],
+					[
+						"prov",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"doc",
+						"DocBlockr: Reparse comment block"
+					],
+					[
+						"db",
+						"DocBlockr: Decorate line comment"
+					],
+					[
+						"pcu",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"snippet:",
+						"Snippet: if"
+					],
+					[
+						"pro",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"prvoo",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"Snippet: ",
+						"Snippet: .pipe('name'())"
+					],
+					[
+						"pvo",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"pci",
+						"Package Control: Install Package"
+					],
+					[
+						"po",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"java",
+						"Set Syntax: JavaScript"
 					]
 				],
 				"width": 703.0
 			},
 			"console":
 			{
-				"height": 491.0,
+				"height": 237.0,
 				"history":
 				[
 				]
@@ -582,149 +978,204 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
+			"expanded_folders":
+			[
+				"/I/项目/website/blog",
+				"/I/项目/website/blog/src",
+				"/I/项目/website/blog/src/module",
+				"/I/项目/website/blog/src/page",
+				"/I/项目/website/blog/src/public",
+				"/I/项目/website/blog/src/vendor"
+			],
 			"file_history":
 			[
-				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Monokai.tmTheme",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Scheme - Default/Mariana.tmTheme",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Default.sublime-theme",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti.sublime-theme",
-				"/I/笔记/note/index.html",
-				"/I/笔记/note/html5.html",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/ColorHighlighter.sublime-settings",
-				"/I/笔记/note/技术能力.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Seti_UI/Seti.sublime-theme",
-				"/I/笔记/note/hexo.js",
-				"/I/笔记/note/gulpfile.js",
-				"/I/笔记/note/gitAPI.js",
-				"/I/笔记/note/ES6.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Seti_UI/Seti_orig.sublime-theme",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/SideBarEnhancements/Side Bar.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Theme - Default/Default.sublime-theme",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/Default.sublime-commands",
-				"/I/笔记/note/1.css",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Sync/browser_sync_launch.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/user/Context.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Color Highlighter/themes/Mariana (SL).tmTheme",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/ColorSchemeEditor/Default.sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/ColorSchemeEditor/ColorSchemeEditor-ST2.sublime-commands",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
-				"/I/笔记/note/bg.png",
-				"/I/笔记/note/README.md",
-				"/I/笔记/note/css3.chw",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/LocalizedMenu.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/menu/3/zh_CN/Side Bar Mount Point.sublime-menu.json",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/LocalizedMenu/menu/3/zh_CN/Side Bar Mount Point.sublime-menu.json",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/menu/2221/zh_CN/Side Bar Mount Point.sublime-menu.json",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/Side Bar Mount Point.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/PlainTasks.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/SideBarEnhancements/Main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/SideBarEnhancements/Commands.sublime-commands",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/Main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/PlainTasks/Default (Windows).sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Default (Windows).sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/PlainTasks/PlainTasks (Windows).sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.user-ca-bundle",
-				"/D/Sublime Text 3126/data/Packages/Python/Python.sublime-build",
-				"/D/Sublime Text 3126/data/Packages/Ctranslator tool/translator.py",
-				"/D/Sublime Text 3126/data/Packages/dateutil/all/dateutil/test/test_rrule.py",
-				"/D/Sublime Text 3126/data/Packages/dateutil/all/dateutil/rrule.py",
-				"/D/Sublime Text 3126/data/Packages/dateutil/all/dateutil/relativedelta.py",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Preferences.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/Preferences.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Package Control/Main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/FileHeader/Main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Gulp/Main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Gulp/README.md",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/Main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/ZZZZZZZZ-LocalizedMenu/Main.sublime-menu",
-				"/I/项目/es6/src/index.html",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Sync/Main.sublime-menu",
-				"/I/项目/es6/src/index.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/AutoSelect/Default (OSX).sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/AutoSelect/autoselect.py",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Sync/node_modules/browser-sync/index.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Sync/LICENSE",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Sync/.no-sublime-package",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Sync/browser_sync.py",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Sync/node_modules/browser-sync/bin/browser-sync.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Sync/node_modules/browser-sync/README.md",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Sync/node_modules/browser-sync/CHANGELOG.md",
-				"/I/项目/es6/src/font/iconfont/demo_fontclass.html",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/QuoteHTML/Main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Sync View Scroll/Main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Expand Selection to Quotes/Main.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Monokai.tmTheme",
+				"/I/项目/website/blog/src/index.html",
+				"/I/项目/website/blog/src/index.js",
+				"/I/项目/website/blog/src/public/pageshow.vue",
+				"/I/项目/website/blog/gulpfile.js",
+				"/I/笔记/website.sublime-workspace",
+				"/I/笔记/website.sublime-project",
+				"/I/blog/source/_posts/2017-07-09-vue文件预解析.md",
+				"/I/blog/source/_posts/2017-07-02-npm命令.md",
+				"/I/blog/source/_posts/markdown.md",
+				"/I/blog/source/_posts/2017-07-02-webpack生成环境与开发环境配置.md",
+				"/I/blog/source/_posts/2017-06-27-如何提高网站性能总结.md",
+				"/I/blog/source/_posts/2017-07-06-线程与进程的区别.md",
 				"/C/Users/Administrator/Desktop/1.html",
-				"/I/笔记/ES6视频/ECMAScript6课件/课程源码/10/源码/package.json",
-				"/I/笔记/ES6视频/ECMAScript6课件/课程源码/02/02-源码/js/bundle.js",
-				"/I/笔记/ES6视频/ECMAScript6课件/课程源码/06-07/源码/src/main_class的基本使用.js",
-				"/I/笔记/高清图片/1.jpg",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Diffy.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/bh_core.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Base File.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Seti_UI/.no-sublime-package",
-				"/I/项目/es6/README.md",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/SyncedSideBar/SyncedSideBar.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/SyncedSideBar.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SyncedSideBar.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/SideBarEnhancements/package-metadata.json",
-				"/D/Sublime Text 3126/data/Packages/StyledPopup/dependency-metadata.json",
-				"/D/Sublime Text 3126/data/Packages/StyledPopup/README.md",
-				"/D/Sublime Text 3126/data/Packages/Java/JavaC.sublime-build",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/.jsbeautifyrc",
-				"/D/Sublime Text 3126/data/Packages/DocBlockr/jsdocs.py",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/CSScomb.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/Better Completion/sublime-completions/sbc-api-javascript.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/Better Completion/sublime-commands/sbc.sublime-commands",
-				"/D/Sublime Text 3126/data/Packages/Better Completion/Main.sublime-menu",
-				"/D/Sublime Text 3126/data/Packages/Browser Sync/Main.sublime-menu",
-				"/D/Sublime Text 3126/data/Packages/Browser Sync/browser_sync.py",
-				"/D/Sublime Text 3126/data/Packages/Browser Sync/.no-sublime-package",
-				"/D/Sublime Text 3126/data/Packages/User/Preferences.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/Package Control.user-ca-bundle",
-				"/D/Sublime Text 3126/data/Packages/User/SublimergeSummaryPanel.tmTheme",
-				"/D/Sublime Text 3126/data/Packages/User/Sublimerge.tmTheme",
-				"/D/Sublime Text 3126/data/Packages/User/Monokai.tmTheme",
-				"/D/Sublime Text 3126/data/Packages/User/yaTranslate.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/WordCount.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/vue.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/tabs_extra.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/Swig.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/SugarSS.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/SublimeREPL.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/SublimeLinter.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/Stylus.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/SortTabsInternal.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/SortTabs.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/Side Bar.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/SCSS.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/sbc-api-my-html.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/Sass.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/RegExp.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/raw_line_edit.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/PostCSSSorting.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/PostCSS.sublime-settings",
-				"/D/Sublime Text 3126/data/Packages/User/PackageResourceViewer.sublime-settings"
+				"/G/abc/webpack.dev.config.js",
+				"/G/webpack/package.json",
+				"/G/abc/src/a.js",
+				"/G/abc/package.json",
+				"/G/abc/src/index.html",
+				"/G/webpack/webpack.dev.config.js",
+				"/G/webpack/README.md",
+				"/G/webpack/.gitignore",
+				"/G/webpack/buildfolder.bat",
+				"/D/Program Files/Sublime Text 3126/project/.bowerrc",
+				"/D/Program Files/Sublime Text 3126/project/runJava.bat",
+				"/D/Program Files/Sublime Text 3126/project/.gitignore",
+				"/D/Program Files/Sublime Text 3126/project/buildfolder.bat",
+				"/G/abc/webpack.pub.config.js",
+				"/G/abc/src/b.css",
+				"/G/abc/src/a.css",
+				"/C/Users/Administrator/Downloads/webpack-demos-master/demo15/webpack.config.js",
+				"/C/Users/Administrator/Downloads/webpack-demos-master/demo16/webpack.config.js",
+				"/C/Users/Administrator/Downloads/webpack-demos-master/package.json",
+				"/G/abc/src/c.less",
+				"/G/abc/src/d.scss",
+				"/G/abc/src/b.js",
+				"/G/abc/src/a/index.css",
+				"/G/abc/webpack.config.js",
+				"/C/Users/Administrator/Documents/Tencent Files/839875083/FileRecv/webpack.config2.js",
+				"/G/abc/dist/index.html",
+				"/G/abc/src/a/a.css",
+				"/G/abc/dist/a.js",
+				"/G/abc/src/index.css",
+				"/C/Users/Administrator/Downloads/webpack-demos-master/demo05/main.js",
+				"/C/Users/Administrator/Downloads/webpack-demos-master/demo05/index.html",
+				"/C/Users/Administrator/Downloads/webpack-demos-master/demo05/webpack.config.js",
+				"/G/abc/dist/a.css",
+				"/G/abc/postcss.config.js",
+				"/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/data/Packages/User/channel_v3.json",
+				"/G/abc/src/d.sass",
+				"/C/Users/Administrator/Downloads/static-resource-digest-project-release-master/index.html",
+				"/C/Users/Administrator/Downloads/static-resource-digest-project-release-master/map.json",
+				"/C/Users/Administrator/Downloads/static-resource-digest-project-master/index.html",
+				"/C/Users/Administrator/Downloads/static-resource-digest-project-release-master/style/sass/foo_12ff0f9.css",
+				"/C/Users/Administrator/Downloads/static-resource-digest-project-release-master/style/stylus/foo_aa58274.css",
+				"/C/Users/Administrator/Downloads/static-resource-digest-project-release-master/README.html",
+				"/C/Users/Administrator/Downloads/webpack-demos-master/demo16/index.js",
+				"/C/Users/Administrator/Downloads/webpack-demos-master/demo15/index.js",
+				"/C/Users/Administrator/Downloads/webpack-demos-master/demo11/webpack.config.js",
+				"/C/Users/Administrator/Downloads/webpack-demos-master/demo09/webpack.config.js",
+				"/G/abc/node_modules/extract-text-webpack-plugin/index.js",
+				"/C/Users/Administrator/Downloads/webpack-demos-master/demo10/webpack.config.js",
+				"/C/Users/Administrator/Downloads/webpack-demos-master/demo01/webpack.config.js",
+				"/G/abc/dist/zhuye.html",
+				"/G/abc/dist/common.js",
+				"/G/abc/dist/dist.js",
+				"/G/abc/dist/js/common.js",
+				"/G/abc/src/index.js",
+				"/C/Users/Administrator/Downloads/webpack-demos-master/demo02/webpack.config.js",
+				"/G/abc/src/js/app.js",
+				"/C/Users/Administrator/Downloads/webpack-demos-master/demo01/index.html",
+				"/C/Users/Administrator/Downloads/webpack-demos-master/demo01/main.js",
+				"/C/Users/Administrator/.bashrc",
+				"/G/abc/package-lock.json",
+				"/I/a/package.json",
+				"/I/blog/source/_posts/2017-06-28-豆瓣高分电影.md",
+				"/D/Program Files/Thunder/绿化和卸载.bat",
+				"/I/blog/source/_posts/2017-06-30-seo网站优化.md",
+				"/I/blog/source/_posts/2017-06-30-服务器.md",
+				"/I/blog/source/_posts/2017-06-30-ChinaNet线路和半程CN2以及全程CN2.md",
+				"/I/blog/source/_posts/2017-06-20-网络速率和数据传输速率的区别.md",
+				"/I/blog/source/_posts/2017-06-23-网络路由查询工具MTR.md",
+				"/I/blog/source/_posts/2017-06-29-税收征收对象划分.md",
+				"/I/blog/themes/next/source/js/src/algolia-search.js",
+				"/C/Users/Administrator/Downloads/税收对象划分.md",
+				"/I/blog/_config.yml",
+				"/I/blog/source/_posts/2017-06-27-如何开启http2协议.md",
+				"/I/blog/source/_posts/2017-06-19-经典语录.md",
+				"/I/blog/source/_posts/2017-06-17-曾广贤文.md",
+				"/I/blog/source/_posts/2017-06-23-Centos如何升级最新的git.md",
+				"/C/Users/Administrator/AppData/Local/Temp/scp01308/etc/ssh/ssh_config",
+				"/C/Users/Administrator/Documents/ssh_config",
+				"/C/Users/Administrator/AppData/Local/Temp/scp00733/etc/ssh/ssh_config",
+				"/C/Users/Administrator/AppData/Local/Temp/scp57140/etc/ssh/ssh_config",
+				"/C/Users/Administrator/AppData/Local/Temp/scp37306/home/git/.ssh/authorized_keys",
+				"/C/Users/Administrator/.ssh/id_rsa.pub",
+				"/C/Users/Administrator/AppData/Local/Temp/scp50088/etc/ssh/ssh_config",
+				"/C/Users/Administrator/AppData/Local/Temp/scp04217/home/git/.ssh/authorized_keys",
+				"/C/Users/Administrator/AppData/Local/Temp/scp03121/home/git/.ssh/authorized_keys",
+				"/I/blog/source/_posts/2017-06-23-kangle服务器配置https.md",
+				"/C/Users/Administrator/Downloads/www.hedonglin.com/Nginx/2_www.hedonglin.com.key",
+				"/C/Users/Administrator/Desktop/index.html",
+				"/C/Users/Administrator/Downloads/www.hedonglin.com/Nginx/1_www.hedonglin.com_bundle.crt",
+				"/C/Users/Administrator/Downloads/www.hedonglin.com/Apache/3_www.hedonglin.com.key",
+				"/C/Users/Administrator/Downloads/www.hedonglin.com/Apache/2_www.hedonglin.com.crt",
+				"/C/Users/Administrator/Downloads/www.hedonglin.com/Apache/1_root_bundle.crt",
+				"/C/Users/Administrator/Desktop/httpd.conf",
+				"/C/Users/Administrator/Downloads/hedonglin.com/Apache/1_root_bundle.crt",
+				"/C/Users/Administrator/Downloads/hedonglin.com/Apache/3_hedonglin.com.key",
+				"/C/Users/Administrator/Downloads/hedonglin.com/Apache/2_hedonglin.com.crt",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
+				"/I/blog/source/_posts/2017-06-22-网站性能优化.md",
+				"/I/blog/source/_posts/2017-06-22-TCP-IP协议.md",
+				"/I/blog/source/_posts/2017-06-19-http应用层协议.md",
+				"/I/blog/source/_posts/2017-06-19-http互联网协议.md",
+				"/I/blog/source/_posts/2017-06-21-http术语解析.md",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/goTranslate.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Inline Google Translate/Default (Windows).sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Inline Google Translate/goTranslate.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/yaTranslate.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Ctranslator tool/translator.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/YandexTranslate/yaTranslate.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/YandexTranslate/README.md",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/YandexTranslate/Default (Windows).sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Ctranslator tool/Default (Windows).sublime-keymap"
 			],
 			"find":
 			{
-				"height": 43.0
+				"height": 28.0
 			},
 			"find_in_files":
 			{
-				"height": 124.0,
+				"height": 142.0,
 				"where_history":
 				[
-					"D:\\Program Files\\Sublime Text 3126\\Data\\Packages\\LocalizedMenu",
-					"D:\\Sublime Text 3126",
-					"D:\\Program Files\\Sublime Text 3126\\Data"
+					"I:\\blog\\source\\_posts",
+					"G:\\abc\\node_modules\\extract-text-webpack-plugin",
+					"G:\\abc\\node_modules",
+					"I:\\blog\\themes\\next",
+					"I:\\blog\\themes\\next\\source\\css",
+					"I:\\blog\\themes",
+					"I:\\blog\\node_modules",
+					"I:\\blog",
+					"I:\\blog\\themes\\next\\layout",
+					"I:\\blog\\source",
+					"I:\\blog",
+					"I:\\blog\\source",
+					"I:\\blog\\themes\\next\\source\\css",
+					"I:\\blog\\themes",
+					"I:\\blog\\themes\\next",
+					"I:\\blog",
+					"I:\\blog\\themes\\next\\source",
+					"I:\\blog\\themes",
+					"I:\\blog\\themes\\next\\source\\css",
+					"I:\\blog\\themes\\next\\layout",
+					"I:\\blog\\themes\\next\\source\\css\\_common\\components\\header",
+					"I:\\blog\\themes\\next\\source\\css",
+					"I:\\blog\\themes\\next\\layout",
+					"I:\\blog\\themes\\next\\source\\js",
+					"I:\\blog\\themes\\next\\source",
+					"I:\\blog\\themes\\next\\source\\css",
+					"I:\\blog\\themes\\next\\source",
+					"I:\\blog\\themes\\next\\source\\css\\_schemes",
+					"I:\\blog\\themes\\next\\source\\css\\_variables",
+					"I:\\blog\\themes\\next\\source\\css\\_schemes\\Pisces",
+					"I:\\blog\\themes\\next\\source\\css\\_schemes\\Mist\\sidebar",
+					"I:\\blog\\themes\\next\\source\\css\\_schemes\\Mist",
+					"I:\\blog\\themes\\next\\source",
+					"I:\\blog\\themes",
+					"I:\\blog\\themes\\next\\source",
+					"I:\\blog\\themes\\next\\source\\css\\_common\\components",
+					"I:\\blog\\themes\\next\\source\\css",
+					"I:\\blog\\themes\\next\\source",
+					"I:\\blog\\themes\\next\\source\\css\\_common",
+					"I:\\blog\\themes\\next",
+					"I:\\blog",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\LocalizedMenu",
+					"C:\\Users\\Administrator\\Desktop\\DocBlockr",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\LocalizedMenu",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\FileHeader",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\LocalizedMenu",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\FileHeader",
+					"D:\\Program Files\\Sublime Text 3\\data\\Packages\\FileHeader"
 				]
 			},
 			"find_state":
@@ -732,70 +1183,134 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"comment",
-					"Comment",
-					"quick_panel_label",
-					"52, 61, 70",
-					"status bar",
-					"sidebar",
-					"sidebar_label",
-					"font.size",
-					"face",
-					"sidebar_heading",
-					"font.size",
-					"face",
-					"tab_overlap",
-					"24, 29, 34",
-					"24,26,30",
-					"24, 26,30",
-					"24, 26, 30",
-					"table",
-					"52,61,70",
-					"52, 61, 70",
-					"52,61,70",
-					"52, 61, 70",
-					"table",
-					"F",
-					"false",
-					"face",
-					"F92672",
-					"box",
+					"Index",
+					"index",
+					"Index",
+					"index",
+					"Index",
+					"index",
+					"有多个车间，但电力有限，只能运行一个",
+					"自动",
+					"&&",
+					"html-webpack",
+					"html-webpack-plunk\n",
+					"自动",
+					"vendor",
+					"devDependencies",
+					"回退",
+					"版本",
+					"node",
+					"200px",
+					"2",
+					"true",
+					"ddddddddddddddddddddddd",
+					"WebpackDevServer",
+					"const",
+					"ProvidePlugin",
+					"install",
+					"eot",
+					"Sansation_Light",
+					"cssgrace",
+					"css",
+					"Module build failed: ReferenceError: window is not defined\n",
+					"precss",
 					"postcss",
-					"272822",
-					"从项目中删除文件夹",
-					"从项目中移除文件夹",
-					"从项目",
-					"todo",
-					"TODO",
-					"todo",
-					"TODO",
-					"快捷键说明",
-					"command",
-					"今天的任务是什么呢",
-					" @",
-					"今天的任务是什么呢",
-					"拼写",
-					"✔",
-					"dateutil",
-					"Context",
-					"打开模板文件夹",
-					"configuration",
-					"菜单栏配置文件",
-					"个人快捷键",
-					"keymap",
-					"个人快捷键",
-					"keymap",
-					"个人快捷键",
-					"Panel",
-					"windwo",
-					"颜色",
-					"光标颜色",
+					"LoaderOptionsPlugin",
+					"install",
+					"packages",
+					"resolveLoader",
+					"index",
+					"chunk.modules.forEach((module)",
+					"chunk.modules.slice().forEach(function(module) {",
+					"chunk.modules.slice().forEach((module) => {",
+					"chunk.modules.forEach((module)",
+					"chunk.modules.forEach((module) => {",
+					"checkedChunks.push(chunk)",
+					"chunk.modules.slice().forEach((module) =>",
+					"loader",
+					"true",
+					"是否添加半闭合斜杠，默认（falsh",
+					"true",
+					"是否添加hash",
+					"hash",
+					"App",
+					"index",
+					"dist",
+					"children：",
+					"minSize：",
+					"oa",
+					"name",
+					"dist",
+					"index",
+					"vendor",
+					" ",
+					"index",
+					"[",
+					"indxe",
+					"dist",
+					" md",
+					"name",
+					"name4",
+					"webpack",
+					"gulp",
+					"preferGlobal",
+					"optionalDependencies",
+					"bundledDependencies",
+					"directories",
+					"contributors",
+					"author",
+					"url",
+					"description",
+					"教父",
+					"，一个月31天计算9386",
+					"，",
+					"--",
+					"## ",
+					"##",
+					"categories",
+					"分类",
+					"algolia_logo",
+					" ",
+					"谍影重重",
+					"逃学威龙",
+					"拯救大兵瑞恩",
+					"九品芝麻官",
+					"###",
+					"剪刀手",
+					"摩登时代",
+					"火影隐者剧场版：博人传",
+					"?",
+					"，",
+					",",
+					"PermitRootLoginwithout-password",
+					"AuthorizedKeysFile",
+					"Authentication",
+					"PubkeyAuthentication",
+					"RSAAuthentication",
+					"8",
+					"4",
+					"3",
+					"1",
+					"ssl",
+					"ssl_module",
+					"LoadModule ssl_module",
+					"LoadModule ssl_module modules",
+					"ssl_module",
+					"ssl_module modules",
+					"LoadModule ssl_module modules/mod_ssl.so",
+					"4ip1p",
+					"headersresponse",
+					"###",
+					"21",
+					"20",
+					"19",
 					"18",
-					"sidebar_label",
-					"font",
-					"size",
-					"font.size",
-					"tab_label"
+					"短连接就是一次读写完成之后，一般client会发起关闭连接的操作",
+					"via",
+					"Authentication-Info",
+					"Server",
+					"Cookie2",
+					"Accept"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -820,7 +1335,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 42.0
+				"height": 28.0
 			},
 			"input":
 			{
@@ -849,28 +1364,56 @@
 				]
 			},
 			"menu_visible": true,
+			"output.GitSavvy":
+			{
+				"height": 200.0
+			},
+			"output.exec":
+			{
+				"height": 220.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
+			"output.git":
+			{
+				"height": 200.0
+			},
+			"output.git-commit":
+			{
+				"height": 212.0
+			},
+			"output.git-init":
+			{
+				"height": 200.0
+			},
 			"output.gulp_output":
 			{
-				"height": 360.0
+				"height": 123.0
 			},
 			"pinned_build_system": "",
 			"position": "0,2,3,-1,-1,-1,-1,841,446,169,1264",
-			"project": "",
+			"project": "blog.sublime-project",
 			"replace":
 			{
-				"height": 80.0
+				"height": 52.0
 			},
-			"save_all_on_build": false,
+			"save_all_on_build": true,
 			"select_file":
 			{
 				"height": 0.0,
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"sublim",
+						"source\\_posts\\sublime.md"
+					],
+					[
+						"base.styl",
+						"themes\\next\\source\\css\\_mixins\\base.styl"
+					]
 				],
 				"width": 0.0
 			},
@@ -880,40 +1423,49 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"",
+						"I:\\笔记\\webpack.sublime-project"
+					]
 				],
 				"width": 475.0
 			},
 			"select_symbol":
 			{
-				"height": 0.0,
+				"height": 428.0,
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"",
+						"$destroy"
+					]
 				],
-				"width": 0.0
+				"width": 1176.0
 			},
 			"selected_group": 0,
 			"settings":
 			{
 			},
 			"show_minimap": true,
-			"show_open_files": false,
+			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 468.0,
+			"side_bar_width": 363.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
-				"max_columns": 5
+				"max_columns": 2
 			},
 			"window_id": 29,
-			"workspace_name": ""
+			"workspace_name": "/I/笔记/blog.sublime-workspace"
 		}
 	],
 	"workspaces":
 	{
 		"recent_workspaces":
 		[
+			"/I/笔记/blog.sublime-workspace"
 		]
 	}
 }

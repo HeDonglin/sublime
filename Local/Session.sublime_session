@@ -4,7 +4,7 @@
 		"/I/笔记/note"
 	],
 	"last_version": 3126,
-	"last_window_id": 88,
+	"last_window_id": 90,
 	"log_indexing": false,
 	"settings":
 	{
@@ -812,6 +812,11 @@
 			},
 			"file_history":
 			[
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeLinter.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/PlainTasks.sublime-settings",
+				"/I/笔记/note/index.html",
 				"/I/笔记/note/emmet.vue",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/menu/3/zh_CN/Side Bar Mount Point.sublime-menu.json",
@@ -820,12 +825,9 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/LocalizedMenu.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/Localize.py",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/CSScomb.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeLinter.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Sync View Scroll.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti_orig.sublime-theme",
 				"/I/笔记/note/gulpfile.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Skins.sublime-settings",
@@ -833,7 +835,6 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Saved Skins.skins",
 				"/I/笔记/note/scss.scss",
 				"/I/笔记/note/gitAPI.js",
-				"/I/笔记/note/index.html",
 				"/C/Users/Administrator/Downloads/HTML.min.js/HTML.min.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Default (Windows).sublime-keymap",
 				"/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
@@ -938,8 +939,7 @@
 				"/I/项目/es6/gulpfile.js",
 				"/I/项目/es6/src/index.less",
 				"/I/笔记/ES6视频/ECMAScript6课件/课程源码/06-07/源码/src/main.js",
-				"/I/笔记/ES6视频/ECMAScript6课件/课程源码/06-07/源码/index.html",
-				"/I/项目/es6/src/2.js"
+				"/I/笔记/ES6视频/ECMAScript6课件/课程源码/06-07/源码/index.html"
 			],
 			"find":
 			{
@@ -1180,7 +1180,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 37.0
+				"height": 42.0
 			},
 			"input":
 			{
@@ -1218,7 +1218,7 @@
 			"pinned_build_system": "Packages/User/node.sublime-build",
 			"replace":
 			{
-				"height": 70.0
+				"height": 80.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -1841,7 +1841,7 @@
 			"command_palette":
 			{
 				"height": 428.0,
-				"last_filter": "pin",
+				"last_filter": "",
 				"selected_items":
 				[
 					[
@@ -2145,10 +2145,14 @@
 			},
 			"expanded_folders":
 			[
-				"/I/笔记/note"
+				"/I/笔记/note",
+				"/I/笔记/note/dist"
 			],
 			"file_history":
 			[
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti_orig.sublime-theme",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti.sublime-theme",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeLinter.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/PlainTasks.sublime-settings",
@@ -2161,14 +2165,11 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/LocalizedMenu.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/Localize.py",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/CSScomb.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Sync View Scroll.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti_orig.sublime-theme",
 				"/I/笔记/note/gulpfile.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Skins.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti.sublime-theme",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Saved Skins.skins",
 				"/I/笔记/note/scss.scss",
 				"/I/笔记/note/gitAPI.js",
@@ -2280,7 +2281,7 @@
 			],
 			"find":
 			{
-				"height": 42.0
+				"height": 43.0
 			},
 			"find_in_files":
 			{
@@ -2373,6 +2374,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"folder@2x.png",
+					"folder_open@2x.png",
 					"从项目中删除文件夹",
 					"firstRun",
 					"bgc",
@@ -2498,9 +2501,7 @@
 					"000",
 					"3",
 					"inset",
-					"6",
-					"无序列表",
-					"aA"
+					"6"
 				],
 				"highlight": true,
 				"in_selection": false,

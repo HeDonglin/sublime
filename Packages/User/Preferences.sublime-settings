@@ -81,7 +81,6 @@
 	"show_definitions": true,
 	"show_errors_inline": true,
 	"show_full_path": true,
-	"skin": "User/my-seti",
 	"spell_check": false,
 	"tab_completion": true,
 	"tab_size": 4,

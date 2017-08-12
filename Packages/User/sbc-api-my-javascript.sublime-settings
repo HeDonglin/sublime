@@ -693,6 +693,12 @@
     [ "is\tjsObject", "${1:Object}.is(${2:NaN,NaN})" ],
     [ "assign\tjsObject", "${1:Object}.assign(${2:obj1,obj2,obj3})" ],
 
+//函数
+    [ "fn\tfnName()","function ${1:fnName}(${2:arg}){\n\t${3:}\n}"],
+    [ "fnn\tfunction()","function(${1:arg}) {\n\t${3:}\n}"],
+    [ "return\tretrun false","return false;"],
+    [ "require\trequire()","require('${1:}');"],
+
 //语句
     [ "if\tif()","if (${1:true}){\n\t${2:}\n}"],
     [ "if\t&&","${1:false} && ${2:true}"],
@@ -703,11 +709,6 @@
     [ "f-\tfor--","for (var i = ${1:Thinks}.length - 1; i >= 0; i--) {\n\t ${1:Thinks}[i]\n}"],
     [ "fi\tfor...in","for (var ${1:attr} in ${2:obj}) {\n\t${3:}\n}"],
 
-//函数
-    [ "fn\tfnName()","function ${1:fnName}(${2:arg}){\n\t${3:}\n}"],
-    [ "fnn\tfunction()","function(${1:arg}) {\n\t${3:}\n}"],
-    [ "return\tretrun false","return false;"],
-    [ "require\trequire()","require('${1:}');"],
 
 //工具
     [ "cl\tconsole.log", "console.log(${1:'日志'});" ],

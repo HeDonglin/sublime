@@ -146,7 +146,8 @@
         "font.face": "Consolas",
         "font.size": 16,
         "font.bold": true,
-        "fg": [212,215,214]
+        "fg": [212,215,214],
+        "font.italic": true
     },
     {
         "class": "tab_label",
@@ -157,13 +158,13 @@
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["selected"]}],
         "fg": [255, 255, 255, 200],
-        "font.bold": false
+        "font.bold": true
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
         "fg": [255, 255, 255],
-        "font.bold": false
+        "font.bold": true
     },
     {
         "class": "tab_label",

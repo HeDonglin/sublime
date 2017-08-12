@@ -2146,10 +2146,12 @@
 			"expanded_folders":
 			[
 				"/I/笔记/note",
-				"/I/笔记/note/dist"
+				"/I/笔记/note/dist",
+				"/I/笔记/note/dist/js"
 			],
 			"file_history":
 			[
+				"/I/笔记/note/dist/js/index.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti_orig.sublime-theme",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti.sublime-theme",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
@@ -2276,8 +2278,7 @@
 				"/I/项目/es6/src/index.js",
 				"/I/项目/es6/gulpfile.js",
 				"/I/项目/es6/src/index.less",
-				"/I/笔记/ES6视频/ECMAScript6课件/课程源码/06-07/源码/src/main.js",
-				"/I/笔记/ES6视频/ECMAScript6课件/课程源码/06-07/源码/index.html"
+				"/I/笔记/ES6视频/ECMAScript6课件/课程源码/06-07/源码/src/main.js"
 			],
 			"find":
 			{

@@ -1745,11 +1745,13 @@
 			"buffers":
 			[
 				{
-					"file": "/C/Users/Administrator/.bashrc",
+					"contents": "<template>\n    <!DOCTYPE html>\n    <html lang=\"zh-Hans\">\n    <head>\n        <div>\n            <img src=\"\" alt=\"\" />\n            <script>\n                window.onload=function() {\n                    console.log('日志');\n                }\n            </script>\n        </div>\n\n    </head>\n    <body>\n        <div>img</div>\n        <div><img src=\"\"></div>\n        <div><img src=\"\"></div>\n        <div>div</div>\n        <div>div</div>\n        <div>\n            <body></body>\n            <div><img src=\"\" alt=\"\" />\n                <div>\n\n                </div>\n            </div>\n            <div>img</div>\n            <div></div>\n        </div>\n        <img src=\" \">\n        <img src=\"\">\n        link\n    </body>\n    </html>\n</template>\n\n<style>\n\n\n    html {\n        background: #000;\n        background: #fff url() no-repeat 0 0 padding-box;\n    }\n\n    body{\n        background: #fff url(./bg.png) no-repeat 0 0 padding-box;\n    }\n    .menu{\n        \n    }\n\n\n</style>\n\n<script>\n    f\n</script>\n",
+					"file": "/I/笔记/note/sublime.vue",
+					"file_size": 993,
+					"file_write_time": 131469931291647666,
 					"settings":
 					{
-						"buffer_size": 2018,
-						"encoding": "UTF-8",
+						"buffer_size": 991,
 						"line_ending": "Unix"
 					}
 				}
@@ -1850,9 +1852,13 @@
 			"command_palette":
 			{
 				"height": 428.0,
-				"last_filter": "",
+				"last_filter": "prvo",
 				"selected_items":
 				[
+					[
+						"prvo",
+						"PackageResourceViewer: Open Resource"
+					],
 					[
 						"pin",
 						"Package Control: Install Package"
@@ -1860,10 +1866,6 @@
 					[
 						"pup",
 						"Package Control: Upgrade Package"
-					],
-					[
-						"prvo",
-						"PackageResourceViewer: Open Resource"
 					],
 					[
 						"show",
@@ -2154,18 +2156,27 @@
 			},
 			"expanded_folders":
 			[
-				"/I/笔记/note",
-				"/I/笔记/note/dist",
-				"/I/笔记/note/dist/js"
+				"/I/笔记/note"
 			],
 			"file_history":
 			[
+				"/D/Program Files/Sublime Text 3126/Data/Packages/JavaScript/Snippets/function.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/JavaScript/Snippets/setTimeout-function.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/JavaScript/Snippets/Get-Elements.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/JavaScript/Snippets/Object-Value-JS.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/JavaScript/Snippets/Object-Method.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/JavaScript/Snippets/Object-key-key-value.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/JavaScript/Snippets/Prototype-(proto).sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/JavaScript/Snippets/for-()-{}-(faster).sublime-snippet",
+				"/I/笔记/note/sublime.vue",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
+				"/I/笔记/note/gitAPI.js",
+				"/C/Users/Administrator/.bashrc",
 				"/I/笔记/note/dist/js/index.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti_orig.sublime-theme",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti.sublime-theme",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeLinter.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/PlainTasks.sublime-settings",
 				"/I/笔记/note/index.html",
 				"/I/笔记/note/emmet.vue",
@@ -2183,7 +2194,6 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Skins.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Saved Skins.skins",
 				"/I/笔记/note/scss.scss",
-				"/I/笔记/note/gitAPI.js",
 				"/C/Users/Administrator/Downloads/HTML.min.js/HTML.min.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Default (Windows).sublime-keymap",
 				"/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
@@ -2212,7 +2222,6 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/Main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
 				"/I/笔记/note/src/index.html",
-				"/C/Users/Administrator/.bashrc",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/ColorHighlighter.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Highlighter/ColorHighlighter.py",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
@@ -2278,16 +2287,7 @@
 				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/JS继承1.html",
 				"/C/Users/Administrator/Downloads/0-7课件及源码/2-妙味课堂原创JavaScript视频教程——DOM(2课)、BOM课程资料/BOM/课程案例/回到顶部按钮3.html",
 				"/C/Users/Administrator/Downloads/index.js",
-				"/I/笔记/note/es6.js",
-				"/I/笔记/note/newFloder.bat",
-				"/C/Users/Administrator/Downloads/jquery-3.2.1.min.map",
-				"/C/Users/Administrator/Downloads/jquery-3.2.1.js",
-				"/I/项目/es6/src/index.css",
-				"/I/项目/es6/src/index.html",
-				"/I/项目/es6/src/index.js",
-				"/I/项目/es6/gulpfile.js",
-				"/I/项目/es6/src/index.less",
-				"/I/笔记/ES6视频/ECMAScript6课件/课程源码/06-07/源码/src/main.js"
+				"/I/笔记/note/es6.js"
 			],
 			"find":
 			{
@@ -2540,19 +2540,19 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/C/Users/Administrator/.bashrc",
+							"file": "/I/笔记/note/sublime.vue",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 2018,
+								"buffer_size": 991,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										376,
-										376
+										980,
+										980
 									]
 								],
 								"settings":
@@ -2562,27 +2562,12 @@
 									{
 										"close":
 										{
-											"1":
-											[
-												407,
-												408
-											]
 										},
 										"icon":
 										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/dot.png",
-												"brackethighlighter.default"
-											]
 										},
 										"open":
 										{
-											"1":
-											[
-												370,
-												371
-											]
 										},
 										"unmatched":
 										{
@@ -2630,14 +2615,14 @@
 										10,
 										7,
 										225,
-										6,
-										15,
-										10,
-										26,
-										45,
-										2,
-										185,
-										243,
+										8,
+										12,
+										12,
+										0,
+										34,
+										3,
+										75,
+										232,
 										113,
 										1,
 										133,
@@ -2648,18 +2633,19 @@
 										3,
 										46
 									],
-									"is_init_dirty_state": false,
+									"is_init_dirty_state": true,
 									"origPos":
 									[
 										0.0,
-										612.0
+										1326.0
 									],
-									"origin_encoding": "UTF-8",
 									"syncScroll": false,
-									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+									"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 612.0,
+								"translation.y": 1326.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -2728,7 +2714,7 @@
 				"height": 227.0
 			},
 			"pinned_build_system": "Packages/User/node.sublime-build",
-			"position": "0,0,1,-1,-1,-1,-1,864,192,192,1010",
+			"position": "0,2,3,-1,-1,-1,-1,864,192,192,1010",
 			"project": "",
 			"replace":
 			{
@@ -2845,7 +2831,7 @@
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": false,
+			"side_bar_visible": true,
 			"side_bar_width": 397.0,
 			"status_bar_visible": true,
 			"template_settings":

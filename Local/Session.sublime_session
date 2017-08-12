@@ -1744,6 +1744,15 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/C/Users/Administrator/.bashrc",
+					"settings":
+					{
+						"buffer_size": 2018,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -2526,8 +2535,136 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/C/Users/Administrator/.bashrc",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2018,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										376,
+										376
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+											"1":
+											[
+												407,
+												408
+											]
+										},
+										"icon":
+										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/dot.png",
+												"brackethighlighter.default"
+											]
+										},
+										"open":
+										{
+											"1":
+											[
+												370,
+												371
+											]
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										6,
+										15,
+										10,
+										26,
+										45,
+										2,
+										185,
+										243,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"is_init_dirty_state": false,
+									"origPos":
+									[
+										0.0,
+										612.0
+									],
+									"origin_encoding": "UTF-8",
+									"syncScroll": false,
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 612.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -2591,7 +2728,7 @@
 				"height": 227.0
 			},
 			"pinned_build_system": "Packages/User/node.sublime-build",
-			"position": "0,2,3,-1,-1,-1,-1,864,192,192,1010",
+			"position": "0,0,1,-1,-1,-1,-1,864,192,192,1010",
 			"project": "",
 			"replace":
 			{
@@ -2708,7 +2845,7 @@
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": true,
+			"side_bar_visible": false,
 			"side_bar_width": 397.0,
 			"status_bar_visible": true,
 			"template_settings":

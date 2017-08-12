@@ -1,7 +1,0 @@
-{   
-    "key": "trnsl.1.1.20170620T205429Z.dd669eabe93486ba.5ed05590227388442699cff6badb9fa53a572c10",//http://api.yandex.ru/key/form.xml?service=trnsl;获取api钥匙，生成秘钥
-    "ui_lang": "zh",                    // 设置本地语言
-    "output_language": "zh",            // 其他语言默认转为中文
-    "output_language_additional": "en", // 本地语言转为转为英文
-    "type": "text"                      // or "html"
-}

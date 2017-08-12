@@ -1,6 +1,0 @@
-[
-	{
-		"keys": ["ctrl+alt+shift+s"],
-		"command": "postcsssorting"
-	}
-]

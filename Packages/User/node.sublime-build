@@ -1,4 +1,0 @@
-{
-    "cmd":["node.exe","$file"],
-    "selector":"source.js"
-}

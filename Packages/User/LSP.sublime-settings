@@ -1,0 +1,19 @@
+// Settings in here override those in "LSP/LSP.sublime-settings",
+
+{
+    // 插件在状态栏中显示消息几秒钟
+    "show_status_messages": true,
+    //插件在状态栏中显示永久状态
+    "show_view_status": true,
+    "auto_complete_triggers":
+    [
+        {
+            "characters": ".",
+            "selector": "source.js"
+        },
+        {
+            "characters": ".",
+            "selector": "source.ts"
+        }
+    ]
+}

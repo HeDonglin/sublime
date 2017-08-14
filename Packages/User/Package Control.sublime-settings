@@ -67,6 +67,7 @@
 	"repositories":
 	[
 		"https://github.com/i-akhmadullin/Sublime-CSS3",
-		"https://github.com/dateutil/dateutil"
+		"https://github.com/dateutil/dateutil",
+		"https://github.com/tomv564/LSP"
 	]
 }

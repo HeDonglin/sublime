@@ -3,6 +3,7 @@
     //阻止pyv8更新（重要！！！）
     //https://github.com/emmetio/pyv8-binaries because
     //区分32为和64位
+    //禁用PyV8自动更新。对于从https://github.com/emmetio/pyv8-binaries手动安装PyV8
     "disable_pyv8_update":true,
 
     //将任何修改的设置复制到`Use Emmet.sublime-settings`;
@@ -52,9 +53,6 @@
     //使用旧的Tab处理程序来扩展缩写。启用此选项后，编辑器可能会更好地处理Tab键（特别是使用覆盖Tab键的其他插件），但会吐出“慢插件”消息
     "use_old_tab_handler": false,
 
-    //禁用PyV8自动更新。对于从https://github.com/emmetio/pyv8-binaries手动安装PyV8 //的用途非常有用，因为//本地代理限制
-    "disable_pyv8_update": false,
-
     //在单行//上展开PHP字符串内的缩写（例如，无格式化）
     "php_single_line": false,
 
@@ -102,35 +100,42 @@
                     "@fc-": "@font-face {\n\tfont-family: '${1:FontName}';\n\tsrc: url('${2:FileName}.eot');\n\tsrc: url('${2:FileName}.eot?#iefix') format('embedded-opentype'),\n\t\t url('${2:FileName}.woff') format('woff'),\n\t\t url('${2:FileName}.ttf') format('truetype'),\n\t\t url('${2:FileName}.svg#${1:FontName}') format('svg');\n\tfont-style: ${3:normal};\n\tfont-weight: ${4:normal};\n}",
 
                     "@kf": "@-webkit-keyframes ${1:identifier} {\n\t${2:from} { ${3} }${6}\n\t${4:to} { ${5} }\n}\n@-o-keyframes ${1:identifier} {\n\t${2:from} { ${3} }${6}\n\t${4:to} { ${5} }\n}\n@-moz-keyframes ${1:identifier} {\n\t${2:from} { ${3} }${6}\n\t${4:to} { ${5} }\n}\n@keyframes ${1:identifier} {\n\t${2:from} { ${3} }${6}\n\t${4:to} { ${5} }\n}",
+                    // 定义设备的最大分辨率。
+                    "mar": "max-resolution:${1:res};",
+                    "mir": "min-resolution:${1:res};",
+                    // 定义输出设备中的页面可见区域高度是否大于或等于宽度。
+                    "ori": "orientation:|;",
+                    "oril": "orientation:landscape;",
+                    "orip": "orientation:portrait;",
                 // 动画
                     "am": "animation:|;",
+                    "amn": "animation-name:${1:none};",
                     // 动画名称
                     "am-": "animation:${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode};",
-                    "amdel": "animation-delay:${1:time};",
-
+                    // 检索或设置对象动画的延迟时间
+                    "amdel": "animation-delay:${1:0}s;",
+                    // 检索或设置对象动画在循环中是否反向运动
                     "amdir": "animation-direction:${1:normal};",
                     "amdirn": "animation-direction:normal;",
                     "amdirr": "animation-direction:reverse;",
                     "amdira": "animation-direction:alternate;",
                     "amdirar": "animation-direction:alternate-reverse;",
-
+                    // 检索或设置对象动画的持续时间
                     "amdur": "animation-duration:${1:0}s;",
-
+                    // 检索或设置对象动画时间之外的状态
                     "amfm": "animation-fill-mode:${1:both};",
                     "amfmf": "animation-fill-mode:forwards;",
                     "amfmb": "animation-fill-mode:backwards;",
                     "amfmbt": "animation-fill-mode:both;",
                     "amfmbh": "animation-fill-mode:both;",
-
+                    // 检索或设置对象动画的循环次数
                     "amic": "animation-iteration-count:${1:1};",
                     "amici": "animation-iteration-count:infinite;",
-
-                    "amn": "animation-name:${1:none};",
-
+                    // 检索或设置对象动画的状态
                     "amps": "animation-play-state:${1:running};",
                     "ampsp": "animation-play-state:paused;",
                     "ampsr": "animation-play-state:running;",
-
+                    // 检索或设置对象动画的过渡类型
                     "amtf": "animation-timing-function:${1:linear};",
                     "amtfe": "animation-timing-function:ease;",
                     "amtfei": "animation-timing-function:ease-in;",
@@ -191,7 +196,7 @@
                     "dtbclg": "display:table-column-group;",
                     "dtbhg": "display:table-header-group;",
                     "dtbfg": "display:table-footer-group;",
-                    "d:tbrg": "display:table-row-group;",
+                    "dtbrg": "display:table-row-group;",
                     "drb": "display:ruby;",
                     "drbb": "display:ruby-base;",
                     "drbbg": "display:ruby-base-group;",
@@ -377,18 +382,6 @@
                     "bdbli": "border-bottom-left-image:url(|);",
                     "bdblin": "border-bottom-left-image:none;",
                     "bdblic": "border-bottom-left-image:continue;",
-                    //
-                    "bdf": "border-fit:${1:repeat};",
-                    "bdfc": "border-fit:clip;",
-                    "bdfr": "border-fit:repeat;",
-                    "bdfsc": "border-fit:scale;",
-                    "bdfst": "border-fit:stretch;",
-                    "bdfow": "border-fit:overwrite;",
-                    "bdfof": "border-fit:overflow;",
-                    "bdfsp": "border-fit:space;",
-                    //
-                    "bdlen": "border-length:|;",
-                    "bdlena": "border-length:auto;",
                     // 边框圆角
                     "bdrs": "border-radius:${1:4}px;",
                     "bdrs-": "border-radius:${1:4}px ${2:4}px ${3:4}px ${4:4}px;",
@@ -427,7 +420,7 @@
                     "bgry": "background-repeat:repeat-y;",
                     "bgrsp": "background-repeat:space;",
                     "bgrro": "background-repeat:round;",
-
+                    // 背景图像是否固定或者随着页面的其余部分滚动
                     "bga": "background-attachment:${1:scroll};",
                     "bgaf": "background-attachment:fixed;",
                     "bgas": "background-attachment:scroll;",
@@ -591,13 +584,6 @@
                     "cmbi":"column-break-inside:${1:auto};",
                     "cmbia":"column-break-inside:auto;",
                     "cmbiav":"column-break-inside:avoid;",
-
-
-                    "mar": "max-resolution:${1:res};",
-                    "mir": "min-resolution:${1:res};",
-                    "ori": "orientation:|;",
-                    "oril": "orientation:landscape;",
-                    "orip": "orientation:portrait;",
                 // 颜色
                     "c": "color:#${1:000};",
                     "cr": "color:rgb(${1:0}, ${2:0}, ${3:0});",
@@ -784,6 +770,7 @@
                     "ti": "text-indent:|;",
                     // 文本行高
                     "lh": "line-height:${1:normal};",
+                    "lh-": "line-height:${1:1}px;",
                     // 文本空格处理方式
                     "whs": "white-space:${1:normal};",
                     "whsn": "white-space:normal;",
@@ -1049,7 +1036,7 @@
                     "cc:noie": "<!--[if !IE]><!-->\n\t${child}|\n<!--<![endif]-->"
                 },
                 "abbreviations": {
-                    "!": "html:5",
+                    "!": "html5",
                     "aj": "<a href=\"\">",
                     "a": "<a href=\"javascript:;\">",
                     "alink": "<a href=\"http://|\">",

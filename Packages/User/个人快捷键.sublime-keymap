@@ -218,7 +218,11 @@
     alt+shift+i 选中内容拆分行添加光标
     alt+shift+o 开启或关闭拼写检测
     alt+shift+u 开启或关闭某些语法设置
-    alt+shift+p 实时预览
+    alt+shift+p 启动服务
+    alt+shift+[ 关闭服务
+    alt+shift+] 重启服务
+    alt+shift+, 打开服务器浏览器
+
     ////////////////////
 
 用户设置

@@ -1820,14 +1820,13 @@
 					}
 				},
 				{
-					"contents": "<!DOCTYPE html>\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">\n<script></script>\n<script src=\"\"></script>\n<fieldset disabled=\"disabled\"></fieldset>\n<source />\n<source />\n<head></head>\n<head></head>\n<head></head>",
+					"contents": "<!DOCTYPE html>\n<html lang=\"zh-Hans\">\n<head>\n    <meta charset=\"UTF-8\" />\n    <title>Document</title>\n</head>\n<body>\n    <source />\n</body>\n</html>",
 					"file": "/C/Users/Administrator/Desktop/1.html",
 					"file_size": 137,
 					"file_write_time": 131480547812349722,
 					"settings":
 					{
-						"buffer_size": 688,
-						"encoding": "UTF-8",
+						"buffer_size": 147,
 						"line_ending": "Unix"
 					}
 				},
@@ -1835,7 +1834,7 @@
 					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 70741,
+						"buffer_size": 71343,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
@@ -1937,9 +1936,13 @@
 			"command_palette":
 			{
 				"height": 428.0,
-				"last_filter": "ui",
+				"last_filter": "prvo",
 				"selected_items":
 				[
+					[
+						"prvo",
+						"PackageResourceViewer: Open Resource"
+					],
 					[
 						"ui",
 						"UI: Select Theme"
@@ -1959,10 +1962,6 @@
 					[
 						"pci",
 						"Package Control: Install Package"
-					],
-					[
-						"prvo",
-						"PackageResourceViewer: Open Resource"
 					],
 					[
 						"remove",
@@ -2269,6 +2268,10 @@
 			],
 			"file_history":
 			[
+				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML/html_completions.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
+				"/I/笔记/note/html5.html",
+				"/C/Users/Administrator/Desktop/1.html",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sbc-setting.sublime-settings",
@@ -2283,9 +2286,7 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/SublimeServer.py",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/Main.sublime-menu",
 				"/I/笔记/note/src/index.css",
-				"/I/笔记/note/html5.html",
 				"/I/笔记/note/css3.css",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/CSScomb.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Monokai.tmTheme",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Scheme - Default/Monokai.tmTheme",
@@ -2394,9 +2395,7 @@
 				"/I/笔记/note/server.js",
 				"/C/Users/Administrator/Documents/Tencent Files/839875083/FileRecv/webpack.config.js",
 				"/C/Users/Administrator/Downloads/common.js",
-				"/C/Users/Administrator/Desktop/1.js",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/Drag.js",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/LimitDrag.js"
+				"/C/Users/Administrator/Desktop/1.js"
 			],
 			"find":
 			{
@@ -2493,6 +2492,14 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"isi",
+					"isindex",
+					"\"<",
+					"video",
+					"\"<",
+					"header",
+					":",
+					"source",
 					"strike",
 					"xmp",
 					"center",
@@ -2612,15 +2619,7 @@
 					"normal",
 					"word-spacing",
 					"page",
-					"+",
-					"ni",
-					"am",
-					"at",
-					"tfunc",
-					"trs",
-					"bv",
-					"backface",
-					"perspective"
+					"+"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2654,8 +2653,48 @@
 								"selection":
 								[
 									[
-										1755,
-										1755
+										1495,
+										1494
+									],
+									[
+										1503,
+										1504
+									],
+									[
+										1518,
+										1519
+									],
+									[
+										1531,
+										1532
+									],
+									[
+										1543,
+										1544
+									],
+									[
+										1557,
+										1558
+									],
+									[
+										1569,
+										1570
+									],
+									[
+										1591,
+										1592
+									],
+									[
+										1603,
+										1604
+									],
+									[
+										1620,
+										1621
+									],
+									[
+										1638,
+										1639
 									]
 								],
 								"settings":
@@ -2739,13 +2778,13 @@
 									"origPos":
 									[
 										0.0,
-										2210.0
+										1836.0
 									],
 									"syncScroll": false,
 									"syntax": "Packages/HTML/HTML.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 1292.0,
+								"translation.y": 1836.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 2,
@@ -2757,15 +2796,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 688,
+								"buffer_size": 147,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										681,
-										681
+										132,
+										132
 									]
 								],
 								"settings":
@@ -2777,8 +2816,8 @@
 										{
 											"1":
 											[
-												683,
-												687
+												134,
+												138
 											]
 										},
 										"icon":
@@ -2793,8 +2832,8 @@
 										{
 											"1":
 											[
-												676,
-												680
+												111,
+												115
 											]
 										},
 										"unmatched":
@@ -2866,6 +2905,8 @@
 										0.0,
 										0.0
 									],
+									"origin_encoding": "ASCII",
+									"syncScroll": false,
 									"syntax": "Packages/HTML/HTML.sublime-syntax"
 								},
 								"translation.x": 0.0,
@@ -2881,15 +2922,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 70741,
+								"buffer_size": 71343,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										52883,
-										52883
+										66566,
+										66566
 									]
 								],
 								"settings":
@@ -2899,30 +2940,20 @@
 									{
 										"close":
 										{
-											"1":
-											[
-												52973,
-												52974
-											]
 										},
 										"icon":
 										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/dot.png",
-												"brackethighlighter.default"
-											]
 										},
 										"open":
 										{
-											"1":
-											[
-												52871,
-												52872
-											]
 										},
 										"unmatched":
 										{
+											"1":
+											[
+												66956,
+												66957
+											]
 										}
 									},
 									"bracket_highlighter.regions":
@@ -2988,17 +3019,15 @@
 									"origPos":
 									[
 										0.0,
-										35486.0
+										37680.0
 									],
-									"spell_check": false,
 									"syncScroll": false,
 									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 									"tab_size": 4,
-									"translate_tabs_to_spaces": true,
-									"word_wrap": false
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 34466.0,
+								"translation.y": 43710.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,

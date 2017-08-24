@@ -6,7 +6,7 @@
 		"/I/笔记/note"
 	],
 	"last_version": 3126,
-	"last_window_id": 130,
+	"last_window_id": 135,
 	"log_indexing": false,
 	"settings":
 	{
@@ -526,9 +526,25 @@
 			"command_palette":
 			{
 				"height": 428.0,
-				"last_filter": "pci",
+				"last_filter": "ui",
 				"selected_items":
 				[
+					[
+						"ui",
+						"UI: Select Theme"
+					],
+					[
+						"colo",
+						"UI: Select Color Scheme"
+					],
+					[
+						"style",
+						"SublimeLinter: Choose Mark Style"
+					],
+					[
+						"remvepack",
+						"Package Control: Remove Package"
+					],
 					[
 						"pci",
 						"Package Control: Install Package"
@@ -580,10 +596,6 @@
 					[
 						"box",
 						"Boxy Theme: Preferences"
-					],
-					[
-						"ui",
-						"UI: Select Skin"
 					],
 					[
 						"uskin",
@@ -842,6 +854,10 @@
 			},
 			"file_history":
 			[
+				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
+				"/I/笔记/note/src/index.html",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/main.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Refresh/Default (Windows).sublime-keymap",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/Context.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeServer.sublime-settings",
@@ -849,11 +865,9 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Sync/Main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Sync/browser_sync_launch.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/SublimeServer.py",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/Main.sublime-menu",
 				"/I/笔记/note/src/index.css",
 				"/I/笔记/note/html5.html",
-				"/I/笔记/note/src/index.html",
 				"/I/笔记/note/css3.css",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/CSScomb.sublime-settings",
@@ -878,7 +892,6 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/menu/2221/zh_CN/Side Bar Mount Point.sublime-menu.json",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/menu/3126/zh_CN/Main.sublime-menu.json",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/LocalizedMenu.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/Localize.py",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeLinter.sublime-settings",
@@ -968,8 +981,7 @@
 				"/C/Users/Administrator/Desktop/1.js",
 				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/Drag.js",
 				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/LimitDrag.js",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/拖拽——继承.html",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/命名空间.html"
+				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/拖拽——继承.html"
 			],
 			"find":
 			{
@@ -1066,6 +1078,50 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					":",
+					"mark",
+					"meter",
+					"progress",
+					"meter",
+					"progress",
+					"keygen",
+					"\":",
+					"keygen",
+					"wbr",
+					"bdi",
+					"mark",
+					"time",
+					"wbr",
+					"bdi",
+					"mark",
+					":",
+					"\"://",
+					"command",
+					"summary",
+					"details",
+					"datalist",
+					"audio",
+					"track",
+					"canvas",
+					"can",
+					"article",
+					"art",
+					"canvas",
+					"footer",
+					"foo",
+					"fset",
+					"tem",
+					"mn",
+					"prog",
+					"str",
+					"dlg",
+					"adr",
+					"art",
+					"sec",
+					"hd",
+					"nav",
+					"header",
+					"bs-html-injector",
 					"true",
 					"false",
 					"cm",
@@ -1149,51 +1205,7 @@
 					"dotted",
 					"double",
 					"solid",
-					"overline",
-					"underline",
-					"none",
-					"tsa",
-					"auto",
-					"work-spacin",
-					"distribute",
-					"none",
-					"\":\"$",
-					"end",
-					"start",
-					"justify",
-					"normal",
-					"tab-size",
-					"wb",
-					"font",
-					"颜色",
-					"color",
-					"auto",
-					"right",
-					"left",
-					"transparent",
-					"none",
-					"top-left",
-					"repeat",
-					"stretch",
-					"i",
-					"bdcs",
-					"none",
-					"|",
-					"{\n",
-					"scss",
-					"从项目中删除文件夹",
-					"firstRun",
-					"bgc",
-					"attachment",
-					"        background-attachment",
-					"hover",
-					"Seti_tabs_big",
-					"sidebar_tree",
-					"sidebar_container",
-					"52, 61, 70",
-					"image",
-					"shift+ctrl+i",
-					"down"
+					"overline"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1365,7 +1377,7 @@
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": true,
+			"side_bar_visible": false,
 			"side_bar_width": 397.0,
 			"status_bar_visible": true,
 			"template_settings":
@@ -1799,21 +1811,33 @@
 			"buffers":
 			[
 				{
-					"file": "note/src/index.html",
+					"file": "note/html5.html",
 					"settings":
 					{
-						"buffer_size": 330,
+						"buffer_size": 13551,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "<!DOCTYPE html>\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">\n<script></script>\n<script src=\"\"></script>\n<fieldset disabled=\"disabled\"></fieldset>\n<source />\n<source />\n<head></head>\n<head></head>\n<head></head>",
+					"file": "/C/Users/Administrator/Desktop/1.html",
+					"file_size": 137,
+					"file_write_time": 131480547812349722,
+					"settings":
+					{
+						"buffer_size": 688,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
+					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 283098,
+						"buffer_size": 70741,
 						"encoding": "UTF-8",
-						"line_ending": "Unix"
+						"line_ending": "Windows"
 					}
 				}
 			],
@@ -1912,10 +1936,22 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 134.0,
-				"last_filter": "remvepack",
+				"height": 428.0,
+				"last_filter": "ui",
 				"selected_items":
 				[
+					[
+						"ui",
+						"UI: Select Theme"
+					],
+					[
+						"colo",
+						"UI: Select Color Scheme"
+					],
+					[
+						"style",
+						"SublimeLinter: Choose Mark Style"
+					],
 					[
 						"remvepack",
 						"Package Control: Remove Package"
@@ -1971,10 +2007,6 @@
 					[
 						"box",
 						"Boxy Theme: Preferences"
-					],
-					[
-						"ui",
-						"UI: Select Skin"
 					],
 					[
 						"uskin",
@@ -2213,7 +2245,7 @@
 						"Set Syntax: JavaScript"
 					]
 				],
-				"width": 416.0
+				"width": 703.0
 			},
 			"console":
 			{
@@ -2233,11 +2265,15 @@
 			},
 			"expanded_folders":
 			[
-				"/I/笔记/note",
-				"/I/笔记/note/src"
+				"/I/笔记/note"
 			],
 			"file_history":
 			[
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/main.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sbc-setting.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
+				"/I/笔记/note/src/index.html",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Refresh/Default (Windows).sublime-keymap",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/Context.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeServer.sublime-settings",
@@ -2245,11 +2281,9 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Sync/Main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Sync/browser_sync_launch.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/SublimeServer.py",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/Main.sublime-menu",
 				"/I/笔记/note/src/index.css",
 				"/I/笔记/note/html5.html",
-				"/I/笔记/note/src/index.html",
 				"/I/笔记/note/css3.css",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/CSScomb.sublime-settings",
@@ -2274,7 +2308,6 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/menu/2221/zh_CN/Side Bar Mount Point.sublime-menu.json",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/menu/3126/zh_CN/Main.sublime-menu.json",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/LocalizedMenu.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/Localize.py",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeLinter.sublime-settings",
@@ -2363,9 +2396,7 @@
 				"/C/Users/Administrator/Downloads/common.js",
 				"/C/Users/Administrator/Desktop/1.js",
 				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/Drag.js",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/LimitDrag.js",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/拖拽——继承.html",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/命名空间.html"
+				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/LimitDrag.js"
 			],
 			"find":
 			{
@@ -2462,6 +2493,116 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"strike",
+					"xmp",
+					"center",
+					"noframes",
+					"samp",
+					"rp",
+					"rt",
+					"ruby",
+					"output",
+					"cite",
+					"strong",
+					"em",
+					"span",
+					"dialog",
+					"address",
+					"\",//",
+					"blockquote",
+					"pre",
+					"figcaption",
+					"td",
+					"caption",
+					"table",
+					"select",
+					"\",//",
+					"fieldset",
+					"div",
+					"meter",
+					":",
+					"summary",
+					"details",
+					":",
+					"body",
+					"空标签",
+					"script",
+					"abbreviations",
+					"fieldset",
+					"command",
+					"keygen",
+					"marquee",
+					"textarea",
+					"option",
+					"isindex",
+					"label",
+					"src",
+					"picture",
+					"\"col\"",
+					"\"hr\"",
+					"hr",
+					"frame",
+					"body",
+					":",
+					"base",
+					"acronym",
+					"acr|acronym",
+					"abbr",
+					"br",
+					"basefont",
+					"h1",
+					"                    \"",
+					"h4",
+					"h1",
+					"select",
+					":",
+					"div",
+					"xmp",
+					"isindex",
+					":",
+					"mark",
+					"meter",
+					"progress",
+					"meter",
+					"progress",
+					"keygen",
+					"\":",
+					"keygen",
+					"wbr",
+					"bdi",
+					"mark",
+					"time",
+					"wbr",
+					"bdi",
+					"mark",
+					":",
+					"\"://",
+					"command",
+					"summary",
+					"details",
+					"datalist",
+					"audio",
+					"track",
+					"canvas",
+					"can",
+					"article",
+					"art",
+					"canvas",
+					"footer",
+					"foo",
+					"fset",
+					"tem",
+					"mn",
+					"prog",
+					"str",
+					"dlg",
+					"adr",
+					"art",
+					"sec",
+					"hd",
+					"nav",
+					"header",
+					"bs-html-injector",
 					"true",
 					"false",
 					"cm",
@@ -2479,117 +2620,7 @@
 					"trs",
 					"bv",
 					"backface",
-					"perspective",
-					"origin",
-					"ps",
-					"perspective",
-					"transform",
-					"self",
-					"fx",
-					"flex-direction",
-					"边框",
-					"bxsh",
-					"none",
-					"cc",
-					"/* |${child} */",
-					"cc",
-					"*/\",\n",
-					"cm",
-					"colm",
-					"cm",
-					"cl",
-					"all",
-					"none",
-					"text",
-					"user-select",
-					"inactive",
-					"active",
-					"normal",
-					"auto",
-					"down",
-					"auto",
-					"up",
-					"nav",
-					"up",
-					"idex",
-					"nav",
-					"用户界面",
-					"to",
-					"tv",
-					"appearance",
-					"ct",
-					"CT",
-					"ct",
-					"CT",
-					"ct",
-					"CT",
-					"ct",
-					"content",
-					"csb",
-					"cst",
-					"cs",
-					"tlf",
-					"tla",
-					"ls",
-					"none",
-					"direction",
-					"edges",
-					"spaces",
-					"none",
-					"objects",
-					"left",
-					"under",
-					"auto",
-					"tdsw",
-					"dashed",
-					"dotted",
-					"double",
-					"solid",
-					"overline",
-					"underline",
-					"none",
-					"tsa",
-					"auto",
-					"work-spacin",
-					"distribute",
-					"none",
-					"\":\"$",
-					"end",
-					"start",
-					"justify",
-					"normal",
-					"tab-size",
-					"wb",
-					"font",
-					"颜色",
-					"color",
-					"auto",
-					"right",
-					"left",
-					"transparent",
-					"none",
-					"top-left",
-					"repeat",
-					"stretch",
-					"i",
-					"bdcs",
-					"none",
-					"|",
-					"{\n",
-					"scss",
-					"从项目中删除文件夹",
-					"firstRun",
-					"bgc",
-					"attachment",
-					"        background-attachment",
-					"hover",
-					"Seti_tabs_big",
-					"sidebar_tree",
-					"sidebar_container",
-					"52, 61, 70",
-					"image",
-					"shift+ctrl+i",
-					"down"
+					"perspective"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2607,24 +2638,134 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 2,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "note/src/index.html",
+							"file": "note/html5.html",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 330,
+								"buffer_size": 13551,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										177,
-										177
+										1755,
+										1755
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										5,
+										20,
+										17,
+										25,
+										20,
+										2,
+										42,
+										87,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"origPos":
+									[
+										0.0,
+										2210.0
+									],
+									"syncScroll": false,
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1292.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/C/Users/Administrator/Desktop/1.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 688,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										681,
+										681
 									]
 								],
 								"settings":
@@ -2636,8 +2777,8 @@
 										{
 											"1":
 											[
-												204,
-												205
+												683,
+												687
 											]
 										},
 										"icon":
@@ -2652,8 +2793,8 @@
 										{
 											"1":
 											[
-												126,
-												127
+												676,
+												680
 											]
 										},
 										"unmatched":
@@ -2662,16 +2803,16 @@
 									},
 									"bracket_highlighter.regions":
 									[
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
 										"bh_default",
 										"bh_default_center",
 										"bh_default_open",
 										"bh_default_close",
-										"bh_default_content"
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
 									],
 									"c_time":
 									[
@@ -2703,13 +2844,13 @@
 										7,
 										225,
 										8,
-										2,
-										15,
-										1,
-										56,
-										4,
-										144,
-										77,
+										24,
+										18,
+										58,
+										6,
+										10,
+										27,
+										30,
 										113,
 										1,
 										133,
@@ -2720,16 +2861,11 @@
 										3,
 										46
 									],
-									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-									"is_init_dirty_state": false,
 									"origPos":
 									[
 										0.0,
 										0.0
 									],
-									"origin_encoding": "ASCII",
-									"spell_check": false,
-									"syncScroll": false,
 									"syntax": "Packages/HTML/HTML.sublime-syntax"
 								},
 								"translation.x": 0.0,
@@ -2740,20 +2876,20 @@
 							"type": "text"
 						},
 						{
-							"buffer": 1,
-							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
+							"buffer": 2,
+							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 283098,
+								"buffer_size": 70741,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										4510,
-										4510
+										52883,
+										52883
 									]
 								],
 								"settings":
@@ -2765,8 +2901,8 @@
 										{
 											"1":
 											[
-												4525,
-												4526
+												52973,
+												52974
 											]
 										},
 										"icon":
@@ -2781,8 +2917,8 @@
 										{
 											"1":
 											[
-												4504,
-												4505
+												52871,
+												52872
 											]
 										},
 										"unmatched":
@@ -2833,12 +2969,12 @@
 										225,
 										8,
 										9,
-										18,
-										53,
-										18,
-										15,
 										21,
-										152,
+										10,
+										14,
+										11,
+										39,
+										241,
 										113,
 										1,
 										133,
@@ -2849,20 +2985,20 @@
 										3,
 										46
 									],
-									"is_init_dirty_state": false,
 									"origPos":
 									[
 										0.0,
-										8788.0
+										35486.0
 									],
-									"origin_encoding": "UTF-8",
+									"spell_check": false,
 									"syncScroll": false,
 									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 									"tab_size": 4,
-									"translate_tabs_to_spaces": true
+									"translate_tabs_to_spaces": true,
+									"word_wrap": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 6952.0,
+								"translation.y": 34466.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -2935,7 +3071,7 @@
 				"height": 156.0
 			},
 			"pinned_build_system": "Packages/User/node.sublime-build",
-			"position": "0,2,3,-1,-1,-1,-1,672,120,0,938",
+			"position": "0,2,3,-32000,-32000,-1,-1,736,64,64,882",
 			"project": "note.sublime-project",
 			"replace":
 			{
@@ -3056,14 +3192,14 @@
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": true,
+			"side_bar_visible": false,
 			"side_bar_width": 397.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 				"max_columns": 2
 			},
-			"window_id": 116,
+			"window_id": 134,
 			"workspace_name": "/I/笔记/note.sublime-workspace"
 		}
 	],
@@ -3072,8 +3208,8 @@
 		"recent_workspaces":
 		[
 			"/I/笔记/note.sublime-workspace",
-			"/I/笔记/webpack.sublime-workspace",
-			"/I/笔记/style.sublime-workspace"
+			"/I/笔记/style.sublime-workspace",
+			"/I/笔记/webpack.sublime-workspace"
 		]
 	}
 }

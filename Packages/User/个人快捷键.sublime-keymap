@@ -198,7 +198,14 @@
     alt+shift+- emmet中的根据上下文合并多行
     alt+shift+q 重新激活DocBlock字段
     alt+shift+r 向上选中
+    alt+shift+t 开启或关闭拼写检测
+    alt+shift+y 重新选择
+    alt+shift+u 开启或关闭某些语法设置
+    alt+shift+i 选中内容拆分行添加光标
     alt+shift+o 撤销选择
+    alt+shift+p 启动服务
+    alt+shift+[ 关闭服务
+    alt+shift+] 重启服务
     alt+shift+a 检测兼容性
     alt+shift+s 翻译
     alt+shift+d 对比文件
@@ -215,12 +222,6 @@
     alt+shift+c 清理对比结果
     alt+shfit+v 粘贴剪切板中的内容
     alt+shift+m 向下选中
-    alt+shift+i 选中内容拆分行添加光标
-    alt+shift+o 开启或关闭拼写检测
-    alt+shift+u 开启或关闭某些语法设置
-    alt+shift+p 启动服务
-    alt+shift+[ 关闭服务
-    alt+shift+] 重启服务
     alt+shift+, 打开服务器浏览器
 
     ////////////////////

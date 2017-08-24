@@ -1007,182 +1007,24 @@
             "filters": "html",
             "profile": "html",
             "snippets": {
-                //自写片段
+                // 注释
+                    "c": "<!-- |${child} -->",
                     "ifie":"<!--[if IE 6]>\n\t <script src=\"/vendor/ie/png24.js\"></script>\n\t <script>DD_belatedPNG.fix('*');</script>\n <![endif]-->\n <!--[if lte IE 7]>\n\t <script src=\"/vendor/ie/json2.js\"></script>\n <![endif]-->\n <!--[if lte IE 8]>\n\t <script src=\"/vendor/ie/html5shiv.js\"></script>\n\t <script src=\"/vendor/ie/respond.min.js\"></script>\n\t <script src=\"/vendor/ie/selectivizr.min.js\"></script>\n <![endif]-->\n",
-                        "ol+": "ol>li",
-                        "ul+": "ul>li",
-                        "dl+": "dl>dt+dd",
-                        "map+": "map>area",
-                        "table+": "table>(thead>tr>th)+(tbody>tr>td)+(tfoot>tr>td)",
-                        "colgroup+": "colgroup>col",
-                        "colg+": "colgroup>col",
-                        "tr+": "tr>td",
-                        "select+": "select>option",
-                        "optgroup+": "optgroup>option",
-                        "optg+": "optgroup>option",
-                        "pic+": "picture>source:srcset+img",
-                        "frameset+":"frameset[cols=\"25%,50%,25%\"]>frame[src]*3+noframes>body{你的浏览器不支持frames}",
-                //原始片段
+                    "ccie6": "<!--[if lte IE 6]>\n\t${child}|\n<![endif]-->",
+                    "ccie": "<!--[if IE]>\n\t${child}|\n<![endif]-->",
+                    "ccnoie": "<!--[if !IE]><!-->\n\t${child}|\n<!--<![endif]-->",
+
+                // 文档类型
                     "!!!":    "<!DOCTYPE html>",
                     "!!!4t":  "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">",
                     "!!!4s":  "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">",
                     "!!!xt":  "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">",
                     "!!!xs":  "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">",
                     "!!!xxs": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">",
-
-                    "c": "<!-- |${child} -->",
-                    "cc:ie6": "<!--[if lte IE 6]>\n\t${child}|\n<![endif]-->",
-                    "cc:ie": "<!--[if IE]>\n\t${child}|\n<![endif]-->",
-                    "cc:noie": "<!--[if !IE]><!-->\n\t${child}|\n<!--<![endif]-->"
                 },
-                "abbreviations": {
-                    "!": "html5",
-                    "aj": "<a href=\"\">",
-                    "a": "<a href=\"javascript:;\">",
-                    "alink": "<a href=\"http://|\">",
-                    "amail": "<a href=\"mailto:|\">",
-                    "abbr": "<abbr title=\"\">",
-                    "acr|acronym": "<acronym title=\"\">",
-                    "base": "<base href=\"\" />",
-                    "basefont": "<basefont/>",
-                    "br": "<br/>",
-                    "frame": "<frame/>",
-                    "hr": "<hr/>",
-                    "bdo": "<bdo dir=\"\">",
-                    "bdor": "<bdo dir=\"rtl\">",
-                    "bdol": "<bdo dir=\"ltr\">",
-                    "col": "<col/>",
-                    "link": "<link rel=\"stylesheet\" href=\"\" />",
-                    "linkcss": "<link rel=\"stylesheet\" href=\"${1:style}.css\" />",
-                    "linkprint": "<link rel=\"stylesheet\" href=\"${1:print}.css\" media=\"print\" />",
-                    "linkicon": "<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"${1:favicon.ico}\" />",
-                    "linktouch": "<link rel=\"apple-touch-icon\" href=\"${1:favicon.png}\" />",
-                    "linkrss": "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS\" href=\"${1:rss.xml}\" />",
-                    "linkatom": "<link rel=\"alternate\" type=\"application/atom+xml\" title=\"Atom\" href=\"${1:atom.xml}\" />",
-                    "linkim|linkimport": "<link rel=\"import\" href=\"${1:component}.html\" />",
-                    "meta": "<meta/>",
-                    "metautf": "<meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\" />",
-                    "metawin": "<meta http-equiv=\"Content-Type\" content=\"text/html;charset=windows-1251\" />",
-                    "metavp": "<meta name=\"viewport\" content=\"width=${1:device-width}, user-scalable=${2:no}, initial-scale=${3:1.0}, maximum-scale=${4:1.0}, minimum-scale=${5:1.0}\" />",
-                    "metacompat": "<meta http-equiv=\"X-UA-Compatible\" content=\"${1:IE=7}\" />",
-                    "style": "<style>",
-                    "sc": "<script !src=\"\">",
-                    "scsrc": "<script src=\"\">",
-                    "img": "<img src=\"\" alt=\"\" />",
-                    "imgs|imgsrcset": "<img srcset=\"\" src=\"\" alt=\"\" />",
-                    "imgz|imgsizes": "<img sizes=\"\" srcset=\"\" src=\"\" alt=\"\" />",
-                    "picture": "<picture>",
-                    "src|source": "<source/>",
-                    "srcsc|sourcesrc": "<source src=\"\" type=\"\"/>",
-                    "srcs|sourcesrcset": "<source srcset=\"\"/>",
-                    "srcm|sourcemedia": "<source media=\"(${1:min-width: })\" srcset=\"\"/>",
-                    "srct|sourcetype": "<source srcset=\"|\" type=\"${1:image/}\"/>",
-                    "srcz|sourcesizes": "<source sizes=\"\" srcset=\"\"/>",
-                    "srcmt|sourcemediatype": "<source media=\"(${1:min-width: })\" srcset=\"\" type=\"${2:image/}\"/>",
-                    "srcmz|sourcemediasizes": "<source media=\"(${1:min-width: })\" sizes=\"\" srcset=\"\"/>",
-                    "srczt|sourcesizestype": "<source sizes=\"\" srcset=\"\" type=\"${1:image/}\"/>",
-                    "iframe": "<iframe src=\"\" frameborder=\"0\">",
-                    "embed": "<embed src=\"\" type=\"\" />",
-                    "object": "<object data=\"\" type=\"\">",
-                    "param": "<param name=\"\" value=\"\" />",
-                    "map": "<map name=\"\">",
-                    "area": "<area shape=\"\" coords=\"\" href=\"\" alt=\"\" />",
-                    "aread": "<area shape=\"default\" href=\"\" alt=\"\" />",
-                    "areac": "<area shape=\"circle\" coords=\"\" href=\"\" alt=\"\" />",
-                    "arear": "<area shape=\"rect\" coords=\"\" href=\"\" alt=\"\" />",
-                    "areap": "<area shape=\"poly\" coords=\"\" href=\"\" alt=\"\" />",
-                    "form": "<form action=\"\">",
-                    "formget": "<form action=\"\" method=\"get\">",
-                    "formpost": "<form action=\"\" method=\"post\">",
-                    "label": "<label for=\"\">",
-                    "input": "<input type=\"${1:text}\" />",
-                    "inp": "<input type=\"${1:text}\" name=\"\" id=\"\" />",
-                    "inputh|inputhidden": "input[type=hidden name]",
-                    "inputt|inputtext": "inp",
-                    "inputsearch": "inp[type=search]",
-                    "inputemail": "inp[type=email]",
-                    "inputurl": "inp[type=url]",
-                    "inputp|inputpassword": "inp[type=password]",
-                    "inputdatetime": "inp[type=datetime]",
-                    "inputdate": "inp[type=date]",
-                    "inputdatetime-local": "inp[type=datetime-local]",
-                    "inputmonth": "inp[type=month]",
-                    "inputweek": "inp[type=week]",
-                    "inputtime": "inp[type=time]",
-                    "inputtel": "inp[type=tel]",
-                    "inputnumber": "inp[type=number]",
-                    "inputcolor": "inp[type=color]",
-                    "inputc|inputcheckbox": "inp[type=checkbox]",
-                    "inputr|inputradio": "inp[type=radio]",
-                    "inputrange": "inp[type=range]",
-                    "inputf|inputfile": "inp[type=file]",
-                    "inputs|inputsubmit": "<input type=\"submit\" value=\"\" />",
-                    "inputi|inputimage": "<input type=\"image\" src=\"\" alt=\"\" />",
-                    "inputb|inputbutton": "<input type=\"button\" value=\"\" />",
-                    "inputreset": "input:button[type=reset]",
-                    "isindex": "<isindex/>",
-                    "select": "<select name=\"\" id=\"\">",
-                    "selectd|select:disabled": "select[disabled.]",
-                    "opt|option": "<option value=\"\">",
-                    "textarea": "<textarea name=\"\" id=\"\" cols=\"${1:30}\" rows=\"${2:10}\">",
-                    "marquee": "<marquee behavior=\"\" direction=\"\">",
-                    "menuc|menu:context": "menu[type=context]>",
-                    "menut|menu:toolbar": "menu[type=toolbar]>",
-                    "video": "<video src=\"\">",
-                    "audio": "<audio src=\"\">",
-                    "htmlxml": "<html xmlns=\"http://www.w3.org/1999/xhtml\">",
-                    "keygen": "<keygen/>",
-                    "command": "<command/>",
-                    "btns|buttons|buttonsubmit" : "button[type=submit]",
-                    "btnr|buttonr|buttonreset" : "button[type=reset]",
-                    "btnd|button:d|buttondisabled" : "button[disabled.]",
-                    "fstd|fset:d|fieldsetd|fieldsetdisabled" : "fieldset[disabled.]",
-                    "bq": "blockquote",
-                    "fig": "figure",
-                    "figc": "figcaption",
-                    "pic": "picture",
-                    "ifr": "iframe",
-                    "emb": "embed",
-                    "obj": "object",
-                    "cap": "caption",
-                    "colg": "colgroup",
-                    "fst": "fieldset",
-                    "btn": "button",
-                    "optg": "optgroup",
-                    "tarea": "textarea",
-                    "leg": "legend",
-                    "sect": "section",
-                    "art": "article",
-                    "hdr": "header",
-                    "ftr": "footer",
-                    "adr": "address",
-                    "dlg": "dialog",
-                    "str": "strong",
-                    "prog": "progress",
-                    "mn": "main",
-                    "tem": "template",
-                    "fset": "fieldset",
-                    "datag": "datagrid",
-                    "datal": "datalist",
-                    "kg": "keygen",
-                    "out": "output",
-                    "det": "details",
-                    "cmd": "command",
-                    "doc": "html>(head>meta[charset=${charset}]+title{${1:Document}})+body",
-                    "doc4": "html>(head>meta[http-equiv=\"Content-Type\" content=\"text/html;charset=${charset}\"]+title{${1:Document}})+body",
-
-                    "ri:d|ri:dpr": "img:s",
-                    "ri:v|ri:viewport": "img:z",
-                    "ri:a|ri:art": "pic>src:m+img",
-                    "ri:t|ri:type": "pic>src:t+img",
-
-                    "html4t":  "!!!4t+doc4[lang=${lang}]",
-                    "html4s":  "!!!4s+doc4[lang=${lang}]",
-                    "htmlxt":  "!!!xt+doc4[xmlns=http://www.w3.org/1999/xhtml xml:lang=${lang}]",
-                    "htmlxs":  "!!!xs+doc4[xmlns=http://www.w3.org/1999/xhtml xml:lang=${lang}]",
-                    "htmlxxs": "!!!xxs+doc4[xmlns=http://www.w3.org/1999/xhtml xml:lang=${lang}]",
-                    "html5":   "!!!+doc[lang=${lang}]",
-
+            "abbreviations": {
+            // 文档
+                // 嵌套规则
                     "ol+": "ol>li",
                     "ul+": "ul>li",
                     "dl+": "dl>dt+dd",
@@ -1194,7 +1036,233 @@
                     "select+": "select>option",
                     "optgroup+": "optgroup>option",
                     "optg+": "optgroup>option",
-                    "pic+": "picture>source:srcset+img"
+                    "pic+": "picture>source:srcset+img",
+                    "frameset+":"frameset[cols=\"25%,50%,25%\"]>frame[src]*3+noframes>body{你的浏览器不支持frames}",
+                // 文档类型
+                    "doc": "html>(head>meta[charset=${charset}]+title{${1:Document}})+body",
+                    "doc4": "html>(head>meta[http-equiv=\"Content-Type\" content=\"text/html;charset=${charset}\"]+title{${1:Document}})+body",
+                    "html4t":  "!!!4t+doc4[lang=${lang}]",
+                    "html4s":  "!!!4s+doc4[lang=${lang}]",
+                    "htmlxt":  "!!!xt+doc4[xmlns=http://www.w3.org/1999/xhtml xml:lang=${lang}]",
+                    "htmlxs":  "!!!xs+doc4[xmlns=http://www.w3.org/1999/xhtml xml:lang=${lang}]",
+                    "htmlxxs": "!!!xxs+doc4[xmlns=http://www.w3.org/1999/xhtml xml:lang=${lang}]",
+                    "html5":   "!!!+doc[lang=${lang}]",
+                    "!": "html5",
+                "htmlxml": "<html xmlns=\"http://www.w3.org/1999/xhtml\">",//文档
+                "head":"<head>",//文档信息
+                //文档元信息(空标签)
+                    "meta": "<meta/>",
+                    "metautf": "<meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\" />",
+                    "metawin": "<meta http-equiv=\"Content-Type\" content=\"text/html;charset=windows-1251\" />",
+                    "metavp": "<meta name=\"viewport\" content=\"width=${1:device-width}, user-scalable=${2:no}, initial-scale=${3:1.0}, maximum-scale=${4:1.0}, minimum-scale=${5:1.0}\" />",
+                    "metacompat": "<meta http-equiv=\"X-UA-Compatible\" content=\"${1:IE=7}\" />",
+                "tit":"<title>",//文档标题
+                //文档与外部资源的关系(空标签)(html新特性:去掉type属性)
+                    "link": "<link rel=\"stylesheet\" href=\"\" />",
+                    "linkcss": "<link rel=\"stylesheet\" href=\"${1:style}.css\" />",
+                    "linkprint": "<link rel=\"stylesheet\" href=\"${1:print}.css\" media=\"print\" />",
+                    "linkicon": "<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"${1:favicon.ico}\" />",
+                    "linktouch": "<link rel=\"apple-touch-icon\" href=\"${1:favicon.png}\" />",
+                    "linkrss": "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS\" href=\"${1:rss.xml}\" />",
+                    "linkatom": "<link rel=\"alternate\" type=\"application/atom+xml\" title=\"Atom\" href=\"${1:atom.xml}\" />",
+                    "linkim|linkimport": "<link rel=\"import\" href=\"${1:component}.html\" />",
+                "sty":"<style>",//文档内部样式
+                //客户端脚本(html新特性:去掉type属性)
+                    "scr": "<script !src=\"\">",
+                    "scrsc": "<script src=\"\">",
+                "noscr":"<noscript>",//不支持客户端脚本的用户的替代内容(放在body中)
+                "base":"<base href=\"\" />",//所有页面默认链接地址(空标签)
+                "body":"<body>",//文档主体
+            // html5元素
+                // html5块元素
+                    "hea": "<header>",//页眉
+                    "nav":"<nav>",//导航链接
+                    "art": "<article>",//文章
+                    "asi": "<aside>",//文章侧栏
+                    "sec": "<section>",//文档节
+                    "foo": "<footer>",//页脚
+                    "can": "<canvas>",//图形容器
+                    "vid": "<video src=\"\">",//视频
+                    //媒介源(空标签)
+                        "sou":"<source/>",
+                        "sousc": "<source src=\"\" type=\"\"/>",
+                        "sous": "<source srcset=\"\"/>",
+                        "soum": "<source media=\"(${1:min-width: })\" srcset=\"\"/>",
+                        "sout": "<source srcset=\"|\" type=\"${1:image/}\"/>",
+                        "souz": "<source sizes=\"\" srcset=\"\"/>",
+                        "soumt": "<source media=\"(${1:min-width: })\" srcset=\"\" type=\"${2:image/}\"/>",
+                        "soumz": "<source media=\"(${1:min-width: })\" sizes=\"\" srcset=\"\"/>",
+                        "souzt": "<source sizes=\"\" srcset=\"\" type=\"${1:image/}\"/>",
+                    "tra":"<track/>",//文本轨道(空标签)
+                    "aud":"<audio src=\"\">",//声音内容
+                    "dat":"<datalist>",//下拉列表(id要与input中list属性值绑定,display:none;)
+                    "det":"<details>",//元素的细节
+                    "sum":"<summary>",//details元素可见的标题
+                    "com":"<command/>",//(空标签)命令按钮
+                    "picture": "<picture>",//图片
+                // html5内联元素
+                    "tim":"<time>",//日期/时间
+                    "mar":"<mark>",//突出显示的文本
+                    "bdi":"<bdi>",//文本方向
+                    "wbr":"<wbr/>",//单词换行时机(空标签)
+                // html5内联块元素
+                    "key":"<keygen/>",//生成秘钥(空标签)
+                    "pro":"<progress>",//进度条
+                    "met":"<meter>",//度量
+            // 非html5元素
+                // 块元素
+                    "div":"<div>",//文档节
+                    "h1":"<h1>",//标题1
+                    "h2":"<h2>",//标题2
+                    "h3":"<h3>",//标题3
+                    "h4":"<h4>",//标题4
+                    "h5":"<h5>",//标题4
+                    "h6":"<h6>",//标题6
+                    "p":"<p>",//段落
+                    "ul":"<ul>",//无序列表
+                    "ol":"<ol>",//有序列表
+                    "li":"<li>",//项目(display: list-item;)
+                    "dl":"<dl>",//列表
+                    "dt":"<dt>",//列表项目
+                    "dd":"<dd>",//项目描述
+                    //表单
+                        "form": "<form action=\"\">",
+                        "formget": "<form action=\"\" method=\"get\">",
+                        "formpost": "<form action=\"\" method=\"post\">",
+                    "fie":"<fieldset>",//围绕元素的边框(可用于表单内元素分组)
+                    "leg":"<legend>",//在边框上的标题
+                    //选择列表(display:inline-block;)
+                        "sel": "<select name=\"\" id=\"\">",
+                        "seld": "select[disabled.]",
+                    "optg":"<optgroup>",//组合选择列表选项
+                    "opti":"<option value=\"\">",//选择列表选项(也可做datalist选项)
+                    "tab":"<table>",//表格(display:table;)
+                    "cap":"<caption>",//表格标题
+                    "th":"<thead>",//组合表头内容(th)
+                    "tb":"<tbody>",//组合主体内容(td)
+                    "tf":"<tfoot>",//组合表注内容(td)
+                    "tr":"<tr>",//表格行
+                    "th":"<th>",//表头单元格
+                    "td":"<td>",//表格单元
+                    "col":"<col/>",//表格列属性;(空标签)
+                    "colg":"<colgroup>",//表格格式化列组;
+                    //内联框架
+                    "ifr": "<iframe src=\"\" frameborder=\"0\">",
+                    "fig":"<figure>",//媒介内容分组(html5新特性:语义化地表示带标题的图片)
+                    "figc":"<figcaption>",//figure标题
+                    "br":"<br/>",//换行(空标签)
+                    "hr":"<hr/>",//水平分割线(空标签)
+                    "pre":"<pre>",//格式文本
+                    "blo":"<blockquote>",//块引用
+                    "add":"<address>",//文档联系信息
+                    "dia":"<dialog>",//对话框窗口
+                    "spa":"<spacer/>",//在水平和垂直方向插入空间(空标签)
+                    //命令的菜单,列表
+                        "menuc|menu:context": "menu[type=context]>",
+                        "menut|menu:toolbar": "menu[type=toolbar]>",
+                    "menui":"<menuitem>",//菜单项目
+                // 内联元素:
+                    "sp":"<span>",//内联容器
+                    "ab":"<abbr title=\"\">",//缩写
+                    "em":"<em>",//强调
+                    "st":"<strong>",//粗体强调
+                    "b":"<b>",//粗体
+                    "i":"<i>",//斜体
+                    //文字方向
+                        "bdo": "<bdo dir=\"\">",
+                        "bdor": "<bdo dir=\"rtl\">",
+                        "bdol": "<bdo dir=\"ltr\">",
+                    "sma":"<small>",//小字体(html新特性:重新定义,用来表示小的排版,如网站底部的版权声明)
+                    "sup":"<sup>",//上标
+                    "sub":"<sub>",//下标
+                    "del":"<del>",//被删除的文本
+                    "ins":"<ins>",//被插入的文本
+                    "nob":"<nobr>",//禁止换行
+                    "kbd":"<kbd>",//键盘文本
+                    "cit":"<cite>",//引用
+                    "q":"<q>",//短引用("")
+                    "dfn":"<dfn>",//字段(不常用)
+                    // 锚点
+                        "a": "<a href=\"javascript:;\">",
+                        "aj": "<a href=\"\">",
+                        "alink": "<a href=\"http://|\">",
+                        "amail": "<a href=\"mailto:|\">",
+                    //(空标签)图片
+                        "img": "<img src=\"\" alt=\"\" />",
+                        "imgs": "<img srcset=\"\" src=\"\" alt=\"\" />",
+                        "imgz": "<img sizes=\"\" srcset=\"\" src=\"\" alt=\"\" />",
+                    "emb":"<embed src=\"\" type=\"\" />",//内嵌(空标签)
+                    "map":"<map name=\"\">",//图像映射(内联元素;display:inline)
+                    //图像区域(空标签)(内联元素;display:inline)
+                        "area": "<area shape=\"\" coords=\"\" href=\"\" alt=\"\" />",
+                        "aread": "<area shape=\"default\" href=\"\" alt=\"\" />",
+                        "areac": "<area shape=\"circle\" coords=\"\" href=\"\" alt=\"\" />",
+                        "arear": "<area shape=\"rect\" coords=\"\" href=\"\" alt=\"\" />",
+                        "areap": "<area shape=\"poly\" coords=\"\" href=\"\" alt=\"\" />",
+                    "lab":"<label for=\"\">",//input标记(点击文本触发控件)
+                    "out":"<output>",//输出结果
+                    "rub":"<ruby>",//中文注音
+                    "rt":"<rt>",//注音
+                    "rp":"<rp>",//浏览器不支持ruby元素显示的内容
+                    "var":"<var>",//定义变量
+                    "cod":"<code>",//计算机代码文本
+                    "sam":"<samp>",//计算机代码样本
+                // 行内块元素
+                    //输入框(空标签)
+                        "input": "<input type=\"${1:text}\" />",
+                        "inp": "<input type=\"${1:text}\" name=\"\" id=\"\" />",
+                        "inputh|inputhidden": "input[type=hidden name]",
+                        "inputt|inputtext": "inp",
+                        "inputsearch": "inp[type=search]",
+                        "inputemail": "inp[type=email]",
+                        "inputurl": "inp[type=url]",
+                        "inputp|inputpassword": "inp[type=password]",
+                        "inputdatetime": "inp[type=datetime]",
+                        "inputdate": "inp[type=date]",
+                        "inputdatetime-local": "inp[type=datetime-local]",
+                        "inputmonth": "inp[type=month]",
+                        "inputweek": "inp[type=week]",
+                        "inputtime": "inp[type=time]",
+                        "inputtel": "inp[type=tel]",
+                        "inputnumber": "inp[type=number]",
+                        "inputcolor": "inp[type=color]",
+                        "inputc|inputcheckbox": "inp[type=checkbox]",
+                        "inputr|inputradio": "inp[type=radio]",
+                        "inputrange": "inp[type=range]",
+                        "inputf|inputfile": "inp[type=file]",
+                        "inputs|inputsubmit": "<input type=\"submit\" value=\"\" />",
+                        "inputi|inputimage": "<input type=\"image\" src=\"\" alt=\"\" />",
+                        "inputb|inputbutton": "<input type=\"button\" value=\"\" />",
+                        "inputreset": "input:button[type=reset]",
+                    //按钮
+                        "btns" : "button[type=submit]",
+                        "btnr" : "button[type=reset]",
+                        "btnd" : "button[disabled.]",
+                    "sel":"<select>",//选择列表
+                    "tex":"<textarea name=\"\" id=\"\" cols=\"${1:30}\" rows=\"${2:10}\">",//多行文本输入框
+                // 可变元素
+                    "obj":"<object data=\"\" type=\"\">",//嵌入的对象
+                    "par":"<param name=\"\" value=\"\" />",//对象的参数(空标签)(display:none);
+                    "app":"<applet>",//嵌入的对象(移除,object代替)
+            // 被移除的元素
+                // 被移除的头部元素
+                    "fra":"<frameset>",//框架集(移除)
+                    "nof":"<noframes>",//不支持框架的浏览器显示文本(包裹body元素)(移除)
+                    "fra":"<frame/>",//框架(空标签,移除)
+                // 被移除的块元素
+                    "cen":"<center>",//居中文本(移除)
+                    "dir":"<dir>",//目录列表(移除,ul取代)
+                    "xmp":"<xmp>",//(html4.0移除,pre取代)
+                // 被移除的内联元素
+                    "s":"<s>",//删除线(移除)
+                    "fon":"<font>",//字体设定(移除)
+                    "basefont": "<basefont/>",//页面上的默认字体颜色和字号;(空标签,移除)
+                    "big":"<big>",//大字体(移除)
+                    "u":"<u>",//下划线(移除)
+                    "tt":"<tt>",//打字机文本(移除)
+                    "acr":"<acronym title=\"\">",//缩写(移除,abbr取代)
+                    "str":"<strike>",//删除线(移除)
+                    "isi":"<isindex/>",//定义单行的文字提交输入框(html5废除,form与input相结合的方式替代)
             }
         },
 

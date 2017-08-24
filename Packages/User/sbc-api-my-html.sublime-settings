@@ -27,6 +27,5 @@
     ["v-model\tv-model", "v-model=\"$1\""],
     ["v-pre\tv-pre", "v-pre"],
     ["v-cloak\tv-cloak", "v-cloak"],
-
   ]
 }

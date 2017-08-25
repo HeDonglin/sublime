@@ -1103,7 +1103,7 @@
                 // html5内联元素
                     "tim|time":"<time>",//日期/时间
                     "mar|mark":"<mark>",//突出显示的文本
-                    "bdi|bdi":"<bdi>",//文本方向
+                    "bdi":"<bdi>",//文本方向
                     "wbr|wbr":"<wbr/>",//单词换行时机(空标签)
                 // html5内联块元素
                     "key|keygen":"<keygen/>",//生成秘钥(空标签)
@@ -1111,24 +1111,24 @@
                     "met|meter":"<meter>",//度量
             // 非html5元素
                 // 块元素
-                    "div|div":"<div>",//文档节
-                    "h1|h1":"<h1>",//标题1
-                    "h2|h2":"<h2>",//标题2
-                    "h3|h3":"<h3>",//标题3
-                    "h4|h4":"<h4>",//标题4
-                    "h5|h5":"<h5>",//标题4
-                    "h6|h6":"<h6>",//标题6
-                    "p|p":"<p>",//段落
-                    "ul|ul":"<ul>",//无序列表
-                    "ol|ol":"<ol>",//有序列表
-                    "li|li":"<li>",//项目(display: list-item;)
-                    "dl|dl":"<dl>",//列表
-                    "dt|dt":"<dt>",//列表项目
-                    "dd|dd":"<dd>",//项目描述
+                    "div":"<div>",//文档节
+                    "h1":"<h1>",//标题1
+                    "h2":"<h2>",//标题2
+                    "h3":"<h3>",//标题3
+                    "h4":"<h4>",//标题4
+                    "h5":"<h5>",//标题4
+                    "h6":"<h6>",//标题6
+                    "p":"<p>",//段落
+                    "ul":"<ul>",//无序列表
+                    "ol":"<ol>",//有序列表
+                    "li":"<li>",//项目(display: list-item;)
+                    "dl":"<dl>",//列表
+                    "dt":"<dt>",//列表项目
+                    "dd":"<dd>",//项目描述
                     //表单
-                        "form": "<form action=\"\">",
-                        "formget": "<form action=\"\" method=\"get\">",
-                        "formpost": "<form action=\"\" method=\"post\">",
+                        "for": "<form action=\"\">",
+                        "forg": "<form action=\"\" method=\"get\">",
+                        "forp": "<form action=\"\" method=\"post\">",
                     "fie|fieldset":"<fieldset>",//围绕元素的边框(可用于表单内元素分组)
                     "leg|legend":"<legend>",//在边框上的标题
                     //选择列表(display:inline-block;)
@@ -1144,49 +1144,48 @@
                     "tr|tr":"<tr>",//表格行
                     "th|th":"<th>",//表头单元格
                     "td|td":"<td>",//表格单元
-                    "col|col":"<col/>",//表格列属性;(空标签)
+                    "col":"<col/>",//表格列属性;(空标签)
                     "colg|colgroup":"<colgroup>",//表格格式化列组;
                     //内联框架
                     "ifr|iframe": "<iframe src=\"\" frameborder=\"0\">",
                     "fig|figure":"<figure>",//媒介内容分组(html5新特性:语义化地表示带标题的图片)
                     "figc|figcaption":"<figcaption>",//figure标题
-                    "br|br":"<br/>",//换行(空标签)
-                    "hr|hr":"<hr/>",//水平分割线(空标签)
-                    "pre|pre":"<pre>",//格式文本
+                    "br":"<br/>",//换行(空标签)
+                    "hr":"<hr/>",//水平分割线(空标签)
+                    "pre":"<pre>",//格式文本
                     "blo|blockquote":"<blockquote>",//块引用
                     "add|address":"<address>",//文档联系信息
                     "dia|dialog":"<dialog>",//对话框窗口
                     "spa|spacer":"<spacer/>",//在水平和垂直方向插入空间(空标签)
                     //命令的菜单,列表
-                        "menuc|menu:context": "menu[type=context]>",
-                        "menut|menu:toolbar": "menu[type=toolbar]>",
-                    "menui|menuitem":"<menuitem>",//菜单项目
+                        "menc|menu:context": "menu[type=context]>",
+                        "ment|menu:toolbar": "menu[type=toolbar]>",
+                    "meni|menuitem":"<menuitem>",//菜单项目
                 // 内联元素:
                     "sp|span":"<span>",//内联容器
                     "ab|abbr":"<abbr title=\"\">",//缩写
-                    "em|em":"<em>",//强调
+                    "em":"<em>",//强调
                     "st|strong":"<strong>",//粗体强调
-                    "b|b":"<b>",//粗体
-                    "i|i":"<i>",//斜体
+                    "b":"<b>",//粗体
+                    "i":"<i>",//斜体
                     //文字方向
-                        "bdo|bdo": "<bdo dir=\"\">",
+                        "bdo": "<bdo dir=\"\">",
                         "bdor": "<bdo dir=\"rtl\">",
                         "bdol": "<bdo dir=\"ltr\">",
                     "sma|small":"<small>",//小字体(html新特性:重新定义,用来表示小的排版,如网站底部的版权声明)
-                    "sup|sup":"<sup>",//上标
-                    "sub|sub":"<sub>",//下标
-                    "del|del":"<del>",//被删除的文本
-                    "ins|ins":"<ins>",//被插入的文本
+                    "sup":"<sup>",//上标
+                    "sub":"<sub>",//下标
+                    "del":"<del>",//被删除的文本
+                    "ins":"<ins>",//被插入的文本
                     "nob|nobr":"<nobr>",//禁止换行
-                    "kbd|kbd":"<kbd>",//键盘文本
+                    "kbd":"<kbd>",//键盘文本
                     "cit|cite":"<cite>",//引用
-                    "q|q":"<q>",//短引用("")
-                    "dfn|dfn":"<dfn>",//字段(不常用)
+                    "q":"<q>",//短引用("")
+                    "dfn":"<dfn>",//字段(不常用)
                     // 锚点
                         "a": "<a href=\"javascript:;\">",
-                        "aj": "<a href=\"\">",
-                        "alink": "<a href=\"http://|\">",
-                        "amail": "<a href=\"mailto:|\">",
+                        "ah": "<a href=\"http://|\">",
+                        "am": "<a href=\"mailto:|\">",
                     //(空标签)图片
                         "img": "<img src=\"\" alt=\"\" />",
                         "imgs": "<img srcset=\"\" src=\"\" alt=\"\" />",
@@ -1202,9 +1201,9 @@
                     "lab|label":"<label for=\"\">",//input标记(点击文本触发控件)
                     "out|output":"<output>",//输出结果
                     "rub|ruby":"<ruby>",//中文注音
-                    "rt|rt":"<rt>",//注音
-                    "rp|rp":"<rp>",//浏览器不支持ruby元素显示的内容
-                    "var|var":"<var>",//定义变量
+                    "rt":"<rt>",//注音
+                    "rp":"<rp>",//浏览器不支持ruby元素显示的内容
+                    "var":"<var>",//定义变量
                     "cod|code":"<code>",//计算机代码文本
                     "sam|samp":"<samp>",//计算机代码样本
                 // 行内块元素

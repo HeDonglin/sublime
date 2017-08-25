@@ -1819,13 +1819,13 @@
 			"buffers":
 			[
 				{
-					"contents": "<!DOCTYPE html>\n<html lang=\"zh-Hans\">\n<head>\n    <meta charset=\"UTF-8\" />\n    <title>Document</title>\n</head>\n<body>\n    <a href=\"javascript:;\"></a>\n    <a href=\"\"></a>\n    <a href=\"\"></a>\n    <thead></thead>\n    <tbody></tbody>\n    <tfoot></tfoot>\n</body>\n</html>\n",
+					"contents": "<!DOCTYPE html>\n<html lang=\"zh-Hans\">\n<head>\n    <meta charset=\"UTF-8\" />\n    <title>Document</title>\n</head>\n<body>  \n    <input type=\"text\" />\n    <input type=\"text\" name=\"\" id=\"\" />\n    <input type=\"hidden\" name=\"\"></input>\n    <input type=\"text\" name=\"\" id=\"\" />\n    <input type=\"time\" name=\"\" id=\"\" />\n    <input type=\"search\" name=\"\" id=\"\" />\n    <input type=\"email\" name=\"\" id=\"\" />\n    <input type=\"url\" name=\"\" id=\"\" />\n    <input type=\"password\" name=\"\" id=\"\" />\n    <input type=\"datetime\" name=\"\" id=\"\" />\n    <input type=\"date\" name=\"\" id=\"\" />\n    <input type=\"datetime-local\" name=\"\" id=\"\" />\n    <input type=\"month\" name=\"\" id=\"\" />\n    <input type=\"week\" name=\"\" id=\"\" />\n    <input type=\"time\" name=\"\" id=\"\" />\n    <input type=\"tel\" name=\"\" id=\"\" />\n    <input type=\"number\" name=\"\" id=\"\" />\n    <input type=\"color\" name=\"\" id=\"\" />\n    <input type=\"checkbox\" name=\"\" id=\"\" />\n    <input type=\"radio\" name=\"\" id=\"\" />\n    <input type=\"range\" name=\"\" id=\"\" />\n    <input type=\"file\" name=\"\" id=\"\" />\n    <input type=\"submit\" value=\"\" />\n    <input type=\"image\" src=\"\" alt=\"\" />\n    <input type=\"button\" value=\"\" />\n    <input type=\"reset\" value=\"\" />\n    <button type=\"submit\"></button>\n    <button type=\"reset\"></button>\n    <button disabled=\"disabled\"></button>\n    \n</body>\n\n</html>\n",
 					"file": "/I/项目/style/src/index.html",
 					"file_size": 134,
 					"file_write_time": 131480531314241229,
 					"settings":
 					{
-						"buffer_size": 265,
+						"buffer_size": 1302,
 						"line_ending": "Unix"
 					}
 				},
@@ -1833,7 +1833,7 @@
 					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 71172,
+						"buffer_size": 71151,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
@@ -2463,6 +2463,15 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"inputcolor",
+					"inputnumber",
+					"inputtel",
+					"inputtime",
+					"inputweek",
+					"inputmonth",
+					"inputdate",
+					"inputdatetime",
+					"picture",
 					"HTML",
 					"show_css_completions",
 					"tab",
@@ -2581,16 +2590,7 @@
 					"@c_1",
 					"@c_0",
 					"@",
-					"//",
-					"bAuto",
-					"===",
-					"==",
-					"loader",
-					"false",
-					"loader",
-					"jquery",
-					"zepto",
-					"个人"
+					"//"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2617,15 +2617,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 265,
+								"buffer_size": 1302,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										248,
-										248
+										1284,
+										1284
 									]
 								],
 								"settings":
@@ -2635,27 +2635,12 @@
 									{
 										"close":
 										{
-											"1":
-											[
-												242,
-												247
-											]
 										},
 										"icon":
 										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/dot.png",
-												"brackethighlighter.default"
-											]
 										},
 										"open":
 										{
-											"1":
-											[
-												234,
-												239
-											]
 										},
 										"unmatched":
 										{
@@ -2724,14 +2709,14 @@
 									"origPos":
 									[
 										0.0,
-										0.0
+										88.0
 									],
 									"origin_encoding": "ASCII",
 									"syncScroll": false,
 									"syntax": "Packages/HTML/HTML.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 857.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
@@ -2749,15 +2734,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 71172,
+								"buffer_size": 71151,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										63430,
-										63430
+										65201,
+										65201
 									]
 								],
 								"settings":
@@ -2767,30 +2752,20 @@
 									{
 										"close":
 										{
-											"1":
-											[
-												63430,
-												63431
-											]
 										},
 										"icon":
 										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/dot.png",
-												"brackethighlighter.default"
-											]
 										},
 										"open":
 										{
-											"1":
-											[
-												63421,
-												63422
-											]
 										},
 										"unmatched":
 										{
+											"1":
+											[
+												66764,
+												66765
+											]
 										}
 									},
 									"bracket_highlighter.regions":
@@ -2856,7 +2831,7 @@
 									"origPos":
 									[
 										0.0,
-										38672.0
+										41480.0
 									],
 									"syncScroll": false,
 									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
@@ -2865,7 +2840,7 @@
 									"word_wrap": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 40712.0,
+								"translation.y": 40664.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -2945,7 +2920,7 @@
 				"height": 247.0
 			},
 			"pinned_build_system": "Packages/User/node.sublime-build",
-			"position": "0,2,3,-1,-1,-1,-1,736,64,64,882",
+			"position": "0,2,3,-32000,-32000,-1,-1,736,64,64,882",
 			"project": "style.sublime-project",
 			"replace":
 			{

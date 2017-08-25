@@ -1099,7 +1099,7 @@
                     "det|details":"<details>",//元素的细节
                     "sum|summary":"<summary>",//details元素可见的标题
                     "com|command":"<command/>",//(空标签)命令按钮
-                    "picture|picture": "<picture>",//图片
+                    "pic|picture": "<picture>",//图片
                 // html5内联元素
                     "tim|time":"<time>",//日期/时间
                     "mar|mark":"<mark>",//突出显示的文本
@@ -1138,12 +1138,12 @@
                     "opti|option":"<option value=\"\">",//选择列表选项(也可做datalist选项)
                     "tab|table":"<table>",//表格(display:table;)
                     "cap|caption":"<caption>",//表格标题
-                    "th|thead":"<thead>",//组合表头内容(th)
-                    "tb|tbody":"<tbody>",//组合主体内容(td)
-                    "tf|tfoot":"<tfoot>",//组合表注内容(td)
-                    "tr|tr":"<tr>",//表格行
-                    "th|th":"<th>",//表头单元格
-                    "td|td":"<td>",//表格单元
+                    "the|thead":"<thead>",//组合表头内容(th)
+                    "tbo|tbody":"<tbody>",//组合主体内容(td)
+                    "tfo|tfoot":"<tfoot>",//组合表注内容(td)
+                    "tr":"<tr>",//表格行
+                    "th":"<th>",//表头单元格
+                    "td":"<td>",//表格单元
                     "col":"<col/>",//表格列属性;(空标签)
                     "colg|colgroup":"<colgroup>",//表格格式化列组;
                     //内联框架
@@ -1193,11 +1193,11 @@
                     "emb|embed":"<embed src=\"\" type=\"\" />",//内嵌(空标签)
                     "map":"<map name=\"\">",//图像映射(内联元素;display:inline)
                     //图像区域(空标签)(内联元素;display:inline)
-                        "area": "<area shape=\"\" coords=\"\" href=\"\" alt=\"\" />",
-                        "aread": "<area shape=\"default\" href=\"\" alt=\"\" />",
-                        "areac": "<area shape=\"circle\" coords=\"\" href=\"\" alt=\"\" />",
-                        "arear": "<area shape=\"rect\" coords=\"\" href=\"\" alt=\"\" />",
-                        "areap": "<area shape=\"poly\" coords=\"\" href=\"\" alt=\"\" />",
+                        "are|area": "<area shape=\"\" coords=\"\" href=\"\" alt=\"\" />",
+                        "ared|aread": "<area shape=\"default\" href=\"\" alt=\"\" />",
+                        "arec|areac": "<area shape=\"circle\" coords=\"\" href=\"\" alt=\"\" />",
+                        "arer|arear": "<area shape=\"rect\" coords=\"\" href=\"\" alt=\"\" />",
+                        "arep|areap": "<area shape=\"poly\" coords=\"\" href=\"\" alt=\"\" />",
                     "lab|label":"<label for=\"\">",//input标记(点击文本触发控件)
                     "out|output":"<output>",//输出结果
                     "rub|ruby":"<ruby>",//中文注音
@@ -1208,35 +1208,34 @@
                     "sam|samp":"<samp>",//计算机代码样本
                 // 行内块元素
                     //输入框(空标签)
-                        "input": "<input type=\"${1:text}\" />",
+                        "int": "<input type=\"${1:text}\" />",
                         "inp": "<input type=\"${1:text}\" name=\"\" id=\"\" />",
-                        "inputh|inputhidden": "input[type=hidden name]",
-                        "inputt|inputtext": "inp",
-                        "inputsearch": "inp[type=search]",
-                        "inputemail": "inp[type=email]",
-                        "inputurl": "inp[type=url]",
-                        "inputp|inputpassword": "inp[type=password]",
-                        "inputdatetime": "inp[type=datetime]",
-                        "inputdate": "inp[type=date]",
-                        "inputdatetime-local": "inp[type=datetime-local]",
-                        "inputmonth": "inp[type=month]",
-                        "inputweek": "inp[type=week]",
-                        "inputtime": "inp[type=time]",
-                        "inputtel": "inp[type=tel]",
-                        "inputnumber": "inp[type=number]",
-                        "inputcolor": "inp[type=color]",
-                        "inputc|inputcheckbox": "inp[type=checkbox]",
-                        "inputr|inputradio": "inp[type=radio]",
-                        "inputrange": "inp[type=range]",
-                        "inputf|inputfile": "inp[type=file]",
-                        "inputs|inputsubmit": "<input type=\"submit\" value=\"\" />",
-                        "inputi|inputimage": "<input type=\"image\" src=\"\" alt=\"\" />",
-                        "inputb|inputbutton": "<input type=\"button\" value=\"\" />",
-                        "inputreset": "input:button[type=reset]",
+                        "inph|inputhidden": "input[type=hidden name]",
+                        "inps|inputsearch": "inp[type=search]",
+                        "inpe|inputemail": "inp[type=email]",
+                        "inpu|inputurl": "inp[type=url]",
+                        "inpp|inputpassword": "inp[type=password]",
+                        "inpd|inputdatetime": "inp[type=datetime]",
+                        "inpdt|inputdate": "inp[type=date]",
+                        "inpdl|inputdatetime-local": "inp[type=datetime-local]",
+                        "inpm|inputmonth": "inp[type=month]",
+                        "inpw|inputweek": "inp[type=week]",
+                        "inpt|inputtime": "inp[type=time]",
+                        "inpte|inputtel": "inp[type=tel]",
+                        "inpn|inputnumber": "inp[type=number]",
+                        "inpco|inputcolor": "inp[type=color]",
+                        "inpc|inputcheckbox": "inp[type=checkbox]",
+                        "inpr|inputradio": "inp[type=radio]",
+                        "inpg": "inp[type=range]",
+                        "inpf|inputfile": "inp[type=file]",
+                        "inpsb|inputsubmit": "<input type=\"submit\" value=\"\" />",
+                        "inpim|inputimage": "<input type=\"image\" src=\"\" alt=\"\" />",
+                        "inpbu|inputbutton": "<input type=\"button\" value=\"\" />",
+                        "inpre": "inputbutton[type=reset]",
                     //按钮
-                        "btns" : "button[type=submit]",
-                        "btnr" : "button[type=reset]",
-                        "btnd" : "button[disabled.]",
+                        "buts" : "button[type=submit]",
+                        "butr" : "button[type=reset]",
+                        "butd" : "button[disabled.]",
                     "sel|select":"<select>",//选择列表
                     "tex|textarea":"<textarea name=\"\" id=\"\" cols=\"${1:30}\" rows=\"${2:10}\">",//多行文本输入框
                 // 可变元素
@@ -1247,18 +1246,18 @@
                 // 被移除的头部元素
                     "fra|frameset":"<frameset>",//框架集(移除)
                     "nof|noframes":"<noframes>",//不支持框架的浏览器显示文本(包裹body元素)(移除)
-                    "fra|frame":"<frame/>",//框架(空标签,移除)
+                    "fram|frame":"<frame/>",//框架(空标签,移除)
                 // 被移除的块元素
                     "cen|center":"<center>",//居中文本(移除)
-                    "dir|dir":"<dir>",//目录列表(移除,ul取代)
-                    "xmp|xmp":"<xmp>",//(html4.0移除,pre取代)
+                    "dir":"<dir>",//目录列表(移除,ul取代)
+                    "xmp":"<xmp>",//(html4.0移除,pre取代)
                 // 被移除的内联元素
-                    "s|s":"<s>",//删除线(移除)
+                    "s":"<s>",//删除线(移除)
                     "fon|font":"<font>",//字体设定(移除)
-                    "basefont|basefont": "<basefont/>",//页面上的默认字体颜色和字号;(空标签,移除)
-                    "big|big":"<big>",//大字体(移除)
-                    "u|u":"<u>",//下划线(移除)
-                    "tt|tt":"<tt>",//打字机文本(移除)
+                    "basef|basefont": "<basefont/>",//页面上的默认字体颜色和字号;(空标签,移除)
+                    "big":"<big>",//大字体(移除)
+                    "u":"<u>",//下划线(移除)
+                    "tt":"<tt>",//打字机文本(移除)
                     "acr|acronym":"<acronym title=\"\">",//缩写(移除,abbr取代)
                     "str|strike":"<strike>",//删除线(移除)
                     "isi|isindex":"<isindex/>",//定义单行的文字提交输入框(html5废除,form与input相结合的方式替代)

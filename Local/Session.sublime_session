@@ -1,12 +1,13 @@
 {
 	"folder_history":
 	[
+		"/I/项目/python",
 		"/I/项目/webpack",
 		"/I/项目/style",
 		"/I/笔记/note"
 	],
 	"last_version": 3126,
-	"last_window_id": 135,
+	"last_window_id": 137,
 	"log_indexing": false,
 	"settings":
 	{
@@ -526,9 +527,21 @@
 			"command_palette":
 			{
 				"height": 428.0,
-				"last_filter": "ui",
+				"last_filter": "bo",
 				"selected_items":
 				[
+					[
+						"bo",
+						"Browse Mode: Outline (Right)"
+					],
+					[
+						"pci",
+						"Package Control: Install Package"
+					],
+					[
+						"prvo",
+						"PackageResourceViewer: Open Resource"
+					],
 					[
 						"ui",
 						"UI: Select Theme"
@@ -544,14 +557,6 @@
 					[
 						"remvepack",
 						"Package Control: Remove Package"
-					],
-					[
-						"pci",
-						"Package Control: Install Package"
-					],
-					[
-						"prvo",
-						"PackageResourceViewer: Open Resource"
 					],
 					[
 						"remove",
@@ -854,10 +859,18 @@
 			},
 			"file_history":
 			[
-				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
+				"/I/笔记/note/1.css",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Outline/outline.sublime-settings",
+				"/I/笔记/note/todo.todo",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
 				"/I/笔记/note/src/index.html",
+				"/I/笔记/note/html5.html",
+				"/C/Users/Administrator/Desktop/1.html",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML/html_completions.py",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sbc-setting.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Refresh/Default (Windows).sublime-keymap",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/Context.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeServer.sublime-settings",
@@ -867,13 +880,10 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/SublimeServer.py",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/Main.sublime-menu",
 				"/I/笔记/note/src/index.css",
-				"/I/笔记/note/html5.html",
 				"/I/笔记/note/css3.css",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/CSScomb.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Monokai.tmTheme",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Scheme - Default/Monokai.tmTheme",
-				"/I/笔记/note/1.css",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/snippets.json",
 				"/I/笔记/note/src/index.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Sublime-minihtml-Preview/minihtml.sublime-commands",
@@ -976,12 +986,7 @@
 				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/mixins.less",
 				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/media.less",
 				"/I/笔记/note/server.js",
-				"/C/Users/Administrator/Documents/Tencent Files/839875083/FileRecv/webpack.config.js",
-				"/C/Users/Administrator/Downloads/common.js",
-				"/C/Users/Administrator/Desktop/1.js",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/Drag.js",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/LimitDrag.js",
-				"/C/Users/Administrator/Downloads/0-7课件及源码/7-妙味课堂原创JavaScript视频教程——面向对象(5课)课程资料/3-面向对象高级(4、5集)/课程资料/拖拽——继承.html"
+				"/C/Users/Administrator/Documents/Tencent Files/839875083/FileRecv/webpack.config.js"
 			],
 			"find":
 			{
@@ -1078,6 +1083,80 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"isi",
+					"isindex",
+					"\"<",
+					"video",
+					"\"<",
+					"header",
+					":",
+					"source",
+					"strike",
+					"xmp",
+					"center",
+					"noframes",
+					"samp",
+					"rp",
+					"rt",
+					"ruby",
+					"output",
+					"cite",
+					"strong",
+					"em",
+					"span",
+					"dialog",
+					"address",
+					"\",//",
+					"blockquote",
+					"pre",
+					"figcaption",
+					"td",
+					"caption",
+					"table",
+					"select",
+					"\",//",
+					"fieldset",
+					"div",
+					"meter",
+					":",
+					"summary",
+					"details",
+					":",
+					"body",
+					"空标签",
+					"script",
+					"abbreviations",
+					"fieldset",
+					"command",
+					"keygen",
+					"marquee",
+					"textarea",
+					"option",
+					"isindex",
+					"label",
+					"src",
+					"picture",
+					"\"col\"",
+					"\"hr\"",
+					"hr",
+					"frame",
+					"body",
+					":",
+					"base",
+					"acronym",
+					"acr|acronym",
+					"abbr",
+					"br",
+					"basefont",
+					"h1",
+					"                    \"",
+					"h4",
+					"h1",
+					"select",
+					":",
+					"div",
+					"xmp",
+					"isindex",
 					":",
 					"mark",
 					"meter",
@@ -1131,81 +1210,7 @@
 					"normal",
 					"word-spacing",
 					"page",
-					"+",
-					"ni",
-					"am",
-					"at",
-					"tfunc",
-					"trs",
-					"bv",
-					"backface",
-					"perspective",
-					"origin",
-					"ps",
-					"perspective",
-					"transform",
-					"self",
-					"fx",
-					"flex-direction",
-					"边框",
-					"bxsh",
-					"none",
-					"cc",
-					"/* |${child} */",
-					"cc",
-					"*/\",\n",
-					"cm",
-					"colm",
-					"cm",
-					"cl",
-					"all",
-					"none",
-					"text",
-					"user-select",
-					"inactive",
-					"active",
-					"normal",
-					"auto",
-					"down",
-					"auto",
-					"up",
-					"nav",
-					"up",
-					"idex",
-					"nav",
-					"用户界面",
-					"to",
-					"tv",
-					"appearance",
-					"ct",
-					"CT",
-					"ct",
-					"CT",
-					"ct",
-					"CT",
-					"ct",
-					"content",
-					"csb",
-					"cst",
-					"cs",
-					"tlf",
-					"tla",
-					"ls",
-					"none",
-					"direction",
-					"edges",
-					"spaces",
-					"none",
-					"objects",
-					"left",
-					"under",
-					"auto",
-					"tdsw",
-					"dashed",
-					"dotted",
-					"double",
-					"solid",
-					"overline"
+					"+"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1377,7 +1382,7 @@
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": false,
+			"side_bar_visible": true,
 			"side_bar_width": 397.0,
 			"status_bar_visible": true,
 			"template_settings":
@@ -1810,6 +1815,43 @@
 			},
 			"buffers":
 			[
+				{
+					"contents": "",
+					"settings":
+					{
+						"buffer_size": 0,
+						"line_ending": "Unix",
+						"name": "𝌆 Outline",
+						"scratch": true
+					}
+				},
+				{
+					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 11145,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "note/src/index.css",
+					"settings":
+					{
+						"buffer_size": 1954,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "note/todo.todo",
+					"settings":
+					{
+						"buffer_size": 59,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -1907,9 +1949,17 @@
 			"command_palette":
 			{
 				"height": 428.0,
-				"last_filter": "prvo",
+				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"bo",
+						"Browse Mode: Outline (Right)"
+					],
+					[
+						"pci",
+						"Package Control: Install Package"
+					],
 					[
 						"prvo",
 						"PackageResourceViewer: Open Resource"
@@ -1929,10 +1979,6 @@
 					[
 						"remvepack",
 						"Package Control: Remove Package"
-					],
-					[
-						"pci",
-						"Package Control: Install Package"
 					],
 					[
 						"remove",
@@ -2240,10 +2286,14 @@
 			],
 			"file_history":
 			[
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/outline.sublime-settings",
+				"/I/笔记/note/1.css",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Outline/outline.sublime-settings",
+				"/I/笔记/note/todo.todo",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
 				"/I/笔记/note/src/index.html",
 				"/I/笔记/note/html5.html",
 				"/C/Users/Administrator/Desktop/1.html",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML/html_completions.py",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
@@ -2262,7 +2312,6 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/CSScomb.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Monokai.tmTheme",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Scheme - Default/Monokai.tmTheme",
-				"/I/笔记/note/1.css",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/snippets.json",
 				"/I/笔记/note/src/index.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Sublime-minihtml-Preview/minihtml.sublime-commands",
@@ -2364,10 +2413,7 @@
 				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/mixins/clearfix.less",
 				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/mixins.less",
 				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/media.less",
-				"/I/笔记/note/server.js",
-				"/C/Users/Administrator/Documents/Tencent Files/839875083/FileRecv/webpack.config.js",
-				"/C/Users/Administrator/Downloads/common.js",
-				"/C/Users/Administrator/Desktop/1.js"
+				"/I/笔记/note/server.js"
 			],
 			"find":
 			{
@@ -2609,8 +2655,439 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
+									],
+									"current_file": "I:\\笔记\\note\\todo.todo",
+									"default_dir": "I:\\笔记\\note",
+									"is_init_dirty_state": false,
+									"origPos":
+									[
+										0.0,
+										0.0
+									],
+									"outline_rename_mode": false,
+									"symkeys":
+									[
+									],
+									"symlist":
+									[
+									],
+									"syncScroll": false,
+									"syntax": "Packages/Outline/outline.hidden-tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 1,
+							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 11145,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										118,
+										118
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+											"1":
+											[
+												0,
+												1
+											]
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										8,
+										9,
+										21,
+										13,
+										17,
+										4,
+										118,
+										2,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+									"is_init_dirty_state": false,
+									"origPos":
+									[
+										0.0,
+										0.0
+									],
+									"origin_encoding": "UTF-8",
+									"syncScroll": false,
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "note/src/index.css",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 1954,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										132,
+										134
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										8,
+										6,
+										11,
+										56,
+										48,
+										7,
+										9,
+										115,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+									"origPos":
+									[
+										0.0,
+										0.0
+									],
+									"syncScroll": false,
+									"syntax": "Packages/Syntax Highlighting for PostCSS/Syntaxes/PostCSS.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "note/todo.todo",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 59,
+								"regions":
+								{
+									"bookmarks":
+									{
+										"flags": 144,
+										"icon": "bookmark",
+										"regions":
+										[
+										],
+										"scope": "bookmarks"
+									}
+								},
+								"selection":
+								[
+									[
+										51,
+										51
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										8,
+										14,
+										11,
+										38,
+										6,
+										13,
+										204,
+										233,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"is_init_dirty_state": true,
+									"origPos":
+									[
+										0.0,
+										0.0
+									],
+									"plain_tasks_remain_time_phantoms":
+									[
+									],
+									"syncScroll": false,
+									"syntax": "Packages/PlainTasks/PlainTasks.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -2627,20 +3104,29 @@
 				"cells":
 				[
 					[
+						2,
+						0,
+						3,
+						2
+					],
+					[
 						0,
 						0,
-						1,
-						1
+						2,
+						2
 					]
 				],
 				"cols":
 				[
 					0.0,
+					0.2,
+					0.8,
 					1.0
 				],
 				"rows":
 				[
 					0.0,
+					0.5,
 					1.0
 				]
 			},
@@ -2792,7 +3278,7 @@
 				],
 				"width": 1176.0
 			},
-			"selected_group": 0,
+			"selected_group": 1,
 			"settings":
 			{
 			},
@@ -2816,6 +3302,7 @@
 		[
 			"/I/笔记/note.sublime-workspace",
 			"/I/笔记/style.sublime-workspace",
+			"/I/笔记/python.sublime-workspace",
 			"/I/笔记/webpack.sublime-workspace"
 		]
 	}

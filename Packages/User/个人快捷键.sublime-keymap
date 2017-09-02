@@ -23,7 +23,7 @@
     f9 按行排序
     f10 反向选中
     f11 打开ie11
-    f12 打开猎豹(默认浏览器)
+    f12 打开(系统默认浏览器)
     tab 缩进
     shift+tab 向前缩进
     backspace 向前删除
@@ -186,7 +186,7 @@
     ctrl+alt+n 新建模板
     ctrl+alt+s 自动保存
     ctrl+alt+r 向上添加光标
-    ctrl+alt+m 向上添加光标
+    ctrl+alt+m 向下添加光标
     ////////////////////////////////////
     alt+shift+1 分屏1列
     alt+shift+2 分屏2列

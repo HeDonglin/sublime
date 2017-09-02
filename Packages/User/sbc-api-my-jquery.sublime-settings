@@ -107,15 +107,11 @@
         [ "holdReady\tjQuery", "holdReady('$1')$0" ],
         [ "ready\tjQuery", "ready('$1')$0" ],
     // 事件绑定
-        [ "bind\tjQuery", "bind('$1')$0" ],
-        [ "delegate\tjQuery", "delegate('$1')$0" ],
         [ "off\tjQuery", "off('$1')$0" ],
         [ "on\tjQuery", "on('$1')$0" ],
         [ "one\tjQuery", "one('$1')$0" ],
         [ "trigger\tjQuery", "trigger('$1')$0" ],
         [ "triggerHandler\tjQuery", "triggerHandler('$1')$0" ],
-        [ "unbind\tjQuery", "unbind('$1')$0" ],
-        [ "undelegate\tjQuery", "undelegate('$1')$0" ],
     // 表单事件
         [ "blur\tjQuery", "blur('$1')$0" ],
         [ "change\tjQuery", "change('$1')$0" ],
@@ -173,7 +169,6 @@
         [ "queue\tjQuery", "queue('$1')$0" ],
         [ "stop\tjQuery", "stop('$1')$0" ],
     // fx
-        [ "interval\tjQueryFx", "fx.interval" ],
         [ "off\tjQueryFx", "fx.off" ],
     // 渐变
         [ "fadeIn\tjQuery", "fadeIn('$1')$0" ],
@@ -235,7 +230,6 @@
         [ "parseJSON\tjQuery", "parseJSON()" ],
         [ "parseXML\tjQuery", "parseXML()" ],
         [ "proxy\tjQuery", "proxy()" ],
-        [ "support\tjQuery", "support" ],
         [ "trim\tjQuery", "trim()" ],
         [ "type\tjQuery", "type()" ],
         [ "unique\tjQuery", "unique()" ],
@@ -277,17 +271,15 @@
         [ "locked\tjQueryCallbacks", "locked()" ],
         [ "remove\tjQueryCallbacks", "remove()" ],
 
-// Deprecated in jQuery 1.3
-    [ "boxModel\tjQueryDeprecated", "boxModel" ],
-    [ "browser\tjQueryDeprecated", "browser" ],// Was removed in jQuery 1.9
+// Deprecated in jQuery 3.0（弃用）
+    [ "bind\tjQuery", "bind('$1')$0" ],
+    [ "delegate\tjQuery", "delegate('$1')$0" ],
+    [ "interval\tjQueryFx", "fx.interval" ],
+    [ "unbind\tjQuery", "unbind('$1')$0" ],
+    [ "undelegate\tjQuery", "undelegate('$1')$0" ],
 
-// Deprecated in jQuery 1.7
-    [ "isRejected\tjQueryDeprecated", "isRejected()" ],
-    [ "isResolved\tjQueryDeprecated", "isResolved()" ],
-    [ "die\tjQueryDeprecated", "die('$1')$0" ],
-    [ "sub\tjQueryDeprecated", "sub()" ],
-    [ "live\tjQueryDeprecated", "live('$1')$0" ],
-    [ "selector\tjQueryDeprecated", "selector" ],
+// Deprecated in jQuery 1.9（弃用）
+    [ "support\tjQuery", "support" ],
 
 // Deprecated in jQuery 1.8
     [ "andSelf\tjQueryDeprecated", "andSelf()" ],
@@ -297,6 +289,19 @@
     [ "size\tjQueryDeprecated", "size()" ],
     [ "toggle\tjQueryDeprecated", "toggle('$1')$0" ],
     [ "unload\tjQueryDeprecated", "unload('$1')$0" ],
+
+// Deprecated in jQuery 1.7
+    [ "isRejected\tjQueryDeprecated", "isRejected()" ],
+    [ "isResolved\tjQueryDeprecated", "isResolved()" ],
+    [ "die\tjQueryDeprecated", "die('$1')$0" ],
+    [ "sub\tjQueryDeprecated", "sub()" ],
+    [ "live\tjQueryDeprecated", "live('$1')$0" ],
+    [ "selector\tjQueryDeprecated", "selector" ],
+
+
+// Deprecated in jQuery 1.3（弃用）
+    [ "boxModel\tjQueryDeprecated", "boxModel" ],// Was removed in jQuery 1.8（删除）
+    [ "browser\tjQueryDeprecated", "browser" ],// Was removed in jQuery 1.9（删除）
 
 // Deprecated in jQuery 1.10
     [ "context\tjQueryDeprecated", "context"]

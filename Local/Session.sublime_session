@@ -1837,7 +1837,7 @@
 					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 12696,
+						"buffer_size": 12779,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
@@ -2690,16 +2690,16 @@
 									},
 									"bracket_highlighter.regions":
 									[
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
 										"bh_unmatched",
 										"bh_unmatched_center",
 										"bh_unmatched_open",
 										"bh_unmatched_close",
-										"bh_unmatched_content"
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
 									],
 									"current_file": "D:\\Program Files\\Sublime Text 3126\\Data\\Packages\\User\\sbc-api-my-jquery.sublime-settings",
 									"default_dir": "I:\\笔记\\note",
@@ -2732,15 +2732,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 12696,
+								"buffer_size": 12779,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										11905,
-										11905
+										12776,
+										12776
 									]
 								],
 								"settings":
@@ -2761,23 +2761,23 @@
 										{
 											"1":
 											[
-												12692,
-												12693
+												12775,
+												12776
 											]
 										}
 									},
 									"bracket_highlighter.regions":
 									[
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
 										"bh_unmatched",
 										"bh_unmatched_center",
 										"bh_unmatched_open",
 										"bh_unmatched_close",
-										"bh_unmatched_content"
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
 									],
 									"c_time":
 									[
@@ -2831,7 +2831,7 @@
 									"origPos":
 									[
 										0.0,
-										9180.0
+										10451.0
 									],
 									"origin_encoding": "UTF-8",
 									"syncScroll": false,
@@ -2840,7 +2840,7 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 9180.0,
+								"translation.y": 10451.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,

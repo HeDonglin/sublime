@@ -1,13 +1,14 @@
 {
 	"folder_history":
 	[
+		"/I/项目/blog",
 		"/I/项目/python",
 		"/I/项目/webpack",
 		"/I/项目/style",
 		"/I/笔记/note"
 	],
 	"last_version": 3126,
-	"last_window_id": 137,
+	"last_window_id": 139,
 	"log_indexing": false,
 	"settings":
 	{
@@ -19,28 +20,52 @@
 				"selected_items":
 				[
 					[
-						"auto",
-						"auto"
+						"v",
+						"v-html\tv-html"
 					],
 					[
-						"padding",
-						"padding-box"
+						"area",
+						"area\t<area shape=\"\" coords=\"\" href=\"\" alt=\"\" />"
 					],
 					[
-						"bdis",
-						"bdis\tborder-image-source: url(${0});"
+						"for",
+						"@forto\t@for \\$${1:i} from ${2:num1} to ${3:num2} {\n\t.${4:name}-\\$${1:i} {\n\t\t$6\n\t} \n}"
 					],
 					[
-						"bdirs",
-						"bdirsp\tborder-image-repeat: ${1:space} ${2:space};"
-					],
-					[
-						"bga",
-						"bga\tbackground-attachment"
+						"if",
+						"@if\t@if ${1:1} < ${2:2} {\n\t$3\n} \n@else {\n\t$4\n}"
 					],
 					[
 						"bg",
-						"bg+\tbackground: #${1:fff} url(${2}) ${3:no-repeat} ${4:0} ${5:0} ${6:padding-box};"
+						"background-repeat: "
+					],
+					[
+						"lis",
+						"lisi\tlist-style-image"
+					],
+					[
+						"cl",
+						"cl\tconsole.log"
+					],
+					[
+						"d",
+						"del\tTag"
+					],
+					[
+						"clas",
+						"class\tAttr"
+					],
+					[
+						"gulp",
+						"gulps\tgulp.src('folder')"
+					],
+					[
+						"gulps",
+						"gulps\tgulp.src('folder')"
+					],
+					[
+						"gulpd",
+						"gulpd\tgulp.dest('folder')"
 					],
 					[
 						"pos",
@@ -203,10 +228,6 @@
 						"itSet"
 					],
 					[
-						"v",
-						"v-model\tv-model"
-					],
-					[
 						"vm",
 						"v-model"
 					],
@@ -351,10 +372,6 @@
 						"innerHTML\tjsElement"
 					],
 					[
-						"cl",
-						"cl\tconsole.log"
-					],
-					[
 						"fff",
 						"fff"
 					],
@@ -403,10 +420,6 @@
 						"jsdocs"
 					],
 					[
-						"if",
-						"if\t||"
-					],
-					[
 						"f",
 						"f+\tf++"
 					],
@@ -421,10 +434,6 @@
 					[
 						"consol",
 						"console.log\tjsProp"
-					],
-					[
-						"for",
-						"for\tfor (…) {…} (Improved Native For-Loop)"
 					],
 					[
 						"fn",
@@ -527,112 +536,80 @@
 			"command_palette":
 			{
 				"height": 428.0,
-				"last_filter": "bo",
+				"last_filter": "colo",
 				"selected_items":
 				[
 					[
-						"bo",
-						"Browse Mode: Outline (Right)"
-					],
-					[
-						"pci",
-						"Package Control: Install Package"
+						"colo",
+						"UI: Select Color Scheme"
 					],
 					[
 						"prvo",
 						"PackageResourceViewer: Open Resource"
 					],
 					[
-						"ui",
-						"UI: Select Theme"
+						"pin",
+						"Package Control: Install Package"
 					],
 					[
-						"colo",
-						"UI: Select Color Scheme"
-					],
-					[
-						"style",
-						"SublimeLinter: Choose Mark Style"
-					],
-					[
-						"remvepack",
+						"remov",
 						"Package Control: Remove Package"
+					],
+					[
+						"PIN",
+						"Package Control: Install Package"
+					],
+					[
+						"REMOVE",
+						"Package Control: Remove Package"
+					],
+					[
+						"REMOV",
+						"Package Control: Remove Package"
+					],
+					[
+						"DISABLE ",
+						"Package Control: Disable Package"
+					],
+					[
+						"prov",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"pen",
+						"Package Control: Enable Package"
+					],
+					[
+						"dis",
+						"Package Control: Disable Package"
 					],
 					[
 						"remove",
 						"Package Control: Remove Package"
 					],
 					[
-						"re",
-						"Package Control: Remove Package"
+						"stylus",
+						"Stylus: Compile File"
 					],
 					[
-						"pcar",
-						"Package Control: Add Repository"
-					],
-					[
-						"remp",
-						"Package Control: Remove Package"
-					],
-					[
-						"pin",
-						"Package Control: Install Package"
-					],
-					[
-						"par",
-						"Package Control: Add Repository"
-					],
-					[
-						"pup",
-						"Package Control: Upgrade Package"
-					],
-					[
-						"show",
-						"Gulp: Show panel"
-					],
-					[
-						"rpk",
-						"Package Control: Remove Package"
-					],
-					[
-						"remvoe",
-						"Emmet: Remove Tag"
-					],
-					[
-						"box",
-						"Boxy Theme: Preferences"
-					],
-					[
-						"uskin",
-						"UI: Select Skin"
-					],
-					[
-						"delesk",
-						"UI: Delete Skin"
-					],
-					[
-						"uiski",
-						"UI: Select Skin"
-					],
-					[
-						"uisav",
-						"UI: Save Skin"
-					],
-					[
-						"saveskin",
-						"UI: Save Skin"
-					],
-					[
-						"Select Skin",
-						"UI: Select Skin"
-					],
-					[
-						"pro",
+						"prv",
 						"PackageResourceViewer: Open Resource"
 					],
 					[
-						"remov",
+						"prveo",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"prvoe",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"remo",
 						"Package Control: Remove Package"
+					],
+					[
+						"emmet",
+						"Emmet: Reload Extensions"
 					],
 					[
 						"enp",
@@ -640,10 +617,6 @@
 					],
 					[
 						"dip",
-						"Package Control: Disable Package"
-					],
-					[
-						"dis",
 						"Package Control: Disable Package"
 					],
 					[
@@ -667,10 +640,6 @@
 						"Package Control: Enable Package"
 					],
 					[
-						"remo",
-						"Package Control: Remove Package"
-					],
-					[
 						"rem",
 						"Package Control: Remove Package"
 					],
@@ -687,7 +656,11 @@
 						"Preferences: Package Control Settings – Default"
 					],
 					[
-						"prv",
+						"re",
+						"Package Control: Remove Package"
+					],
+					[
+						"pro",
 						"PackageResourceViewer: Open Resource"
 					],
 					[
@@ -799,10 +772,6 @@
 						"BracketHighlighter: Swap Quotes"
 					],
 					[
-						"prov",
-						"PackageResourceViewer: Open Resource"
-					],
-					[
 						"doc",
 						"DocBlockr: Reparse comment block"
 					],
@@ -831,6 +800,10 @@
 						"PackageResourceViewer: Open Resource"
 					],
 					[
+						"pci",
+						"Package Control: Install Package"
+					],
+					[
 						"po",
 						"PackageResourceViewer: Open Resource"
 					],
@@ -843,7 +816,7 @@
 			},
 			"console":
 			{
-				"height": 354.0,
+				"height": 547.0,
 				"history":
 				[
 				]
@@ -859,134 +832,134 @@
 			},
 			"file_history":
 			[
-				"/I/笔记/note/1.css",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Outline/outline.sublime-settings",
-				"/I/笔记/note/todo.todo",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
-				"/I/笔记/note/src/index.html",
-				"/I/笔记/note/html5.html",
-				"/C/Users/Administrator/Desktop/1.html",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML/html_completions.py",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/main.sublime-menu",
+				"/I/项目/style/src/index.html",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sbc-setting.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Refresh/Default (Windows).sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/Context.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeServer.sublime-settings",
-				"/I/笔记/note/gulpfile.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Sync/Main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Sync/browser_sync_launch.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/SublimeServer.py",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/Main.sublime-menu",
-				"/I/笔记/note/src/index.css",
-				"/I/笔记/note/css3.css",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/CSScomb.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Monokai.tmTheme",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Scheme - Default/Monokai.tmTheme",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/snippets.json",
-				"/I/笔记/note/src/index.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Sublime-minihtml-Preview/minihtml.sublime-commands",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LSP/Keymaps/Default (Windows).sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LSP/Commands/Default.sublime-commands",
-				"/C/Users/Administrator/Desktop/1.css",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Highlighter/ColorHighlighter.py",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Syntax Highlighting for PostCSS/Preferences/Completion Rules.tmPreferences",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Syntax Highlighting for PostCSS/package-metadata.json",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Syntax Highlighting for PostCSS/Completions/CSS-Properties.sublime-completions",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Syntax Highlighting for PostCSS/Syntaxes/PostCSS.tmLanguage",
-				"/I/笔记/note/css3.chm",
-				"/I/笔记/note/emmet.vue",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/menu/3/zh_CN/Side Bar Mount Point.sublime-menu.json",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/menu/2221/zh_CN/Side Bar Mount Point.sublime-menu.json",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/menu/3126/zh_CN/Main.sublime-menu.json",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/LocalizedMenu.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/Localize.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
+				"/I/项目/style/src/style/scss.scss",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeLinter.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Sync View Scroll.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti_orig.sublime-theme",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Skins.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti.sublime-theme",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Saved Skins.skins",
-				"/I/笔记/note/scss.scss",
-				"/I/笔记/note/gitAPI.js",
-				"/I/笔记/note/index.html",
-				"/C/Users/Administrator/Downloads/HTML.min.js/HTML.min.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Default (Windows).sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
+				"/I/项目/style/gulpfile.js",
+				"/I/项目/style/src/css/_base.css",
+				"/I/项目/style/src/style/_base.less",
+				"/I/项目/style/src/style/procss.css",
+				"/I/项目/style/package.json",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/ColorHighlighter.sublime-settings",
+				"/E/Sublime Text 3126/Data/Packages/Seti_UI/Seti.sublime-theme",
+				"/D/Program Files/Sublime Text 3126/data/Packages/User/Context.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/Main.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/data/Packages/User/Main.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/个人快捷键.sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/Context.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/data/Packages/Default/Context.sublime-menu",
+				"/I/项目/style/src/css/scss.css",
+				"/C/Users/Administrator/Desktop/snippets/@import.tmSnippet",
+				"/C/Users/Administrator/Desktop/snippets/@media.tmSnippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SCSS/SCSS.tmLanguage",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SCSS/comments.tmPreferences",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Syntax Highlighting for PostCSS/Syntaxes/PostCSS.tmLanguage",
+				"/C/Users/Administrator/Desktop/snippets/background.tmSnippet",
+				"/C/Users/Administrator/Desktop/snippets/= Shortcut to @mixin.tmSnippet",
+				"/C/Users/Administrator/Desktop/snippets/++ Shortcut to @import.tmSnippet",
+				"/C/Users/Administrator/Desktop/snippets/++ Shortcut to @extend.tmSnippet",
+				"/C/Users/Administrator/Desktop/snippets/+ Shortcut to Include.tmSnippet",
+				"/C/Users/Administrator/Desktop/snippets/@if.tmSnippet",
+				"/C/Users/Administrator/Desktop/snippets/@for.tmSnippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SCSS/package-metadata.json",
+				"/C/Users/Administrator/Desktop/SCSS/snippets/@for.tmSnippet",
+				"/D/Program Files/Sublime Text 3126/data/Packages/SCSS/snippets/@for.tmSnippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SCSS/snippets/+ Shortcut to Include.tmSnippet",
+				"/I/项目/style/src/style/less.less",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SCSS/snippets/++ Shortcut to @extend.tmSnippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SCSS/snippets/@for.tmSnippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Sass/Completions/Sass - Properties.sublime-completions",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Sass/Completions/Sass - Property Values.sublime-completions",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Emmet.sublime-settings",
+				"/I/项目/style/src/style/_base.styl",
+				"/I/项目/style/src/style/stylus.styl",
+				"/I/项目/style/src/css/less.css",
+				"/I/项目/style/src/css/procss.css",
+				"/I/项目/style/src/css/stylus.css",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/CSScomb.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SideBarEnhancements/package-metadata.json",
+				"/D/Program Files/Sublime Text 3126/data/Packages/User/Side Bar.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/data/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/data/Packages/User/Side Bar.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SideBarEnhancements/Side Bar.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/data/Packages/User/oscrypto-ca-bundle.crt",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Seti_UI/Seti.sublime-theme",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeLinter.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Vuejs Complete Package/Snippets/vue-extend.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Vuejs Complete Package/Snippets/add.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Vuejs Complete Package/Snippets/delete.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Vuejs Complete Package/package.json",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeREPL.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Sync View Scroll.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Stylus/Stylus.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Stylus.sublime-settings",
+				"/I/项目/style/src/style/stylus.css",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Stylus-Snippets/package-metadata.json",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Stylus-Snippets/README.md",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Stylus-Snippets/Snippets/-moz-box-shadow.tmSnippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Stylus-Snippets/Snippets/outline+.tmSnippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SyncedSideBar.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/PostCSSSorting.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Status Bar File Size/StatusBarFileSize.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Side Bar.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SideBarEnhancements/Main.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SideBarEnhancements/Commands.sublime-commands",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Gulp/Gulp.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Gulp.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/FileHeader/Context.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/data/Packages/FileHeader/Main.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/FileHeader.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Diffy.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Autoprefixer.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/auto_save.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/AutoFileName/getimageinfo.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/AutoFileName/autofilename.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/AutoFileName/Default.sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/AutoFileName/Default.sublime-commands",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/AutoFileName/autofilename.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Preferences.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/yaTranslate.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Default (Windows).sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Default.sublime-commands",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Default (OSX).sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/CONTRIBUTING.md",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/semver.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/caniuse.json",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/__init__.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/pyv8loader.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/python-wrapper.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/context.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/emmet-app.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet-plugin.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet_completions/__init__.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Preferences.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/misc/generate-keymap.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet_completions/trackers.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet_completions/meta.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML/html_completions.py",
+				"/I/项目/style/src/style/sass.sass",
+				"/I/项目/style/src/style/_base.css",
+				"/I/项目/style/src/style/_aaa.styl",
+				"/I/项目/style/src/style/_base.scss",
+				"/I/项目/style/src/css/sass.css",
+				"/I/项目/style/src/css/style/less.css",
+				"/I/项目/style/src/style/style/less.css",
+				"/C/Users/Administrator/Downloads/project2/project/gulpfile.js",
+				"/I/项目/style/pack.json",
 				"/C/Users/Administrator/Desktop/scss/stylus.styl",
 				"/C/Users/Administrator/Desktop/css/stylus.css",
 				"/C/Users/Administrator/Desktop/scss/procss.css",
 				"/I/笔记/note/precss.css",
-				"/I/笔记/note/sass.sass",
-				"/I/笔记/note/less.less",
-				"/I/笔记/note/stylus.styl",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Stylus/Stylus.sublime-settings",
-				"/C/Users/Administrator/Desktop/scss/style.scss",
-				"/C/Users/Administrator/Desktop/css/style.css",
-				"/C/Users/Administrator/Desktop/scss/sass.sass",
-				"/I/笔记/note/npmAPI.js",
-				"/I/笔记/note/webpack.config.js",
-				"/I/笔记/note/dist/css/index.css",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sublime-completions/sbc-api-jquery.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/Main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
-				"/C/Users/Administrator/.bashrc",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/ColorHighlighter.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Highlighter/colors.py",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Highlighter/Default.sublime-keymap",
-				"/I/笔记/note/src/index.scss",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/PostCSS Sorting/PostCSSSorting.sublime-settings",
-				"/I/笔记/note/dist/css/index.postcss",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/PostCSSSorting.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/PostCSS Sorting/screenshot.gif",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/PostCSS Sorting/.editorconfig",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/PostCSS Sorting/Main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/PostCSS Sorting/Default (Windows).sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Default (Windows).sublime-keymap",
-				"/I/笔记/note/src/1.css",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Cssnext/Cssnext.sublime-settings",
-				"/I/笔记/note/src/public/mobile.js",
-				"/I/笔记/note/src/public/pc.js",
-				"/I/笔记/note/jquery-3.2.1.js",
-				"/I/笔记/note/jquery.js",
-				"/I/笔记/note/src/index.less",
-				"/I/笔记/note/package.json",
-				"/I/笔记/note/npm.js",
-				"/I/笔记/note/ES5.js",
-				"/C/Users/Administrator/AppData/Roaming/npm/jshint",
-				"/I/笔记/note/node_modules/_zepto@1.2.0@zepto/dist/zepto.js",
-				"/I/笔记/note/node_modules/zepto/dist/zepto.js",
-				"/I/笔记/note/node_modules/zepto/dist/zepto.min.js",
-				"/I/笔记/note/src/pc.js",
-				"/I/笔记/note/src/mobile.js",
-				"/I/笔记/note/css3.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/dist/css/bootstrap.css",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/modals.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/mixins/reset-text.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/code.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/bootstrap.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/alerts.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/.csscomb.json",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/variables.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/wells.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/dist/css/bootstrap-theme.min.css",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/dist/css/bootstrap-theme.css",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/dist/css/bootstrap.min.css",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/dist/css/bootstrap-theme.css.map",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/dist/css/bootstrap.css.map",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/mixins/resize.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/mixins/clearfix.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/mixins.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/media.less",
-				"/I/笔记/note/server.js",
-				"/C/Users/Administrator/Documents/Tencent Files/839875083/FileRecv/webpack.config.js"
+				"/I/笔记/note/sass.sass"
 			],
 			"find":
 			{
@@ -997,7 +970,8 @@
 				"height": 142.0,
 				"where_history":
 				[
-					"D:\\Program Files\\Sublime Text 3126\\Data\\Packages\\LocalizedMenu",
+					"I:\\项目",
+					"I:\\项目\\style\\src",
 					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Gulp",
 					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Default",
 					"I:\\b\\b",
@@ -1083,134 +1057,134 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"isi",
-					"isindex",
-					"\"<",
-					"video",
-					"\"<",
-					"header",
-					":",
-					"source",
-					"strike",
-					"xmp",
-					"center",
-					"noframes",
-					"samp",
-					"rp",
-					"rt",
-					"ruby",
-					"output",
-					"cite",
-					"strong",
-					"em",
-					"span",
-					"dialog",
-					"address",
-					"\",//",
-					"blockquote",
-					"pre",
-					"figcaption",
-					"td",
-					"caption",
-					"table",
-					"select",
-					"\",//",
-					"fieldset",
-					"div",
-					"meter",
-					":",
-					"summary",
-					"details",
-					":",
-					"body",
-					"空标签",
-					"script",
-					"abbreviations",
-					"fieldset",
-					"command",
-					"keygen",
-					"marquee",
-					"textarea",
-					"option",
-					"isindex",
-					"label",
-					"src",
+					"Document",
+					"fnName",
+					"();",
+					"fnName",
+					"inputcolor",
+					"inputnumber",
+					"inputtel",
+					"inputtime",
+					"inputweek",
+					"inputmonth",
+					"inputdate",
+					"inputdatetime",
 					"picture",
-					"\"col\"",
-					"\"hr\"",
-					"hr",
-					"frame",
-					"body",
-					":",
-					"base",
-					"acronym",
-					"acr|acronym",
-					"abbr",
-					"br",
-					"basefont",
-					"h1",
-					"                    \"",
-					"h4",
-					"h1",
-					"select",
-					":",
-					"div",
-					"xmp",
-					"isindex",
-					":",
-					"mark",
-					"meter",
-					"progress",
-					"meter",
-					"progress",
-					"keygen",
-					"\":",
-					"keygen",
-					"wbr",
-					"bdi",
-					"mark",
-					"time",
-					"wbr",
-					"bdi",
-					"mark",
-					":",
-					"\"://",
-					"command",
-					"summary",
-					"details",
-					"datalist",
-					"audio",
-					"track",
-					"canvas",
-					"can",
-					"article",
-					"art",
-					"canvas",
-					"footer",
-					"foo",
-					"fset",
-					"tem",
-					"mn",
-					"prog",
-					"str",
-					"dlg",
-					"adr",
-					"art",
-					"sec",
-					"hd",
-					"nav",
+					"HTML",
+					"show_css_completions",
+					"tab",
+					"17",
+					"快捷键",
+					"open_file",
+					"shift",
+					"\n<html lang=\"zh-Hans\">\n<head>\n    <meta charset=\"UTF-8\" />\n    <title>Document</title>\n</head>\n<body>\n    <div class=\"header\">\n        <div class=\"\"></div>\n        <div class=\"\"></div>\n        <div class=\"\"></div>\n        <div class=\"\"></div>\n    </div>\n    <div class=\"box\">",
+					"></div>\n        <div class=\"\"></div>\n        <div class=\"\"></div>\n        <div class=\"\"></div>\n    </div>\n    <div class=\"box\">",
+					"warn",
+					"postcss",
+					"sass",
+					"fnName",
+					"include",
+					"extend",
+					"postcss",
+					"slim",
+					"css",
+					"sass",
+					"compressed",
+					"scss",
+					".",
+					"class",
+					"=\"\"></",
+					"class",
 					"header",
-					"bs-html-injector",
+					"div",
+					"scss.scss",
+					"=\"\"></",
+					"默认为：background；",
+					"Sass",
+					"radius",
+					"ctrl+m",
+					"Shift+Ctrl+M",
+					"lang",
+					"cas",
+					"disable_tab_abbreviations_on_auto_complete",
+					"unless",
+					"width",
+					"top",
+					"left",
+					"css",
+					"styl",
+					"_base",
+					"base",
+					"可以不需要花括号",
+					"scss",
+					"sass",
+					"procss",
+					"less",
+					"scss",
+					"less",
+					"./src/css/",
+					"plumber",
+					"./src/css",
+					"npostcss",
+					"postcss",
+					"style",
+					"gulpPostcss",
+					"gulpSass",
+					"gulpLess",
+					"gulpStylus",
+					"postcss",
+					"gulpPostcss",
+					"dist",
+					"src",
+					"styl",
+					"sass",
+					"less",
+					"css",
+					"less",
+					"tasks",
+					"scss",
+					"gulp",
+					"left",
+					"$c",
+					"vendor",
+					"\\\"",
+					"jquery",
 					"true",
-					"false",
-					"cm",
-					" border-corner-image",
-					"disable_pyv8_update",
-					"html",
-					"normal",
-					"word-spacing",
-					"page",
-					"+"
+					"parent",
+					"extend",
+					"name",
+					"define",
+					"name",
+					"arg",
+					"name",
+					"i",
+					".css",
+					"on_line_sass",
+					"on_line_less",
+					"@varstyldollar",
+					"@varless",
+					"@varstyl",
+					"@varless",
+					"@varcss",
+					"varless",
+					"on_line_css",
+					"extract_less_sass_name_val",
+					"@varless",
+					"varless",
+					"less",
+					" #",
+					"@",
+					"@c3",
+					"@c6",
+					"c6",
+					"@c8",
+					"@c9",
+					"@cf6",
+					"@c_6",
+					"@c_5",
+					"@c_4",
+					"@c_3",
+					"@c_2"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1227,7 +1201,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 37.0
+				"height": 43.0
 			},
 			"input":
 			{
@@ -1237,10 +1211,6 @@
 			"output.GitSavvy":
 			{
 				"height": 200.0
-			},
-			"output.diagnostics":
-			{
-				"height": 212.0
 			},
 			"output.exec":
 			{
@@ -1264,12 +1234,16 @@
 			},
 			"output.gulp_output":
 			{
-				"height": 156.0
+				"height": 270.0
+			},
+			"output.unsaved_changes":
+			{
+				"height": 247.0
 			},
 			"pinned_build_system": "Packages/User/node.sublime-build",
 			"replace":
 			{
-				"height": 70.0
+				"height": 82.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -1279,12 +1253,36 @@
 				"selected_items":
 				[
 					[
-						"css",
-						"1.css"
+						"scss.scss",
+						"src\\style\\scss.scss"
+					],
+					[
+						"scsscs",
+						"src\\css\\scss.css"
+					],
+					[
+						"pro",
+						"src\\style\\procss.css"
+					],
+					[
+						"lessc",
+						"src\\css\\less.css"
+					],
+					[
+						"gu",
+						"gulpfile.js"
 					],
 					[
 						"scss",
-						"scss.scss"
+						"src\\css\\scss.css"
+					],
+					[
+						"gul",
+						"gulpfile.js"
+					],
+					[
+						"scss.css",
+						"src\\css\\scss.css"
 					],
 					[
 						"gulp",
@@ -1335,10 +1333,6 @@
 						"gulpfile.js"
 					],
 					[
-						"gul",
-						"gulpfile.js"
-					],
-					[
 						"vue",
 						"node_modules\\vue\\dist\\vue.esm.js"
 					],
@@ -1361,14 +1355,22 @@
 				[
 					[
 						"",
-						"I:\\笔记\\style.sublime-project"
+						"I:\\笔记\\note.sublime-project"
+					],
+					[
+						"note",
+						"I:\\笔记\\note.sublime-project"
+					],
+					[
+						"no",
+						"I:\\笔记\\note.sublime-project"
 					]
 				],
 				"width": 475.0
 			},
 			"select_symbol":
 			{
-				"height": 79.0,
+				"height": 428.0,
 				"last_filter": "",
 				"selected_items":
 				[
@@ -1400,36 +1402,72 @@
 				"selected_items":
 				[
 					[
-						"get",
-						"get\tjQuery"
+						"bgsz",
+						"bgszz\tbackground-size: ${1:100%} ${2:100%};"
 					],
 					[
-						"ha",
-						"hasClass\tjQuery"
+						"ww",
+						"ww\tword-wrap: ${1:normal};"
 					],
 					[
-						"auto",
-						"auto"
+						"bxz",
+						"bxzbb\tbox-sizing: border-box;"
 					],
 					[
-						"padding",
-						"padding-box"
+						"font",
+						"font"
 					],
 					[
-						"bdis",
-						"bdis\tborder-image-source: url(${0});"
+						"bcc",
+						"bdcc\tborder-collapse: collapse;"
 					],
 					[
-						"bdirs",
-						"bdirsp\tborder-image-repeat: ${1:space} ${2:space};"
+						"v",
+						"v-html\tv-html"
 					],
 					[
-						"bga",
-						"bga\tbackground-attachment"
+						"area",
+						"area\t<area shape=\"\" coords=\"\" href=\"\" alt=\"\" />"
+					],
+					[
+						"for",
+						"@forto\t@for \\$${1:i} from ${2:num1} to ${3:num2} {\n\t.${4:name}-\\$${1:i} {\n\t\t$6\n\t} \n}"
+					],
+					[
+						"if",
+						"@if\t@if ${1:1} < ${2:2} {\n\t$3\n} \n@else {\n\t$4\n}"
 					],
 					[
 						"bg",
-						"bg+\tbackground: #${1:fff} url(${2}) ${3:no-repeat} ${4:0} ${5:0} ${6:padding-box};"
+						"background-repeat: "
+					],
+					[
+						"lis",
+						"lisi\tlist-style-image"
+					],
+					[
+						"cl",
+						"cl\tconsole.log"
+					],
+					[
+						"d",
+						"del\tTag"
+					],
+					[
+						"clas",
+						"class\tAttr"
+					],
+					[
+						"gulp",
+						"gulps\tgulp.src('folder')"
+					],
+					[
+						"gulps",
+						"gulps\tgulp.src('folder')"
+					],
+					[
+						"gulpd",
+						"gulpd\tgulp.dest('folder')"
 					],
 					[
 						"pos",
@@ -1592,10 +1630,6 @@
 						"itSet"
 					],
 					[
-						"v",
-						"v-model\tv-model"
-					],
-					[
 						"vm",
 						"v-model"
 					],
@@ -1646,14 +1680,6 @@
 					[
 						"10",
 						"10"
-					],
-					[
-						"font",
-						"font-size"
-					],
-					[
-						"bgsz",
-						"bgsz\tbackground-size ${1:100%} ${2:100%}"
 					],
 					[
 						"reduce",
@@ -1720,10 +1746,6 @@
 						"wowb\tword-wrap: break-word;"
 					],
 					[
-						"ww",
-						"wowb\tword-wrap: break-word;"
-					],
-					[
 						"bdt",
 						"bdt+\tborder-top: ${1:1}px ${2:solid} #${3:000};"
 					],
@@ -1738,10 +1760,6 @@
 					[
 						"inner",
 						"innerHTML\tjsElement"
-					],
-					[
-						"cl",
-						"cl\tconsole.log"
 					],
 					[
 						"fff",
@@ -1792,10 +1810,6 @@
 						"jsdocs"
 					],
 					[
-						"if",
-						"if\t||"
-					],
-					[
 						"f",
 						"f+\tf++"
 					],
@@ -1812,10 +1826,6 @@
 						"console.log\tjsProp"
 					],
 					[
-						"for",
-						"for\tfor (…) {…} (Improved Native For-Loop)"
-					],
-					[
 						"fn",
 						"fun\tFunction"
 					]
@@ -1824,31 +1834,39 @@
 			"buffers":
 			[
 				{
-					"contents": "",
+					"file": "/I/项目/style/gulpfile.js",
 					"settings":
 					{
-						"buffer_size": 0,
-						"line_ending": "Unix",
-						"name": "𝌆 Outline",
-						"scratch": true
-					}
-				},
-				{
-					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 12779,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "note/todo.todo",
-					"settings":
-					{
-						"buffer_size": 59,
+						"buffer_size": 3086,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/I/项目/style/src/page/index.html",
+					"settings":
+					{
+						"buffer_size": 2509,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/I/项目/style/src/style/about.scss",
+					"settings":
+					{
+						"buffer_size": 2814,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 71151,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
 					}
 				}
 			],
@@ -1948,112 +1966,80 @@
 			"command_palette":
 			{
 				"height": 428.0,
-				"last_filter": "",
+				"last_filter": "colo",
 				"selected_items":
 				[
 					[
-						"bo",
-						"Browse Mode: Outline (Right)"
-					],
-					[
-						"pci",
-						"Package Control: Install Package"
+						"colo",
+						"UI: Select Color Scheme"
 					],
 					[
 						"prvo",
 						"PackageResourceViewer: Open Resource"
 					],
 					[
-						"ui",
-						"UI: Select Theme"
+						"pin",
+						"Package Control: Install Package"
 					],
 					[
-						"colo",
-						"UI: Select Color Scheme"
-					],
-					[
-						"style",
-						"SublimeLinter: Choose Mark Style"
-					],
-					[
-						"remvepack",
+						"remov",
 						"Package Control: Remove Package"
+					],
+					[
+						"PIN",
+						"Package Control: Install Package"
+					],
+					[
+						"REMOVE",
+						"Package Control: Remove Package"
+					],
+					[
+						"REMOV",
+						"Package Control: Remove Package"
+					],
+					[
+						"DISABLE ",
+						"Package Control: Disable Package"
+					],
+					[
+						"prov",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"pen",
+						"Package Control: Enable Package"
+					],
+					[
+						"dis",
+						"Package Control: Disable Package"
 					],
 					[
 						"remove",
 						"Package Control: Remove Package"
 					],
 					[
-						"re",
-						"Package Control: Remove Package"
+						"stylus",
+						"Stylus: Compile File"
 					],
 					[
-						"pcar",
-						"Package Control: Add Repository"
-					],
-					[
-						"remp",
-						"Package Control: Remove Package"
-					],
-					[
-						"pin",
-						"Package Control: Install Package"
-					],
-					[
-						"par",
-						"Package Control: Add Repository"
-					],
-					[
-						"pup",
-						"Package Control: Upgrade Package"
-					],
-					[
-						"show",
-						"Gulp: Show panel"
-					],
-					[
-						"rpk",
-						"Package Control: Remove Package"
-					],
-					[
-						"remvoe",
-						"Emmet: Remove Tag"
-					],
-					[
-						"box",
-						"Boxy Theme: Preferences"
-					],
-					[
-						"uskin",
-						"UI: Select Skin"
-					],
-					[
-						"delesk",
-						"UI: Delete Skin"
-					],
-					[
-						"uiski",
-						"UI: Select Skin"
-					],
-					[
-						"uisav",
-						"UI: Save Skin"
-					],
-					[
-						"saveskin",
-						"UI: Save Skin"
-					],
-					[
-						"Select Skin",
-						"UI: Select Skin"
-					],
-					[
-						"pro",
+						"prv",
 						"PackageResourceViewer: Open Resource"
 					],
 					[
-						"remov",
+						"prveo",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"prvoe",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"remo",
 						"Package Control: Remove Package"
+					],
+					[
+						"emmet",
+						"Emmet: Reload Extensions"
 					],
 					[
 						"enp",
@@ -2061,10 +2047,6 @@
 					],
 					[
 						"dip",
-						"Package Control: Disable Package"
-					],
-					[
-						"dis",
 						"Package Control: Disable Package"
 					],
 					[
@@ -2088,10 +2070,6 @@
 						"Package Control: Enable Package"
 					],
 					[
-						"remo",
-						"Package Control: Remove Package"
-					],
-					[
 						"rem",
 						"Package Control: Remove Package"
 					],
@@ -2108,7 +2086,11 @@
 						"Preferences: Package Control Settings – Default"
 					],
 					[
-						"prv",
+						"re",
+						"Package Control: Remove Package"
+					],
+					[
+						"pro",
 						"PackageResourceViewer: Open Resource"
 					],
 					[
@@ -2220,10 +2202,6 @@
 						"BracketHighlighter: Swap Quotes"
 					],
 					[
-						"prov",
-						"PackageResourceViewer: Open Resource"
-					],
-					[
 						"doc",
 						"DocBlockr: Reparse comment block"
 					],
@@ -2252,6 +2230,10 @@
 						"PackageResourceViewer: Open Resource"
 					],
 					[
+						"pci",
+						"Package Control: Install Package"
+					],
+					[
 						"po",
 						"PackageResourceViewer: Open Resource"
 					],
@@ -2264,7 +2246,7 @@
 			},
 			"console":
 			{
-				"height": 354.0,
+				"height": 547.0,
 				"history":
 				[
 				]
@@ -2280,140 +2262,141 @@
 			},
 			"expanded_folders":
 			[
-				"/I/笔记/note",
-				"/I/笔记/note/src",
-				"/I/笔记/note/src/public"
+				"/I/项目/style",
+				"/I/项目/style/src",
+				"/I/项目/style/src/images",
+				"/I/项目/style/src/page"
 			],
 			"file_history":
 			[
-				"/I/笔记/note/npmAPI.js",
-				"/I/笔记/note/kangle.js",
-				"/I/笔记/note/src/public/mobile.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/outline.sublime-settings",
-				"/I/笔记/note/1.css",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Outline/outline.sublime-settings",
-				"/I/笔记/note/todo.todo",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+				"/I/项目/style/src/index.html",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
-				"/I/笔记/note/src/index.html",
-				"/I/笔记/note/html5.html",
-				"/C/Users/Administrator/Desktop/1.html",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML/html_completions.py",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/main.sublime-menu",
+				"/I/项目/style/src/style/_base.less",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sbc-setting.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Refresh/Default (Windows).sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/Context.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeServer.sublime-settings",
-				"/I/笔记/note/gulpfile.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Sync/Main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Sync/browser_sync_launch.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/SublimeServer.py",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/Main.sublime-menu",
-				"/I/笔记/note/src/index.css",
-				"/I/笔记/note/css3.css",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/CSScomb.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Monokai.tmTheme",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Scheme - Default/Monokai.tmTheme",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/snippets.json",
-				"/I/笔记/note/src/index.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Sublime-minihtml-Preview/minihtml.sublime-commands",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LSP/Keymaps/Default (Windows).sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LSP/Commands/Default.sublime-commands",
-				"/C/Users/Administrator/Desktop/1.css",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Highlighter/ColorHighlighter.py",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Syntax Highlighting for PostCSS/Preferences/Completion Rules.tmPreferences",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Syntax Highlighting for PostCSS/package-metadata.json",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Syntax Highlighting for PostCSS/Completions/CSS-Properties.sublime-completions",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Syntax Highlighting for PostCSS/Syntaxes/PostCSS.tmLanguage",
-				"/I/笔记/note/css3.chm",
-				"/I/笔记/note/emmet.vue",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/menu/3/zh_CN/Side Bar Mount Point.sublime-menu.json",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/menu/2221/zh_CN/Side Bar Mount Point.sublime-menu.json",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/menu/3126/zh_CN/Main.sublime-menu.json",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/LocalizedMenu.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/Localize.py",
+				"/I/项目/style/src/style/scss.scss",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeLinter.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Sync View Scroll.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti_orig.sublime-theme",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Skins.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti.sublime-theme",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Saved Skins.skins",
-				"/I/笔记/note/scss.scss",
-				"/I/笔记/note/gitAPI.js",
-				"/I/笔记/note/index.html",
-				"/C/Users/Administrator/Downloads/HTML.min.js/HTML.min.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Default (Windows).sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
+				"/I/项目/style/gulpfile.js",
+				"/I/项目/style/src/css/_base.css",
+				"/I/项目/style/src/style/procss.css",
+				"/I/项目/style/package.json",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/ColorHighlighter.sublime-settings",
+				"/E/Sublime Text 3126/Data/Packages/Seti_UI/Seti.sublime-theme",
+				"/D/Program Files/Sublime Text 3126/data/Packages/User/Context.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/Main.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/data/Packages/User/Main.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/个人快捷键.sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/Context.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/data/Packages/Default/Context.sublime-menu",
+				"/I/项目/style/src/css/scss.css",
+				"/C/Users/Administrator/Desktop/snippets/@import.tmSnippet",
+				"/C/Users/Administrator/Desktop/snippets/@media.tmSnippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SCSS/SCSS.tmLanguage",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SCSS/comments.tmPreferences",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Syntax Highlighting for PostCSS/Syntaxes/PostCSS.tmLanguage",
+				"/C/Users/Administrator/Desktop/snippets/background.tmSnippet",
+				"/C/Users/Administrator/Desktop/snippets/= Shortcut to @mixin.tmSnippet",
+				"/C/Users/Administrator/Desktop/snippets/++ Shortcut to @import.tmSnippet",
+				"/C/Users/Administrator/Desktop/snippets/++ Shortcut to @extend.tmSnippet",
+				"/C/Users/Administrator/Desktop/snippets/+ Shortcut to Include.tmSnippet",
+				"/C/Users/Administrator/Desktop/snippets/@if.tmSnippet",
+				"/C/Users/Administrator/Desktop/snippets/@for.tmSnippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SCSS/package-metadata.json",
+				"/C/Users/Administrator/Desktop/SCSS/snippets/@for.tmSnippet",
+				"/D/Program Files/Sublime Text 3126/data/Packages/SCSS/snippets/@for.tmSnippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SCSS/snippets/+ Shortcut to Include.tmSnippet",
+				"/I/项目/style/src/style/less.less",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SCSS/snippets/++ Shortcut to @extend.tmSnippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SCSS/snippets/@for.tmSnippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Sass/Completions/Sass - Properties.sublime-completions",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Sass/Completions/Sass - Property Values.sublime-completions",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Emmet.sublime-settings",
+				"/I/项目/style/src/style/_base.styl",
+				"/I/项目/style/src/style/stylus.styl",
+				"/I/项目/style/src/css/less.css",
+				"/I/项目/style/src/css/procss.css",
+				"/I/项目/style/src/css/stylus.css",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/CSScomb.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SideBarEnhancements/package-metadata.json",
+				"/D/Program Files/Sublime Text 3126/data/Packages/User/Side Bar.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/data/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/data/Packages/User/Side Bar.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SideBarEnhancements/Side Bar.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/data/Packages/User/oscrypto-ca-bundle.crt",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Seti_UI/Seti.sublime-theme",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeLinter.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Vuejs Complete Package/Snippets/vue-extend.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Vuejs Complete Package/Snippets/add.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Vuejs Complete Package/Snippets/delete.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Vuejs Complete Package/package.json",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeREPL.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Sync View Scroll.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Stylus/Stylus.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Stylus.sublime-settings",
+				"/I/项目/style/src/style/stylus.css",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Stylus-Snippets/package-metadata.json",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Stylus-Snippets/README.md",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Stylus-Snippets/Snippets/-moz-box-shadow.tmSnippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Stylus-Snippets/Snippets/outline+.tmSnippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SyncedSideBar.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/PostCSSSorting.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Status Bar File Size/StatusBarFileSize.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Side Bar.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SideBarEnhancements/Main.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SideBarEnhancements/Commands.sublime-commands",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Gulp/Gulp.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Gulp.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/FileHeader/Context.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/data/Packages/FileHeader/Main.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/FileHeader.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Diffy.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Autoprefixer.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/data/Packages/个人快捷键.sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/auto_save.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/AutoFileName/getimageinfo.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/AutoFileName/autofilename.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/AutoFileName/Default.sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/AutoFileName/Default.sublime-commands",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/AutoFileName/autofilename.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Preferences.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/yaTranslate.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Default (Windows).sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Default.sublime-commands",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Default (OSX).sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/CONTRIBUTING.md",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/semver.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/caniuse.json",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/__init__.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/pyv8loader.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/python-wrapper.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/context.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/emmet-app.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet-plugin.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet_completions/__init__.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/Preferences.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/misc/generate-keymap.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet_completions/trackers.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet_completions/meta.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML/html_completions.py",
+				"/I/项目/style/src/style/sass.sass",
+				"/I/项目/style/src/style/_base.css",
+				"/I/项目/style/src/style/_aaa.styl",
+				"/I/项目/style/src/style/_base.scss",
+				"/I/项目/style/src/css/sass.css",
+				"/I/项目/style/src/css/style/less.css",
+				"/I/项目/style/src/style/style/less.css",
+				"/C/Users/Administrator/Downloads/project2/project/gulpfile.js",
+				"/I/项目/style/pack.json",
 				"/C/Users/Administrator/Desktop/scss/stylus.styl",
 				"/C/Users/Administrator/Desktop/css/stylus.css",
 				"/C/Users/Administrator/Desktop/scss/procss.css",
 				"/I/笔记/note/precss.css",
-				"/I/笔记/note/sass.sass",
-				"/I/笔记/note/less.less",
-				"/I/笔记/note/stylus.styl",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Stylus/Stylus.sublime-settings",
-				"/C/Users/Administrator/Desktop/scss/style.scss",
-				"/C/Users/Administrator/Desktop/css/style.css",
-				"/C/Users/Administrator/Desktop/scss/sass.sass",
-				"/I/笔记/note/webpack.config.js",
-				"/I/笔记/note/dist/css/index.css",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sublime-completions/sbc-api-jquery.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/Main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
-				"/C/Users/Administrator/.bashrc",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/ColorHighlighter.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Highlighter/colors.py",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Highlighter/Default.sublime-keymap",
-				"/I/笔记/note/src/index.scss",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/PostCSS Sorting/PostCSSSorting.sublime-settings",
-				"/I/笔记/note/dist/css/index.postcss",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/PostCSSSorting.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/PostCSS Sorting/screenshot.gif",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/PostCSS Sorting/.editorconfig",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/PostCSS Sorting/Main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/PostCSS Sorting/Default (Windows).sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Default (Windows).sublime-keymap",
-				"/I/笔记/note/src/1.css",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Cssnext/Cssnext.sublime-settings",
-				"/I/笔记/note/src/public/pc.js",
-				"/I/笔记/note/jquery-3.2.1.js",
-				"/I/笔记/note/jquery.js",
-				"/I/笔记/note/src/index.less",
-				"/I/笔记/note/package.json",
-				"/I/笔记/note/npm.js",
-				"/I/笔记/note/ES5.js",
-				"/C/Users/Administrator/AppData/Roaming/npm/jshint",
-				"/I/笔记/note/node_modules/_zepto@1.2.0@zepto/dist/zepto.js",
-				"/I/笔记/note/node_modules/zepto/dist/zepto.js",
-				"/I/笔记/note/node_modules/zepto/dist/zepto.min.js",
-				"/I/笔记/note/src/pc.js",
-				"/I/笔记/note/src/mobile.js",
-				"/I/笔记/note/css3.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/dist/css/bootstrap.css",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/modals.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/mixins/reset-text.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/code.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/bootstrap.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/alerts.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/.csscomb.json",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/variables.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/wells.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/dist/css/bootstrap-theme.min.css",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/dist/css/bootstrap-theme.css",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/dist/css/bootstrap.min.css",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/dist/css/bootstrap-theme.css.map",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/dist/css/bootstrap.css.map",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/mixins/resize.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/mixins/clearfix.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/mixins.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/media.less"
+				"/I/笔记/note/sass.sass"
 			],
 			"find":
 			{
@@ -2424,7 +2407,8 @@
 				"height": 142.0,
 				"where_history":
 				[
-					"D:\\Program Files\\Sublime Text 3126\\Data\\Packages\\LocalizedMenu",
+					"I:\\项目",
+					"I:\\项目\\style\\src",
 					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Gulp",
 					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Default",
 					"I:\\b\\b",
@@ -2510,134 +2494,134 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"context",
-					"done",
-					"catch",
-					"cat",
-					"index",
-					"Ready",
-					"fn.extend",
-					"post",
-					"Toggle",
-					"toggle",
-					"show",
-					"click",
-					"contextmenu",
-					"cssNumber",
-					"escapeselector",
-					"cssHooks",
-					"cssNumber",
-					"isi",
-					"isindex",
-					"\"<",
-					"video",
-					"\"<",
-					"header",
-					":",
-					"source",
-					"strike",
-					"xmp",
-					"center",
-					"noframes",
-					"samp",
-					"rp",
-					"rt",
-					"ruby",
-					"output",
-					"cite",
-					"strong",
-					"em",
-					"span",
-					"dialog",
-					"address",
-					"\",//",
-					"blockquote",
 					"pre",
-					"figcaption",
-					"td",
-					"caption",
-					"table",
-					"select",
-					"\",//",
-					"fieldset",
-					"div",
-					"meter",
-					":",
-					"summary",
-					"details",
-					":",
-					"body",
-					"空标签",
-					"script",
-					"abbreviations",
-					"fieldset",
-					"command",
-					"keygen",
-					"marquee",
-					"textarea",
-					"option",
-					"isindex",
-					"label",
-					"src",
+					"音乐",
+					"p9",
+					"p",
+					"avaicon",
+					"头像",
+					"h3",
+					"font-size",
+					"font",
+					"hidden",
+					"lsn",
+					"list",
+					"blockquote",
+					"/*=",
+					"标签",
+					"tab",
+					">\n",
+					"贯：广东茂名",
+					"出生年月：何东霖",
+					"Document",
+					"fnName",
+					"();",
+					"fnName",
+					"inputcolor",
+					"inputnumber",
+					"inputtel",
+					"inputtime",
+					"inputweek",
+					"inputmonth",
+					"inputdate",
+					"inputdatetime",
 					"picture",
-					"\"col\"",
-					"\"hr\"",
-					"hr",
-					"frame",
-					"body",
-					":",
-					"base",
-					"acronym",
-					"acr|acronym",
-					"abbr",
-					"br",
-					"basefont",
-					"h1",
-					"                    \"",
-					"h4",
-					"h1",
-					"select",
-					":",
+					"HTML",
+					"show_css_completions",
+					"tab",
+					"17",
+					"快捷键",
+					"open_file",
+					"shift",
+					"\n<html lang=\"zh-Hans\">\n<head>\n    <meta charset=\"UTF-8\" />\n    <title>Document</title>\n</head>\n<body>\n    <div class=\"header\">\n        <div class=\"\"></div>\n        <div class=\"\"></div>\n        <div class=\"\"></div>\n        <div class=\"\"></div>\n    </div>\n    <div class=\"box\">",
+					"></div>\n        <div class=\"\"></div>\n        <div class=\"\"></div>\n        <div class=\"\"></div>\n    </div>\n    <div class=\"box\">",
+					"warn",
+					"postcss",
+					"sass",
+					"fnName",
+					"include",
+					"extend",
+					"postcss",
+					"slim",
+					"css",
+					"sass",
+					"compressed",
+					"scss",
+					".",
+					"class",
+					"=\"\"></",
+					"class",
+					"header",
 					"div",
-					"xmp",
-					"isindex",
-					":",
-					"mark",
-					"meter",
-					"progress",
-					"meter",
-					"progress",
-					"keygen",
-					"\":",
-					"keygen",
-					"wbr",
-					"bdi",
-					"mark",
-					"time",
-					"wbr",
-					"bdi",
-					"mark",
-					":",
-					"\"://",
-					"command",
-					"summary",
-					"details",
-					"datalist",
-					"audio",
-					"track",
-					"canvas",
-					"can",
-					"article",
-					"art",
-					"canvas",
-					"footer",
-					"foo",
-					"fset",
-					"tem",
-					"mn",
-					"prog",
-					"str",
-					"dlg"
+					"scss.scss",
+					"=\"\"></",
+					"默认为：background；",
+					"Sass",
+					"radius",
+					"ctrl+m",
+					"Shift+Ctrl+M",
+					"lang",
+					"cas",
+					"disable_tab_abbreviations_on_auto_complete",
+					"unless",
+					"width",
+					"top",
+					"left",
+					"css",
+					"styl",
+					"_base",
+					"base",
+					"可以不需要花括号",
+					"scss",
+					"sass",
+					"procss",
+					"less",
+					"scss",
+					"less",
+					"./src/css/",
+					"plumber",
+					"./src/css",
+					"npostcss",
+					"postcss",
+					"style",
+					"gulpPostcss",
+					"gulpSass",
+					"gulpLess",
+					"gulpStylus",
+					"postcss",
+					"gulpPostcss",
+					"dist",
+					"src",
+					"styl",
+					"sass",
+					"less",
+					"css",
+					"less",
+					"tasks",
+					"scss",
+					"gulp",
+					"left",
+					"$c",
+					"vendor",
+					"\\\"",
+					"jquery",
+					"true",
+					"parent",
+					"extend",
+					"name",
+					"define",
+					"name",
+					"arg",
+					"name",
+					"i",
+					".css",
+					"on_line_sass",
+					"on_line_less",
+					"@varstyldollar",
+					"@varless",
+					"@varstyl",
+					"@varless",
+					"@varcss"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2660,216 +2644,19 @@
 					[
 						{
 							"buffer": 0,
+							"file": "/I/项目/style/gulpfile.js",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 0,
-								"regions":
-								{
-								},
-								"selection":
-								[
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-										},
-										"icon":
-										{
-										},
-										"open":
-										{
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content"
-									],
-									"current_file": "D:\\Program Files\\Sublime Text 3126\\Data\\Packages\\User\\sbc-api-my-jquery.sublime-settings",
-									"default_dir": "I:\\笔记\\note",
-									"is_init_dirty_state": false,
-									"origPos":
-									[
-										0.0,
-										0.0
-									],
-									"outline_rename_mode": false,
-									"symkeys":
-									[
-									],
-									"symlist":
-									[
-									],
-									"syncScroll": false,
-									"syntax": "Packages/Outline/outline.hidden-tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 12779,
+								"buffer_size": 3086,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										12776,
-										12776
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-										},
-										"icon":
-										{
-										},
-										"open":
-										{
-										},
-										"unmatched":
-										{
-											"1":
-											[
-												12775,
-												12776
-											]
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content"
-									],
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										225,
-										8,
-										9,
-										21,
-										13,
-										17,
-										4,
-										118,
-										2,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-									"is_init_dirty_state": false,
-									"origPos":
-									[
-										0.0,
-										10451.0
-									],
-									"origin_encoding": "UTF-8",
-									"syncScroll": false,
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 10451.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "note/todo.todo",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 59,
-								"regions":
-								{
-									"bookmarks":
-									{
-										"flags": 144,
-										"icon": "bookmark",
-										"regions":
-										[
-										],
-										"scope": "bookmarks"
-									}
-								},
-								"selection":
-								[
-									[
-										51,
-										51
+										379,
+										379
 									]
 								],
 								"settings":
@@ -2933,13 +2720,13 @@
 										7,
 										225,
 										8,
-										14,
-										11,
-										38,
-										6,
-										13,
-										204,
-										233,
+										7,
+										15,
+										32,
+										42,
+										5,
+										179,
+										76,
 										113,
 										1,
 										133,
@@ -2950,24 +2737,393 @@
 										3,
 										46
 									],
-									"is_init_dirty_state": false,
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 									"origPos":
 									[
 										0.0,
-										0.0
-									],
-									"origin_encoding": "UTF-8",
-									"plain_tasks_remain_time_phantoms":
-									[
+										204.0
 									],
 									"syncScroll": false,
-									"syntax": "Packages/PlainTasks/PlainTasks.sublime-syntax"
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 204.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/I/项目/style/src/page/index.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2509,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										487,
+										487
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										9,
+										4,
+										18,
+										15,
+										47,
+										1,
+										242,
+										214,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+									"origPos":
+									[
+										0.0,
+										306.0
+									],
+									"syncScroll": false,
+									"syntax": "Packages/HTML/HTML.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 204.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/I/项目/style/src/style/about.scss",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2814,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1073,
+										1073
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+											"1":
+											[
+												1074,
+												1075
+											]
+										},
+										"icon":
+										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/dot.png",
+												"brackethighlighter.default"
+											]
+										},
+										"open":
+										{
+											"1":
+											[
+												1040,
+												1041
+											]
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										9,
+										4,
+										16,
+										58,
+										9,
+										12,
+										60,
+										58,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+									"open_with_edit": true,
+									"origPos":
+									[
+										0.0,
+										544.0
+									],
+									"origin_encoding": "ASCII",
+									"syncScroll": false,
+									"syntax": "Packages/SCSS/SCSS.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2380.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 71151,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										34386,
+										34395
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+											"1":
+											[
+												34408,
+												34409
+											]
+										},
+										"icon":
+										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/dot.png",
+												"brackethighlighter.default"
+											]
+										},
+										"open":
+										{
+											"1":
+											[
+												34385,
+												34386
+											]
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										8,
+										9,
+										21,
+										10,
+										14,
+										11,
+										39,
+										241,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+									"origPos":
+									[
+										0.0,
+										29831.0
+									],
+									"syncScroll": false,
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 29831.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
 							"type": "text"
 						}
 					]
@@ -2975,7 +3131,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 37.0
+				"height": 43.0
 			},
 			"input":
 			{
@@ -3008,10 +3164,6 @@
 			{
 				"height": 200.0
 			},
-			"output.diagnostics":
-			{
-				"height": 212.0
-			},
 			"output.exec":
 			{
 				"height": 339.0
@@ -3034,14 +3186,18 @@
 			},
 			"output.gulp_output":
 			{
-				"height": 156.0
+				"height": 270.0
+			},
+			"output.unsaved_changes":
+			{
+				"height": 247.0
 			},
 			"pinned_build_system": "Packages/User/node.sublime-build",
-			"position": "0,0,1,-1,-1,-1,-1,736,64,64,882",
-			"project": "note.sublime-project",
+			"position": "0,0,1,-1,-1,-1,-1,704,32,32,850",
+			"project": "style.sublime-project",
 			"replace":
 			{
-				"height": 70.0
+				"height": 82.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -3051,12 +3207,36 @@
 				"selected_items":
 				[
 					[
-						"css",
-						"1.css"
+						"scss.scss",
+						"src\\style\\scss.scss"
+					],
+					[
+						"scsscs",
+						"src\\css\\scss.css"
+					],
+					[
+						"pro",
+						"src\\style\\procss.css"
+					],
+					[
+						"lessc",
+						"src\\css\\less.css"
+					],
+					[
+						"gu",
+						"gulpfile.js"
 					],
 					[
 						"scss",
-						"scss.scss"
+						"src\\css\\scss.css"
+					],
+					[
+						"gul",
+						"gulpfile.js"
+					],
+					[
+						"scss.css",
+						"src\\css\\scss.css"
 					],
 					[
 						"gulp",
@@ -3107,10 +3287,6 @@
 						"gulpfile.js"
 					],
 					[
-						"gul",
-						"gulpfile.js"
-					],
-					[
 						"vue",
 						"node_modules\\vue\\dist\\vue.esm.js"
 					],
@@ -3133,14 +3309,22 @@
 				[
 					[
 						"",
-						"I:\\笔记\\style.sublime-project"
+						"I:\\笔记\\blog.sublime-project"
+					],
+					[
+						"note",
+						"I:\\笔记\\note.sublime-project"
+					],
+					[
+						"no",
+						"I:\\笔记\\note.sublime-project"
 					]
 				],
 				"width": 475.0
 			},
 			"select_symbol":
 			{
-				"height": 79.0,
+				"height": 428.0,
 				"last_filter": "",
 				"selected_items":
 				[
@@ -3165,16 +3349,17 @@
 			{
 				"max_columns": 2
 			},
-			"window_id": 134,
-			"workspace_name": "/I/笔记/note.sublime-workspace"
+			"window_id": 139,
+			"workspace_name": "/I/笔记/style.sublime-workspace"
 		}
 	],
 	"workspaces":
 	{
 		"recent_workspaces":
 		[
-			"/I/笔记/note.sublime-workspace",
 			"/I/笔记/style.sublime-workspace",
+			"/I/笔记/blog.sublime-workspace",
+			"/I/笔记/note.sublime-workspace",
 			"/I/笔记/python.sublime-workspace",
 			"/I/笔记/webpack.sublime-workspace"
 		]

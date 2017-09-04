@@ -45,7 +45,7 @@
         "preserve_newlines": true,
 
         //都不需要换行缩进的元素,默认"a", "span", "img", "code", "pre", "sub", "sup", "em", "strong", "b", "i", "u", "strike", "big", "small", "pre", "h1", "h2", "h3", "h4", "h5", "h6"
-        "unformatted": [],
+        "unformatted": ["pre"],
 
         //按字符数进行换行,0为禁用
         "wrap_line_length": 0,

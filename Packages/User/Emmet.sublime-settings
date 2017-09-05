@@ -91,6 +91,9 @@
             "filters": "css",
             "profile": "css",
             "snippets": {
+                // 注释
+                    "cc":"/*====================\n\t|\n====================*/",
+                    "ccc": "/* |${child} */",
                 // 媒体查询
                     "@imp": "@import '${1:./}';",
                     "@import": "@import url(|);",
@@ -595,8 +598,6 @@
                     "rgba":"rgba(${1:0}, ${2:0}, ${3:0}, 0.${4:5});",
                     "opie": "filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);",
                     "opms": "-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)';",
-                // 注释
-                    "cc": "/* |${child} */",
                 // 内容
                     "ct": "content:${1:normal};",
                     "ctn": "content:normal;",

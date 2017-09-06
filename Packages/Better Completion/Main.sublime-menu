@@ -24,30 +24,6 @@
                                 },
                                 "caption": "Settings \u2013 User",
                                 "command": "open_file"
-                            },
-                            {
-                                "args": {
-                                    "file": "${packages}/User/sbc-api-my-javascript.sublime-settings"
-                                },
-                                "caption": "Settings \u2013 javascript",
-                                "command": "open_file"
-                            },
-                            {
-                                "args": {
-                                    "file": "${packages}/User/sbc-api-my-html.sublime-settings"
-                                },
-                                "caption": "Settings \u2013 html",
-                                "command": "open_file"
-                            },
-                            {
-                                "args": {
-                                    "file": "${packages}/User/sbc-api-my-jquery.sublime-settings"
-                                },
-                                "caption": "Settings \u2013 jquery",
-                                "command": "open_file"
-                            },
-                            {
-                                "caption": "-"
                             }
                         ]
                     }

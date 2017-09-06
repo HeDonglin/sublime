@@ -1,0 +1,200 @@
+{
+  "scope": "source.js - string, source.coffee, source.js.embedded.html",
+
+  // Deprecated Source : http://mockjs.com/examples.html
+  // Source            : https://github.com/nuysoft/Mock/tree/refactoring
+
+  "completions":
+  [
+// 根据数据模板生成模拟数据。
+        [ "mock\tMock.mock(${1:template})", "Mock.mock(${1:template})" ],
+    // 记录数据模板。当拦截到匹配 rurl 的 Ajax 请求时，将根据数据模板 template 生成模拟数据，并作为响应数据返回。
+        [ "mock\tMock.mock(${1:rurl},${2:template})", "Mock.mock(${1:rurl},${2:template})" ],
+    // 记录用于生成响应数据的函数。当拦截到匹配 rurl 的 Ajax 请求时，函数 function(options) 将被执行，并把执行结果作为响应数据返回。
+        [ "mock\tMock.mock(${1:rurl},${2:fn})", "Mock.mock(${1:rurl},${2:fn})" ],
+    // 记录数据模板。当拦截到匹配 rurl 和 rtype 的 Ajax 请求时，将根据数据模板 template 生成模拟数据，并作为响应数据返回。
+        [ "mock\tMock.mock(${1:rurl},${2:type},${3:template})", "Mock.mock(${1:rurl},${2:type},${3:template})" ],
+    // 记录用于生成响应数据的函数。当拦截到匹配 rurl 和 rtype 的 Ajax 请求时，函数 function(options) 将被执行，并把执行结果作为响应数据返回。
+        [ "mock\tMock.mock(${1:rurl},${2:type},${3:fn})", "Mock.mock(${1:rurl},${2:type},${3:fn})" ],
+
+// 配置拦截 Ajax 请求时的行为。支持的配置项有：timeout。
+        [ "mocksetup\tMock.setup(${1:rurl},${2:type},${3:fn})", "Mock.setup({\n\ttimeout:${1:'10-100'}\n})" ],
+
+// 校验真实数据 data 是否与数据模板 template 匹配
+        [ "mockvalid\tMock.valid(${1:template},${2:data})","Mock.valid(${1:template},${2:data})" ],
+
+// 把 Mock.js 风格的数据模板 template 转换成 JSON Schema。
+        [ "mocktoJSONSchema\tMock.toJSONSchema(${1:template})","Mock.toJSONSchema(${1:template})" ],
+
+// Mock.Random 是一个工具类，用于生成各种随机数据。
+        [ "mockrandom\tMock.Random", "let Random = Mock.Random;\n" ],
+
+// 基础
+    // 返回一个随机的布尔值。
+        [ "Randomboolean\tRandom.boolean()", "Random.boolean()" ],
+        [ "Randomboolean\tRandom.boolean(${1:min},${2:max},${3:current})", "Random.boolean(${1:min},${2:max},${3:current})" ],
+    // 返回一个随机的自然数（大于等于 0 的整数）。
+        [ "Randomnatural\tRandom.natural()","Random.natural()" ],
+        [ "Randomnatural\tRandom.natural(${1:min})","Random.natural(${1:min})" ],
+        [ "Randomnatural\tRandom.natural(${1:min},${2:max})", "Random.natural(${1:min},${2:max})" ],
+    // 返回一个随机的整数。
+        [ "Randominteger\tRandom.integer()","Random.integer()" ],
+        [ "Randominteger\tRandom.integer(${1:min})","Random.integer(${1:min})" ],
+        [ "Randominteger\tRandom.integer(${1:min},${2:max})", "Random.integer(${1:min},${2:max})" ],
+    // 返回一个随机的浮点数。
+        [ "Randomfloat\tRandom.float()","Random.float()" ],
+        [ "Randomfloat\tRandom.float(${1:min})","Random.float(${1:min})" ],
+        [ "Randomfloat\tRandom.float(${1:min},${2:max})","Random.float(${1:min},${2:max})" ],
+        [ "Randomfloat\tRandom.float(${1:min},${2:max},${3:dmin})","Random.float(${1:min},${2:max},${3:dmin})" ],
+        [ "Randomfloat\tRandom.float(${1:min},${2:max},${3:dmin},${4:dmax})","Random.float(${1:min},${2:max},${3:dmin},${4:dmax})" ],
+    // 返回一个随机字符。
+        [ "Randomcharacter\tRandom.character()","Random.character()" ],
+        [ "Randomcharacter\tRandom.character(${1:'lower|upper|number|symbol|pool'})","Random.character(${1:'lower|upper|number|symbol|pool'})" ],
+    // 返回一个随机字符串。
+        [ "Randomstring\tRandom.string()","Random.string()" ],
+        [ "Randomstring\tRandom.string(${1:length})","Random.string(${1:length})" ],
+        [ "Randomstring\tRandom.string(${1:pool},${2:length})","Random.string(${1:pool},${2:length})" ],
+        [ "Randomstring\tRandom.string(${1:min},${2:max})","Random.string(${1:min},${2:max})" ],
+        [ "Randomstring\tRandom.string(${1:pool},${2:min}${3:max})","Random.string(${1:pool},${2:min}${3:max})" ],
+    // 返回一个整型数组。
+        [ "Randomrange\tRandom.range(${1:stop})","Random.range(${1:stop})" ],
+        [ "Randomrange\tRandom.range(${1:start},${2:stop})","Random.range(${1:start},${2:stop})" ],
+        [ "Randomrange\tRandom.range(${1:start},${2:stop},${3:step})","Random.range(${1:start},${2:stop},${3:step})" ],
+
+// 时间
+    // 返回一个随机的日期字符串。
+        [ "Randomdate\tRandom.date()","Random.date()" ],
+        [ "Randomdate\tRandom.date(${1:'yyyy|yy|y|MM|M|dd|d|HH|H|hh|h|mm|m|ss|s|SS|S|A|a|T'})","Random.date(${1:'yyyy|yy|y|MM|M|dd|d|HH|H|hh|h|mm|m|ss|s|SS|S|A|a|T'})" ],
+    // 返回一个随机的时间字符串。
+        [ "Randomtime\tRandom.time()","Random.time()" ],
+        [ "Randomtime\tRandom.time(${1:'yyyy|yy|y|MM|M|dd|d|HH|H|hh|h|mm|m|ss|s|SS|S|A|a|T'})","Random.time(${1:'yyyy|yy|y|MM|M|dd|d|HH|H|hh|h|mm|m|ss|s|SS|S|A|a|T'})" ],
+    // 返回一个随机的日期和时间字符串。
+        [ "Randomdatetime\tRandom.datetime()","Random.datetime()" ],
+        [ "Randomdatetime\tRandom.datetime(${1:'yyyy|yy|y|MM|M|dd|d|HH|H|hh|h|mm|m|ss|s|SS|S|A|a|T'})","Random.datetime(${1:'yyyy|yy|y|MM|M|dd|d|HH|H|hh|h|mm|m|ss|s|SS|S|A|a|T'})" ],
+    // 返回当前的日期和时间字符串。
+        [ "Randomnow\tRandom.now()","Random.now()" ],
+        [ "Randomnow\tRandom.now(${1:'year|month|week|day|hour|minute|second|week'},${2:'yyyy|yy|y|MM|M|dd|d|HH|H|hh|h|mm|m|ss|s|SS|S|A|a|T'})","Random.now(${1:'year|month|week|day|hour|minute|second|week'},${2:'yyyy|yy|y|MM|M|dd|d|HH|H|hh|h|mm|m|ss|s|SS|S|A|a|T'})" ],
+        [ "Randomnow\tRandom.now(${1:'yyyy|yy|y|MM|M|dd|d|HH|H|hh|h|mm|m|ss|s|SS|S|A|a|T'})","Random.now(${1:'yyyy|yy|y|MM|M|dd|d|HH|H|hh|h|mm|m|ss|s|SS|S|A|a|T'})" ],
+        [ "Randomnow\tRandom.now(${1:'year|month|week|day|hour|minute|second|week'})","Random.now(${1:'year|month|week|day|hour|minute|second|week'})" ],
+// 网页
+    // 随机生成一个 URL。
+        [ "Randomurl\tRandom.url()","Random.url()" ],
+        [ "Randomurl\tRandom.url(${1:protocol},${2:host})","Random.url(${1:protocol},${2:host})" ],
+    // 随机生成一个 URL 协议。返回以下值之一：'http'、'ftp'、'gopher'、'mailto'、'mid'、'cid'、'news'、'nntp'、'prospero'、'telnet'、'rlogin'、'tn3270'、'wais'。
+        [ "Randomprotocol\tRandom.protocol()","Random.protocol()" ],
+    // 随机生成一个域名
+        [ "Randomdomain\tRandom.domain()","Random.domain()" ],
+    // 随机生成一个顶级域名（Top Level Domain）
+        [ "Randomtld\tRandom.tld()","Random.tld()" ],
+    // 随机生成一个邮件地址
+        [ "Randomemail\tRandom.email()","Random.email()" ],
+        [ "Randomemail\tRandom.email(${1:domain})","Random.email(${1:domain})" ],
+    // 随机生成一个 IP 地址
+        [ "Randomip\tRandom.ip()","Random.ip()" ],
+
+// 杂项
+    // 随机生成一个 GUID。
+        [ "Randomguid\tRandom.guid()","Random.guid()" ],
+    //  随机生成一个 18 位身份证
+        [ "Randomid\tRandom.id()","Random.id()" ],
+    // 生成一个全局的自增整数。
+        [ "Randomincrement\tRandom.increment()","Random.increment()" ],
+        [ "Randomincrement\tRandom.increment(${1:step})","Random.increment(${1:step})" ],
+// 帮手
+    // 把字符串的第一个字母转换为大写。
+        [ "Randomcapitalize\tRandom.capitalize(${1:word})","Random.capitalize(${1:word})" ],
+    // 把字符串转换为大写。
+        [ "Randomupper\tRandom.upper(${1:str})","Random.upper(${1:str})" ],
+    // 把字符串转换为小写。
+        [ "Randomlower\tRandom.lower(${1:str})","Random.lower(${1:str})" ],
+    // 从数组中随机选取一个元素，并返回。
+        [ "Randompick\tRandom.pick(${1:arr})","Random.pick(${1:arr})" ],
+    // 打乱数组中元素的顺序，并返回。
+        [ "Randomshuffle\tRandom.shuffle(${1:arr})","Random.shuffle(${1:arr})" ],
+
+// 地址
+    // 随机生成一个（中国）大区
+        [ "Randomregion\tRandom.region()","Random.region()" ],
+    // 随机生成一个（中国）省（或直辖市、自治区、特别行政区）。
+        [ "Randomprovince\tRandom.province()","Random.province()" ],
+    // 随机生成一个（中国）市。
+        [ "Randomcity\tRandom.city()","Random.city()" ],
+        [ "Randomcity\tRandom.city(${1:boolean})","Random.city(${1:boolean})" ],
+    // 随机生成一个（中国）县。
+        [ "Randomcounty\tRandom.county()","Random.county()" ],
+        [ "Randomcity\tRandom.city(${1:boolean})","Random.city(${1:boolean})" ],
+    // 随机生成一个邮政编码（六位数字）
+        [ "Randomzip\tRandom.zip()","Random.zip()" ],
+
+
+
+// 名字
+    // 随机生成一个常见的英文名。
+        [ "Randomfirst\tRandom.first()","Random.first()" ],
+    // 随机生成一个常见的中文名。
+        [ "Randomcfirst\tRandom.cfirst()","Random.cfirst()" ],
+    // 随机生成一个常见的英文姓。
+        [ "Randomlast\tRandom.last()","Random.last()" ],
+    // 随机生成一个常见的中文姓。
+        [ "Randomclast\tRandom.clast()","Random.clast()" ],
+    // 随机生成一个常见的英文姓名。
+        [ "Randomname\tRandom.name()","Random.name()" ],
+    // 随机生成一个常见的中文姓名。
+        [ "Randomcname\tRandom.cname()","Random.cname()" ],
+        // 指示是否生成中间名
+        [ "Randomname\tRandom.name(${1:boolean})","Random.name(${1:boolean})" ],
+
+// 图片
+    // 生成一个随机的图片地址
+        [ "Randomimage\tRandom.image()","Random.image()" ],
+        [ "Randomimage\tRandom.image(${1:size})","Random.image(${1:size})" ],
+        [ "Randomimage\tRandom.image(${1:size},${2:background})","Random.image(${1:size},${2:background})" ],
+        [ "Randomimage\tRandom.image(${1:size},${2:background},${3:text})","Random.image(${1:size},${2:background},${3:text})" ],
+        [ "Randomimage\tRandom.image(${1:size},${2:background},${3:foreground}),${4:text}","Random.image(${1:size},${2:background},${3:foreground}),${4:text}" ],
+        [ "Randomimage\tRandom.image(${1:size},${2:background},${3:foreground}),${4:format},${5:text}","Random.image(${1:size},${2:background},${3:foreground}),${4:format},${5:text}" ],
+    // 生成一段随机的 Base64 图片编码
+        [ "RandomdataImage\tRandom.dataImage()","Random.dataImage()" ],
+        [ "RandomdataImage\tRandom.dataImage(${1:size})","Random.dataImage(${1:size})" ],
+        [ "RandomdataImage\tRandom.dataImage(${1:size},${2:text})","Random.dataImage(${1:size},${2:text})" ],
+// 颜色
+        [ "Randomcolor\tRandom.color()","Random.color()" ],
+        [ "Randomhex\tRandom.hex()","Random.hex()" ],
+        [ "Randomrgb\tRandom.rgb()","Random.rgb()" ],
+        [ "Randomhsl\tRandom.hsl()","Random.hsl()" ],
+
+// 文本
+    // 随机生成一段文本
+        [ "Randomparagraph\tRandom.paragraph()","Random.paragraph()" ],
+        [ "Randomparagraph\tRandom.paragraph(${1:len})","Random.paragraph(${1:len})" ],
+        [ "Randomparagraph\tRandom.paragraph(${1:min},${2:max})","Random.paragraph(${1:min},${2:max})" ],
+    // 随机生成一段中文文本
+        [ "Randomcparagraph\tRandom.cparagraph()","Random.cparagraph()" ],
+        [ "Randomcparagraph\tRandom.cparagraph(${1:len})","Random.cparagraph(${1:len})" ],
+        [ "Randomcparagraph\tRandom.cparagraph(${1:min},${2:max})","Random.cparagraph(${1:min},${2:max})" ],
+    // 随机生成一段中文文本
+        [ "Randomcsentence\tRandom.csentence()","Random.csentence()" ],
+        [ "Randomcsentence\tRandom.csentence(${1:len})","Random.csentence(${1:len})" ],
+        [ "Randomcsentence\tRandom.csentence(${1:min},${2:max})","Random.csentence(${1:min},${2:max})" ],
+    // 随机生成一个句子，第一个单词的首字母大写
+        [ "Randomsentence\tRandom.sentence()","Random.sentence()" ],
+        [ "Randomsentence\tRandom.sentence(${1:len})","Random.sentence(${1:len})" ],
+        [ "Randomsentence\tRandom.sentence(${1:min},${2:max})","Random.sentence(${1:min},${2:max})" ],
+    // 随机生成一个单词
+        [ "Randomword\tRandom.word()","Random.word()" ],
+        [ "Randomword\tRandom.word(${1:len})","Random.word(${1:len})" ],
+        [ "Randomword\tRandom.word(${1:min},${2:max})","Random.word(${1:min},${2:max})" ],
+    // 随机生成一个汉字
+        [ "Randomcword\tRandom.cword()","Random.cword()" ],
+        [ "Randomcword\tRandom.cword(${1:len})","Random.cword(${1:len})" ],
+        [ "Randomcword\tRandom.cword(${1:min},${2:max})","Random.cword(${1:min},${2:max})" ],
+    // 随机生成一句标题，其中每个单词的首字母大写。
+        [ "Randomtitle\tRandom.title()","Random.title()" ],
+        [ "Randomtitle\tRandom.title(${1:len})","Random.title(${1:len})" ],
+        [ "Randomtitle\tRandom.title(${1:min},${2:max})","Random.title(${1:min},${2:max})" ],
+    // 随机生成一句中文标题。
+        [ "Randomctitle\tRandom.ctitle()","Random.ctitle()" ],
+        [ "Randomctitle\tRandom.ctitle(${1:len})","Random.ctitle(${1:len})" ],
+        [ "Randomctitle\tRandom.ctitle(${1:min},${2:max})","Random.ctitle(${1:min},${2:max})" ],
+
+  ]
+}

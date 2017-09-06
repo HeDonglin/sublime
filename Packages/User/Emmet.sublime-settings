@@ -92,8 +92,9 @@
             "profile": "css",
             "snippets": {
                 // 注释
-                    "cc":"/*====================\n\t|\n====================*/",
-                    "ccc": "/* |${child} */",
+                    "cc":"/*==============================\n\t|\n==============================*/",
+                    "ccc":"// |\n// --------------------------------------------------",
+                    "cccc": "/* |${child} */",
                 // 媒体查询
                     "@imp": "@import '${1:./}';",
                     "@import": "@import url(|);",
@@ -529,6 +530,8 @@
                     "curm": "cursor:move;",
                     "curp": "cursor:pointer;",
                     "curt": "cursor:text;",
+                    // 光标颜色
+                    "car":"caret-color:#${1:900};",
                     // 盒模型组成模式
                     "bxz": "box-sizing:${1:border-box};",
                     "bxzcb": "box-sizing:content-box;",
@@ -593,7 +596,7 @@
                     "cra": "color:rgba(${1:0}, ${2:0}, ${3:0}, .${4:5});",
                     "op": "opacity:${1:1};",
                     //兼容ie678;
-                    "op-": "opacity: 0.${1:5};\nfilter: alpha(opacity:${1=5}0);",
+                    "op-": "opacity: 0.${1:5};\nfilter: alpha(opacity=${1:5}0);",
                     "rgb":"rgb(${1:0}, ${2:0}, ${3:0});",
                     "rgba":"rgba(${1:0}, ${2:0}, ${3:0}, 0.${4:5});",
                     "opie": "filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);",

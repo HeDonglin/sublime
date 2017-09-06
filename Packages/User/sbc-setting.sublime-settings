@@ -32,5 +32,8 @@
 
     // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-jquery.sublime-settings
     "my-jquery": true,
+
+    // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-mockjs.sublime-settings
+    "my-mockjs": true,
   }
 }

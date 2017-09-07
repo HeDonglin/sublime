@@ -2361,10 +2361,10 @@
 			],
 			"file_history":
 			[
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SCSS/SCSS.tmLanguage",
 				"/I/项目/style/src/1.js",
 				"/I/项目/style/src/index.html",
 				"/I/项目/style/src/style/index.scss",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/SCSS/SCSS.tmLanguage",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Syntax Highlighting for PostCSS/Preferences/Comments.tmPreferences",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Syntax Highlighting for PostCSS/Syntaxes/PostCSS.tmLanguage",
 				"/C/Users/Administrator/Downloads/MarioRicalde-SCSS.tmbundle-v1.1-162-g58d60a4/MarioRicalde-SCSS.tmbundle-58d60a4/SCSS.tmLanguage",
@@ -2586,6 +2586,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"scss",
+					"Scss",
+					"scss",
 					"pcss",
 					"postcss",
 					"PostCSS",
@@ -2710,10 +2713,7 @@
 					"jquery",
 					"natural",
 					"name",
-					"true",
-					"torue",
-					"201",
-					"你好"
+					"true"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2737,7 +2737,7 @@
 						{
 							"buffer": 0,
 							"file": "/I/项目/style/src/style/index.scss",
-							"semi_transient": true,
+							"semi_transient": false,
 							"settings":
 							{
 								"buffer_size": 1720,
@@ -2747,8 +2747,8 @@
 								"selection":
 								[
 									[
-										1448,
-										1448
+										436,
+										436
 									]
 								],
 								"settings":
@@ -2760,8 +2760,8 @@
 										{
 											"1":
 											[
-												1531,
-												1532
+												1549,
+												1550
 											]
 										},
 										"icon":
@@ -2776,8 +2776,8 @@
 										{
 											"1":
 											[
-												1345,
-												1346
+												410,
+												411
 											]
 										},
 										"unmatched":
@@ -2786,16 +2786,16 @@
 									},
 									"bracket_highlighter.regions":
 									[
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
 										"bh_default",
 										"bh_default_center",
 										"bh_default_open",
 										"bh_default_close",
-										"bh_default_content"
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
 									],
 									"c_time":
 									[
@@ -2845,18 +2845,20 @@
 										46
 									],
 									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+									"is_init_dirty_state": false,
 									"origPos":
 									[
 										0.0,
-										1575.0
+										945.0
 									],
+									"origin_encoding": "ASCII",
 									"syncScroll": false,
 									"syntax": "Packages/SCSS/SCSS.tmLanguage",
 									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 1575.0,
+								"translation.y": 945.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -2929,7 +2931,7 @@
 				"height": 247.0
 			},
 			"pinned_build_system": "Packages/User/node.sublime-build",
-			"position": "0,2,3,-1,-1,-1,-1,704,32,100,850",
+			"position": "0,2,3,-32000,-32000,-1,-1,704,32,100,850",
 			"project": "style.sublime-project",
 			"replace":
 			{

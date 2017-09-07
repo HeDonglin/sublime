@@ -108,6 +108,13 @@
             },
             {
                 "args": {
+                    "file": "${packages}/User/Emmet.sublime-settings"
+                },
+                "caption": "Settings \u2013 emmet",
+                "command": "open_file"
+            },
+            {
+                "args": {
                     "file": "${packages}/Better Completion/sbc-setting.sublime-settings"
                 },
                 "caption": "Settings \u2013 Default",

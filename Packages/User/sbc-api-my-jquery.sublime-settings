@@ -2,6 +2,7 @@
   "scope": "source.js - string, source.coffee, source.js.embedded.html",
 
   // Deprecated Source : http://api.jquery.com/category/deprecated/
+  // @see http://www.css88.com/jqapi-1.9/
   // Source            : http://oscarotero.com/jquery/
   "completions":
   [

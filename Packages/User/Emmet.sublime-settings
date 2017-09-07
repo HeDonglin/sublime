@@ -1234,7 +1234,7 @@
                         "inpf|inputfile": "inp[type=file]",
                         "inpsb|inputsubmit": "<input type=\"submit\" value=\"\" />",
                         "inpim|inputimage": "<input type=\"image\" src=\"\" alt=\"\" />",
-                        "inpbu|inputbutton": "<input type=\"button\" value=\"\" />",
+                        "inpb|inputbutton": "<input type=\"button\" value=\"\" />",
                         "inpre": "inputbutton[type=reset]",
                     //按钮
                         "buts" : "button[type=submit]",

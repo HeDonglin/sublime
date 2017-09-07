@@ -731,6 +731,10 @@
     [ "timeout\tjsXMLHttpRequest", "timeout" ],
     [ "upload\tjsXMLHttpRequest", "upload" ],
     [ "withCredentials\tjsXMLHttpRequest", "withCredentials" ],
+// JSON
+    ["JSONparse\tjsJSON","JSON.parse(${1:'text[, reviver]'})"],
+    ["JSONstringify\tjsJSON","JSON.stringify(${1:'value[, replacer[, space]]'})"],
+
 // 方法
     [ "abort\tjsXMLHttpRequest()", "abort()" ],
     [ "open\tjsXMLHttpRequest()", "open(${1:type},${2:url},${3:true})" ],

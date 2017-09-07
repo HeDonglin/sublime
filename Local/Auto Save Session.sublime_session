@@ -1434,6 +1434,50 @@
 				"selected_items":
 				[
 					[
+						"json",
+						"JSONstringify\tjsJSON"
+					],
+					[
+						"Randomtime",
+						"Randomtime\tRandom.time(${1:'yyyy|yy|y|MM|M|dd|d|HH|H|hh|h|mm|m|ss|s|SS|S|A|a|T'})"
+					],
+					[
+						"Randomcparagraph",
+						"Randomcparagraph\tRandom.cparagraph(${1:len})"
+					],
+					[
+						"Randomcpa",
+						"Randomcparagraph\tRandom.cparagraph()"
+					],
+					[
+						"Randomcap",
+						"Randomcapitalize\tRandom.capitalize(${1:word})"
+					],
+					[
+						"randomcsent",
+						"Randomcsentence\tRandom.csentence(${1:min},${2:max})"
+					],
+					[
+						"csenten",
+						"Randomcsentence\tRandom.csentence(${1:len})"
+					],
+					[
+						"randomcp",
+						"Randomcparagraph\tRandom.cparagraph()"
+					],
+					[
+						"Randomtitle",
+						"Randomctitle\tRandom.ctitle(${1:len})"
+					],
+					[
+						"mock",
+						"mock\tMock.mock(${1:template})"
+					],
+					[
+						"Mock",
+						"mock\tMock.mock(${1:template})"
+					],
+					[
 						"on",
 						"on\tjQuery"
 					],
@@ -1456,10 +1500,6 @@
 					[
 						"racw",
 						"Randomcword\tRandom.cword()"
-					],
-					[
-						"mock",
-						"mock\tMock.mock(${1:rurl},${2:template})"
 					],
 					[
 						"RANDATE",
@@ -1904,59 +1944,27 @@
 					[
 						"wa",
 						"wat\tatob"
-					],
-					[
-						"char",
-						"charCodeAt\t()"
-					],
-					[
-						"last",
-						"lastIndexOf\tlastIndexOf()"
-					],
-					[
-						"jo",
-						"jsdocs"
-					],
-					[
-						"f",
-						"f+\tf++"
-					],
-					[
-						"fro",
-						"for\tfor (…) {…}"
-					],
-					[
-						"log",
-						"console.log\tjsProp"
-					],
-					[
-						"consol",
-						"console.log\tjsProp"
-					],
-					[
-						"fn",
-						"fun\tFunction"
 					]
 				]
 			},
 			"buffers":
 			[
 				{
-					"file": "/I/项目/style/mock/db.js",
+					"file": "/I/项目/style/src/1.js",
 					"settings":
 					{
-						"buffer_size": 224,
+						"buffer_size": 429,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/I/项目/style/src/style/index.scss",
+					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 1720,
+						"buffer_size": 37806,
 						"encoding": "UTF-8",
-						"line_ending": "Unix"
+						"line_ending": "Windows"
 					}
 				}
 			],
@@ -2365,19 +2373,23 @@
 			"expanded_folders":
 			[
 				"/I/项目/style",
-				"/I/项目/style/mock",
-				"/I/项目/style/src/style"
+				"/I/项目/style/src"
 			],
 			"file_history":
 			[
+				"/I/项目/style/mock/routes.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-mockjs.sublime-settings",
+				"/I/项目/style/mock/data/articles.js",
+				"/I/项目/style/mock/db.js",
+				"/I/项目/style/mock/data/users.js",
+				"/I/项目/style/mock/data/user.js",
+				"/I/项目/style/src/style/index.scss",
 				"/I/项目/style/node_modules/json-server/lib/server/public/index.html",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
 				"/I/项目/style/mock/server.js",
-				"/I/项目/style/mock/db.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/SCSS/SCSS.tmLanguage",
 				"/I/项目/style/src/1.js",
 				"/I/项目/style/src/index.html",
-				"/I/项目/style/src/style/index.scss",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Syntax Highlighting for PostCSS/Preferences/Comments.tmPreferences",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Syntax Highlighting for PostCSS/Syntaxes/PostCSS.tmLanguage",
 				"/C/Users/Administrator/Downloads/MarioRicalde-SCSS.tmbundle-v1.1-162-g58d60a4/MarioRicalde-SCSS.tmbundle-58d60a4/SCSS.tmLanguage",
@@ -2402,8 +2414,6 @@
 				"/I/项目/style/gulpfile.js",
 				"/I/项目/style/src/data/news.js",
 				"/I/项目/style/src/data/abc.js",
-				"/I/项目/style/mock/routes.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-mockjs.sublime-settings",
 				"/I/项目/style/src/todo.todo",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
@@ -2494,10 +2504,7 @@
 				"/D/Program Files/Sublime Text 3126/data/Packages/User/oscrypto-ca-bundle.crt",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Seti_UI/Seti.sublime-theme",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeLinter.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Vuejs Complete Package/Snippets/vue-extend.sublime-snippet",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Vuejs Complete Package/Snippets/add.sublime-snippet",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Vuejs Complete Package/Snippets/delete.sublime-snippet",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Vuejs Complete Package/package.json"
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Vuejs Complete Package/Snippets/vue-extend.sublime-snippet"
 			],
 			"find":
 			{
@@ -2595,6 +2602,20 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"data",
+					"评论",
+					"max",
+					"csence",
+					"作者",
+					"news",
+					"users",
+					"user",
+					"password",
+					"akk",
+					"name",
+					"desc",
+					"content",
+					"abc",
 					"scss",
 					"Scss",
 					"scss",
@@ -2708,21 +2729,7 @@
 					"character",
 					"integer",
 					"natural",
-					"template",
-					"type",
-					"setup",
-					"fn",
-					"template",
-					"fn",
-					"template",
-					"fnn",
-					"template",
-					"attr",
-					"tMockjs",
-					"jquery",
-					"natural",
-					"name",
-					"true"
+					"template"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2745,19 +2752,19 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/I/项目/style/mock/db.js",
+							"file": "/I/项目/style/src/1.js",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 224,
+								"buffer_size": 429,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										170,
-										170
+										411,
+										411
 									]
 								],
 								"settings":
@@ -2769,8 +2776,8 @@
 										{
 											"1":
 											[
-												221,
-												222
+												416,
+												417
 											]
 										},
 										"icon":
@@ -2785,8 +2792,8 @@
 										{
 											"1":
 											[
-												169,
-												170
+												404,
+												405
 											]
 										},
 										"unmatched":
@@ -2795,16 +2802,16 @@
 									},
 									"bracket_highlighter.regions":
 									[
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
 										"bh_unmatched",
 										"bh_unmatched_center",
 										"bh_unmatched_open",
 										"bh_unmatched_close",
-										"bh_unmatched_content"
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
 									],
 									"c_time":
 									[
@@ -2837,12 +2844,12 @@
 										225,
 										9,
 										6,
-										18,
-										51,
-										45,
+										17,
+										35,
 										0,
-										177,
-										8,
+										5,
+										44,
+										197,
 										113,
 										1,
 										133,
@@ -2857,14 +2864,14 @@
 									"origPos":
 									[
 										0.0,
-										0.0
+										105.0
 									],
 									"origin_encoding": "ASCII",
 									"syncScroll": false,
 									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 105.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
@@ -2872,19 +2879,19 @@
 						},
 						{
 							"buffer": 1,
-							"file": "/I/项目/style/src/style/index.scss",
+							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1720,
+								"buffer_size": 37806,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										58,
-										58
+										37008,
+										37008
 									]
 								],
 								"settings":
@@ -2894,12 +2901,27 @@
 									{
 										"close":
 										{
+											"1":
+											[
+												37008,
+												37009
+											]
 										},
 										"icon":
 										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/dot.png",
+												"brackethighlighter.default"
+											]
 										},
 										"open":
 										{
+											"1":
+											[
+												36978,
+												36979
+											]
 										},
 										"unmatched":
 										{
@@ -2907,16 +2929,16 @@
 									},
 									"bracket_highlighter.regions":
 									[
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
 										"bh_unmatched",
 										"bh_unmatched_center",
 										"bh_unmatched_open",
 										"bh_unmatched_close",
-										"bh_unmatched_content"
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
 									],
 									"c_time":
 									[
@@ -2947,14 +2969,14 @@
 										10,
 										7,
 										225,
-										9,
-										5,
-										13,
-										25,
-										20,
 										8,
-										216,
-										130,
+										9,
+										21,
+										13,
+										17,
+										4,
+										102,
+										93,
 										113,
 										1,
 										133,
@@ -2966,20 +2988,18 @@
 										46
 									],
 									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-									"is_init_dirty_state": false,
 									"origPos":
 									[
 										0.0,
-										105.0
+										25612.0
 									],
-									"origin_encoding": "ASCII",
 									"syncScroll": false,
-									"syntax": "Packages/SCSS/SCSS.tmLanguage",
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 840.0,
+								"translation.y": 34817.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -3202,7 +3222,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": false,
-			"side_bar_width": 262.0,
+			"side_bar_width": 410.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{

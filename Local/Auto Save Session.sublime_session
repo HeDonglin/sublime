@@ -1514,6 +1514,14 @@
 				"selected_items":
 				[
 					[
+						"ac",
+						"acc\talign-content: center;"
+					],
+					[
+						"va",
+						"vam\tvertical-align: middle;"
+					],
+					[
 						"bdrs",
 						"bdrs\tborder-radius: ${1:4}px;"
 					],
@@ -1850,10 +1858,6 @@
 						"fxdc\tflex-direction: column;"
 					],
 					[
-						"ac",
-						"acsb\talign-content: space-between;"
-					],
-					[
 						"ai",
 						"ai-b\talign-items: baseline;"
 					],
@@ -2020,10 +2024,6 @@
 					[
 						"onmouse",
 						"onmouseup\tjsEvent"
-					],
-					[
-						"tjse",
-						"tjsElement"
 					]
 				]
 			},
@@ -2033,9 +2033,27 @@
 					"file": "/I/项目/style/src/index.html",
 					"settings":
 					{
-						"buffer_size": 3167,
+						"buffer_size": 5366,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/I/项目/style/src/style/index.scss",
+					"settings":
+					{
+						"buffer_size": 4652,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 71552,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
 					}
 				}
 			],
@@ -2448,11 +2466,13 @@
 			"expanded_folders":
 			[
 				"/I/项目/style",
-				"/I/项目/style/src"
+				"/I/项目/style/src",
+				"/I/项目/style/src/style"
 			],
 			"file_history":
 			[
 				"/I/项目/style/src/index.js",
+				"/I/项目/style/src/style/_common.scss",
 				"/I/项目/style/src/index.html",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/emmet-app.js",
 				"/C/Users/Administrator/Desktop/Emmet/emmet/emmet-app.js",
@@ -2533,7 +2553,6 @@
 				"/C/Users/Administrator/AppData/Roaming/npm/node_modules/json-server/node_modules/url-parse-lax/readme.md",
 				"/C/Users/Administrator/AppData/Roaming/npm/node_modules/json-server/lib/server/router/write.js",
 				"/C/Users/Administrator/AppData/Roaming/npm/node_modules/json-server/lib/server/body-parser.js",
-				"/I/项目/style/src/style/_common.scss",
 				"/I/项目/style/src/style/_reset.scss",
 				"/C/Users/Administrator/Downloads/201708301512/css/vivify.css",
 				"/C/Users/Administrator/Downloads/201708301512/css/htmleaf-demo.css",
@@ -2679,6 +2698,13 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"@media",
+					"padding",
+					"000",
+					"top",
+					":",
+					"评论",
+					"阅读",
 					"lorem.defaultLang",
 					"ru",
 					"en",
@@ -2799,14 +2825,7 @@
 					"boolean",
 					"prefix",
 					"province",
-					"region",
-					"url",
-					"email",
-					"domain",
-					"tld",
-					"domain",
-					"protocol",
-					"url"
+					"region"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2824,7 +2843,7 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 2,
 					"sheets":
 					[
 						{
@@ -2833,15 +2852,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 3167,
+								"buffer_size": 5366,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										217,
-										217
+										456,
+										456
 									]
 								],
 								"settings":
@@ -2851,12 +2870,27 @@
 									{
 										"close":
 										{
+											"1":
+											[
+												454,
+												455
+											]
 										},
 										"icon":
 										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/dot.png",
+												"brackethighlighter.default"
+											]
 										},
 										"open":
 										{
+											"1":
+											[
+												417,
+												418
+											]
 										},
 										"unmatched":
 										{
@@ -2922,10 +2956,11 @@
 										3,
 										46
 									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 									"origPos":
 									[
 										0.0,
-										0.0
+										428.0
 									],
 									"syncScroll": false,
 									"syntax": "Packages/HTML/HTML.sublime-syntax",
@@ -2933,7 +2968,254 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 105.0,
+								"translation.y": 428.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/I/项目/style/src/style/index.scss",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4652,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4421,
+										4421
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+											"1":
+											[
+												4420,
+												4421
+											]
+										},
+										"icon":
+										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/dot.png",
+												"brackethighlighter.default"
+											]
+										},
+										"open":
+										{
+											"1":
+											[
+												4415,
+												4416
+											]
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										9,
+										5,
+										13,
+										25,
+										20,
+										8,
+										216,
+										130,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+									"origPos":
+									[
+										0.0,
+										7157.0
+									],
+									"origin_encoding": "ASCII",
+									"syncScroll": false,
+									"syntax": "Packages/SCSS/SCSS.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 6947.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 71552,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4041,
+										4041
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+											"1":
+											[
+												3658,
+												3659
+											]
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										8,
+										9,
+										21,
+										10,
+										14,
+										11,
+										39,
+										241,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+									"origPos":
+									[
+										0.0,
+										3731.0
+									],
+									"syncScroll": false,
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 3731.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -3155,7 +3437,7 @@
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": true,
+			"side_bar_visible": false,
 			"side_bar_width": 410.0,
 			"status_bar_visible": true,
 			"template_settings":

@@ -5,7 +5,7 @@
 	"auto_complete_triggers":
 	[
 		{
-			"characters": "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.<",
+			"characters": "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.<@",
 			"selector": "text.html"
 		}
 	],

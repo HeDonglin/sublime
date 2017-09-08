@@ -228,7 +228,7 @@
         [ "noop\tjQuery", "noop()" ],
         [ "now\tjQuery", "now()" ],
         [ "parseHTML\tjQuery", "parseHTML()" ],
-        [ "parseJSON\tjQuery", "parseJSON()" ],
+        [ "parseJSON\tjQuery", "parseJSON($1)$0" ],
         [ "parseXML\tjQuery", "parseXML()" ],
         [ "proxy\tjQuery", "proxy()" ],
         [ "trim\tjQuery", "trim()" ],

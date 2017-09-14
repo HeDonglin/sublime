@@ -155,38 +155,41 @@
 
 
     /////////////////////////////////////
-    ctrl+shift+f2 清除书签
-    ctrl+shift+c 复制文件路径
-    ctrl+shift+o 打开调色板
-    ctrl+shift+p 打开控制台
-    ctrl+shift+s 另存为
-    ctrl+shift+t 打开已关闭的标签文件;
+    ctrl+shift+~ 打开控制台;
     ctrl+shift+8 转为uft-8格式
     ctrl+shift+9 大小写互换
-    ctrl+shift+~ 打开控制台;
-    ctrl+shift+v 缩进粘贴
-    ctrl+shift+x 截图
-    ctrl+shfit+j 选择到缩进
+    ctrl+shift+f2 清除书签
     ctrl+shift+w 切换是否换行显示
+    ctrl+shift+t 打开已关闭的标签文件;
+    ctrl+shift+o 打开调色板
+    ctrl+shift+p 打开控制台
+    ctrl+shift+a 打开shell命令
+    ctrl+shift+s 另存为
+    ctrl+shfit+j 选择到缩进
     ctrl+shfit+l 选择到段落
+    ctrl+shift+x 截图
+    ctrl+shift+c 复制文件路径
+    ctrl+shift+d 打开cmd
+    ctrl+shift+f 打开列表
+    ctrl+shift+v 缩进粘贴
     ctrl+shift+/ 多行注释
 
     //////////////////////////////////
-    ctrl+alt+a 对齐
     ctrl+alt+q gulp 显示输出窗口
+    ctrl+alt+r 向上添加光标
+    ctrl+alt+o gulp 打开任务列表
+    ctrl+alt+p gulp 打开插件列表
     ctrl+alt+h gulp 缓存清理
     ctrl+alt+j gulp 默认启动default任务
     ctrl+alt+k gulp 结束所有任务
     ctrl+alt+l gulp 任意任务启动
     ctrl+alt+; gulp 运行最后一次运行的任务
-    ctrl+alt+o gulp 打开任务列表
-    ctrl+alt+p gulp 打开插件列表
-    ctrl+alt+up 相当于shift+鼠标右键,或者按住鼠标滚轮
-    ctrl+alt+down 相当于shift+鼠标右键,或者按住鼠标滚轮
+    ctrl+alt+a 等号对齐
     ctrl+alt+n 新建模板
     ctrl+alt+s 自动保存
-    ctrl+alt+r 向上添加光标
     ctrl+alt+m 向下添加光标
+    ctrl+alt+up 向上添加光标，相当于shift+鼠标右键,或者按住鼠标滚轮
+    ctrl+alt+down 向下添加光标，相当于shift+鼠标右键,或者按住鼠标滚轮
     ////////////////////////////////////
     alt+shift+1 分屏1列
     alt+shift+2 分屏2列
@@ -434,6 +437,21 @@
         equal, not_equal-->测试平等
         regex_match, not_regex_match-->匹配正则表达式。
         regex_contains, not_regex_contains-->匹配正则表达式（遏制）。
+注册码：3143-->每行不能有空格
+
+—– BEGIN LICENSE —–
+TwitterInc
+200 User License
+EA7E-890007
+1D77F72E 390CDD93 4DCBA022 FAF60790
+61AA12C0 A37081C5 D0316412 4584D136
+94D7F7D4 95BC8C1C 527DA828 560BB037
+D1EDDD8C AE7B379F 50C9D69D B35179EF
+2FE898C4 8E4277A8 555CE714 E1FB0E43
+D5D52613 C3D12E98 BC49967F 7652EED2
+9D2D2E61 67610860 6D338B72 5CF95C69
+E36B85CC 84991F19 7575D828 470A92AB
+—— END LICENSE ——
 
 注册码 :3126-->每行不能有空格
 —– BEGIN LICENSE —–

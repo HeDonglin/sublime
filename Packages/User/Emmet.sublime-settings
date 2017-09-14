@@ -95,6 +95,8 @@
                     "cc":"/*==============================\n\t|\n==============================*/",
                     "ccc":"// |\n// --------------------------------------------------",
                     "cccc": "/* |${child} */",
+                // 特殊
+                    "in":"inherit",
                 // 媒体查询
                     "@imp": "@import '${1:./}';",
                     "@import": "@import url(|);",
@@ -865,20 +867,23 @@
                     // 书写方向
                     "wm": "writing-mode:${1:lr-tb};",
                     "wmlrt": "writing-mode:lr-tb;",
+                    "wmlrt": "writing-mode:horizontal-tb;",
                     "wmlrb": "writing-mode:lr-bt;",
                     "wmrlt": "writing-mode:rl-tb;",
                     "wmrlb": "writing-mode:rl-bt;",
                     "wmtbr": "writing-mode:tb-rl;",
+                    "wmtbr": "writing-mode:vertical-rl;",
                     "wmtbl": "writing-mode:tb-lr;",
+                    "wmtbl": "writing-mode:vertical-lr;",
                     "wmbtl": "writing-mode:bt-lr;",
                     "wmbtr": "writing-mode:bt-rl;",
                     // 文本流的方向
                     "dirl":"direction:ltr;",
                     "dirr":"direction:rtl;",
                     // 不同方向读进的文本显示
-                    "unbdn":"unicode-bidi:normal;",
-                    "unbde":"unicode-bidi:embed;",
-                    "unbdb":"unicode-bidi:bidi-override;",
+                    "unbdn":"unicode-bidi:normal;",//对象不打开附加的嵌入层，对于内联要素，隐式重排序跨对象边界进行工作
+                    "unbde":"unicode-bidi:embed;",//对象打开附加的嵌入层，direction属性的值指定嵌入层，在对象内部进行隐式重排序
+                    "unbdb":"unicode-bidi:bidi-override;",//严格按照direction属性的值重排序。忽略隐式双向运算规则
                 // 变换
                     "trf": "transform:${1:none};",
                     "trfn": "transform:none;",

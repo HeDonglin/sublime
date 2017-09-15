@@ -6,6 +6,26 @@
   // * http://www.w3schools.com/js/
   "completions":
   [
+// 注释
+    [ "cc\t/*===","/*==============================\n\t$1\n==============================*/"],
+    [ "ccc\t//---","// $1\n// --------------------------------------------------"],
+    [ "cccc\t/*|*/","/* $1 */"],
+//函数
+    [ "fn\tfnName()","function ${1:fnName}(${2:arg}){\n\t${3:}\n}"],
+    [ "fnn\tfunction()","function(${1:arg}) {\n\t${3:}\n}"],
+    [ "return\tretrun false","return false;"],
+    [ "require\trequire()","require('${1:}');"],
+
+//语句
+    [ "if\tif()","if (${1:true}){\n\t${2:}\n}"],
+    [ "if\t&&","${1:false} && ${2:true}"],
+    [ "if\t||","${1:true} || ${2:false}"],
+    [ "ife\tif()else()","if (${1:true}) {\n\t${2:}\n} else {\n\t${3:}\n}"],
+    [ "ifee\tif()else()","if (${1:true}) {\n\t${2:}\n} else if (${3:true}) {\n\t${4:}\n} else if (${5:true}) {\n\t${6:}\n}"],
+    [ "f\tfor++","for (var i = 0; i < ${1:Thinks}.length; i++) {\n\t${1:Thinks}[i]\n}"],
+    [ "f-\tfor--","for (var i = ${1:Thinks}.length - 1; i >= 0; i--) {\n\t ${1:Thinks}[i]\n}"],
+    [ "fi\tfor...in","for (var ${1:attr} in ${2:obj}) {\n\t${3:}\n}"],
+
 // 全局属性
     [ "Infinity\tjsProp", "Infinity" ],
     [ "NaN\tjsProp", "NaN" ],
@@ -692,22 +712,6 @@
     [ "getOwnPropertySymbols\tjsObject", "${1:Object}.getOwnPropertySymbols($2)" ],
     [ "is\tjsObject", "${1:Object}.is(${2:NaN,NaN})" ],
     [ "assign\tjsObject", "${1:Object}.assign(${2:obj1,obj2,obj3})" ],
-
-//函数
-    [ "fn\tfnName()","function ${1:fnName}(${2:arg}){\n\t${3:}\n}"],
-    [ "fnn\tfunction()","function(${1:arg}) {\n\t${3:}\n}"],
-    [ "return\tretrun false","return false;"],
-    [ "require\trequire()","require('${1:}');"],
-
-//语句
-    [ "if\tif()","if (${1:true}){\n\t${2:}\n}"],
-    [ "if\t&&","${1:false} && ${2:true}"],
-    [ "if\t||","${1:true} || ${2:false}"],
-    [ "ife\tif()else()","if (${1:true}) {\n\t${2:}\n} else {\n\t${3:}\n}"],
-    [ "ifee\tif()else()","if (${1:true}) {\n\t${2:}\n} else if (${3:true}) {\n\t${4:}\n} else if (${5:true}) {\n\t${6:}\n}"],
-    [ "f\tfor++","for (var i = 0; i < ${1:Thinks}.length; i++) {\n\t${1:Thinks}[i]\n}"],
-    [ "f-\tfor--","for (var i = ${1:Thinks}.length - 1; i >= 0; i--) {\n\t ${1:Thinks}[i]\n}"],
-    [ "fi\tfor...in","for (var ${1:attr} in ${2:obj}) {\n\t${3:}\n}"],
 
 
 //工具

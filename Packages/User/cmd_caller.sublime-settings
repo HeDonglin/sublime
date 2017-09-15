@@ -2,6 +2,10 @@
   "windows": {
     "default": "Git",
     "apps": {
+      "YouDao": {
+        "name": "Run YouDao.exe Here",
+        "cmd": "D:\\Program Files\\YodaoDict\\YodaoDict.exe"
+      },
       "Git": {
         "name": "Run Git.exe Here",
         "cmd": "D:\\Program Files\\Git\\git-bash.exe --cd=\"${file_path}\""

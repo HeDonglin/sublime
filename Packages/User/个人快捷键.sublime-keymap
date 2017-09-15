@@ -174,12 +174,13 @@
 
     //////////////////////////////////
     ctrl+alt+r 向上添加光标
-    ctrl+alt+i gulp 显示输出窗口
+    ctrl+alt+u gulp 显示输出窗口
     ctrl+alt+o gulp 打开任务列表
     ctrl+alt+p gulp 打开插件列表
     ctrl+alt+h gulp 缓存清理
     ctrl+alt+j gulp 默认启动default任务
-    ctrl+alt+k gulp 结束所有任务
+    ctrl+alt+i gulp 结束所有任务
+    ctrl+alt+k gulp 结束特定任务
     ctrl+alt+l gulp 任意任务启动
     ctrl+alt+; gulp 运行最后一次运行的任务
     ctrl+alt+a 等号对齐

@@ -1037,6 +1037,10 @@
 				"selected_items":
 				[
 					[
+						"ccc",
+						"ccc\t//---"
+					],
+					[
 						"cc",
 						"cc\t/*==="
 					],
@@ -1543,10 +1547,6 @@
 					[
 						"gete",
 						"getElementsByTagNameNS\tjsDOM()"
-					],
-					[
-						"imp",
-						"@imp\t@import '${1:./}';"
 					]
 				]
 			},
@@ -1565,26 +1565,9 @@
 					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 38024,
+						"buffer_size": 38036,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 71898,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/I/项目/gulp/package.json",
-					"settings":
-					{
-						"buffer_size": 606,
-						"line_ending": "Unix"
 					}
 				}
 			],
@@ -2000,13 +1983,14 @@
 			],
 			"file_history":
 			[
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
 				"/I/项目/gulp/README.md",
 				"/I/项目/gulp/REMADE.md",
 				"/C/Users/Administrator/.bashrc",
 				"/I/项目/style/gulpfile.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-mockjs.sublime-settings",
@@ -2030,7 +2014,6 @@
 				"/I/项目/style/src/index2.html",
 				"/I/项目/style/src/index3.html",
 				"/I/项目/style/src/style/index3.scss",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/caniuse_local/data/data.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/caniuse_local/data/adapter.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/caniuse_local/SublimeJS/loader/pyv8loader.py",
@@ -2372,7 +2355,7 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 0,
 					"sheets":
 					[
 						{
@@ -2388,8 +2371,8 @@
 								"selection":
 								[
 									[
-										151,
-										151
+										27,
+										27
 									]
 								],
 								"settings":
@@ -2485,7 +2468,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 0,
 							"type": "text"
 						},
 						{
@@ -2494,15 +2477,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 38024,
+								"buffer_size": 38036,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										244,
-										244
+										412,
+										412
 									]
 								],
 								"settings":
@@ -2514,8 +2497,8 @@
 										{
 											"1":
 											[
-												283,
-												284
+												412,
+												413
 											]
 										},
 										"icon":
@@ -2530,8 +2513,8 @@
 										{
 											"1":
 											[
-												210,
-												211
+												399,
+												400
 											]
 										},
 										"unmatched":
@@ -2602,275 +2585,18 @@
 									"origPos":
 									[
 										0.0,
-										33.0
-									],
-									"syncScroll": false,
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 33.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 71898,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										3900,
-										3915
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-											"1":
-											[
-												3915,
-												3916
-											]
-										},
-										"icon":
-										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/dot.png",
-												"brackethighlighter.default"
-											]
-										},
-										"open":
-										{
-											"1":
-											[
-												3899,
-												3900
-											]
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content"
-									],
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										225,
-										8,
-										9,
-										21,
-										10,
-										14,
-										11,
-										39,
-										241,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-									"origPos":
-									[
-										0.0,
-										3675.0
-									],
-									"syncScroll": false,
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 3675.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/I/项目/gulp/package.json",
-							"semi_transient": true,
-							"settings":
-							{
-								"buffer_size": 606,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-											"1":
-											[
-												604,
-												605
-											]
-										},
-										"icon":
-										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/dot.png",
-												"brackethighlighter.default"
-											]
-										},
-										"open":
-										{
-											"1":
-											[
-												0,
-												1
-											]
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content"
-									],
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										225,
-										9,
-										15,
-										16,
-										5,
-										6,
-										13,
-										243,
-										105,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-									"origPos":
-									[
-										0.0,
 										0.0
 									],
-									"origin_encoding": "ASCII",
 									"syncScroll": false,
 									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-									"tab_size": 2,
+									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 105.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 1,
 							"type": "text"
 						}
 					]

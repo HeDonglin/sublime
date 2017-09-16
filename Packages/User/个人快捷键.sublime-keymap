@@ -173,6 +173,20 @@
     ctrl+shift+/ 多行注释
 
     //////////////////////////////////
+    ctrl+alt+q 启动
+    ctrl+alt+w 切换断点
+    ctrl+alt+e 清除所有断点
+    ctrl+alt+y 暂停或恢复
+    ctrl+alt+d 选择调试
+    ctrl+alt+f 结束调试
+    ctrl+alt+g 重新载入页面
+    ctrl+alt+h 清空控制台
+    ctrl+alt+z 切换编写代码
+    ctrl+alt+x 选中调试
+    ctrl+alt+c 转储文件映射
+    ctrl+alt+8 进入
+    ctrl+alt+9 退出
+    ctrl+alt+0 逐步
     ctrl+alt+r 向上添加光标
     ctrl+alt+u gulp 显示输出窗口
     ctrl+alt+o gulp 打开任务列表

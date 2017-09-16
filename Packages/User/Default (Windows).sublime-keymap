@@ -57,7 +57,36 @@
     },
 
 
-
+    { "keys": ["ctrl+shift+k"], "command": "log_magic_down", "context":
+        [
+            { "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" }
+        ]
+    },
+    { "keys": ["ctrl+shift+h"], "command": "log_magic_up", "context":
+        [
+            { "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" }
+        ]
+    },
+    { "keys": ["ctrl+shift+;"], "command": "log_magic_remove_all", "context":
+        [
+            { "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" }
+        ]
+    },
+    { "keys": ["ctrl+shift+k"], "command": "log_magic_down", "context":
+        [
+            { "operand": "source.coffee", "operator": "equal", "match_all": true, "key": "selector" }
+        ]
+    },
+    { "keys": ["ctrl+shift+h"], "command": "log_magic_up", "context":
+        [
+            { "operand": "source.coffee", "operator": "equal", "match_all": true, "key": "selector" }
+        ]
+    },
+    { "keys": ["ctrl+shift+;"], "command": "log_magic_remove_all", "context":
+        [
+            { "operand": "source.coffee", "operator": "equal", "match_all": true, "key": "selector" }
+        ]
+    },
 
 
 

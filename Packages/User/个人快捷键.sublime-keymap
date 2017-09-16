@@ -162,15 +162,19 @@
     ctrl+shift+o 打开调色板
     ctrl+shift+p 打开控制台
     ctrl+shift+a
+    ctrl+shfit+h 向上生成console.log
+    ctrl+shfit+k 向下生成console.log
     ctrl+shift+s 另存为
     ctrl+shfit+j 选择到缩进
     ctrl+shfit+l 选择到段落
+    ctrl+shift+; 移除所有console.log
     ctrl+shift+x 截图
     ctrl+shift+c 复制文件路径
     ctrl+shift+d 打开git
     ctrl+shift+f 打开程序列表
     ctrl+shift+v 缩进粘贴
     ctrl+shift+/ 多行注释
+    ctrl+shitf+n 新建窗口
 
     //////////////////////////////////
     ctrl+alt+q 启动
@@ -184,9 +188,9 @@
     ctrl+alt+z 切换编写代码
     ctrl+alt+x 选中调试
     ctrl+alt+c 转储文件映射
-    ctrl+alt+8 进入
-    ctrl+alt+9 退出
-    ctrl+alt+0 逐步
+    ctrl+alt+8 逐过程:和逐语句类似，但是点击逐过程会在函数调用时,令调试器将执行转到所调用的函数声明中去
+    ctrl+alt+9 当使用逐过程进入某个函数内部后，点击该按钮会跳过该函数声明的剩余部分，调试器会将执行过程移动到其父函数中。
+    ctrl+alt+0 逐语句:逐行执行，以了解每一行如何操作当前的变量。当你的代码调用另一个函数的时候，调试器不会跳到那个函数的代码中去，其焦点还是当前的函数，而 Step into 则相反。
     ctrl+alt+r 向上添加光标
     ctrl+alt+u gulp 显示输出窗口
     ctrl+alt+o gulp 打开任务列表

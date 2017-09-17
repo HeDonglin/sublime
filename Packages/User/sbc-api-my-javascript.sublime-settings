@@ -25,6 +25,11 @@
     [ "f\tfor++","for (var i = 0; i < ${1:Thinks}.length; i++) {\n\t${1:Thinks}[i]\n}"],
     [ "f-\tfor--","for (var i = ${1:Thinks}.length - 1; i >= 0; i--) {\n\t ${1:Thinks}[i]\n}"],
     [ "fi\tfor...in","for (var ${1:attr} in ${2:obj}) {\n\t${3:}\n}"],
+    [ "while\twhile","while (${1:true}) {\n\t${2:}\n}"],
+    [ "do\tdo","do {\n\t${1:}\n}\nwhile (${2:true});"],
+    [ "switch\tswitch","switch (${1:true}) {\n\tcase ${2:true}:{\n\t\t$3\n\t\tbreak;\n\t}\n\tcase ${4:true}:{\n\t\t$5\n\t\tbreak;\n\t}\n\tdefalut:{\n\t\t$6\n\t}\n}"],
+    [ "try\ttry {}catch {}","try {\n\t$1\n} catch {\n\t$2\n}"],
+    [ "try\ttry {}catch {}finally {}","try {\n\t$1\n} catch {\n\t$2\n} finally {\n\t$3\n}"],
 
 // 全局属性
     [ "Infinity\tjsProp", "Infinity" ],
@@ -101,7 +106,9 @@
     [ "endsWith\tjsString()", "${1:str}.endsWith($2)" ],
 
 // 数组对象的方法
+
     [ "concat\tjsArray()", "${1:arr}.concat(${2:})" ],
+    [ "isArray\tjsArray()", "Array.isArray(${1:})" ],
     [ "indexOf\tjsArray()", "${1:arr}.indexOf(${2:})"],
     [ "join\tjsArray()", "${1:arr}.join('${2:str}')"],
     [ "toString\tjsArray()", "${1:arr}.toString()"],
@@ -735,10 +742,6 @@
     [ "timeout\tjsXMLHttpRequest", "timeout" ],
     [ "upload\tjsXMLHttpRequest", "upload" ],
     [ "withCredentials\tjsXMLHttpRequest", "withCredentials" ],
-// JSON
-    ["JSONparse\tjsJSON","JSON.parse(${1:'text[, reviver]'})"],
-    ["JSONstringify\tjsJSON","JSON.stringify(${1:'value[, replacer[, space]]'})"],
-
 // 方法
     [ "abort\tjsXMLHttpRequest()", "abort()" ],
     [ "open\tjsXMLHttpRequest()", "open(${1:type},${2:url},${3:true})" ],
@@ -746,6 +749,9 @@
     [ "send\tjsXMLHttpRequest()", "send($1)" ],
     [ "setRequestHeader\tjsXMLHttpRequest()", "setRequestHeader(${1:'content-type'},${2:'application/x-www-form-urlencoded'})" ],
     [ "getResponseHeader\tjsXMLHttpRequest()", "getResponseHeader()" ],
+// JSON
+    ["JSONparse\tjsJSON","JSON.parse(${1:'text[, reviver]'})"],
+    ["JSONstringify\tjsJSON","JSON.stringify(${1:'value[, replacer[, space]]'})"],
 
 // vue属性
   ]

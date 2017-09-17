@@ -32,6 +32,10 @@
       "command": "swi_toggle_authored_code"
     },
     {
+      "keys": [ "ctrl+alt+x" ],
+      "command": "swi_debug_evaluate"
+    },
+    {
       "keys": [ "ctrl+alt+c" ],
       "command": "swi_dump_file_mappings"
     },

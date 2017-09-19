@@ -1,5 +1,5 @@
 {
-  "scope": "source.js - string, source.coffee, source.js.embedded.html",
+  "scope": "source.js - string, source.coffee, source.js.embedded.html,source.json - string",
 
   // Deprecated Source : http://api.jquery.com/category/deprecated/
   // @see http://www.css88.com/jqapi-1.9/

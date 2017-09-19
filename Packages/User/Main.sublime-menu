@@ -156,6 +156,13 @@
                 "command": "open_file"
             },
             {
+                "args": {
+                    "file": "${packages}/User/sbc-api-my-vue.sublime-settings"
+                },
+                "caption": "Settings \u2013 vue",
+                "command": "open_file"
+            },
+            {
                 "caption": "-"
             }
 

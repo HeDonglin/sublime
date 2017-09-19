@@ -1,5 +1,5 @@
 {
-  "scope": "source.js - string, source.coffee, source.js.embedded.html",
+  "scope": "source.js - string, source.coffee, source.js.embedded.html,source.json - string",
 
   // Deprecated Source : http://mockjs.com/examples.html
   // Source            : https://github.com/nuysoft/Mock/tree/refactoring

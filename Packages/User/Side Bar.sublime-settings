@@ -1,0 +1,12 @@
+{
+    // 开启状态栏修改时间
+    "statusbar_modified_time": false,
+    // 状态栏修改时间格式
+    "statusbar_modified_time_format": "%A %b %d %H:%M:%S %Y",
+    // 状态栏修改时间区域设置
+    "statusbar_modified_time_locale": "",
+    // 删除前确认提示
+    "confirm_before_deleting": false,
+    // 永久删除前确认提示
+    "confirm_before_permanently_deleting": true,
+}

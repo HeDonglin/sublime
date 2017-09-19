@@ -1,5 +1,5 @@
 {
-  "scope": "source.js - string, source.coffee, source.js.embedded.html",
+  "scope": "source.js - string, source.coffee, source.js.embedded.html,source.json - string",
 
   // ## source
   // * http://overapi.com/javascript/
@@ -87,7 +87,7 @@
     [ "search\tjsString()", "${1:str}.search(${2:})" ],
     [ "substr\tjsString()", "${1:str}.substr(${2:})" ],
     [ "substring\tjsString()", "${1:str}.substring(${2:})" ],
-    [ "slice\tjsString())", "${1:str}.slice(${2:})" ],
+    [ "slice\tjsString()", "${1:str}.slice(${2:})" ],
     [ "split\tjsString()", "${1:str}.split(${2:})" ],
     [ "toLowerCase\tjsString()", "${1:str}.toLowerCase()" ],
     [ "toUpperCase\tjsString()", "${1:str}.toUpperCase()" ],

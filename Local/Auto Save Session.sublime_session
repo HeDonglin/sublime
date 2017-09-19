@@ -1060,6 +1060,14 @@
 				"selected_items":
 				[
 					[
+						"vmf",
+						"vm.$forceUpdate\tVue()"
+					],
+					[
+						"vm",
+						"vm.$destroy\tVue()"
+					],
+					[
 						"set",
 						"set\tVueAPI"
 					],
@@ -1320,10 +1328,6 @@
 						"v-model\tv-model"
 					],
 					[
-						"vm",
-						"v-model"
-					],
-					[
 						"vf",
 						"v-if\t<div v-if=\"\">"
 					],
@@ -1532,10 +1536,10 @@
 			"buffers":
 			[
 				{
-					"file": "/I/项目/hedonglin/webpack.config.js",
+					"file": "/I/项目/hedonglin/src/index.js",
 					"settings":
 					{
-						"buffer_size": 15603,
+						"buffer_size": 205,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -1544,7 +1548,7 @@
 					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-vue.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 15696,
+						"buffer_size": 15736,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
@@ -1978,16 +1982,19 @@
 			},
 			"expanded_folders":
 			[
-				"/I/项目/hedonglin"
+				"/I/项目/hedonglin",
+				"/I/项目/hedonglin/src"
 			],
 			"file_history":
 			[
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-vue.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-mockjs.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
+				"/I/项目/hedonglin/webpack.config.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
 				"/I/项目/hedonglin/gulpfile.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-mockjs.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-vue.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sbc-setting.sublime-settings",
@@ -1995,7 +2002,6 @@
 				"/I/项目/webpack/.gitignore",
 				"/I/笔记/note/todo.todo",
 				"/I/笔记/note/ES5.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Web Inspector/swi.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/swi.sublime-settings",
 				"/I/笔记/note/虚拟路由器.bat",
@@ -2108,8 +2114,7 @@
 				"/I/笔记/note/css3.less",
 				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/dist/css/bootstrap.css",
 				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/modals.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/mixins/reset-text.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/code.less"
+				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/mixins/reset-text.less"
 			],
 			"find":
 			{
@@ -2356,19 +2361,19 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/I/项目/hedonglin/webpack.config.js",
+							"file": "/I/项目/hedonglin/src/index.js",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 15603,
+								"buffer_size": 205,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										526,
-										526
+										205,
+										205
 									]
 								],
 								"settings":
@@ -2436,9 +2441,9 @@
 										19,
 										49,
 										14,
-										14,
-										1,
-										18,
+										13,
+										245,
+										87,
 										113,
 										1,
 										133,
@@ -2450,20 +2455,16 @@
 										46
 									],
 									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-									"is_init_dirty_state": false,
 									"origPos":
 									[
 										0.0,
-										204.0
+										0.0
 									],
-									"origin_encoding": "UTF-8",
 									"syncScroll": false,
-									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 306.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
@@ -2475,15 +2476,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 15696,
+								"buffer_size": 15736,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										15689,
-										15689
+										4152,
+										4152
 									]
 								],
 								"settings":
@@ -2502,11 +2503,6 @@
 										},
 										"unmatched":
 										{
-											"1":
-											[
-												15692,
-												15693
-											]
 										}
 									},
 									"bracket_highlighter.regions":
@@ -2570,17 +2566,18 @@
 										46
 									],
 									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-									"is_init_dirty_state": true,
 									"origPos":
 									[
 										0.0,
-										13532.0
+										12452.0
 									],
 									"syncScroll": false,
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 17128.0,
+								"translation.y": 3672.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,

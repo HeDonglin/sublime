@@ -1060,12 +1060,12 @@
 				"selected_items":
 				[
 					[
-						"vmf",
-						"vm.$forceUpdate\tVue()"
+						"vm",
+						"vm.$nextTick\tVue()"
 					],
 					[
-						"vm",
-						"vm.$destroy\tVue()"
+						"vmf",
+						"vm.$forceUpdate\tVue()"
 					],
 					[
 						"set",
@@ -1536,21 +1536,12 @@
 			"buffers":
 			[
 				{
-					"file": "/I/项目/hedonglin/src/index.js",
+					"file": "/I/项目/hedonglin/README.md",
 					"settings":
 					{
-						"buffer_size": 205,
+						"buffer_size": 1963,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-vue.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 15736,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
 					}
 				}
 			],
@@ -1650,9 +1641,17 @@
 			"command_palette":
 			{
 				"height": 428.0,
-				"last_filter": "prvo",
+				"last_filter": "dis",
 				"selected_items":
 				[
+					[
+						"dis",
+						"Package Control: Disable Package"
+					],
+					[
+						"removpack",
+						"Package Control: Remove Package"
+					],
 					[
 						"prvo",
 						"PackageResourceViewer: Open Resource"
@@ -1664,10 +1663,6 @@
 					[
 						"pci",
 						"Package Control: Install Package"
-					],
-					[
-						"dis",
-						"Package Control: Disable Package"
 					],
 					[
 						"bo",
@@ -1838,10 +1833,6 @@
 						"Git: Diff All Files"
 					],
 					[
-						"removpack",
-						"Package Control: Remove Package"
-					],
-					[
 						"gitadd",
 						"Git: Quick Add"
 					],
@@ -1982,14 +1973,15 @@
 			},
 			"expanded_folders":
 			[
-				"/I/项目/hedonglin",
-				"/I/项目/hedonglin/src"
+				"/I/项目/hedonglin"
 			],
 			"file_history":
 			[
+				"/I/项目/hedonglin/src/index.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sbc-setting.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-vue.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-mockjs.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-mockjs.sublime-settings",
 				"/I/项目/hedonglin/webpack.config.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
@@ -1997,7 +1989,6 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sbc-setting.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/snippets.json",
 				"/I/项目/webpack/.gitignore",
 				"/I/笔记/note/todo.todo",
@@ -2113,8 +2104,7 @@
 				"/I/笔记/note/src/mobile.js",
 				"/I/笔记/note/css3.less",
 				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/dist/css/bootstrap.css",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/modals.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/mixins/reset-text.less"
+				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/modals.less"
 			],
 			"find":
 			{
@@ -2356,24 +2346,24 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/I/项目/hedonglin/src/index.js",
+							"file": "/I/项目/hedonglin/README.md",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 205,
+								"buffer_size": 1963,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										205,
-										205
+										1246,
+										1246
 									]
 								],
 								"settings":
@@ -2396,16 +2386,16 @@
 									},
 									"bracket_highlighter.regions":
 									[
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
 										"bh_default",
 										"bh_default_center",
 										"bh_default_open",
 										"bh_default_close",
-										"bh_default_content"
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
 									],
 									"c_time":
 									[
@@ -2442,8 +2432,8 @@
 										49,
 										14,
 										13,
-										245,
-										87,
+										217,
+										250,
 										113,
 										1,
 										133,
@@ -2454,130 +2444,16 @@
 										3,
 										46
 									],
-									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 									"origPos":
 									[
 										0.0,
-										0.0
+										1530.0
 									],
 									"syncScroll": false,
-									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-vue.sublime-settings",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 15736,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										4152,
-										4152
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-										},
-										"icon":
-										{
-										},
-										"open":
-										{
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content"
-									],
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										225,
-										9,
-										19,
-										11,
-										32,
-										30,
-										3,
-										170,
-										145,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-									"origPos":
-									[
-										0.0,
-										12452.0
-									],
-									"syncScroll": false,
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 3672.0,
+								"translation.y": 1224.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,

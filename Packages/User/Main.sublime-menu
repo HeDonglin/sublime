@@ -11,7 +11,7 @@
                 "mnemonic": "K",
                 "command": "open_file",
                 "args": {
-                    "file": "${packages}/user/个人快捷键.sublime-keymap"
+                    "file": "${packages}/user/个人快捷键.md"
                 }
             },
             {

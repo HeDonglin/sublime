@@ -8,8 +8,8 @@
         "caption": "转到定义处"
     }, 
     {
-        "caption": "-", 
-        "id": "clipboard"
+        "id": "clipboard", 
+        "caption": "-"
     }, 
     {
         "command": "copy", 
@@ -24,16 +24,16 @@
         "caption": "粘贴"
     }, 
     {
-        "caption": "-", 
-        "id": "selection"
+        "id": "selection", 
+        "caption": "-"
     }, 
     {
         "command": "select_all", 
         "caption": "全选"
     }, 
     {
-        "caption": "-", 
-        "id": "file"
+        "id": "file", 
+        "caption": "-"
     }, 
     {
         "command": "open_in_browser", 
@@ -42,8 +42,8 @@
     {
         "command": "open_dir", 
         "args": {
-            "file": "$file_name", 
-            "dir": "$file_path"
+            "dir": "$file_path", 
+            "file": "$file_name"
         }, 
         "caption": "打开所在文件夹…"
     }, 
@@ -56,7 +56,7 @@
         "caption": "在侧边栏中显示"
     }, 
     {
-        "caption": "-", 
-        "id": "end"
+        "id": "end", 
+        "caption": "-"
     }
 ]

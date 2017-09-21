@@ -1447,6 +1447,38 @@
 				"selected_items":
 				[
 					[
+						"vm",
+						"vm.$nextTick\tVue()"
+					],
+					[
+						"vmf",
+						"vm.$forceUpdate\tVue()"
+					],
+					[
+						"set",
+						"set\tVueAPI"
+					],
+					[
+						"extend",
+						"extend\tVueConfig"
+					],
+					[
+						"exten",
+						"extend\tVueConfig"
+					],
+					[
+						"key",
+						"keyCodes\tVue"
+					],
+					[
+						"sli",
+						"slice\tjsString())"
+					],
+					[
+						"err",
+						"errorHandler\tVue.config.errorHandler"
+					],
+					[
 						"try",
 						"try\ttry {}catch {}finally {}"
 					],
@@ -1683,10 +1715,6 @@
 						"v-model\tv-model"
 					],
 					[
-						"vm",
-						"v-model"
-					],
-					[
 						"vf",
 						"v-if\t<div v-if=\"\">"
 					],
@@ -1843,10 +1871,6 @@
 						"inserAdjacentElement\tjsDOM"
 					],
 					[
-						"set",
-						"setCapture\tjsEvent"
-					],
-					[
 						"setC",
 						"setCapture\tjsEvent()"
 					],
@@ -1899,10 +1923,37 @@
 			"buffers":
 			[
 				{
-					"file": "note/todo.todo",
+					"file": "/I/项目/hedonglin/src/index.html",
 					"settings":
 					{
-						"buffer_size": 900,
+						"buffer_size": 264,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/I/项目/hedonglin/todo.todo",
+					"settings":
+					{
+						"buffer_size": 210,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/I/项目/hedonglin/src/index.scss",
+					"settings":
+					{
+						"buffer_size": 121,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/I/项目/hedonglin/src/index.js",
+					"settings":
+					{
+						"buffer_size": 186,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -2004,9 +2055,37 @@
 			"command_palette":
 			{
 				"height": 428.0,
-				"last_filter": "prvo",
+				"last_filter": "ena",
 				"selected_items":
 				[
+					[
+						"ena",
+						"Package Control: Enable Package"
+					],
+					[
+						"dis",
+						"Package Control: Disable Package"
+					],
+					[
+						"disp",
+						"Package Control: Disable Package"
+					],
+					[
+						"packdi",
+						"Package Control: Disable Package"
+					],
+					[
+						"confli",
+						"FindKeyConflicts: (Direct) Conflicts to Buffer"
+					],
+					[
+						"pci",
+						"Package Control: Install Package"
+					],
+					[
+						"removpack",
+						"Package Control: Remove Package"
+					],
 					[
 						"prvo",
 						"PackageResourceViewer: Open Resource"
@@ -2014,14 +2093,6 @@
 					[
 						"remove",
 						"Package Control: Remove Package"
-					],
-					[
-						"pci",
-						"Package Control: Install Package"
-					],
-					[
-						"dis",
-						"Package Control: Disable Package"
 					],
 					[
 						"bo",
@@ -2192,10 +2263,6 @@
 						"Git: Diff All Files"
 					],
 					[
-						"removpack",
-						"Package Control: Remove Package"
-					],
-					[
 						"gitadd",
 						"Git: Quick Add"
 					],
@@ -2323,6 +2390,7 @@
 				"height": 354.0,
 				"history":
 				[
+					"sublime.log_commands(true)"
 				]
 			},
 			"distraction_free":
@@ -2336,21 +2404,39 @@
 			},
 			"expanded_folders":
 			[
-				"/I/笔记/note"
+				"/I/项目/hedonglin",
+				"/I/项目/hedonglin/src"
 			],
 			"file_history":
 			[
-				"/I/笔记/note/README.md",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.md",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
-				"/C/Users/Administrator/Desktop/1.md",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeREPL.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/FindKeyConflicts.sublime-settings",
+				"/I/项目/hedonglin/package.json",
+				"/I/项目/hedonglin/webpack.config.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SideBarEnhancements/Side Bar.sublime-menu",
+				"/I/项目/hedonglin/src/public/_common.scss",
+				"/I/项目/hedonglin/newFloder.bat",
+				"/I/项目/hedonglin/src/index.js",
+				"/I/项目/hedonglin/src/page/about/about.scss",
+				"/I/项目/hedonglin/src/index.scss",
+				"/I/项目/hedonglin/src/index.vue",
+				"/I/项目/hedonglin/gulpfile.js",
+				"/I/项目/hedonglin/server.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/个人快捷键.md",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
+				"/I/项目/hedonglin/README.md",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sbc-setting.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-vue.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-mockjs.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/snippets.json",
+				"/I/项目/webpack/.gitignore",
 				"/I/笔记/note/todo.todo",
 				"/I/笔记/note/ES5.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Web Inspector/swi.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/swi.sublime-settings",
 				"/I/笔记/note/虚拟路由器.bat",
@@ -2358,18 +2444,15 @@
 				"/F/I萌化资源/雨滴/雨滴语法学习.ini",
 				"/F/I萌化资源/雨滴/rainmeter语法字典",
 				"/F/I萌化资源/雨滴/简洁_.rmskin",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sbc-setting.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Nodejs/Nodejs.sublime-settings",
 				"/I/笔记/note/scss.scss",
 				"/I/笔记/note/技术能力.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Sass/Syntaxes/Sass.tmLanguage",
 				"/I/笔记/note/stylus.styl",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
 				"/I/笔记/note/gulpfile.js",
 				"/I/笔记/note/1.js",
 				"/I/笔记/note/src/index.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/main.sublime-menu",
 				"/I/笔记/note/npmAPI.js",
 				"/I/笔记/note/kangle.js",
@@ -2392,7 +2475,6 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/CSScomb.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Monokai.tmTheme",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Scheme - Default/Monokai.tmTheme",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/snippets.json",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Sublime-minihtml-Preview/minihtml.sublime-commands",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/LSP/Keymaps/Default (Windows).sublime-keymap",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/LSP/Commands/Default.sublime-commands",
@@ -2454,20 +2536,7 @@
 				"/I/笔记/note/src/public/pc.js",
 				"/I/笔记/note/jquery-3.2.1.js",
 				"/I/笔记/note/jquery.js",
-				"/I/笔记/note/src/index.less",
-				"/I/笔记/note/package.json",
-				"/I/笔记/note/npm.js",
-				"/C/Users/Administrator/AppData/Roaming/npm/jshint",
-				"/I/笔记/note/node_modules/_zepto@1.2.0@zepto/dist/zepto.js",
-				"/I/笔记/note/node_modules/zepto/dist/zepto.js",
-				"/I/笔记/note/node_modules/zepto/dist/zepto.min.js",
-				"/I/笔记/note/src/pc.js",
-				"/I/笔记/note/src/mobile.js",
-				"/I/笔记/note/css3.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/dist/css/bootstrap.css",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/modals.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/mixins/reset-text.less",
-				"/C/Users/Administrator/Downloads/bootstrap-3.3.7/less/code.less"
+				"/I/笔记/note/src/index.less"
 			],
 			"find":
 			{
@@ -2564,6 +2633,25 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"common",
+					"public",
+					"common",
+					"nextTick",
+					"forceUpdate",
+					"mount",
+					"delete",
+					"attrs",
+					"scopedSlots",
+					"slots",
+					"$parent",
+					"$options",
+					"$el",
+					"mixin",
+					"set",
+					"performance",
+					"silent",
+					"errorHandler",
+					"cccc",
 					"git clone",
 					"数组",
 					"do",
@@ -2672,26 +2760,7 @@
 					"fieldset",
 					"command",
 					"keygen",
-					"marquee",
-					"textarea",
-					"option",
-					"isindex",
-					"label",
-					"src",
-					"picture",
-					"\"col\"",
-					"\"hr\"",
-					"hr",
-					"frame",
-					"body",
-					":",
-					"base",
-					"acronym",
-					"acr|acronym",
-					"abbr",
-					"br",
-					"basefont",
-					"h1"
+					"marquee"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2714,19 +2783,19 @@
 					[
 						{
 							"buffer": 0,
-							"file": "note/todo.todo",
-							"semi_transient": true,
+							"file": "/I/项目/hedonglin/src/index.html",
+							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 900,
+								"buffer_size": 264,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										144,
-										144
+										120,
+										120
 									]
 								],
 								"settings":
@@ -2738,8 +2807,8 @@
 										{
 											"1":
 											[
-												145,
-												146
+												123,
+												124
 											]
 										},
 										"icon":
@@ -2754,8 +2823,8 @@
 										{
 											"1":
 											[
-												140,
-												141
+												114,
+												115
 											]
 										},
 										"unmatched":
@@ -2804,14 +2873,14 @@
 										10,
 										7,
 										225,
-										8,
+										9,
+										18,
+										19,
+										49,
 										14,
-										11,
-										38,
-										6,
 										13,
-										204,
-										233,
+										245,
+										87,
 										113,
 										1,
 										133,
@@ -2822,22 +2891,368 @@
 										3,
 										46
 									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+									"is_init_dirty_state": true,
+									"origPos":
+									[
+										0.0,
+										0.0
+									],
+									"origin_encoding": "ASCII",
+									"syncScroll": false,
+									"syntax": "Packages/HTML/HTML.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/I/项目/hedonglin/todo.todo",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 210,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										204,
+										204
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										9,
+										20,
+										18,
+										44,
+										21,
+										9,
+										180,
+										140,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"is_init_dirty_state": false,
+									"open_with_edit": true,
 									"origPos":
 									[
 										0.0,
 										204.0
 									],
+									"origin_encoding": "UTF-8",
 									"plain_tasks_remain_time_phantoms":
 									[
 									],
 									"syncScroll": false,
-									"syntax": "Packages/PlainTasks/PlainTasks.sublime-syntax"
+									"syntax": "Packages/PlainTasks/PlainTasks.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 204.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/I/项目/hedonglin/src/index.scss",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 121,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										66,
+										66
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										9,
+										18,
+										19,
+										49,
+										14,
+										13,
+										249,
+										64,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+									"is_init_dirty_state": false,
+									"origPos":
+									[
+										0.0,
+										0.0
+									],
+									"origin_encoding": "ASCII",
+									"syncScroll": false,
+									"syntax": "Packages/SCSS/SCSS.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/I/项目/hedonglin/src/index.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 186,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										186,
+										186
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										9,
+										18,
+										19,
+										49,
+										14,
+										13,
+										245,
+										87,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+									"is_init_dirty_state": false,
+									"origPos":
+									[
+										0.0,
+										0.0
+									],
+									"origin_encoding": "UTF-8",
+									"syncScroll": false,
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
 							"type": "text"
 						}
 					]
@@ -2908,11 +3323,11 @@
 			},
 			"output.gulp_output":
 			{
-				"height": 156.0
+				"height": 530.0
 			},
 			"pinned_build_system": "Packages/User/node.sublime-build",
-			"position": "0,0,1,-1,-1,-1,-1,736,742,132,1560",
-			"project": "note.sublime-project",
+			"position": "0,2,3,-1,-1,-1,-1,736,742,132,1560",
+			"project": "hedonglin.sublime-project",
 			"replace":
 			{
 				"height": 70.0
@@ -3007,7 +3422,7 @@
 				[
 					[
 						"",
-						"I:\\笔记\\blog.sublime-project"
+						"I:\\笔记\\note.sublime-project"
 					]
 				],
 				"width": 475.0
@@ -3033,25 +3448,25 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 397.0,
+			"side_bar_width": 445.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 				"max_columns": 2
 			},
 			"window_id": 182,
-			"workspace_name": "/I/笔记/note.sublime-workspace"
+			"workspace_name": "/I/笔记/hedonglin.sublime-workspace"
 		}
 	],
 	"workspaces":
 	{
 		"recent_workspaces":
 		[
-			"/I/笔记/note.sublime-workspace",
-			"/I/笔记/blog.sublime-workspace",
-			"/I/笔记/style.sublime-workspace",
 			"/I/笔记/hedonglin.sublime-workspace",
+			"/I/笔记/note.sublime-workspace",
+			"/I/笔记/style.sublime-workspace",
 			"/I/笔记/webpack.sublime-workspace",
+			"/I/笔记/blog.sublime-workspace",
 			"/I/笔记/gulp.sublime-workspace",
 			"/I/笔记/python.sublime-workspace"
 		]

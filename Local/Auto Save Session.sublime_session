@@ -1988,24 +1988,16 @@
 					"file": "/I/项目/hedonglin/webpack.config.js",
 					"settings":
 					{
-						"buffer_size": 15789,
+						"buffer_size": 15790,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/I/项目/hedonglin/package.json",
+					"file": "/I/项目/hedonglin/server.js",
 					"settings":
 					{
-						"buffer_size": 2964,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 1630,
+						"buffer_size": 3027,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -2477,16 +2469,15 @@
 			},
 			"expanded_folders":
 			[
-				"/I/项目/hedonglin",
-				"/I/项目/hedonglin/src"
+				"/I/项目/hedonglin"
 			],
 			"file_history":
 			[
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
 				"/I/项目/hedonglin/src/index.html",
 				"/I/项目/hedonglin/server.js",
 				"/I/项目/hedonglin/src/index.js",
 				"/I/项目/hedonglin/src/javascript.art",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/sublime-art/syntaxs/javascript.sublime-syntax",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/sublime-art/preview.png",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/sublime-art/Dracula art.tmTheme",
@@ -2851,7 +2842,7 @@
 			"groups":
 			[
 				{
-					"selected": 3,
+					"selected": 0,
 					"sheets":
 					[
 						{
@@ -2867,8 +2858,8 @@
 								"selection":
 								[
 									[
-										459,
-										459
+										2021,
+										2021
 									]
 								],
 								"settings":
@@ -2878,12 +2869,27 @@
 									{
 										"close":
 										{
+											"1":
+											[
+												2021,
+												2022
+											]
 										},
 										"icon":
 										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/dot.png",
+												"brackethighlighter.default"
+											]
 										},
 										"open":
 										{
+											"1":
+											[
+												2017,
+												2018
+											]
 										},
 										"unmatched":
 										{
@@ -2954,7 +2960,7 @@
 									"origPos":
 									[
 										0.0,
-										397.0
+										3661.0
 									],
 									"origin_encoding": "UTF-8",
 									"syncScroll": false,
@@ -2963,10 +2969,10 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 363.0,
+								"translation.y": 1213.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 0,
 							"type": "text"
 						},
 						{
@@ -2975,15 +2981,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 15789,
+								"buffer_size": 15790,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										700,
-										700
+										2976,
+										2976
 									]
 								],
 								"settings":
@@ -3069,7 +3075,7 @@
 									"origPos":
 									[
 										0.0,
-										306.0
+										2210.0
 									],
 									"origin_encoding": "UTF-8",
 									"syncScroll": false,
@@ -3078,19 +3084,19 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 272.0,
+								"translation.y": 2210.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 1,
 							"type": "text"
 						},
 						{
 							"buffer": 2,
-							"file": "/I/项目/hedonglin/package.json",
+							"file": "/I/项目/hedonglin/server.js",
 							"semi_transient": true,
 							"settings":
 							{
-								"buffer_size": 2964,
+								"buffer_size": 3027,
 								"regions":
 								{
 								},
@@ -3108,27 +3114,12 @@
 									{
 										"close":
 										{
-											"1":
-											[
-												2962,
-												2963
-											]
 										},
 										"icon":
 										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/dot.png",
-												"brackethighlighter.default"
-											]
 										},
 										"open":
 										{
-											"1":
-											[
-												0,
-												1
-											]
 										},
 										"unmatched":
 										{
@@ -3182,8 +3173,8 @@
 										49,
 										14,
 										13,
-										233,
-										157,
+										237,
+										134,
 										113,
 										1,
 										133,
@@ -3194,15 +3185,13 @@
 										3,
 										46
 									],
-									"is_init_dirty_state": false,
 									"origPos":
 									[
 										0.0,
 										0.0
 									],
-									"origin_encoding": "ASCII",
 									"syncScroll": false,
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
@@ -3210,139 +3199,11 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 2,
 							"type": "text"
 						},
 						{
 							"buffer": 3,
-							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1630,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1461,
-										1461
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-											"1":
-											[
-												1490,
-												1491
-											]
-										},
-										"icon":
-										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/dot.png",
-												"brackethighlighter.default"
-											]
-										},
-										"open":
-										{
-											"1":
-											[
-												1453,
-												1454
-											]
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content"
-									],
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										225,
-										9,
-										16,
-										19,
-										11,
-										32,
-										13,
-										198,
-										122,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"is_init_dirty_state": false,
-									"origPos":
-									[
-										0.0,
-										2244.0
-									],
-									"origin_encoding": "ASCII",
-									"syncScroll": false,
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 2244.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 4,
 							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.json",
 							"semi_transient": false,
 							"settings":
@@ -3446,7 +3307,7 @@
 									"origPos":
 									[
 										0.0,
-										0.0
+										102.0
 									],
 									"origin_encoding": "UTF-8",
 									"syncScroll": false,
@@ -3455,10 +3316,10 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 102.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 4,
+							"stack_index": 3,
 							"type": "text"
 						}
 					]
@@ -3529,7 +3390,7 @@
 			},
 			"output.gulp_output":
 			{
-				"height": 248.0
+				"height": 301.0
 			},
 			"pinned_build_system": "Packages/User/node.sublime-build",
 			"position": "0,2,3,-1,-1,-1,-1,736,742,132,1560",

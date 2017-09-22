@@ -12,6 +12,7 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"art",
 		"auto-save",
 		"AutoFileName",
 		"Autoprefixer",
@@ -74,6 +75,7 @@
 		"https://github.com/i-akhmadullin/Sublime-CSS3",
 		"https://github.com/dateutil/dateutil",
 		"https://github.com/tomv564/LSP",
-		"https://github.com/ehuss/Sublime-minihtml-Preview.git"
+		"https://github.com/ehuss/Sublime-minihtml-Preview.git",
+		"https://github.com/HeDonglin/art"
 	]
 }

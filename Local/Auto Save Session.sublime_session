@@ -1924,12 +1924,30 @@
 			"buffers":
 			[
 				{
-					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
+					"file": "/I/项目/hedonglin/todo.todo",
 					"settings":
 					{
-						"buffer_size": 13296,
+						"buffer_size": 239,
 						"encoding": "UTF-8",
-						"line_ending": "Windows"
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.json",
+					"settings":
+					{
+						"buffer_size": 295496,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
+					"settings":
+					{
+						"buffer_size": 6756,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
 					}
 				}
 			],
@@ -2028,8 +2046,8 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 134.0,
-				"last_filter": "",
+				"height": 428.0,
+				"last_filter": "pin",
 				"selected_items":
 				[
 					[
@@ -2037,12 +2055,12 @@
 						"Package Control: Install Package"
 					],
 					[
-						"remove",
-						"Package Control: Remove Package"
-					],
-					[
 						"prvo",
 						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
 					],
 					[
 						"pci",
@@ -2390,18 +2408,18 @@
 			},
 			"expanded_folders":
 			[
-				"/I/项目/hedonglin",
-				"/I/项目/hedonglin/src/public",
-				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss",
-				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/mixins",
-				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/utilities"
+				"/I/项目/hedonglin"
 			],
 			"file_history":
 			[
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-python.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sublime-completions/sbc-api-twitter-bootstrap3-sass-variables.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
 				"/I/项目/hedonglin/src/index.html",
 				"/I/项目/hedonglin/src/index.js",
 				"/I/项目/hedonglin/src/index.scss",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-sublime.sublime-settings",
 				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/_variables.scss",
 				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/mixins/_breakpoints.scss",
@@ -2417,11 +2435,9 @@
 				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/_alert.scss",
 				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta-dist/css/bootstrap-reboot.css",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.json",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
 				"/I/项目/hedonglin/webpack.config.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/ColorHighlighter.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Hover Image Preview/hover_preview.py",
 				"/I/项目/hedonglin/server.js",
 				"/I/项目/hedonglin/gulpfile.js",
@@ -2523,9 +2539,7 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/Localize.py",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeLinter.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Sync View Scroll.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti_orig.sublime-theme",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Skins.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti.sublime-theme"
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti_orig.sublime-theme"
 			],
 			"find":
 			{
@@ -2623,6 +2637,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"sublime",
 					"description",
 					"ApplicationCommand",
 					"tApplicationCommand",
@@ -2749,8 +2764,7 @@
 					"views_in_group",
 					"views",
 					"group",
-					"sheets_in_group",
-					"sheets"
+					"sheets_in_group"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2768,24 +2782,24 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 2,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
+							"file": "/I/项目/hedonglin/todo.todo",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 13296,
+								"buffer_size": 239,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										11922,
-										11922
+										53,
+										53
 									]
 								],
 								"settings":
@@ -2804,25 +2818,264 @@
 										},
 										"unmatched":
 										{
-											"1":
-											[
-												13292,
-												13293
-											]
 										}
 									},
 									"bracket_highlighter.regions":
 									[
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
 										"bh_default",
 										"bh_default_center",
 										"bh_default_open",
 										"bh_default_close",
-										"bh_default_content"
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										9,
+										20,
+										18,
+										44,
+										21,
+										9,
+										180,
+										140,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"is_init_dirty_state": false,
+									"origPos":
+									[
+										0.0,
+										0.0
+									],
+									"origin_encoding": "UTF-8",
+									"plain_tasks_remain_time_phantoms":
+									[
+									],
+									"syncScroll": false,
+									"syntax": "Packages/PlainTasks/PlainTasks.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.json",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 295496,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										9,
+										21,
+										18,
+										44,
+										25,
+										3,
+										130,
+										150,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"origPos":
+									[
+										0.0,
+										0.0
+									],
+									"syncScroll": false,
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6756,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5202,
+										5202
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+											"1":
+											[
+												5201,
+												5202
+											]
+										},
+										"icon":
+										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/dot.png",
+												"brackethighlighter.default"
+											]
+										},
+										"open":
+										{
+											"1":
+											[
+												5192,
+												5193
+											]
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
 									],
 									"c_time":
 									[
@@ -2858,9 +3111,9 @@
 										19,
 										11,
 										32,
-										14,
-										63,
-										167,
+										13,
+										92,
+										238,
 										113,
 										1,
 										133,
@@ -2871,11 +3124,10 @@
 										3,
 										46
 									],
-									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 									"origPos":
 									[
 										0.0,
-										0.0
+										5508.0
 									],
 									"syncScroll": false,
 									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
@@ -2883,7 +3135,7 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 5304.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -2964,7 +3216,7 @@
 				"height": 402.0
 			},
 			"pinned_build_system": "Packages/User/node.sublime-build",
-			"position": "0,2,3,-1,-1,-1,-1,604,475,0,1293",
+			"position": "0,2,3,-32000,-32000,-1,-1,604,475,0,1293",
 			"project": "hedonglin.sublime-project",
 			"replace":
 			{
@@ -3085,7 +3337,7 @@
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": false,
+			"side_bar_visible": true,
 			"side_bar_width": 325.0,
 			"status_bar_visible": true,
 			"template_settings":

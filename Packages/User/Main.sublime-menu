@@ -170,6 +170,13 @@
                 "command": "open_file"
             },
             {
+                "args": {
+                    "file": "${packages}/User/sbc-api-my-python.sublime-settings"
+                },
+                "caption": "Settings \u2013 python",
+                "command": "open_file"
+            },
+            {
                 "caption": "-"
             }
 

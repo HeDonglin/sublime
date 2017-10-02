@@ -41,5 +41,8 @@
 
     // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-sublime.sublime-settings
     "my-sublime": true,
+
+    // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-python.sublime-settings
+    "my-python": true,
   }
 }

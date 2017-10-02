@@ -1,5 +1,5 @@
 {
-  "scope": "source.js - string, source.coffee, source.js.embedded.html,source.json - string",
+  "scope": "source.python",
 
   "completions":
   [

@@ -1924,46 +1924,10 @@
 			"buffers":
 			[
 				{
-					"file": "/I/项目/hedonglin/src/index.html",
+					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 299,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/I/项目/hedonglin/src/index.js",
-					"settings":
-					{
-						"buffer_size": 690,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/I/项目/hedonglin/src/public/_common.scss",
-					"settings":
-					{
-						"buffer_size": 1166,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/I/项目/hedonglin/src/index.scss",
-					"settings":
-					{
-						"buffer_size": 206,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-sublime.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 17851,
+						"buffer_size": 13296,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
@@ -2434,6 +2398,11 @@
 			],
 			"file_history":
 			[
+				"/I/项目/hedonglin/src/index.html",
+				"/I/项目/hedonglin/src/index.js",
+				"/I/项目/hedonglin/src/index.scss",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-sublime.sublime-settings",
 				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/_variables.scss",
 				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/mixins/_breakpoints.scss",
 				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/utilities/_flex.scss",
@@ -2453,13 +2422,9 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/ColorHighlighter.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
-				"/I/项目/hedonglin/src/index.js",
-				"/I/项目/hedonglin/src/index.html",
-				"/I/项目/hedonglin/src/index.scss",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Hover Image Preview/hover_preview.py",
 				"/I/项目/hedonglin/server.js",
 				"/I/项目/hedonglin/gulpfile.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
 				"/I/项目/hedonglin/src/javascript.art",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/sublime-art/syntaxs/javascript.sublime-syntax",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/sublime-art/preview.png",
@@ -2560,8 +2525,7 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Sync View Scroll.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti_orig.sublime-theme",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Skins.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti.sublime-theme",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Saved Skins.skins"
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti.sublime-theme"
 			],
 			"find":
 			{
@@ -2804,24 +2768,24 @@
 			"groups":
 			[
 				{
-					"selected": 4,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/I/项目/hedonglin/src/index.html",
+							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 299,
+								"buffer_size": 13296,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										249,
-										249
+										11922,
+										11922
 									]
 								],
 								"settings":
@@ -2831,30 +2795,20 @@
 									{
 										"close":
 										{
-											"1":
-											[
-												285,
-												289
-											]
 										},
 										"icon":
 										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/dot.png",
-												"brackethighlighter.default"
-											]
 										},
 										"open":
 										{
-											"1":
-											[
-												244,
-												248
-											]
 										},
 										"unmatched":
 										{
+											"1":
+											[
+												13292,
+												13293
+											]
 										}
 									},
 									"bracket_highlighter.regions":
@@ -2900,514 +2854,13 @@
 										7,
 										225,
 										9,
-										18,
-										19,
-										49,
-										14,
-										13,
-										245,
-										87,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-									"is_init_dirty_state": false,
-									"origPos":
-									[
-										0.0,
-										204.0
-									],
-									"origin_encoding": "ASCII",
-									"syncScroll": false,
-									"syntax": "Packages/HTML/HTML.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 204.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 4,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/I/项目/hedonglin/src/index.js",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 690,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										328,
-										328
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-											"1":
-											[
-												341,
-												342
-											]
-										},
-										"icon":
-										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/dot.png",
-												"brackethighlighter.default"
-											]
-										},
-										"open":
-										{
-											"1":
-											[
-												319,
-												320
-											]
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content"
-									],
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										225,
-										9,
-										18,
-										19,
-										49,
-										14,
-										13,
-										245,
-										87,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-									"is_init_dirty_state": false,
-									"origPos":
-									[
-										0.0,
-										102.0
-									],
-									"origin_encoding": "UTF-8",
-									"syncScroll": false,
-									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 102.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/I/项目/hedonglin/src/public/_common.scss",
-							"semi_transient": true,
-							"settings":
-							{
-								"buffer_size": 1166,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										176,
-										176
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-										},
-										"icon":
-										{
-										},
-										"open":
-										{
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content"
-									],
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										225,
-										9,
-										20,
-										17,
-										59,
-										24,
-										4,
-										135,
-										217,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-									"is_init_dirty_state": false,
-									"origPos":
-									[
-										0.0,
-										0.0
-									],
-									"origin_encoding": "UTF-8",
-									"syncScroll": false,
-									"syntax": "Packages/SCSS/SCSS.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/I/项目/hedonglin/src/index.scss",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 206,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										169,
-										169
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-											"1":
-											[
-												204,
-												205
-											]
-										},
-										"icon":
-										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/dot.png",
-												"brackethighlighter.default"
-											]
-										},
-										"open":
-										{
-											"1":
-											[
-												146,
-												147
-											]
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content"
-									],
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										225,
-										9,
-										18,
-										19,
-										49,
-										14,
-										13,
-										249,
-										64,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-									"is_init_dirty_state": false,
-									"origPos":
-									[
-										0.0,
-										0.0
-									],
-									"origin_encoding": "ASCII",
-									"syncScroll": false,
-									"syntax": "Packages/SCSS/SCSS.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-sublime.sublime-settings",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 17851,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										17008,
-										17008
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-											"1":
-											[
-												17026,
-												17027
-											]
-										},
-										"icon":
-										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/dot.png",
-												"brackethighlighter.default"
-											]
-										},
-										"open":
-										{
-											"1":
-											[
-												17002,
-												17003
-											]
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content"
-									],
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										225,
-										10,
-										1,
-										5,
 										16,
-										25,
-										9,
-										70,
-										39,
+										19,
+										11,
+										32,
+										14,
+										63,
+										167,
 										113,
 										1,
 										133,
@@ -3419,21 +2872,18 @@
 										46
 									],
 									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-									"is_init_dirty_state": false,
 									"origPos":
 									[
 										0.0,
-										15291.0
+										0.0
 									],
-									"origin_encoding": "UTF-8",
 									"syncScroll": false,
 									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 									"tab_size": 4,
-									"translate_tabs_to_spaces": true,
-									"word_wrap": true
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 9137.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,

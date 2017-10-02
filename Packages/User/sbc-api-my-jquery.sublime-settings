@@ -7,6 +7,8 @@
   "completions":
   [
 // 屬性 / Attributes
+// --------------------------------------------------
+
     // 属性
         [ "attr\tjQuery", "attr('$1')$0" ],
         [ "prop\tjQuery", "prop('$1')$0" ],
@@ -41,6 +43,8 @@
         [ "removeData\tjQuery", "removeData('$1')$0" ],
 
 // 操作 / Manipulation
+// --------------------------------------------------
+
     // 拷贝
         [ "clone\tjQuery", "clone('$1')$0" ],
     // DOM 插入, 包裹
@@ -69,6 +73,8 @@
         [ "replaceWith\tjQuery", "replaceWith('$1')$0" ],
 
 // 遍历 / Traversing
+// --------------------------------------------------
+
     // 筛选
         [ "eq\tjQuery", "eq('$1')$0" ],
         [ "filter\tjQuery", "filter('$1')$0" ],
@@ -101,6 +107,8 @@
         [ "siblings\tjQuery", "siblings('$1')$0" ],
 
 // 事件 / Events
+// --------------------------------------------------
+
     // 浏览器事件
         [ "resize\tjQuery", "resize('$1')$0" ],
         [ "scroll\tjQuery", "scroll('$1')$0" ],
@@ -157,6 +165,8 @@
         [ "which\tjQueryEvent", "event.which" ],
 
 // 效果 / Effects
+// --------------------------------------------------
+
     // 基础
         [ "hide\tjQuery", "hide('$1')$0" ],
         [ "show\tjQuery", "show('$1')$0" ],
@@ -182,6 +192,8 @@
         [ "slideUp\tjQuery", "slideUp('$1')$0" ],
 
 // Ajax
+// --------------------------------------------------
+
     // 全局Ajax事件处理程序
         [ "ajaxComplete\tjQuery", "ajaxComplete('$1')$0" ],
         [ "ajaxError\tjQuery", "ajaxError('$1')$0" ],
@@ -204,6 +216,8 @@
         [ "post\tjQuery", "post('$1')$0" ],
 
 // 核心 / Core
+// --------------------------------------------------
+
     // jQuery 对象
         [ "jQuery\tjQuery", "jQuery${2:('$1')}" ],
         [ "noConflict\tjQuery", "noConflict()" ],
@@ -271,6 +285,9 @@
         [ "lock\tjQueryCallbacks", "lock()" ],
         [ "locked\tjQueryCallbacks", "locked()" ],
         [ "remove\tjQueryCallbacks", "remove()" ],
+
+// 弃用
+// --------------------------------------------------
 
 // Deprecated in jQuery 3.0（弃用）
     [ "bind\tjQuery", "bind('$1')$0" ],

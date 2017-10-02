@@ -1924,30 +1924,12 @@
 			"buffers":
 			[
 				{
-					"file": "/I/项目/hedonglin/todo.todo",
+					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 239,
+						"buffer_size": 40452,
 						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.json",
-					"settings":
-					{
-						"buffer_size": 295496,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
-					"settings":
-					{
-						"buffer_size": 6756,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
+						"line_ending": "Windows"
 					}
 				}
 			],
@@ -2412,11 +2394,15 @@
 			],
 			"file_history":
 			[
+				"/C/Users/Administrator/Desktop/1",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
+				"/I/项目/hedonglin/todo.todo",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.json",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-python.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sublime-completions/sbc-api-twitter-bootstrap3-sass-variables.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
 				"/I/项目/hedonglin/src/index.html",
 				"/I/项目/hedonglin/src/index.js",
 				"/I/项目/hedonglin/src/index.scss",
@@ -2434,9 +2420,7 @@
 				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/bootstrap.scss",
 				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/_alert.scss",
 				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta-dist/css/bootstrap-reboot.css",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.json",
 				"/I/项目/hedonglin/webpack.config.js",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/ColorHighlighter.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Hover Image Preview/hover_preview.py",
 				"/I/项目/hedonglin/server.js",
@@ -2466,7 +2450,6 @@
 				"/C/Users/Administrator/Documents/Tencent Files/839875083/FileRecv/webpack.config.js",
 				"/C/Users/Administrator/Documents/Tencent Files/839875083/FileRecv/webpack.config (1).js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/FileHeader/template/header/JavaScript.tmpl",
-				"/I/项目/hedonglin/todo.todo",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/FindKeyConflicts.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/SideBarEnhancements/Side Bar.sublime-menu",
 				"/I/项目/hedonglin/newFloder.bat",
@@ -2538,8 +2521,7 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/LocalizedMenu.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/Localize.py",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeLinter.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Sync View Scroll.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Seti_UI/Seti_orig.sublime-theme"
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Sync View Scroll.sublime-settings"
 			],
 			"find":
 			{
@@ -2782,24 +2764,24 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/I/项目/hedonglin/todo.todo",
+							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 239,
+								"buffer_size": 40452,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										53,
-										53
+										38356,
+										38356
 									]
 								],
 								"settings":
@@ -2818,250 +2800,11 @@
 										},
 										"unmatched":
 										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content"
-									],
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										225,
-										9,
-										20,
-										18,
-										44,
-										21,
-										9,
-										180,
-										140,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"is_init_dirty_state": false,
-									"origPos":
-									[
-										0.0,
-										0.0
-									],
-									"origin_encoding": "UTF-8",
-									"plain_tasks_remain_time_phantoms":
-									[
-									],
-									"syncScroll": false,
-									"syntax": "Packages/PlainTasks/PlainTasks.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.json",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 295496,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-										},
-										"icon":
-										{
-										},
-										"open":
-										{
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content"
-									],
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										225,
-										9,
-										21,
-										18,
-										44,
-										25,
-										3,
-										130,
-										150,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"origPos":
-									[
-										0.0,
-										0.0
-									],
-									"syncScroll": false,
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 6756,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										5202,
-										5202
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
 											"1":
 											[
-												5201,
-												5202
+												40448,
+												40449
 											]
-										},
-										"icon":
-										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/dot.png",
-												"brackethighlighter.default"
-											]
-										},
-										"open":
-										{
-											"1":
-											[
-												5192,
-												5193
-											]
-										},
-										"unmatched":
-										{
 										}
 									},
 									"bracket_highlighter.regions":
@@ -3111,9 +2854,9 @@
 										19,
 										11,
 										32,
-										13,
-										92,
-										238,
+										14,
+										59,
+										191,
 										113,
 										1,
 										133,
@@ -3124,10 +2867,11 @@
 										3,
 										46
 									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 									"origPos":
 									[
 										0.0,
-										5508.0
+										0.0
 									],
 									"syncScroll": false,
 									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
@@ -3135,7 +2879,7 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 5304.0,
+								"translation.y": 25452.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,

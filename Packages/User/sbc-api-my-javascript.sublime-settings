@@ -7,10 +7,14 @@
   "completions":
   [
 // 注释
+// --------------------------------------------------
     [ "cc\t/*===","/*==============================\n\t$1\n==============================*/\n$0"],
     [ "ccc\t//---","// $1\n// --------------------------------------------------\n$0"],
     [ "cccc\t/*|*/","/* $1 */\n$0"],
+
 //函数
+// --------------------------------------------------
+
     [ "fn\tfnName()","function ${1:fnName}(${2:arg}){\n\t${3:}\n}"],
     [ "fna\tfnName()","${1:fnName}(${2:})"],
     [ "fnn\tfunction()","function(${1:arg}) {\n\t${3:}\n}"],
@@ -18,6 +22,7 @@
     [ "require\trequire()","require('${1:}');"],
 
 //语句
+// --------------------------------------------------
     [ "if\tif()","if (${1:true}){\n\t${2:}\n}"],
     [ "if\t&&","${1:false} && ${2:true}"],
     [ "if\t||","${1:true} || ${2:false}"],
@@ -33,6 +38,7 @@
     [ "try\ttry {}catch {}finally {}","try {\n\t$1\n} catch {\n\t$2\n} finally {\n\t$3\n}"],
 
 // 全局属性
+// --------------------------------------------------
     [ "Infinity\tjsProp", "Infinity" ],
     [ "NaN\tjsProp", "NaN" ],
     [ "Stroke\tjsProp", "Stroke" ],
@@ -55,6 +61,7 @@
     [ "undefined\tjsProp", "undefined" ],
 
 // 全局函数
+// --------------------------------------------------
     [ "decodeURI\tjsGlobal()", "decodeURI()" ],
     [ "decodeURIComponent\tjsGlobal()", "decodeURIComponent()" ],
     [ "encodeURI\tjsGlobal()", "encodeURI()" ],
@@ -70,6 +77,8 @@
     [ "unescape\tjsGlobal()", "unescape()" ],
 
 // 数值Number
+// --------------------------------------------------
+
     [ "MAX_VALUE\tjsNumber","Number.MAX_VALUE" ],
     [ "MIN_VALUE\tjsNumber","Number.MIN_VALUE" ],
     [ "NEGATIVE_INFINITY\tjsNumber","Number.NEGATIVE_INFINITY" ],
@@ -77,6 +86,7 @@
     [ "NaN\tjsNumber","Number.NaN" ],
 
 // 字符串对象的方法
+// --------------------------------------------------
     [ "charAt\tjsString()", "${1:str}.charAt(${2:})" ],
     [ "charCodeAt\tjsString()", "${1:str}.charCodeAt(${2:})" ],
     [ "concat\tjsString()", "${1:str}.concat(${2:})" ],
@@ -107,7 +117,7 @@
     [ "endsWith\tjsString()", "${1:str}.endsWith($2)" ],
 
 // 数组对象的方法
-
+// --------------------------------------------------
     [ "concat\tjsArray()", "${1:arr}.concat(${2:})" ],
     [ "isArray\tjsArray()", "Array.isArray(${1:})" ],
     [ "indexOf\tjsArray()", "${1:arr}.indexOf(${2:})"],
@@ -139,8 +149,8 @@
     [ "findIndex\tjsArray()", "${1:arr}.findIndex($2)" ],
     [ "fill\tjsArray()", "${1:arr}.fill(${2:text,index1,index2})" ],
 
-
 // Date对象的方法
+// --------------------------------------------------
     [ "getDate\tjsDate()", "getDate()" ],
     [ "getDay\tjsDate()", "getDay()" ],
     [ "getFullYear\tjsDate()", "getFullYear()" ],
@@ -188,10 +198,12 @@
     [ "valueOf\tjsDate()", "valueOf()" ],
 
 // 正则属性
+// --------------------------------------------------
     [ "exec\tjsRegExp", "exec" ],
     [ "test\tjsRegExp", "test" ],
 
 // Math是一个内置对象， 它具有数学常数和函数的属性和方法。不是一个函数对象。Math 的所有属性和方法都是静态的
+// --------------------------------------------------
     [ "Math.random\tjaMath()", "Math.random()" ],
     [ "Math.max\tjaMath()", "Math.max(${1:})" ],
     [ "Math.min\tjaMath()", "Math.min(${1:})" ],
@@ -214,6 +226,7 @@
     [ "Math.E\tjaMath", "Math.E" ],
 
 // window对象属性
+// --------------------------------------------------
     [ "window\tjsWindow", "window" ],
     [ "document\tjsWindow", "document" ],
     [ "sessionStorage\tjsWindow", "sessionStorage" ],
@@ -247,6 +260,7 @@
     [ "devicePixelRatio\tjsWindow", "devicePixelRatio" ],
     [ "applicationCache\tjsWindow", "applicationCache" ],
 // window对象的方法
+// --------------------------------------------------
     [ "alert\tjsWindow()", "alert(${1:});" ],
     [ "wat\tjsWindow()", "atob()" ],
     [ "blur\tjsWindow()", "blur()" ],
@@ -272,8 +286,8 @@
     [ "prompt\tjsWindow()", "prompt()" ],
     [ "getComputedStyle\tjsWindow","getComputedStyle(${1:element},false)" ],
 
-
 // navigator属性
+// --------------------------------------------------
     [ "navigator.userAgent\tjsNavigator","navigator.userAgent"],
     [ "navigator.cookieEnabled\tjsNavigator","navigator.cookieEnabled"],
     [ "navigator.connection\tjsNavigator","navigator.connection"],
@@ -298,6 +312,7 @@
     [ "navigator.securitypolicy\tjsNavigator","navigator.securitypolicy"],
     [ "navigator.webkitPointer\tjsNavigator","navigator.webkitPointer"],
 // navigator方法
+// --------------------------------------------------
     [ "navigator.javaEnabled\tjsNavigator()","navigator.javaEnabled()"],
     [ "navigator.taintEnabled\tjsNavigator()","navigator.taintEnabled()"],
     [ "navigator.vibrate\tjsNavigator()","navigator.vibrate()"],
@@ -306,6 +321,7 @@
     [ "navigator.mozIsLocallyAvailable\tjsNavigator()","navigator.mozIsLocallyAvailable()"],
 
 // screen属性
+// --------------------------------------------------
     [ "screen.availTop\tjsScreen", "screen.availTop" ],
     [ "screen.availLeft\tjsScreen", "screen.availLeft" ],
     [ "screen.availHeight\tjsScreen", "screen.availHeight" ],
@@ -318,10 +334,12 @@
     [ "screen.mozEnabled\tjsScreen", "screen.mozEnabled" ],
     [ "screen.mozBrightness\tjsScreen", "screen.mozBrightness" ],
 // screen方法
+// --------------------------------------------------
     [ "screen.lockOrientation\tjsScreen()", "screen.lockOrientation" ],
     [ "screen.unlockOrientation\tjsScreen()", "screen.unlockOrientation" ],
 
 // location属性
+// --------------------------------------------------
     [ "href\tjsLocation", "${1:document}.href" ],
     [ "origin\tjsLocation", "${1:document}.origin" ],
     [ "protocol\tjsLocation", "${1:document}.protocol" ],
@@ -332,15 +350,18 @@
     [ "search\tjsLocation", "${1:document}.search" ],
     [ "hash\tjsLocation", "${1:document}.hash" ],
 // location方法
+// --------------------------------------------------
     [ "assign\tjsLocation()", "assign(${1:URL})" ],
     [ "replace\tjsLocation()", "replace(${1:URL})" ],
     [ "reload\tjsLocation()", "reload(${1:boolean})" ],
     [ "toString\tjsLocation()", "toString()" ],
 
 // history属性
+// --------------------------------------------------
     ["history.length\tjsHistory","history.length"],
     ["history.state\tjsHistory","history.state"],
 // history方法
+// --------------------------------------------------
     [ "history.back\tjsHistory()", "history.back()" ],
     [ "history.forward\tjsHistory()", "history.forward()" ],
     [ "history.go\tjsHistory()", "history.go(${1:[delta]})" ],
@@ -348,6 +369,7 @@
     [ "history.replaceState\tjsHistory()", "history.replaceState(${1:data, title [,url]})" ],
 
 // jsDOM属性
+// --------------------------------------------------
     [ "documentElement\tjsDOM","document.documentElement" ],
     [ "head\tjsDOM","document.head" ],
     [ "body\tjsDOM","document.body" ],
@@ -385,6 +407,7 @@
     [ "isId\tjsDOM","${1:attr}.isId"],
     [ "specified\tjsDOM","${1:attr}.specified"],
 // jsDOM方法
+// --------------------------------------------------
     [ "getElementById\tjsDOM()", "${1:document}.getElementById('${2:id}');" ],
     [ "getElementsByClassName\tjsDOM()", "${1:document}.getElementsByClassName('${2:class}');" ],
     [ "getElementsByName\tjsDOM()", "${1:document}.getElementsByName('${2:name}');" ],
@@ -419,6 +442,7 @@
     [ "lookupPrefix\tjsNodemap", "${1:nodeObject}.lookupPrefix(${2:URI})" ],
 
 // jsElement对象属性
+// --------------------------------------------------
     [ "title\tjsElement","${1:Element}.title" ],
     [ "textContent\tjsElement","${1:Element}.textContent" ],
     [ "tagName\tjsElement","${1:Element}.tagName" ],
@@ -468,6 +492,7 @@
     [ "releaseCapture\tjsElement", "${1:element}.releaseCapture" ],
 
 // jsElement方法
+// --------------------------------------------------
     [ "item\tjsElement()","${1:nodelist}.item()" ],
     [ "toString\tjsElement()", "${1:Element}.toString()" ],
     [ "setUserData\tjsElement()", "${1:Element}.setUserData()" ],
@@ -520,6 +545,7 @@
     [ "detachEvent\tjsElement()", "${1:target}.detachEvent('on${2:type}',${3:callback})" ],
 
 // jsEvent事件对象
+// --------------------------------------------------
     [ "onclick\tjsEvent","onclick" ],
     [ "ondblclick\tjsEvent","ondblclick" ],
     [ "onmousedown\tjsEvent","onmousedown" ],
@@ -662,11 +688,13 @@
     [ "fromElement\tjsEvent","fromElement" ],
     [ "cancelBubble\tjsEvent","cancelBubble" ],
 // jsEvent()事件对象方法
+// --------------------------------------------------
     [ "preventDefault\tjsEvent()", "${1:target}.preventDefault()" ],
     [ "stopPropagation\tjsEvent()", "${1:target}.stopPropagation()" ],
     [ "initEvent\tjsEvent()", "initEvent()" ],
 
 // jsGraphics图形相关
+// --------------------------------------------------
     [ "arc\tjsGraphics", "arc" ],
     [ "arcTo\tjsGraphics", "arcTo" ],
     [ "beginPath\tjsGraphics", "beginPath" ],
@@ -706,9 +734,9 @@
     [ "transform\tjsGraphics", "transform" ],
     [ "translate\tjsGraphics", "translate" ],
 
-// HTMLCanvasElement
-// 属性 height width
-// 方法
+// HTMLCanvasElement属性 height width
+// HTMLCanvasElement方法
+// --------------------------------------------------
     [ "getContext\tjsCanvas", "${1:canvas}.getContext($2)" ],
     [ "captureStream\tjsCanvas", "${1:canvas}.captureStream($2)" ],
     [ "mozGetAsFile\tjsCanvas", "${1:canvas}.mozGetAsFile($2)" ],
@@ -717,20 +745,21 @@
     [ "transferControlToOffscreen\tjsCanvas", "${1:canvas}.transferControlToOffscreen($2)" ],
 
 // Object
+// --------------------------------------------------
     [ "getOwnPropertySymbols\tjsObject", "${1:Object}.getOwnPropertySymbols($2)" ],
     [ "is\tjsObject", "${1:Object}.is(${2:NaN,NaN})" ],
     [ "assign\tjsObject", "${1:Object}.assign(${2:obj1,obj2,obj3})" ],
 
-
 //工具
+// --------------------------------------------------
     [ "cl\tconsole.log", "console.log(${1:'日志'});" ],
     [ "cli\tconsole.info", "console.info(${1:'信息'});" ],
     [ "cle\tconsole.error", "console.error(${1:'错误'});" ],
     [ "clw\tconsole.warn", "console.warn(${1:'警告'});" ],
     [ "clt\tconsole.time()", "console.time();\n\t${1:}\nconsole.timeEnd();" ],
 
-// XMLHttpRequest
-// 属性
+// HTMLCanvasElement属性
+// --------------------------------------------------
     [ "XMLHttpRequest\tjsXMLHttpRequest()", "XMLHttpRequest" ],
     [ "onreadystatechange\tjsXMLHttpRequest", "onreadystatechange" ],
     [ "readyState\tjsXMLHttpRequest", "readyState" ],
@@ -743,17 +772,19 @@
     [ "timeout\tjsXMLHttpRequest", "timeout" ],
     [ "upload\tjsXMLHttpRequest", "upload" ],
     [ "withCredentials\tjsXMLHttpRequest", "withCredentials" ],
-// 方法
+// HTMLCanvasElement方法
+// --------------------------------------------------
     [ "abort\tjsXMLHttpRequest()", "abort()" ],
     [ "open\tjsXMLHttpRequest()", "open(${1:type},${2:url},${3:true})" ],
     [ "overrideMimeType\tjsXMLHttpRequest()", "overrideMimeType()" ],
     [ "send\tjsXMLHttpRequest()", "send($1)" ],
     [ "setRequestHeader\tjsXMLHttpRequest()", "setRequestHeader(${1:'content-type'},${2:'application/x-www-form-urlencoded'})" ],
     [ "getResponseHeader\tjsXMLHttpRequest()", "getResponseHeader()" ],
-// JSON
+
+// JSON方法
+// --------------------------------------------------
     ["JSONparse\tjsJSON","JSON.parse(${1:'text[, reviver]'})"],
     ["JSONstringify\tjsJSON","JSON.stringify(${1:'value[, replacer[, space]]'})"],
 
-// vue属性
   ]
 }

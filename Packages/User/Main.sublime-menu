@@ -163,6 +163,13 @@
                 "command": "open_file"
             },
             {
+                "args": {
+                    "file": "${packages}/User/sbc-api-my-sublime.sublime-settings"
+                },
+                "caption": "Settings \u2013 sublime",
+                "command": "open_file"
+            },
+            {
                 "caption": "-"
             }
 

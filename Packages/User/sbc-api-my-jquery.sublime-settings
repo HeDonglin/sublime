@@ -211,7 +211,7 @@
     // 实用工具
         [ "contains\tjQuery", "contains()" ],
         [ "each\tjQuery", "each()" ],
-        [ "extend\tjQuery", "extend()" ],
+        [ "extend\tjQuery", "extend($1)" ],
         [ "globalEval\tjQuery", "globalEval()" ],
         [ "grep\tjQuery", "grep()" ],
         [ "inArray\tjQuery", "inArray()" ],
@@ -235,7 +235,7 @@
         [ "type\tjQuery", "type()" ],
         [ "unique\tjQuery", "unique()" ],
     // fn
-        [ "fn.extend\tjQuery", "fn.extend()" ],
+        [ "fn.extend\tjQuery", "fn.extend($1)" ],
     // DOM 元素方法
         [ "index\tjQuery", "index()" ],
         [ "toArray\tjQuery", "toArray()" ],

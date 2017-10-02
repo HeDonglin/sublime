@@ -38,5 +38,8 @@
 
     // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-vue.sublime-settings
     "my-vue": true,
+
+    // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-sublime.sublime-settings
+    "my-sublime": true,
   }
 }

@@ -12,6 +12,7 @@
     [ "cccc\t/*|*/","/* $1 */\n$0"],
 //函数
     [ "fn\tfnName()","function ${1:fnName}(${2:arg}){\n\t${3:}\n}"],
+    [ "fna\tfnName()","${1:fnName}(${2:})"],
     [ "fnn\tfunction()","function(${1:arg}) {\n\t${3:}\n}"],
     [ "return\tretrun false","return false;"],
     [ "require\trequire()","require('${1:}');"],
@@ -22,7 +23,7 @@
     [ "if\t||","${1:true} || ${2:false}"],
     [ "ife\tif()else()","if (${1:true}) {\n\t${2:}\n} else {\n\t${3:}\n}"],
     [ "ifee\tif()else()","if (${1:true}) {\n\t${2:}\n} else if (${3:true}) {\n\t${4:}\n} else if (${5:true}) {\n\t${6:}\n}"],
-    [ "f\tfor++","for (var i = 0; i < ${1:Thinks}.length; i++) {\n\t${1:Thinks}[i]\n}"],
+    [ "f\tfor++","for (var i = 0, len = ${1:Thinks}.length; i < len; i++) {\n\t${2:}\n}"],
     [ "f-\tfor--","for (var i = ${1:Thinks}.length - 1; i >= 0; i--) {\n\t ${1:Thinks}[i]\n}"],
     [ "fi\tfor...in","for (var ${1:attr} in ${2:obj}) {\n\t${3:}\n}"],
     [ "while\twhile","while (${1:true}) {\n\t${2:}\n}"],

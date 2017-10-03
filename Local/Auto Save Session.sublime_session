@@ -1,6 +1,7 @@
 {
 	"folder_history":
 	[
+		"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets",
 		"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss",
 		"/D/Program Files/Sublime Text 3126/Data/Packages/User",
 		"/I/项目/hedonglin",
@@ -1448,6 +1449,14 @@
 				"selected_items":
 				[
 					[
+						"st",
+						"set_timeout\tModule()"
+					],
+					[
+						"t",
+						"trigger"
+					],
+					[
 						"fn",
 						"fn.extend\tjQuery"
 					],
@@ -1924,11 +1933,10 @@
 			"buffers":
 			[
 				{
-					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
+					"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-python.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 40452,
-						"encoding": "UTF-8",
+						"buffer_size": 16922,
 						"line_ending": "Windows"
 					}
 				}
@@ -2029,16 +2037,16 @@
 			"command_palette":
 			{
 				"height": 428.0,
-				"last_filter": "pin",
+				"last_filter": "prvo",
 				"selected_items":
 				[
 					[
-						"pin",
-						"Package Control: Install Package"
-					],
-					[
 						"prvo",
 						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"pin",
+						"Package Control: Install Package"
 					],
 					[
 						"remove",
@@ -2395,18 +2403,42 @@
 			"file_history":
 			[
 				"/C/Users/Administrator/Desktop/1",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
-				"/I/项目/hedonglin/todo.todo",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.json",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-python.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sublime-completions/sbc-api-twitter-bootstrap3-sass-variables.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-sublime.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-vue.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/method.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/New-Class.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/New-Property.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/Try-Except-Else-Finally.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/Try-Except-Else.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/Try-Except-Finally.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/if.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/if-__name__-==-'__main__'.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/function.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/for.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/__magic__.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/while.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/Try-Except.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Python.sublime-build",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sublime-completions/sbc-api-php.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/changelog.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/package.json",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/main.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sbc-setting.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sublime-commands/sbc.sublime-commands",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.json",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-mockjs.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
+				"/I/项目/hedonglin/todo.todo",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sublime-completions/sbc-api-twitter-bootstrap3-sass-variables.sublime-settings",
 				"/I/项目/hedonglin/src/index.html",
 				"/I/项目/hedonglin/src/index.js",
 				"/I/项目/hedonglin/src/index.scss",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-sublime.sublime-settings",
 				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/_variables.scss",
 				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/mixins/_breakpoints.scss",
 				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/utilities/_flex.scss",
@@ -2457,11 +2489,6 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/个人快捷键.md",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
 				"/I/项目/hedonglin/README.md",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sbc-setting.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-vue.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-mockjs.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/snippets.json",
 				"/I/项目/webpack/.gitignore",
 				"/I/笔记/note/todo.todo",
@@ -2502,26 +2529,7 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/Main.sublime-menu",
 				"/I/笔记/note/src/index.css",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/CSScomb.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Monokai.tmTheme",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Scheme - Default/Monokai.tmTheme",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Sublime-minihtml-Preview/minihtml.sublime-commands",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LSP/Keymaps/Default (Windows).sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LSP/Commands/Default.sublime-commands",
-				"/C/Users/Administrator/Desktop/1.css",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Color Highlighter/ColorHighlighter.py",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Syntax Highlighting for PostCSS/Preferences/Completion Rules.tmPreferences",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Syntax Highlighting for PostCSS/package-metadata.json",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Syntax Highlighting for PostCSS/Completions/CSS-Properties.sublime-completions",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Syntax Highlighting for PostCSS/Syntaxes/PostCSS.tmLanguage",
-				"/I/笔记/note/css3.chm",
-				"/I/笔记/note/emmet.vue",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/menu/3/zh_CN/Side Bar Mount Point.sublime-menu.json",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/menu/2221/zh_CN/Side Bar Mount Point.sublime-menu.json",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/menu/3126/zh_CN/Main.sublime-menu.json",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/LocalizedMenu.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/LocalizedMenu/Localize.py",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/SublimeLinter.sublime-settings",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Sync View Scroll.sublime-settings"
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Monokai.tmTheme"
 			],
 			"find":
 			{
@@ -2619,6 +2627,13 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"\"contents\": ",
+					"\"trigger\":",
+					"\"trigger\": ",
+					"\"contents\"",
+					"\"trigger\":",
+					"js",
+					".js",
 					"sublime",
 					"description",
 					"ApplicationCommand",
@@ -2739,14 +2754,7 @@
 					"view",
 					"focus_view",
 					"group",
-					"focus_sheet",
-					"focus_group",
-					"active_group",
-					"num_groups",
-					"views_in_group",
-					"views",
-					"group",
-					"sheets_in_group"
+					"focus_sheet"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2769,19 +2777,19 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
+							"file": "/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-python.sublime-settings",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 40452,
+								"buffer_size": 16922,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										38356,
-										38356
+										0,
+										0
 									]
 								],
 								"settings":
@@ -2802,8 +2810,8 @@
 										{
 											"1":
 											[
-												40448,
-												40449
+												0,
+												1
 											]
 										}
 									},
@@ -2849,14 +2857,14 @@
 										10,
 										7,
 										225,
-										9,
-										16,
-										19,
-										11,
-										32,
-										14,
-										59,
-										191,
+										10,
+										3,
+										3,
+										29,
+										36,
+										10,
+										39,
+										254,
 										113,
 										1,
 										133,
@@ -2867,19 +2875,19 @@
 										3,
 										46
 									],
-									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 									"origPos":
 									[
 										0.0,
 										0.0
 									],
+									"origin_encoding": "ASCII",
 									"syncScroll": false,
 									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 25452.0,
+								"translation.y": 8160.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -3081,7 +3089,7 @@
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": true,
+			"side_bar_visible": false,
 			"side_bar_width": 325.0,
 			"status_bar_visible": true,
 			"template_settings":

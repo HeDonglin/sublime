@@ -285,6 +285,6 @@
         [ "is_enabled\tTextCommand()", "is_enabled(${1:<args>})" ],
         [ "is_visible\tTextCommand()", "is_visible(${1:<args>})" ],
         [ "description\tTextCommand()", "description(${1:<args>})" ],
-        [ "want_event\tTextCommand()", "want_event()" ],
+        [ "want_event\tTextCommand()", "want_event()" ]
   ]
 }

@@ -1512,6 +1512,10 @@
 				"selected_items":
 				[
 					[
+						"fsc",
+						"fs.close\tfs"
+					],
+					[
 						"fs",
 						"fs.fsync\tfs"
 					],
@@ -2011,7 +2015,7 @@
 					"file": "/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/User/sbc-api-my-nodejs.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 16726,
+						"buffer_size": 22922,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
@@ -2479,6 +2483,12 @@
 			],
 			"file_history":
 			[
+				"/E/Sublime Text Build 3144 x64/Data/Packages/Nodejs/Nodejs.sublime-completions",
+				"/E/Sublime Text Build 3144 x64/Data/Packages/Nodejs/lib/command_thread.py",
+				"/E/Sublime Text Build 3144 x64/Data/Packages/Nodejs/lib/__init__.py",
+				"/E/Sublime Text Build 3144 x64/Data/Packages/Nodejs/Snippets/node-event-eventemitter.sublime-snippet",
+				"/E/Sublime Text Build 3144 x64/Data/Packages/Nodejs/Snippets/node-http-createServer.sublime-snippet",
+				"/E/Sublime Text Build 3144 x64/Data/Packages/Nodejs/Snippets/node-fs-readdir.sublime-snippet",
 				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/User/Package Control.sublime-settings",
 				"/I/项目/hedonglin/src/index.js",
 				"/I/项目/hedonglin/gulpfile.js",
@@ -2600,17 +2610,11 @@
 				"/I/笔记/note/kangle.js",
 				"/I/笔记/note/src/public/mobile.js",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/outline.sublime-settings",
-				"/I/笔记/note/1.css",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Outline/outline.sublime-settings",
-				"/I/笔记/note/src/index.html",
-				"/I/笔记/note/html5.html",
-				"/C/Users/Administrator/Desktop/1.html",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML/html_completions.py",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Refresh/Default (Windows).sublime-keymap"
+				"/I/笔记/note/1.css"
 			],
 			"find":
 			{
-				"height": 46.0
+				"height": 45.0
 			},
 			"find_in_files":
 			{
@@ -2704,6 +2708,54 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"constants",
+					"buffer",
+					"toEnc",
+					"fromEnc",
+					"transcode",
+					"buffer",
+					"offset",
+					"value",
+					"value, offset, byteLength[, noAssert]",
+					"value",
+					"value, offset[, noAssert]",
+					"value",
+					"string[, offset[, length]][, encoding]",
+					"offset",
+					"offset, byteLength[, noAssert]",
+					"offset",
+					"offset[, noAssert]",
+					"otherBuffer",
+					"writeUIntLE",
+					"buf",
+					"    ",
+					"buf",
+					"index",
+					"buf",
+					"encoding",
+					"obj",
+					"buffer",
+					"array",
+					"buf2",
+					"buf1",
+					"size",
+					"poolSize",
+					"Buffer",
+					"poolSize",
+					"Buffer",
+					"buffer",
+					"Buffer",
+					"poolSize",
+					"Buffer",
+					"buffer",
+					"Buffer",
+					"类属性：Buffer",
+					"类方法：",
+					"size",
+					"buffer",
+					"arrayBuffer",
+					"allocUnsafeSlow",
+					"Buffer",
 					"timeout",
 					"callback",
 					"\",",
@@ -2783,55 +2835,7 @@
 					"fd, buffer, offset, length, position, callback",
 					"fd",
 					"path",
-					"path, flags[, mode]",
-					"callback",
-					"path",
-					"callback",
-					"path",
-					"newPath",
-					"existingPath",
-					"callback",
-					"newPath",
-					"existingPath",
-					"existingPath, newPath, callback",
-					"existingPath",
-					"mtime",
-					"atime",
-					"fd",
-					"fd, atime, mtime",
-					"callback",
-					"mtime",
-					"atime",
-					"fd",
-					"fd, atime, mtime, callback",
-					"callback",
-					"fd",
-					"gid",
-					"uid",
-					"fd",
-					"fd, uid, gid",
-					"callback",
-					"gid",
-					"uid",
-					"fd",
-					"fd, uid, gid, callback",
-					"mode",
-					"callback",
-					"mode",
-					"fd",
-					"path",
-					"src",
-					"callback",
-					"src",
-					"src, dest[, flags], callback)",
-					"callback",
-					"fd",
-					"fd, callback",
-					"gid",
-					"uid",
-					"path",
-					"path, uid, gid",
-					"callback"
+					"path, flags[, mode]"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2858,15 +2862,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 16726,
+								"buffer_size": 22922,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										15565,
-										15565
+										1620,
+										1620
 									]
 								],
 								"settings":
@@ -2887,8 +2891,8 @@
 										{
 											"1":
 											[
-												16722,
-												16723
+												196,
+												197
 											]
 										}
 									},
@@ -2956,15 +2960,16 @@
 									"origPos":
 									[
 										0.0,
-										7648.8
+										988.8
 									],
 									"syncScroll": false,
 									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 									"tab_size": 4,
-									"translate_tabs_to_spaces": true
+									"translate_tabs_to_spaces": true,
+									"word_wrap": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 10275.0,
+								"translation.y": 564.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -2975,11 +2980,11 @@
 			],
 			"incremental_find":
 			{
-				"height": 44.0
+				"height": 42.0
 			},
 			"input":
 			{
-				"height": 41.0
+				"height": 42.0
 			},
 			"layout":
 			{
@@ -3045,11 +3050,11 @@
 				"height": 402.0
 			},
 			"pinned_build_system": "Packages/User/node.sublime-build",
-			"position": "0,2,3,-1,-1,-1,-1,829,1140,157,1958",
+			"position": "0,0,1,-1,-1,-1,-1,829,1140,157,1958",
 			"project": "hedonglin.sublime-project",
 			"replace":
 			{
-				"height": 83.0
+				"height": 79.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -3166,7 +3171,7 @@
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": true,
+			"side_bar_visible": false,
 			"side_bar_width": 314.0,
 			"status_bar_visible": true,
 			"template_settings":

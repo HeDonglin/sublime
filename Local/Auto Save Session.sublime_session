@@ -1,0 +1,3322 @@
+{
+	"folder_history":
+	[
+		"/I/项目/hedonglin",
+		"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages"
+	],
+	"last_version": 3147,
+	"last_window_id": 7,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 600.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"asser",
+						"assert.deepEqual\tassert"
+					],
+					[
+						"prin",
+						"print\tprint"
+					],
+					[
+						"set",
+						"set_timeout\tModule()"
+					],
+					[
+						"st",
+						"set_timeout\tModule()"
+					],
+					[
+						"t",
+						"trigger"
+					],
+					[
+						"fn",
+						"fn.extend\tjQuery"
+					],
+					[
+						"vm",
+						"vm.$nextTick\tVue()"
+					],
+					[
+						"vmf",
+						"vm.$forceUpdate\tVue()"
+					],
+					[
+						"extend",
+						"extend\tVueConfig"
+					],
+					[
+						"exten",
+						"extend\tVueConfig"
+					],
+					[
+						"key",
+						"keyCodes\tVue"
+					],
+					[
+						"sli",
+						"slice\tjsString())"
+					],
+					[
+						"err",
+						"errorHandler\tVue.config.errorHandler"
+					],
+					[
+						"try",
+						"try\ttry {}catch {}finally {}"
+					],
+					[
+						"d",
+						"do\tdo"
+					],
+					[
+						"isa",
+						"isArray\tjsArray()"
+					],
+					[
+						"isA",
+						"isArray"
+					],
+					[
+						"sqrt",
+						"Math.sqrt\tjaMath()"
+					],
+					[
+						"settime",
+						"setTimeout\tjsWindow()"
+					],
+					[
+						"f",
+						"f\tfor++"
+					],
+					[
+						"getid",
+						"getElementById\tjsDOM()"
+					],
+					[
+						"gete",
+						"getElementsByName\tjsDOM()"
+					],
+					[
+						"re",
+						"resize\tjsEvent"
+					],
+					[
+						"get",
+						"get\tjQuery"
+					],
+					[
+						"ha",
+						"hasClass\tjQuery"
+					],
+					[
+						"auto",
+						"auto"
+					],
+					[
+						"padding",
+						"padding-box"
+					],
+					[
+						"bdis",
+						"bdis\tborder-image-source: url(${0});"
+					],
+					[
+						"bdirs",
+						"bdirsp\tborder-image-repeat: ${1:space} ${2:space};"
+					],
+					[
+						"bga",
+						"bga\tbackground-attachment"
+					],
+					[
+						"bg",
+						"bg+\tbackground: #${1:fff} url(${2}) ${3:no-repeat} ${4:0} ${5:0} ${6:padding-box};"
+					],
+					[
+						"pos",
+						"posa\tposition: absolute;"
+					],
+					[
+						"tsf",
+						"trf-skx\ttransform: skewX(${1:angle});"
+					],
+					[
+						"li",
+						"li\tTag"
+					],
+					[
+						"met",
+						"meta\tTag"
+					],
+					[
+						"slide",
+						"slideDown\tjQuery"
+					],
+					[
+						"slid",
+						"slideDown\tjQuery"
+					],
+					[
+						"fw",
+						"fw-b\tfont-weight: bold;"
+					],
+					[
+						"ol",
+						"ols-db\toutline-style: double;"
+					],
+					[
+						"trsf",
+						"trfsc\ttransform: scale(${1:x}, ${2:y});"
+					],
+					[
+						"trfs",
+						"trf-sc\ttransform: scale(${1:x}, ${2:y});"
+					],
+					[
+						"trfsc",
+						"trf-sc\ttransform: scale(${1:x}, ${2:y});"
+					],
+					[
+						"removecl",
+						"removeClass\tjQuery"
+					],
+					[
+						"par",
+						"parents\tjQuery"
+					],
+					[
+						"add",
+						"add\tjQuery"
+					],
+					[
+						"to",
+						"tobottom"
+					],
+					[
+						"clear",
+						"clearTimeout\tjsWindow()"
+					],
+					[
+						"setTIME",
+						"setTimeout\tjsWindow()"
+					],
+					[
+						"setTi",
+						"setTimeout\tjsWindow()"
+					],
+					[
+						"remove",
+						"removeClass"
+					],
+					[
+						"backgr",
+						"background-color"
+					],
+					[
+						"background",
+						"background-image"
+					],
+					[
+						"trf",
+						"trfscx\ttransform: scaleX(${1:x});"
+					],
+					[
+						"ls",
+						"letter-spacing"
+					],
+					[
+						"create",
+						"createElement\tjsDOM()"
+					],
+					[
+						"setti",
+						"setTimeout"
+					],
+					[
+						"settim",
+						"setTime"
+					],
+					[
+						"setTime",
+						"setTimeOut\tjsWindow()"
+					],
+					[
+						"fnn",
+						"fnn\tfunction()"
+					],
+					[
+						"as",
+						"as-fe\talign-self: flex-end;"
+					],
+					[
+						"fx",
+						"fx\tflex: ${1:0} ${2:1} ${3:auto};"
+					],
+					[
+						"fxd",
+						"fxdc\tflex-direction: column;"
+					],
+					[
+						"ac",
+						"acsb\talign-content: space-between;"
+					],
+					[
+						"ai",
+						"ai-b\talign-items: baseline;"
+					],
+					[
+						"jc",
+						"jcc\tjustify-content: center;"
+					],
+					[
+						"fxwn",
+						"fxwn\tflex-wrap: nowrap;"
+					],
+					[
+						"fxw",
+						"fxwwr\tflex-wrap: wrap-reverse;"
+					],
+					[
+						"app",
+						"appendChild\tjsElement()"
+					],
+					[
+						"assign",
+						"assign\tjsObject"
+					],
+					[
+						"quer",
+						"querySelectorAll\tjsDOM()"
+					],
+					[
+						"itSet",
+						"itSet"
+					],
+					[
+						"v",
+						"v-model\tv-model"
+					],
+					[
+						"vf",
+						"v-if\t<div v-if=\"\">"
+					],
+					[
+						"vue",
+						"vue\tvue"
+					],
+					[
+						"webpack",
+						"webpack-dev-server"
+					],
+					[
+						"is",
+						"isDev"
+					],
+					[
+						"201",
+						"2017-07-08"
+					],
+					[
+						"less",
+						"less-loader"
+					],
+					[
+						"js",
+						"js"
+					],
+					[
+						"ov",
+						"overflow"
+					],
+					[
+						"Seq",
+						"SeqNum"
+					],
+					[
+						"1",
+						"1"
+					],
+					[
+						"10",
+						"10"
+					],
+					[
+						"font",
+						"font-size"
+					],
+					[
+						"bgsz",
+						"bgsz\tbackground-size ${1:100%} ${2:100%}"
+					],
+					[
+						"reduce",
+						"reduceRight\tjsArray()"
+					],
+					[
+						"提所有",
+						"提交所有已改变和已暂存的文件"
+					],
+					[
+						"imp",
+						"@imp\t@import '${1:./}';"
+					],
+					[
+						"c",
+						"c\tcolor: #${1:000};"
+					],
+					[
+						"i",
+						"images/"
+					],
+					[
+						"getE",
+						"getElementById\tjsDOM()"
+					],
+					[
+						"getElement",
+						"getElementById\tjsDOM()"
+					],
+					[
+						"getElemetn",
+						"getElementById\tjsDOM()"
+					],
+					[
+						"getEl",
+						"getElementsByClassName\tjsDOM()"
+					],
+					[
+						"on",
+						"onclick\tjsEvent"
+					],
+					[
+						"getElementB",
+						"getElementsByName\tjsDOM()"
+					],
+					[
+						"colmr",
+						"colmrc\tcolumn-rule-color"
+					],
+					[
+						"colmf",
+						"colmfb\tcolumn-fill: balance;"
+					],
+					[
+						"column",
+						"column-gap"
+					],
+					[
+						"wo",
+						"wowb\tword-wrap: break-word;"
+					],
+					[
+						"ww",
+						"wowb\tword-wrap: break-word;"
+					],
+					[
+						"bdt",
+						"bdt+\tborder-top: ${1:1}px ${2:solid} #${3:000};"
+					],
+					[
+						"tsh",
+						"tsh+\ttext-shadow: ${1:0} ${2:0} ${3:0} #${4:000};"
+					],
+					[
+						"ts",
+						"tsh+\ttext-shadow: ${1:0} ${2:0} ${3:0} #${4:000};"
+					],
+					[
+						"inner",
+						"innerHTML\tjsElement"
+					],
+					[
+						"cl",
+						"cl\tconsole.log"
+					],
+					[
+						"fff",
+						"fff"
+					],
+					[
+						"text",
+						"text-decoration"
+					],
+					[
+						"onmouse",
+						"onmouseup\tjsEvent"
+					],
+					[
+						"tjse",
+						"tjsElement"
+					],
+					[
+						"inse",
+						"inserAdjacentElement\tjsDOM"
+					],
+					[
+						"setC",
+						"setCapture\tjsEvent()"
+					],
+					[
+						"his",
+						"history.replaceState\tjsHistory()"
+					],
+					[
+						"wa",
+						"wat\tatob"
+					],
+					[
+						"char",
+						"charCodeAt\t()"
+					],
+					[
+						"last",
+						"lastIndexOf\tlastIndexOf()"
+					],
+					[
+						"jo",
+						"jsdocs"
+					],
+					[
+						"if",
+						"if\t||"
+					],
+					[
+						"fro",
+						"for\tfor (…) {…}"
+					],
+					[
+						"log",
+						"console.log\tjsProp"
+					],
+					[
+						"consol",
+						"console.log\tjsProp"
+					],
+					[
+						"for",
+						"for\tfor (…) {…} (Improved Native For-Loop)"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Java/Ant.sublime-build",
+							""
+						],
+						[
+							"Packages/Java/JavaC.sublime-build",
+							""
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Java/JavaC.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						],
+						[
+							"Packages/User/node.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/node.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						],
+						[
+							"Packages/User/php.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/php.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 409.0,
+				"last_filter": "remove",
+				"selected_items":
+				[
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"prvo",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"pin",
+						"Package Control: Install Package"
+					],
+					[
+						"pci",
+						"Package Control: Advanced Install Package"
+					],
+					[
+						"add",
+						"Package Control: Add Repository"
+					],
+					[
+						"remov",
+						"Package Control: Remove Package"
+					],
+					[
+						"dis",
+						"Package Control: Disable Package"
+					],
+					[
+						"remoke",
+						"Package Control: Remove Package"
+					],
+					[
+						"en",
+						"Package Control: Enable Package"
+					],
+					[
+						"ena",
+						"Package Control: Enable Package"
+					],
+					[
+						"disp",
+						"Package Control: Disable Package"
+					],
+					[
+						"packdi",
+						"Package Control: Disable Package"
+					],
+					[
+						"confli",
+						"FindKeyConflicts: (Direct) Conflicts to Buffer"
+					],
+					[
+						"removpack",
+						"Package Control: Remove Package"
+					],
+					[
+						"bo",
+						"Browse Mode: Outline (Right)"
+					],
+					[
+						"ui",
+						"UI: Select Theme"
+					],
+					[
+						"colo",
+						"UI: Select Color Scheme"
+					],
+					[
+						"style",
+						"SublimeLinter: Choose Mark Style"
+					],
+					[
+						"remvepack",
+						"Package Control: Remove Package"
+					],
+					[
+						"re",
+						"Package Control: Remove Package"
+					],
+					[
+						"pcar",
+						"Package Control: Add Repository"
+					],
+					[
+						"remp",
+						"Package Control: Remove Package"
+					],
+					[
+						"par",
+						"Package Control: Add Repository"
+					],
+					[
+						"pup",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"show",
+						"Gulp: Show panel"
+					],
+					[
+						"rpk",
+						"Package Control: Remove Package"
+					],
+					[
+						"remvoe",
+						"Emmet: Remove Tag"
+					],
+					[
+						"box",
+						"Boxy Theme: Preferences"
+					],
+					[
+						"uskin",
+						"UI: Select Skin"
+					],
+					[
+						"delesk",
+						"UI: Delete Skin"
+					],
+					[
+						"uiski",
+						"UI: Select Skin"
+					],
+					[
+						"uisav",
+						"UI: Save Skin"
+					],
+					[
+						"saveskin",
+						"UI: Save Skin"
+					],
+					[
+						"Select Skin",
+						"UI: Select Skin"
+					],
+					[
+						"pro",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"enp",
+						"Package Control: Enable Package"
+					],
+					[
+						"dip",
+						"Package Control: Disable Package"
+					],
+					[
+						"pvor",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"remvo",
+						"Emmet: Remove Tag"
+					],
+					[
+						"pu",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"addre",
+						"Package Control: Add Repository"
+					],
+					[
+						"enpack",
+						"Package Control: Enable Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"rem",
+						"Package Control: Remove Package"
+					],
+					[
+						"preferences:pack",
+						"Preferences: Package Control Settings – Default"
+					],
+					[
+						"preferences:packag",
+						"Preferences: Browse Packages"
+					],
+					[
+						"pic",
+						"Preferences: Package Control Settings – Default"
+					],
+					[
+						"prv",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"pv",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"gitstat",
+						"git: status"
+					],
+					[
+						"git",
+						"git: branch"
+					],
+					[
+						"gitco",
+						"Git: Commit"
+					],
+					[
+						"gits",
+						"Git: Status"
+					],
+					[
+						"gitad",
+						"Git: Diff All Files"
+					],
+					[
+						"gitadd",
+						"Git: Quick Add"
+					],
+					[
+						"gitcom",
+						"Git: Commit"
+					],
+					[
+						"pi",
+						"Package Control: Install Package"
+					],
+					[
+						"gitst",
+						"Git: Status"
+					],
+					[
+						"PRVO",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"git:status",
+						"Git: Status"
+					],
+					[
+						"git:l",
+						"Git: Log"
+					],
+					[
+						"gitcomm",
+						"Git: Commit"
+					],
+					[
+						"git:init",
+						"Git: Init"
+					],
+					[
+						"git init",
+						"Git: Init"
+					],
+					[
+						"git:remote",
+						"Git: Remote"
+					],
+					[
+						"git:add",
+						"Git: Add Remote"
+					],
+					[
+						"gitstatus",
+						"Git: Status"
+					],
+					[
+						"gitinit",
+						"Git: Init"
+					],
+					[
+						"git diff",
+						"Git: Diff"
+					],
+					[
+						"gitpu",
+						"Git: Pull"
+					],
+					[
+						"removepack",
+						"Package Control: Remove Package"
+					],
+					[
+						"pr",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"pc",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"qu",
+						"BracketHighlighter: Swap Quotes"
+					],
+					[
+						"prov",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"doc",
+						"DocBlockr: Reparse comment block"
+					],
+					[
+						"db",
+						"DocBlockr: Decorate line comment"
+					],
+					[
+						"pcu",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"snippet:",
+						"Snippet: if"
+					],
+					[
+						"prvoo",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"Snippet: ",
+						"Snippet: .pipe('name'())"
+					],
+					[
+						"pvo",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"po",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"java",
+						"Set Syntax: JavaScript"
+					]
+				],
+				"width": 703.0
+			},
+			"console":
+			{
+				"height": 354.0,
+				"history":
+				[
+					"sublime.log_commands(true)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/I/项目/hedonglin/dist/css/about.css",
+				"/I/项目/hedonglin/dist/css/index.css",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.json",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Default.sublime-theme",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-nodejs.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-mockjs.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-sublime.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
+				"/I/项目/hedonglin/src/index.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/JavaScript & NodeJS Snippets/node-processExit.sublime-snippet",
+				"/C/Users/Administrator/Desktop/1",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-python.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Nodejs/lib/command_thread.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Nodejs/package.json",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Nodejs/Nodejs.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Nodejs/Snippets/node-event-eventemitter.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-vue.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/method.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/New-Class.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/New-Property.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/Try-Except-Else-Finally.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/Try-Except-Else.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/Try-Except-Finally.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/if.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/if-__name__-==-'__main__'.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/function.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/for.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/__magic__.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/while.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/Try-Except.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Python.sublime-build",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sublime-completions/sbc-api-php.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/changelog.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/package.json",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/main.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sbc-setting.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sublime-commands/sbc.sublime-commands",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
+				"/I/项目/hedonglin/todo.todo",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sublime-completions/sbc-api-twitter-bootstrap3-sass-variables.sublime-settings",
+				"/I/项目/hedonglin/src/index.html",
+				"/I/项目/hedonglin/src/index.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/_variables.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/mixins/_breakpoints.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/utilities/_flex.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/mixins/_visibility.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/mixins/_background-variant.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/mixins/_alert.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/mixins/_clearfix.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/_mixins.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/_utilities.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/bootstrap-grid.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/bootstrap.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/_alert.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta-dist/css/bootstrap-reboot.css",
+				"/I/项目/hedonglin/webpack.config.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/ColorHighlighter.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Hover Image Preview/hover_preview.py",
+				"/I/项目/hedonglin/server.js",
+				"/I/项目/hedonglin/gulpfile.js",
+				"/I/项目/hedonglin/src/javascript.art",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/sublime-art/syntaxs/javascript.sublime-syntax",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/sublime-art/preview.png",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/sublime-art/Dracula art.tmTheme",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/sublime-art/art.sublime-syntax",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/EJS/EJS.tmLanguage",
+				"/C/Users/Administrator/Downloads/webpack-multi-thread-loader-demo-master/simple-loader.js",
+				"/C/Users/Administrator/Downloads/webpack-multi-thread-loader-demo-master/thread-runner.js",
+				"/C/Users/Administrator/Downloads/webpack-multi-thread-loader-demo-master/thread-loader-wrapper.js",
+				"/C/Users/Administrator/Downloads/webpack-multi-thread-loader-demo-master/webpack.config.js",
+				"/I/项目/hedonglin/src/page/about/about.js",
+				"/I/项目/hedonglin/src/page/about/about.html",
+				"/I/项目/hedonglin/node_modules/vue/dist/vue.js",
+				"/I/项目/hedonglin/package.json",
+				"/C/Users/Administrator/.bashrc",
+				"/I/项目/hedonglin/src/page/about/about.scss",
+				"/I/项目/hedonglin/src/public/_common.scss",
+				"/I/项目/hedonglin/src/public/_reset.scss",
+				"/I/项目/hedonglin/dist/html/about.html",
+				"/C/Users/Administrator/Desktop/webpack.config.js",
+				"/C/Users/Administrator/Documents/Tencent Files/839875083/FileRecv/webpack.config.js",
+				"/C/Users/Administrator/Documents/Tencent Files/839875083/FileRecv/webpack.config (1).js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/FileHeader/template/header/JavaScript.tmpl",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/FindKeyConflicts.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SideBarEnhancements/Side Bar.sublime-menu",
+				"/I/项目/hedonglin/newFloder.bat",
+				"/I/项目/hedonglin/src/index.vue",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/个人快捷键.md",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
+				"/I/项目/hedonglin/README.md",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/snippets.json",
+				"/I/项目/webpack/.gitignore",
+				"/I/笔记/note/todo.todo",
+				"/I/笔记/note/ES5.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Web Inspector/swi.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/swi.sublime-settings",
+				"/I/笔记/note/虚拟路由器.bat",
+				"/I/笔记/note/css3.css",
+				"/F/I萌化资源/雨滴/雨滴语法学习.ini",
+				"/F/I萌化资源/雨滴/rainmeter语法字典",
+				"/F/I萌化资源/雨滴/简洁_.rmskin",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Nodejs/Nodejs.sublime-settings",
+				"/I/笔记/note/scss.scss",
+				"/I/笔记/note/技术能力.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Sass/Syntaxes/Sass.tmLanguage",
+				"/I/笔记/note/stylus.styl",
+				"/I/笔记/note/gulpfile.js",
+				"/I/笔记/note/1.js",
+				"/I/笔记/note/src/index.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/main.sublime-menu",
+				"/I/笔记/note/npmAPI.js",
+				"/I/笔记/note/kangle.js",
+				"/I/笔记/note/src/public/mobile.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/outline.sublime-settings",
+				"/I/笔记/note/1.css",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Outline/outline.sublime-settings",
+				"/I/笔记/note/src/index.html",
+				"/I/笔记/note/html5.html",
+				"/C/Users/Administrator/Desktop/1.html",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML/html_completions.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Refresh/Default (Windows).sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/Context.sublime-menu"
+			],
+			"find":
+			{
+				"height": 44.0
+			},
+			"find_in_files":
+			{
+				"height": 142.0,
+				"where_history":
+				[
+					"C:\\Users\\Administrator\\Downloads\\bootstrap-4.0.0-beta\\scss",
+					"D:\\Program Files\\Sublime Text 3126\\Data\\Packages\\LocalizedMenu",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Gulp",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Default",
+					"I:\\b\\b",
+					"C:\\Users\\Administrator\\.babun",
+					"I:\\b\\b",
+					"C:\\Users\\Administrator\\Desktop\\vue2admin-master",
+					"I:\\b\\my-project-name",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Seti_UI",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Seti_UI",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Seti_UI",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages",
+					"C:\\Users\\Administrator\\Desktop\\新建文件夹",
+					"C:\\Users\\Administrator\\Desktop\\新建文件夹,G:\\webpack\\src\\images\\1.gif",
+					"C:\\Users\\Administrator\\Desktop\\新建文件夹",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\mdpopups\\st3",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\FileHeader",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Seti_UI",
+					"C:\\Users\\Administrator\\Desktop\\1",
+					"C:\\Users\\Administrator\\Desktop\\Default",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Seti_UI",
+					"C:\\Users\\Administrator\\Desktop\\Default",
+					"C:\\Users\\Administrator\\Desktop\\Go",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Seti_UI",
+					"C:\\Users\\Administrator\\Desktop\\Default",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Seti_UI",
+					"G:\\abc\\node_modules\\extract-text-webpack-plugin",
+					"G:\\abc\\node_modules",
+					"I:\\blog\\themes\\next",
+					"I:\\blog\\themes\\next\\source\\css",
+					"I:\\blog\\themes",
+					"I:\\blog\\node_modules",
+					"I:\\blog",
+					"I:\\blog\\themes\\next\\layout",
+					"I:\\blog\\source",
+					"I:\\blog",
+					"I:\\blog\\source",
+					"I:\\blog\\themes\\next\\source\\css",
+					"I:\\blog\\themes",
+					"I:\\blog\\themes\\next",
+					"I:\\blog",
+					"I:\\blog\\themes\\next\\source",
+					"I:\\blog\\themes",
+					"I:\\blog\\themes\\next\\source\\css",
+					"I:\\blog\\themes\\next\\layout",
+					"I:\\blog\\themes\\next\\source\\css\\_common\\components\\header",
+					"I:\\blog\\themes\\next\\source\\css",
+					"I:\\blog\\themes\\next\\layout",
+					"I:\\blog\\themes\\next\\source\\js",
+					"I:\\blog\\themes\\next\\source",
+					"I:\\blog\\themes\\next\\source\\css",
+					"I:\\blog\\themes\\next\\source",
+					"I:\\blog\\themes\\next\\source\\css\\_schemes",
+					"I:\\blog\\themes\\next\\source\\css\\_variables",
+					"I:\\blog\\themes\\next\\source\\css\\_schemes\\Pisces",
+					"I:\\blog\\themes\\next\\source\\css\\_schemes\\Mist\\sidebar",
+					"I:\\blog\\themes\\next\\source\\css\\_schemes\\Mist",
+					"I:\\blog\\themes\\next\\source",
+					"I:\\blog\\themes",
+					"I:\\blog\\themes\\next\\source",
+					"I:\\blog\\themes\\next\\source\\css\\_common\\components",
+					"I:\\blog\\themes\\next\\source\\css",
+					"I:\\blog\\themes\\next\\source",
+					"I:\\blog\\themes\\next\\source\\css\\_common",
+					"I:\\blog\\themes\\next",
+					"I:\\blog",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\LocalizedMenu",
+					"C:\\Users\\Administrator\\Desktop\\DocBlockr",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\LocalizedMenu",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\FileHeader",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\LocalizedMenu",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\FileHeader",
+					"D:\\Program Files\\Sublime Text 3\\data\\Packages\\FileHeader"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"label",
+					"warn",
+					"doesNotThrow",
+					"notStrictEqual",
+					"notEqual",
+					"notDeepStrictEqual",
+					"notDeepEqual",
+					"deepEqual",
+					"fail",
+					"doesNotThrow",
+					"assert.deepEqual",
+					"lambda",
+					"is",
+					"in",
+					"import",
+					"if",
+					"global",
+					"form",
+					"for",
+					"elif",
+					"del",
+					"break",
+					"print",
+					"alt+shift+e",
+					"\"contents\": ",
+					"\"trigger\":",
+					"\"trigger\": ",
+					"\"contents\"",
+					"\"trigger\":",
+					"js",
+					".js",
+					"sublime",
+					"description",
+					"ApplicationCommand",
+					"tApplicationCommand",
+					"ViewEventListener",
+					"is_checked",
+					"is_visible",
+					"is_enabled",
+					"run",
+					"prefix",
+					"locations",
+					"on_query_completions",
+					"operator",
+					"key",
+					"on_query_context",
+					"hover_zone",
+					"point",
+					"on_hover",
+					"on_deactivated_async",
+					"on_deactivated",
+					"on_activated_async",
+					"on_activated",
+					"on_selection_modified_async",
+					"on_selection_modified",
+					"on_modified_async",
+					"on_modified",
+					"applies_to_primary_view_only",
+					"settings",
+					"is_applicable",
+					"on_post_window_command",
+					"Settings",
+					"Settings()",
+					"on_post_text_command",
+					"view",
+					"window",
+					"on_window_command",
+					"view",
+					"on_text_command",
+					"locations",
+					"prefix",
+					"on_query_completions",
+					"operator",
+					"key",
+					"on_query_context",
+					"on_hover",
+					"on_deactivated_async",
+					"on_deactivated",
+					"on_activated_async",
+					"on_activated",
+					"on_selection_modified_async",
+					"on_selection_modified",
+					"on_modified_async",
+					"on_modified",
+					"on_post_save",
+					"on_pre_save_async",
+					"on_pre_save",
+					"on_close",
+					"on_pre_close",
+					"on_load_async",
+					"on_clone_async",
+					"on_clone",
+					"on_new_async",
+					"on_new",
+					"clear_on_change",
+					"key",
+					"add_on_change",
+					"name",
+					"has",
+					"erase",
+					"set",
+					"get",
+					"extract_variables",
+					"lookup_symbol_in_open_files",
+					"symbol",
+					"lookup_symbol_in_index",
+					"panels",
+					"active_panel",
+					"destroy_output_panel",
+					"find_output_panel",
+					"creat_out_panel",
+					"initial_text",
+					"caption",
+					"show_input_panel",
+					"flags",
+					"on_done",
+					"items",
+					"show_quick_panel",
+					"args",
+					"string",
+					"run_command",
+					"data",
+					"set_project_data",
+					"project_data",
+					"project_file_name",
+					"folders",
+					"set_status_bar_visible",
+					"is_"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 44.0
+			},
+			"input":
+			{
+				"height": 41.0
+			},
+			"menu_visible": true,
+			"output.GitSavvy":
+			{
+				"height": 200.0
+			},
+			"output.cmd-caller":
+			{
+				"height": 218.0
+			},
+			"output.diagnostics":
+			{
+				"height": 212.0
+			},
+			"output.exec":
+			{
+				"height": 339.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.git":
+			{
+				"height": 200.0
+			},
+			"output.git-commit":
+			{
+				"height": 212.0
+			},
+			"output.git-init":
+			{
+				"height": 200.0
+			},
+			"output.gulp_output":
+			{
+				"height": 187.0
+			},
+			"output.unsaved_changes":
+			{
+				"height": 402.0
+			},
+			"pinned_build_system": "Packages/User/node.sublime-build",
+			"replace":
+			{
+				"height": 83.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"css",
+						"1.css"
+					],
+					[
+						"scss",
+						"scss.scss"
+					],
+					[
+						"gulp",
+						"gulpfile.js"
+					],
+					[
+						"inde",
+						"dist\\css\\index.css"
+					],
+					[
+						"zepto",
+						"node_modules\\_zepto@1.2.0@zepto\\dist\\zepto.js"
+					],
+					[
+						"es",
+						"ES5.js"
+					],
+					[
+						"less",
+						"css3.less"
+					],
+					[
+						"es5",
+						"ES5.js"
+					],
+					[
+						"jqu",
+						"jquery.js"
+					],
+					[
+						"jque",
+						"jquery.js"
+					],
+					[
+						"jq",
+						"jquery.js"
+					],
+					[
+						"les",
+						"css3.less"
+					],
+					[
+						"le",
+						"css3.less"
+					],
+					[
+						"",
+						"gulpfile.js"
+					],
+					[
+						"gul",
+						"gulpfile.js"
+					],
+					[
+						"vue",
+						"node_modules\\vue\\dist\\vue.esm.js"
+					],
+					[
+						"sublim",
+						"source\\_posts\\sublime.md"
+					],
+					[
+						"base.styl",
+						"themes\\next\\source\\css\\_mixins\\base.styl"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 625.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"",
+						"I:\\笔记\\note.sublime-project"
+					]
+				],
+				"width": 475.0
+			},
+			"select_symbol":
+			{
+				"height": 79.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"",
+						"$destroy"
+					]
+				],
+				"width": 1176.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 325.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+				"max_columns": 2
+			}
+		},
+		"new_window_width": 800.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"fs",
+						"fs.fsync\tfs"
+					],
+					[
+						"asser",
+						"assert.deepEqual\tassert"
+					],
+					[
+						"prin",
+						"print\tprint"
+					],
+					[
+						"set",
+						"set_timeout\tModule()"
+					],
+					[
+						"st",
+						"set_timeout\tModule()"
+					],
+					[
+						"t",
+						"trigger"
+					],
+					[
+						"fn",
+						"fn.extend\tjQuery"
+					],
+					[
+						"vm",
+						"vm.$nextTick\tVue()"
+					],
+					[
+						"vmf",
+						"vm.$forceUpdate\tVue()"
+					],
+					[
+						"extend",
+						"extend\tVueConfig"
+					],
+					[
+						"exten",
+						"extend\tVueConfig"
+					],
+					[
+						"key",
+						"keyCodes\tVue"
+					],
+					[
+						"sli",
+						"slice\tjsString())"
+					],
+					[
+						"err",
+						"errorHandler\tVue.config.errorHandler"
+					],
+					[
+						"try",
+						"try\ttry {}catch {}finally {}"
+					],
+					[
+						"d",
+						"do\tdo"
+					],
+					[
+						"isa",
+						"isArray\tjsArray()"
+					],
+					[
+						"isA",
+						"isArray"
+					],
+					[
+						"sqrt",
+						"Math.sqrt\tjaMath()"
+					],
+					[
+						"settime",
+						"setTimeout\tjsWindow()"
+					],
+					[
+						"f",
+						"f\tfor++"
+					],
+					[
+						"getid",
+						"getElementById\tjsDOM()"
+					],
+					[
+						"gete",
+						"getElementsByName\tjsDOM()"
+					],
+					[
+						"re",
+						"resize\tjsEvent"
+					],
+					[
+						"get",
+						"get\tjQuery"
+					],
+					[
+						"ha",
+						"hasClass\tjQuery"
+					],
+					[
+						"auto",
+						"auto"
+					],
+					[
+						"padding",
+						"padding-box"
+					],
+					[
+						"bdis",
+						"bdis\tborder-image-source: url(${0});"
+					],
+					[
+						"bdirs",
+						"bdirsp\tborder-image-repeat: ${1:space} ${2:space};"
+					],
+					[
+						"bga",
+						"bga\tbackground-attachment"
+					],
+					[
+						"bg",
+						"bg+\tbackground: #${1:fff} url(${2}) ${3:no-repeat} ${4:0} ${5:0} ${6:padding-box};"
+					],
+					[
+						"pos",
+						"posa\tposition: absolute;"
+					],
+					[
+						"tsf",
+						"trf-skx\ttransform: skewX(${1:angle});"
+					],
+					[
+						"li",
+						"li\tTag"
+					],
+					[
+						"met",
+						"meta\tTag"
+					],
+					[
+						"slide",
+						"slideDown\tjQuery"
+					],
+					[
+						"slid",
+						"slideDown\tjQuery"
+					],
+					[
+						"fw",
+						"fw-b\tfont-weight: bold;"
+					],
+					[
+						"ol",
+						"ols-db\toutline-style: double;"
+					],
+					[
+						"trsf",
+						"trfsc\ttransform: scale(${1:x}, ${2:y});"
+					],
+					[
+						"trfs",
+						"trf-sc\ttransform: scale(${1:x}, ${2:y});"
+					],
+					[
+						"trfsc",
+						"trf-sc\ttransform: scale(${1:x}, ${2:y});"
+					],
+					[
+						"removecl",
+						"removeClass\tjQuery"
+					],
+					[
+						"par",
+						"parents\tjQuery"
+					],
+					[
+						"add",
+						"add\tjQuery"
+					],
+					[
+						"to",
+						"tobottom"
+					],
+					[
+						"clear",
+						"clearTimeout\tjsWindow()"
+					],
+					[
+						"setTIME",
+						"setTimeout\tjsWindow()"
+					],
+					[
+						"setTi",
+						"setTimeout\tjsWindow()"
+					],
+					[
+						"remove",
+						"removeClass"
+					],
+					[
+						"backgr",
+						"background-color"
+					],
+					[
+						"background",
+						"background-image"
+					],
+					[
+						"trf",
+						"trfscx\ttransform: scaleX(${1:x});"
+					],
+					[
+						"ls",
+						"letter-spacing"
+					],
+					[
+						"create",
+						"createElement\tjsDOM()"
+					],
+					[
+						"setti",
+						"setTimeout"
+					],
+					[
+						"settim",
+						"setTime"
+					],
+					[
+						"setTime",
+						"setTimeOut\tjsWindow()"
+					],
+					[
+						"fnn",
+						"fnn\tfunction()"
+					],
+					[
+						"as",
+						"as-fe\talign-self: flex-end;"
+					],
+					[
+						"fx",
+						"fx\tflex: ${1:0} ${2:1} ${3:auto};"
+					],
+					[
+						"fxd",
+						"fxdc\tflex-direction: column;"
+					],
+					[
+						"ac",
+						"acsb\talign-content: space-between;"
+					],
+					[
+						"ai",
+						"ai-b\talign-items: baseline;"
+					],
+					[
+						"jc",
+						"jcc\tjustify-content: center;"
+					],
+					[
+						"fxwn",
+						"fxwn\tflex-wrap: nowrap;"
+					],
+					[
+						"fxw",
+						"fxwwr\tflex-wrap: wrap-reverse;"
+					],
+					[
+						"app",
+						"appendChild\tjsElement()"
+					],
+					[
+						"assign",
+						"assign\tjsObject"
+					],
+					[
+						"quer",
+						"querySelectorAll\tjsDOM()"
+					],
+					[
+						"itSet",
+						"itSet"
+					],
+					[
+						"v",
+						"v-model\tv-model"
+					],
+					[
+						"vf",
+						"v-if\t<div v-if=\"\">"
+					],
+					[
+						"vue",
+						"vue\tvue"
+					],
+					[
+						"webpack",
+						"webpack-dev-server"
+					],
+					[
+						"is",
+						"isDev"
+					],
+					[
+						"201",
+						"2017-07-08"
+					],
+					[
+						"less",
+						"less-loader"
+					],
+					[
+						"js",
+						"js"
+					],
+					[
+						"ov",
+						"overflow"
+					],
+					[
+						"Seq",
+						"SeqNum"
+					],
+					[
+						"1",
+						"1"
+					],
+					[
+						"10",
+						"10"
+					],
+					[
+						"font",
+						"font-size"
+					],
+					[
+						"bgsz",
+						"bgsz\tbackground-size ${1:100%} ${2:100%}"
+					],
+					[
+						"reduce",
+						"reduceRight\tjsArray()"
+					],
+					[
+						"提所有",
+						"提交所有已改变和已暂存的文件"
+					],
+					[
+						"imp",
+						"@imp\t@import '${1:./}';"
+					],
+					[
+						"c",
+						"c\tcolor: #${1:000};"
+					],
+					[
+						"i",
+						"images/"
+					],
+					[
+						"getE",
+						"getElementById\tjsDOM()"
+					],
+					[
+						"getElement",
+						"getElementById\tjsDOM()"
+					],
+					[
+						"getElemetn",
+						"getElementById\tjsDOM()"
+					],
+					[
+						"getEl",
+						"getElementsByClassName\tjsDOM()"
+					],
+					[
+						"on",
+						"onclick\tjsEvent"
+					],
+					[
+						"getElementB",
+						"getElementsByName\tjsDOM()"
+					],
+					[
+						"colmr",
+						"colmrc\tcolumn-rule-color"
+					],
+					[
+						"colmf",
+						"colmfb\tcolumn-fill: balance;"
+					],
+					[
+						"column",
+						"column-gap"
+					],
+					[
+						"wo",
+						"wowb\tword-wrap: break-word;"
+					],
+					[
+						"ww",
+						"wowb\tword-wrap: break-word;"
+					],
+					[
+						"bdt",
+						"bdt+\tborder-top: ${1:1}px ${2:solid} #${3:000};"
+					],
+					[
+						"tsh",
+						"tsh+\ttext-shadow: ${1:0} ${2:0} ${3:0} #${4:000};"
+					],
+					[
+						"ts",
+						"tsh+\ttext-shadow: ${1:0} ${2:0} ${3:0} #${4:000};"
+					],
+					[
+						"inner",
+						"innerHTML\tjsElement"
+					],
+					[
+						"cl",
+						"cl\tconsole.log"
+					],
+					[
+						"fff",
+						"fff"
+					],
+					[
+						"text",
+						"text-decoration"
+					],
+					[
+						"onmouse",
+						"onmouseup\tjsEvent"
+					],
+					[
+						"tjse",
+						"tjsElement"
+					],
+					[
+						"inse",
+						"inserAdjacentElement\tjsDOM"
+					],
+					[
+						"setC",
+						"setCapture\tjsEvent()"
+					],
+					[
+						"his",
+						"history.replaceState\tjsHistory()"
+					],
+					[
+						"wa",
+						"wat\tatob"
+					],
+					[
+						"char",
+						"charCodeAt\t()"
+					],
+					[
+						"last",
+						"lastIndexOf\tlastIndexOf()"
+					],
+					[
+						"jo",
+						"jsdocs"
+					],
+					[
+						"if",
+						"if\t||"
+					],
+					[
+						"fro",
+						"for\tfor (…) {…}"
+					],
+					[
+						"log",
+						"console.log\tjsProp"
+					],
+					[
+						"consol",
+						"console.log\tjsProp"
+					],
+					[
+						"for",
+						"for\tfor (…) {…} (Improved Native For-Loop)"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/User/sbc-api-my-nodejs.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 10493,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "    // jshint esversion: 6\n    // --------------------------------------------------\n\n\n;(function($,window,document,undefined) {\n    // 重置样式\n    // --------------------------------------------------\n    require('./public/_reset.scss');\n\n    // 公共样式\n    // --------------------------------------------------\n    require('./public/_common.scss');\n\n    // 主页样式\n    // --------------------------------------------------\n    require('./index.scss');\n\n    // js代码\n    // --------------------------------------------------\n    var arr={abc:'ddd',bcd:'333',ddd:[1,2,3]};\n    var att={abc:123,bcd:222,ddd:[2,3,4]};\n    var aaa=$.extend({},arr,att);\n    console.log(aaa);\n})(jQuery,window,document);\n",
+					"file": "/I/项目/hedonglin/src/index.js",
+					"file_size": 718,
+					"file_write_time": 131515507405632717,
+					"settings":
+					{
+						"buffer_size": 690,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Java/Ant.sublime-build",
+							""
+						],
+						[
+							"Packages/Java/JavaC.sublime-build",
+							""
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Java/JavaC.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						],
+						[
+							"Packages/User/node.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/node.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						],
+						[
+							"Packages/User/php.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/php.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 409.0,
+				"last_filter": "remove",
+				"selected_items":
+				[
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"prvo",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"pin",
+						"Package Control: Install Package"
+					],
+					[
+						"pci",
+						"Package Control: Advanced Install Package"
+					],
+					[
+						"add",
+						"Package Control: Add Repository"
+					],
+					[
+						"remov",
+						"Package Control: Remove Package"
+					],
+					[
+						"dis",
+						"Package Control: Disable Package"
+					],
+					[
+						"remoke",
+						"Package Control: Remove Package"
+					],
+					[
+						"en",
+						"Package Control: Enable Package"
+					],
+					[
+						"ena",
+						"Package Control: Enable Package"
+					],
+					[
+						"disp",
+						"Package Control: Disable Package"
+					],
+					[
+						"packdi",
+						"Package Control: Disable Package"
+					],
+					[
+						"confli",
+						"FindKeyConflicts: (Direct) Conflicts to Buffer"
+					],
+					[
+						"removpack",
+						"Package Control: Remove Package"
+					],
+					[
+						"bo",
+						"Browse Mode: Outline (Right)"
+					],
+					[
+						"ui",
+						"UI: Select Theme"
+					],
+					[
+						"colo",
+						"UI: Select Color Scheme"
+					],
+					[
+						"style",
+						"SublimeLinter: Choose Mark Style"
+					],
+					[
+						"remvepack",
+						"Package Control: Remove Package"
+					],
+					[
+						"re",
+						"Package Control: Remove Package"
+					],
+					[
+						"pcar",
+						"Package Control: Add Repository"
+					],
+					[
+						"remp",
+						"Package Control: Remove Package"
+					],
+					[
+						"par",
+						"Package Control: Add Repository"
+					],
+					[
+						"pup",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"show",
+						"Gulp: Show panel"
+					],
+					[
+						"rpk",
+						"Package Control: Remove Package"
+					],
+					[
+						"remvoe",
+						"Emmet: Remove Tag"
+					],
+					[
+						"box",
+						"Boxy Theme: Preferences"
+					],
+					[
+						"uskin",
+						"UI: Select Skin"
+					],
+					[
+						"delesk",
+						"UI: Delete Skin"
+					],
+					[
+						"uiski",
+						"UI: Select Skin"
+					],
+					[
+						"uisav",
+						"UI: Save Skin"
+					],
+					[
+						"saveskin",
+						"UI: Save Skin"
+					],
+					[
+						"Select Skin",
+						"UI: Select Skin"
+					],
+					[
+						"pro",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"enp",
+						"Package Control: Enable Package"
+					],
+					[
+						"dip",
+						"Package Control: Disable Package"
+					],
+					[
+						"pvor",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"remvo",
+						"Emmet: Remove Tag"
+					],
+					[
+						"pu",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"addre",
+						"Package Control: Add Repository"
+					],
+					[
+						"enpack",
+						"Package Control: Enable Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"rem",
+						"Package Control: Remove Package"
+					],
+					[
+						"preferences:pack",
+						"Preferences: Package Control Settings – Default"
+					],
+					[
+						"preferences:packag",
+						"Preferences: Browse Packages"
+					],
+					[
+						"pic",
+						"Preferences: Package Control Settings – Default"
+					],
+					[
+						"prv",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"pv",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"gitstat",
+						"git: status"
+					],
+					[
+						"git",
+						"git: branch"
+					],
+					[
+						"gitco",
+						"Git: Commit"
+					],
+					[
+						"gits",
+						"Git: Status"
+					],
+					[
+						"gitad",
+						"Git: Diff All Files"
+					],
+					[
+						"gitadd",
+						"Git: Quick Add"
+					],
+					[
+						"gitcom",
+						"Git: Commit"
+					],
+					[
+						"pi",
+						"Package Control: Install Package"
+					],
+					[
+						"gitst",
+						"Git: Status"
+					],
+					[
+						"PRVO",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"git:status",
+						"Git: Status"
+					],
+					[
+						"git:l",
+						"Git: Log"
+					],
+					[
+						"gitcomm",
+						"Git: Commit"
+					],
+					[
+						"git:init",
+						"Git: Init"
+					],
+					[
+						"git init",
+						"Git: Init"
+					],
+					[
+						"git:remote",
+						"Git: Remote"
+					],
+					[
+						"git:add",
+						"Git: Add Remote"
+					],
+					[
+						"gitstatus",
+						"Git: Status"
+					],
+					[
+						"gitinit",
+						"Git: Init"
+					],
+					[
+						"git diff",
+						"Git: Diff"
+					],
+					[
+						"gitpu",
+						"Git: Pull"
+					],
+					[
+						"removepack",
+						"Package Control: Remove Package"
+					],
+					[
+						"pr",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"pc",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"qu",
+						"BracketHighlighter: Swap Quotes"
+					],
+					[
+						"prov",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"doc",
+						"DocBlockr: Reparse comment block"
+					],
+					[
+						"db",
+						"DocBlockr: Decorate line comment"
+					],
+					[
+						"pcu",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"snippet:",
+						"Snippet: if"
+					],
+					[
+						"prvoo",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"Snippet: ",
+						"Snippet: .pipe('name'())"
+					],
+					[
+						"pvo",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"po",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"java",
+						"Set Syntax: JavaScript"
+					]
+				],
+				"width": 703.0
+			},
+			"console":
+			{
+				"height": 354.0,
+				"history":
+				[
+					"sublime.log_commands(true)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/I/项目/hedonglin",
+				"/I/项目/hedonglin/src"
+			],
+			"file_history":
+			[
+				"/I/项目/hedonglin/gulpfile.js",
+				"/I/项目/hedonglin/newFloder.bat",
+				"/I/项目/hedonglin/dist/css/about.css",
+				"/I/项目/hedonglin/dist/css/index.css",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.json",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Default.sublime-theme",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-nodejs.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-mockjs.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-sublime.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/user/main.sublime-menu",
+				"/I/项目/hedonglin/src/index.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-setting.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/JavaScript & NodeJS Snippets/node-processExit.sublime-snippet",
+				"/C/Users/Administrator/Desktop/1",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-python.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Nodejs/lib/command_thread.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Nodejs/package.json",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Nodejs/Nodejs.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Nodejs/Snippets/node-event-eventemitter.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Package Control.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-vue.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/method.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/New-Class.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/New-Property.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/Try-Except-Else-Finally.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/Try-Except-Else.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/Try-Except-Finally.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/if.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/if-__name__-==-'__main__'.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/function.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/for.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/__magic__.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/while.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Snippets/Try-Except.sublime-snippet",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Python/Python.sublime-build",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sublime-completions/sbc-api-php.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/changelog.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/package.json",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/main.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sbc-setting.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sublime-commands/sbc.sublime-commands",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-html.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-jquery.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
+				"/I/项目/hedonglin/todo.todo",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Better Completion/sublime-completions/sbc-api-twitter-bootstrap3-sass-variables.sublime-settings",
+				"/I/项目/hedonglin/src/index.html",
+				"/I/项目/hedonglin/src/index.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/_variables.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/mixins/_breakpoints.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/utilities/_flex.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/mixins/_visibility.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/mixins/_background-variant.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/mixins/_alert.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/mixins/_clearfix.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/_mixins.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/_utilities.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/bootstrap-grid.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/bootstrap.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta/scss/_alert.scss",
+				"/C/Users/Administrator/Downloads/bootstrap-4.0.0-beta-dist/css/bootstrap-reboot.css",
+				"/I/项目/hedonglin/webpack.config.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/ColorHighlighter.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Hover Image Preview/hover_preview.py",
+				"/I/项目/hedonglin/server.js",
+				"/I/项目/hedonglin/src/javascript.art",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/sublime-art/syntaxs/javascript.sublime-syntax",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/sublime-art/preview.png",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/sublime-art/Dracula art.tmTheme",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/sublime-art/art.sublime-syntax",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/EJS/EJS.tmLanguage",
+				"/C/Users/Administrator/Downloads/webpack-multi-thread-loader-demo-master/simple-loader.js",
+				"/C/Users/Administrator/Downloads/webpack-multi-thread-loader-demo-master/thread-runner.js",
+				"/C/Users/Administrator/Downloads/webpack-multi-thread-loader-demo-master/thread-loader-wrapper.js",
+				"/C/Users/Administrator/Downloads/webpack-multi-thread-loader-demo-master/webpack.config.js",
+				"/I/项目/hedonglin/src/page/about/about.js",
+				"/I/项目/hedonglin/src/page/about/about.html",
+				"/I/项目/hedonglin/node_modules/vue/dist/vue.js",
+				"/I/项目/hedonglin/package.json",
+				"/C/Users/Administrator/.bashrc",
+				"/I/项目/hedonglin/src/page/about/about.scss",
+				"/I/项目/hedonglin/src/public/_common.scss",
+				"/I/项目/hedonglin/src/public/_reset.scss",
+				"/I/项目/hedonglin/dist/html/about.html",
+				"/C/Users/Administrator/Desktop/webpack.config.js",
+				"/C/Users/Administrator/Documents/Tencent Files/839875083/FileRecv/webpack.config.js",
+				"/C/Users/Administrator/Documents/Tencent Files/839875083/FileRecv/webpack.config (1).js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/FileHeader/template/header/JavaScript.tmpl",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/FindKeyConflicts.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SideBarEnhancements/Side Bar.sublime-menu",
+				"/I/项目/hedonglin/src/index.vue",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/个人快捷键.md",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/user/个人快捷键.sublime-keymap",
+				"/I/项目/hedonglin/README.md",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Emmet/emmet/snippets.json",
+				"/I/项目/webpack/.gitignore",
+				"/I/笔记/note/todo.todo",
+				"/I/笔记/note/ES5.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Web Inspector/swi.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/swi.sublime-settings",
+				"/I/笔记/note/虚拟路由器.bat",
+				"/I/笔记/note/css3.css",
+				"/F/I萌化资源/雨滴/雨滴语法学习.ini",
+				"/F/I萌化资源/雨滴/rainmeter语法字典",
+				"/F/I萌化资源/雨滴/简洁_.rmskin",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Nodejs/Nodejs.sublime-settings",
+				"/I/笔记/note/scss.scss",
+				"/I/笔记/note/技术能力.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Sass/Syntaxes/Sass.tmLanguage",
+				"/I/笔记/note/stylus.styl",
+				"/I/笔记/note/gulpfile.js",
+				"/I/笔记/note/1.js",
+				"/I/笔记/note/src/index.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Emmet.sublime-settings",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Default/main.sublime-menu",
+				"/I/笔记/note/npmAPI.js",
+				"/I/笔记/note/kangle.js",
+				"/I/笔记/note/src/public/mobile.js",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/User/outline.sublime-settings",
+				"/I/笔记/note/1.css",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Outline/outline.sublime-settings",
+				"/I/笔记/note/src/index.html",
+				"/I/笔记/note/html5.html",
+				"/C/Users/Administrator/Desktop/1.html",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/HTML/html_completions.py",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/Browser Refresh/Default (Windows).sublime-keymap",
+				"/D/Program Files/Sublime Text 3126/Data/Packages/SublimeServer/Context.sublime-menu"
+			],
+			"find":
+			{
+				"height": 46.0
+			},
+			"find_in_files":
+			{
+				"height": 142.0,
+				"where_history":
+				[
+					"C:\\Users\\Administrator\\Downloads\\bootstrap-4.0.0-beta\\scss",
+					"D:\\Program Files\\Sublime Text 3126\\Data\\Packages\\LocalizedMenu",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Gulp",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Default",
+					"I:\\b\\b",
+					"C:\\Users\\Administrator\\.babun",
+					"I:\\b\\b",
+					"C:\\Users\\Administrator\\Desktop\\vue2admin-master",
+					"I:\\b\\my-project-name",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Seti_UI",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Seti_UI",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Seti_UI",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages",
+					"C:\\Users\\Administrator\\Desktop\\新建文件夹",
+					"C:\\Users\\Administrator\\Desktop\\新建文件夹,G:\\webpack\\src\\images\\1.gif",
+					"C:\\Users\\Administrator\\Desktop\\新建文件夹",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\mdpopups\\st3",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\FileHeader",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Seti_UI",
+					"C:\\Users\\Administrator\\Desktop\\1",
+					"C:\\Users\\Administrator\\Desktop\\Default",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Seti_UI",
+					"C:\\Users\\Administrator\\Desktop\\Default",
+					"C:\\Users\\Administrator\\Desktop\\Go",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Seti_UI",
+					"C:\\Users\\Administrator\\Desktop\\Default",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\Seti_UI",
+					"G:\\abc\\node_modules\\extract-text-webpack-plugin",
+					"G:\\abc\\node_modules",
+					"I:\\blog\\themes\\next",
+					"I:\\blog\\themes\\next\\source\\css",
+					"I:\\blog\\themes",
+					"I:\\blog\\node_modules",
+					"I:\\blog",
+					"I:\\blog\\themes\\next\\layout",
+					"I:\\blog\\source",
+					"I:\\blog",
+					"I:\\blog\\source",
+					"I:\\blog\\themes\\next\\source\\css",
+					"I:\\blog\\themes",
+					"I:\\blog\\themes\\next",
+					"I:\\blog",
+					"I:\\blog\\themes\\next\\source",
+					"I:\\blog\\themes",
+					"I:\\blog\\themes\\next\\source\\css",
+					"I:\\blog\\themes\\next\\layout",
+					"I:\\blog\\themes\\next\\source\\css\\_common\\components\\header",
+					"I:\\blog\\themes\\next\\source\\css",
+					"I:\\blog\\themes\\next\\layout",
+					"I:\\blog\\themes\\next\\source\\js",
+					"I:\\blog\\themes\\next\\source",
+					"I:\\blog\\themes\\next\\source\\css",
+					"I:\\blog\\themes\\next\\source",
+					"I:\\blog\\themes\\next\\source\\css\\_schemes",
+					"I:\\blog\\themes\\next\\source\\css\\_variables",
+					"I:\\blog\\themes\\next\\source\\css\\_schemes\\Pisces",
+					"I:\\blog\\themes\\next\\source\\css\\_schemes\\Mist\\sidebar",
+					"I:\\blog\\themes\\next\\source\\css\\_schemes\\Mist",
+					"I:\\blog\\themes\\next\\source",
+					"I:\\blog\\themes",
+					"I:\\blog\\themes\\next\\source",
+					"I:\\blog\\themes\\next\\source\\css\\_common\\components",
+					"I:\\blog\\themes\\next\\source\\css",
+					"I:\\blog\\themes\\next\\source",
+					"I:\\blog\\themes\\next\\source\\css\\_common",
+					"I:\\blog\\themes\\next",
+					"I:\\blog",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\LocalizedMenu",
+					"C:\\Users\\Administrator\\Desktop\\DocBlockr",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\LocalizedMenu",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\FileHeader",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\LocalizedMenu",
+					"D:\\Program Files\\Sublime Text 3126\\data\\Packages\\FileHeader",
+					"D:\\Program Files\\Sublime Text 3\\data\\Packages\\FileHeader"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"callback",
+					"string[, position[, encoding]]",
+					"buffer[, offset[, length[, position]]]",
+					"string",
+					"fd",
+					"listener",
+					"filename[, options], listener",
+					"mtime",
+					"atime",
+					"path",
+					"callback",
+					"mtime",
+					"atime",
+					"callback",
+					"path",
+					"target",
+					"callback",
+					"target",
+					"path",
+					"callback",
+					"path",
+					"callback",
+					"path",
+					"newPath",
+					"oldPath",
+					"callback",
+					"newPath",
+					"oldPath",
+					"oldPath, newPath, callback",
+					"callback",
+					"position",
+					"length",
+					"offset",
+					"buffer",
+					"fd",
+					"fd, buffer, offset, length, position",
+					"callback",
+					"position",
+					"length",
+					"offset",
+					"buffer",
+					"fd",
+					"fd, buffer, offset, length, position, callback",
+					"fd",
+					"path",
+					"path, flags[, mode]",
+					"callback",
+					"path",
+					"callback",
+					"path",
+					"newPath",
+					"existingPath",
+					"callback",
+					"newPath",
+					"existingPath",
+					"existingPath, newPath, callback",
+					"existingPath",
+					"mtime",
+					"atime",
+					"fd",
+					"fd, atime, mtime",
+					"callback",
+					"mtime",
+					"atime",
+					"fd",
+					"fd, atime, mtime, callback",
+					"callback",
+					"fd",
+					"gid",
+					"uid",
+					"fd",
+					"fd, uid, gid",
+					"callback",
+					"gid",
+					"uid",
+					"fd",
+					"fd, uid, gid, callback",
+					"mode",
+					"callback",
+					"mode",
+					"fd",
+					"path",
+					"src",
+					"callback",
+					"src",
+					"src, dest[, flags], callback)",
+					"callback",
+					"fd",
+					"fd, callback",
+					"gid",
+					"uid",
+					"path",
+					"path, uid, gid",
+					"callback",
+					"gid",
+					"uid",
+					"path",
+					"path, uid, gid, callback",
+					"mode",
+					"path",
+					"path, mode",
+					"callback",
+					"mode",
+					"path",
+					"path, mode, callback",
+					"file",
+					"file, data[, options]",
+					"callback",
+					"file",
+					"file, data[, options], callback",
+					"path[, mode]",
+					"callback",
+					"fs",
+					"fs.writeSync",
+					"writeSync",
+					"fs",
+					"access",
+					"fs",
+					"label",
+					"warn",
+					"doesNotThrow",
+					"notStrictEqual",
+					"notEqual",
+					"notDeepStrictEqual",
+					"notDeepEqual",
+					"deepEqual",
+					"fail",
+					"doesNotThrow"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/User/sbc-api-my-nodejs.sublime-settings",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 10493,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3322,
+										3322
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										10,
+										8,
+										15,
+										15,
+										24,
+										10,
+										194,
+										172,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+									"origPos":
+									[
+										0.0,
+										4080.0
+									],
+									"syncScroll": false,
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2686.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/I/项目/hedonglin/src/index.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 690,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										661,
+										661
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+											"1":
+											[
+												662,
+												663
+											]
+										},
+										"icon":
+										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/dot.png",
+												"brackethighlighter.default"
+											]
+										},
+										"open":
+										{
+											"1":
+											[
+												127,
+												128
+											]
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										225,
+										9,
+										18,
+										19,
+										49,
+										14,
+										13,
+										245,
+										87,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+									"origPos":
+									[
+										0.0,
+										0.0
+									],
+									"syncScroll": false,
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 306.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 44.0
+			},
+			"input":
+			{
+				"height": 41.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.GitSavvy":
+			{
+				"height": 200.0
+			},
+			"output.cmd-caller":
+			{
+				"height": 218.0
+			},
+			"output.diagnostics":
+			{
+				"height": 212.0
+			},
+			"output.exec":
+			{
+				"height": 339.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.git":
+			{
+				"height": 200.0
+			},
+			"output.git-commit":
+			{
+				"height": 212.0
+			},
+			"output.git-init":
+			{
+				"height": 200.0
+			},
+			"output.gulp_output":
+			{
+				"height": 187.0
+			},
+			"output.unsaved_changes":
+			{
+				"height": 402.0
+			},
+			"pinned_build_system": "Packages/User/node.sublime-build",
+			"position": "0,2,3,-1,-1,-1,-1,829,1140,157,1958",
+			"project": "hedonglin.sublime-project",
+			"replace":
+			{
+				"height": 83.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"css",
+						"1.css"
+					],
+					[
+						"scss",
+						"scss.scss"
+					],
+					[
+						"gulp",
+						"gulpfile.js"
+					],
+					[
+						"inde",
+						"dist\\css\\index.css"
+					],
+					[
+						"zepto",
+						"node_modules\\_zepto@1.2.0@zepto\\dist\\zepto.js"
+					],
+					[
+						"es",
+						"ES5.js"
+					],
+					[
+						"less",
+						"css3.less"
+					],
+					[
+						"es5",
+						"ES5.js"
+					],
+					[
+						"jqu",
+						"jquery.js"
+					],
+					[
+						"jque",
+						"jquery.js"
+					],
+					[
+						"jq",
+						"jquery.js"
+					],
+					[
+						"les",
+						"css3.less"
+					],
+					[
+						"le",
+						"css3.less"
+					],
+					[
+						"",
+						"gulpfile.js"
+					],
+					[
+						"gul",
+						"gulpfile.js"
+					],
+					[
+						"vue",
+						"node_modules\\vue\\dist\\vue.esm.js"
+					],
+					[
+						"sublim",
+						"source\\_posts\\sublime.md"
+					],
+					[
+						"base.styl",
+						"themes\\next\\source\\css\\_mixins\\base.styl"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 625.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"",
+						"I:\\笔记\\note.sublime-project"
+					]
+				],
+				"width": 475.0
+			},
+			"select_symbol":
+			{
+				"height": 79.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"",
+						"$destroy"
+					]
+				],
+				"width": 1176.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 314.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+				"max_columns": 2
+			},
+			"window_id": 1,
+			"workspace_name": "/I/笔记/hedonglin.sublime-workspace"
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/I/笔记/hedonglin.sublime-workspace"
+		]
+	}
+}

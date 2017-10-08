@@ -66,7 +66,23 @@
 
 // dns - 域名服务器
 // --------------------------------------------------
-
+    ["dns.getServers\tdns","dns.getServers()"],
+    ["dns.lookup\tdns","dns.lookup(${1:hostname[, options]}, ${2:callback})"],
+    ["dns.lookupService\tdns","dns.lookupService(${1:address}, ${2:port}, ${3:callback})"],
+    ["dns.resolve\tdns","dns.resolve(${1:hostname[, rrtype]}, ${2:callback})"],
+    ["dns.resolve4\tdns","dns.resolve4(${1:hostname[, options]}, ${2:callback})"],
+    ["dns.resolve6\tdns","dns.resolve6(${1:hostname[, options]}, ${2:callback})"],
+    ["dns.resolveCname\tdns","dns.resolveCname(${1:hostname}, ${2:callback})"],
+    ["dns.resolveMx\tdns","dns.resolveMx(${1:hostname}, ${2:callback})"],
+    ["dns.resolveNaptr\tdns","dns.resolveNaptr(${1:hostname}, ${2:callback})"],
+    ["dns.resolveNs\tdns","dns.resolveNs(${1:hostname}, ${2:callback})"],
+    ["dns.resolvePtr\tdns","dns.resolvePtr(${1:hostname}, ${2:callback})"],
+    ["dns.resolveSoa\tdns","dns.resolveSoa(${1:hostname}, ${2:callback})"],
+    ["dns.resolveSrv\tdns","dns.resolveSrv(${1:hostname}, ${2:callback})"],
+    ["dns.resolveTxt\tdns","dns.resolveTxt(${1:hostname}, ${2:callback})"],
+    ["dns.resolveAny\tdns","dns.resolveAny(${1:hostname}, ${2:callback})"],
+    ["dns.reverse\tdns","dns.reverse(${1:ip}, ${2:callback})"],
+    ["dns.setServers\tdns","dns.setServers(${1:servers})"],
 
 // Error - 异常
 // --------------------------------------------------

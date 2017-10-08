@@ -196,20 +196,97 @@
 
 // os - 操作系统
 // --------------------------------------------------
-
+    ["os.EOL\tos","os.EOL"],
+    ["os.arch\tos","os.arch()"],
+    ["os.constants\tos","os.constants"],
+    ["os.cpus\tos","os.cpus()"],
+    ["os.endianness\tos","os.endianness()"],
+    ["os.freemem\tos","os.freemem()"],
+    ["os.homedir\tos","os.homedir()"],
+    ["os.hostname\tos","os.hostname()"],
+    ["os.loadavg\tos","os.loadavg()"],
+    ["os.networkInterfaces\tos","os.networkInterfaces()"],
+    ["os.platform\tos","os.platform()"],
+    ["os.release\tos","os.release()"],
+    ["os.tmpdir\tos","os.tmpdir()"],
+    ["os.totalmem\tos","os.totalmem()"],
+    ["os.type\tos","os.type()"],
+    ["os.uptime\tos","os.uptime()"],
+    ["os.userInfo\tos","os.userInfo(${1:[options]})"],
 
 // path - 路径
 // --------------------------------------------------
-
+    ["path.basename\tpath","path.basename(${1:path[, ext]})"],
+    ["path.delimiter\tpath","path.delimiter"],
+    ["path.dirname\tpath","path.dirname(${1:path})"],
+    ["path.extname\tpath","path.extname(${1:path})"],
+    ["path.format\tpath","path.format(${1:pathObject})"],
+    ["path.isAbsolute\tpath","path.isAbsolute(${1:path})"],
+    ["path.join\tpath","path.join(${1:[...paths]})"],
+    ["path.normalize\tpath","path.normalize(${1:path})"],
+    ["path.parse\tpath","path.parse(${1:path})"],
+    ["path.posix\tpath","path.posix"],
+    ["path.relative\tpath","path.relative(${1:from}, ${2:to})"],
+    ["path.resolve\tpath","path.resolve(${1:[...paths]})"],
+    ["path.sep\tpath","path.sep"],
+    ["path.win32\tpath","path.win32"],
 
 // process - 进程
 // --------------------------------------------------
-
+    ["process.abort\tprocess","process.abort()"],
+    ["process.arch\tprocess","process.arch"],
+    ["process.argv\tprocess","process.argv"],
+    ["process.argv0\tprocess","process.argv0"],
+    ["process.channel\tprocess","process.channel"],
+    ["process.chdir\tprocess","process.chdir(${1:directory})"],
+    ["process.config\tprocess","process.config"],
+    ["process.connected\tprocess","process.connected"],
+    ["process.cpuUsage\tprocess","process.cpuUsage(${1:[previousValue]})"],
+    ["process.cwd\tprocess","process.cwd()"],
+    ["process.disconnect\tprocess","process.disconnect()"],
+    ["process.emitWarning\tprocess","process.emitWarning(${1:warning[, options]})"],
+    ["process.emitWarning\tprocess","process.emitWarning(${1:warning[, type[, code]][, ctor]})"],
+    ["process.env\tprocess","process.env"],
+    ["process.execArgv\tprocess","process.execArgv"],
+    ["process.execPath\tprocess","process.execPath"],
+    ["process.exit\tprocess","process.exit(${1:[code]})"],
+    ["process.exitCode\tprocess","process.exitCode"],
+    ["process.getegid\tprocess","process.getegid()"],
+    ["process.geteuid\tprocess","process.geteuid()"],
+    ["process.getgid\tprocess","process.getgid()"],
+    ["process.getgroups\tprocess","process.getgroups()"],
+    ["process.getuid\tprocess","process.getuid()"],
+    ["process.hrtime\tprocess","process.hrtime(${1:[time]})"],
+    ["process.initgroups\tprocess","process.initgroups(${1:user}, ${2:extra_group})"],
+    ["process.kill\tprocess","process.kill(${1:pid[, signal]})"],
+    ["process.mainModule\tprocess","process.mainModule"],
+    ["process.memoryUsage\tprocess","process.memoryUsage()"],
+    ["process.nextTick\tprocess","process.nextTick(${1:callback[, ...args]})"],
+    ["process.pid\tprocess","process.pid"],
+    ["process.platform\tprocess","process.platform"],
+    ["process.release\tprocess","process.release"],
+    ["process.send\tprocess","process.send(${1:message[, sendHandle[, options]][, callback]})"],
+    ["process.setegid\tprocess","process.setegid(${1:id})"],
+    ["process.seteuid\tprocess","process.seteuid(${1:id})"],
+    ["process.setgid\tprocess","process.setgid(${1:id})"],
+    ["process.setgroups\tprocess","process.setgroups(${1:groups})"],
+    ["process.setuid\tprocess","process.setuid(${1:id})"],
+    ["process.stderr\tprocess","process.stderr"],
+    ["process.stdin\tprocess","process.stdin"],
+    ["process.stdout\tprocess","process.stdout"],
+    ["process.title\tprocess","process.title"],
+    ["process.umask\tprocess","process.umask(${1:[mask]})"],
+    ["process.uptime\tprocess","process.uptime()"],
+    ["process.version\tprocess","process.version"],
+    ["process.versions\tprocess","process.versions"],
 
 
 // querystring - 查询字符串
 // --------------------------------------------------
-
+    ["querystring.escape\tquerystring","querystring.escape(${1:str})"],
+    ["querystring.parse\tquerystring","querystring.parse(${1:str[, sep[, eq[, options]]]})"],
+    ["querystring.stringify\tquerystring","querystring.stringify(${1:obj[, sep[, eq[, options]]]})"],
+    ["querystring.unescape\tquerystring","querystring.unescape(${1:str})"],
 
 // readline - 逐行读取
 // --------------------------------------------------
@@ -230,7 +307,14 @@
 
 // timer - 定时器
 // --------------------------------------------------
-
+    ["timeout.ref\ttimer","timeout.ref()"],
+    ["timeout.unref\ttimer","timeout.unref()"],
+    ["setImmediate\ttimer","setImmediate(${1:callback[, ...args]})"],
+    ["setInterval\ttimer","setInterval(${1:callback}, ${2:delay[, ...args])}"],
+    ["setTimeout\ttimer","setTimeout(${1:callback}, ${2:delay[, ...args])}"],
+    ["clearImmediate\ttimer","clearImmediate(${1:immediate})"],
+    ["clearInterval\ttimer","clearInterval(${1:timeout})"],
+    ["clearTimeout\ttimer","clearTimeout(${1:timeout})"],
 
 // tls - 安全传输层
 // --------------------------------------------------

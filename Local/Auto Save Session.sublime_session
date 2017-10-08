@@ -2011,7 +2011,7 @@
 					"file": "/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/User/sbc-api-my-nodejs.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 11769,
+						"buffer_size": 16726,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
@@ -2704,6 +2704,27 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"timeout",
+					"callback",
+					"\",",
+					"clearTimeout",
+					"str",
+					"unescape",
+					"querystring",
+					"id",
+					"extra_group",
+					"user",
+					"versions",
+					"process",
+					"to",
+					"from",
+					"path",
+					"pathObject",
+					"path",
+					"win32",
+					"path",
+					"userInfo",
+					"os",
 					"servers",
 					"callback",
 					"ip",
@@ -2810,28 +2831,7 @@
 					"uid",
 					"path",
 					"path, uid, gid",
-					"callback",
-					"gid",
-					"uid",
-					"path",
-					"path, uid, gid, callback",
-					"mode",
-					"path",
-					"path, mode",
-					"callback",
-					"mode",
-					"path",
-					"path, mode, callback",
-					"file",
-					"file, data[, options]",
-					"callback",
-					"file",
-					"file, data[, options], callback",
-					"path[, mode]",
-					"callback",
-					"fs",
-					"fs.writeSync",
-					"writeSync"
+					"callback"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2858,15 +2858,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 11769,
+								"buffer_size": 16726,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										3097,
-										3097
+										15565,
+										15565
 									]
 								],
 								"settings":
@@ -2885,6 +2885,11 @@
 										},
 										"unmatched":
 										{
+											"1":
+											[
+												16722,
+												16723
+											]
 										}
 									},
 									"bracket_highlighter.regions":
@@ -2951,7 +2956,7 @@
 									"origPos":
 									[
 										0.0,
-										1632.0
+										7648.8
 									],
 									"syncScroll": false,
 									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
@@ -2959,7 +2964,7 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 2108.0,
+								"translation.y": 10275.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,

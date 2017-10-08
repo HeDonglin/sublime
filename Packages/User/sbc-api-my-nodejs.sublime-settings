@@ -1,0 +1,179 @@
+{
+  "scope": "source.js - string, source.coffee, source.js.embedded.html,source.json - string",
+
+
+// http://nodejs.cn/api/
+// --------------------------------------------------
+  "completions":
+  [
+
+// assert-断言
+// --------------------------------------------------
+    [ "assert\tassert","assert(${1:value[, message]})"],
+    [ "assert.deepEqual\tassert","assert.deepEqual(${1:actual}, ${2:expected[, message]})"],
+    [ "assert.deepStrictEqual\tassert","assert.deepStrictEqual(${1:actual}, ${2:expected[, message]})"],
+    [ "assert.doesNotThrow\tassert","assert.doesNotThrow(${1:block[, error][, message]})"],
+    [ "assert.equal\tassert","assert.equal(${1:actual}, ${2:expected[, message]})"],
+    [ "assert.fail\tassert","assert.fail(${1:message})"],
+    [ "assert.fail\tassert","assert.fail(${1:actual},${2:blockexpected[, message[, operator[, stackStartFunction]]])"],
+    [ "assert.ifError\tassert","assert.ifError(${1:value})"],
+    [ "assert.notDeepEqual\tassert","assert.notDeepEqual(${1:actual}, ${2:expected[, message]})"],
+    [ "assert.notDeepStrictEqual\tassert","assert.notDeepStrictEqual(${1:actual}, ${2:expected[, message]})"],
+    [ "assert.notEqual\tassert","assert.notEqual(${1:actual}, ${2:expected[, message]})"],
+    [ "assert.notStrictEqual\tassert","assert.notStrictEqual(${1:actual}, ${2:expected[, message]})"],
+    [ "assert.ok\tassert","assert.ok(${1:value[, message]})"],
+    [ "assert.strictEqual\tassert","assert.strictEqual(${1:actual}, ${2:expected[, message]})"],
+    [ "assert.throws\tassert","assert.throws(${1:block[, error][, message]})"],
+
+// Buffer - 缓冲器
+// --------------------------------------------------
+
+// child_process - 子进程
+// --------------------------------------------------
+
+
+// cluster - 集群
+// --------------------------------------------------
+
+
+// console - 控制台
+// --------------------------------------------------
+    "new Console\tconsole","new Console(${1:stdout[, stderr]})",
+    "console.assert\tconsole","console.assert(${1:value[, message][, ...args]})",
+    "console.clear\tconsole","console.clear()",
+    "console.count\tconsole","console.count(${1:[label]})",
+    "console.countReset\tconsole","console.countReset(${1:[label = 'default']})",
+    "console.dir\tconsole","console.dir(${1:obj[, options]})",
+    "console.error\tconsole","console.error(${1:[data][, ...args]})",
+    "console.group\tconsole","console.group(${1:[...label]})",
+    "console.groupCollapsed\tconsole","console.groupCollapsed()",
+    "console.groupEnd\tconsole","console.groupEnd()",
+    "console.info\tconsole","console.info(${1:[data][, ...args]})",
+    "console.log\tconsole","console.log(${1:[data][, ...args]})",
+    "console.time\tconsole","console.time(${1:label})",
+    "console.timeEnd\tconsole","console.timeEnd(${1:label})",
+    "console.trace\tconsole","console.trace(${1:[message][, ...args]})",
+    "console.warn\tconsole","console.warn(${1:[data][, ...args]})",
+
+
+// crypto - 加密
+// --------------------------------------------------
+
+
+// dgram - 数据报
+// --------------------------------------------------
+
+
+// dns - 域名服务器
+// --------------------------------------------------
+
+
+// Error - 异常
+// --------------------------------------------------
+
+
+// events - 事件
+// --------------------------------------------------
+
+
+// fs - 文件系统
+// --------------------------------------------------
+
+
+
+// global - 全局变量
+// --------------------------------------------------
+
+
+// http - HTTP
+// --------------------------------------------------
+
+
+
+// https - HTTPS
+// --------------------------------------------------
+
+
+// module - 模块
+// --------------------------------------------------
+
+
+
+// net - 网络
+// --------------------------------------------------
+
+
+// os - 操作系统
+// --------------------------------------------------
+
+
+// path - 路径
+// --------------------------------------------------
+
+
+// process - 进程
+// --------------------------------------------------
+
+
+
+// querystring - 查询字符串
+// --------------------------------------------------
+
+
+// readline - 逐行读取
+// --------------------------------------------------
+
+
+
+// repl - 交互式解释器
+// --------------------------------------------------
+
+
+// stream - 流
+// --------------------------------------------------
+
+
+// string_decoder - 字符串解码器
+// --------------------------------------------------
+
+
+// timer - 定时器
+// --------------------------------------------------
+
+
+// tls - 安全传输层
+// --------------------------------------------------
+
+
+// tty - 终端
+// --------------------------------------------------
+
+
+
+// url - 网址
+// --------------------------------------------------
+
+
+// util - 实用工具
+// --------------------------------------------------
+
+
+// v8 - V8引擎
+// --------------------------------------------------
+
+
+// vm - 虚拟机
+// --------------------------------------------------
+
+
+
+// zlib - 压缩
+// --------------------------------------------------
+
+
+// 废弃的API
+// --------------------------------------------------
+
+
+  ]
+}

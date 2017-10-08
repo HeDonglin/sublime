@@ -4,33 +4,42 @@
     "completions":
     [
 // key words
+// >>> import keyword
+// >>> keyword.kwlist
 // --------------------------------------------------
+    ["False\tkeyword", "False"],
+    ["None\tkeyword", "None"],
+    ["True\tkeyword", "True"],
     ["and\tkeyword", "and"],
     ["as\tkeyword", "as"],
     ["assert\tkeyword", "assert"],
     ["break\tkeyword", "break"],
+    ["class\tkeyword", "class"],
     ["continue\tkeyword", "continue"],
+    ["def\tkeyword", "def"],
     ["del\tkeyword", "del"],
+    ["elif\tkeyword", "elif"],
+    ["else\tkeyword", "else"],
     ["except\tkeyword", "except"],
-    ["exec\tkeyword", "exec"],
-    ["False\tkeyword", "False"],
     ["finally\tkeyword", "finally"],
     ["for\tkeyword", "for"],
+    ["form\tkeyword", "form"],
+    ["global\tkeyword", "global"],
+    ["if\tkeyword", "if"],
+    ["import\tkeyword", "import"],
     ["in\tkeyword", "in"],
     ["is\tkeyword", "is"],
-    ["None\tkeyword", "None"],
+    ["lambda\tkeyword", "lambda"],
+    ["nonlocal\tkeyword", "nonlocal"],
     ["not\tkeyword", "not"],
     ["or\tkeyword", "or"],
     ["pass\tkeyword", "pass"],
-    ["print\tkeyword", "print"],
     ["raise\tkeyword", "raise"],
     ["return\tkeyword", "return"],
-    ["True\tkeyword", "True"],
     ["try\tkeyword", "try"],
     ["while\tkeyword", "while"],
     ["with\tkeyword", "with"],
     ["yield\tkeyword", "yield"],
-    ["python\tkeyword", "python"],
 
 // Errors and Exceptions
 // --------------------------------------------------

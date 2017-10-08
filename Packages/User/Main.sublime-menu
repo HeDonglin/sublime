@@ -177,6 +177,13 @@
                 "command": "open_file"
             },
             {
+                "args": {
+                    "file": "${packages}/User/sbc-api-my-nodejs.sublime-settings"
+                },
+                "caption": "Settings \u2013 nodejs",
+                "command": "open_file"
+            },
+            {
                 "caption": "-"
             }
 

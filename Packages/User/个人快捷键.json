@@ -206,6 +206,7 @@
     ctrl+alt+n 新建模板
     ctrl+alt+s 自动保存
     ctrl+alt+m 向下添加光标
+    ctrl+alt+, 拆分选择
     ctrl+alt+up 向上添加光标，相当于shift+鼠标右键,或者按住鼠标滚轮
     ctrl+alt+down 向下添加光标，相当于shift+鼠标右键,或者按住鼠标滚轮
     ////////////////////////////////////
@@ -247,6 +248,10 @@
     alt+shfit+v 粘贴剪切板中的内容
     alt+shift+b 展示未保存的变化
     alt+shift+m 向下选中
+    alt+shift+, 添加选择
+    alt+shift+. 激活选择
+    alt+shift+/ 逐个取消并选择下一个
+    ctrl+shift+alt+/ 选择第一个第二次反选后面几个
     ////////////////////
 
 用户设置

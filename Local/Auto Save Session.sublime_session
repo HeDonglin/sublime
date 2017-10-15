@@ -4,7 +4,7 @@
 		"/I/笔记/note"
 	],
 	"last_version": 3147,
-	"last_window_id": 11,
+	"last_window_id": 12,
 	"log_indexing": false,
 	"settings":
 	{
@@ -580,7 +580,7 @@
 			"command_palette":
 			{
 				"height": 428.0,
-				"last_filter": "prvo",
+				"last_filter": "",
 				"selected_items":
 				[
 					[
@@ -920,24 +920,27 @@
 			},
 			"file_history":
 			[
+				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/User/Package Control.sublime-settings",
+				"/I/笔记/note/ES5.js",
+				"/I/笔记/note/1.js",
+				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/user/个人快捷键.json",
+				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/MultiEditUtils/Default (Windows).sublime-keymap",
+				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/MultiEditUtils/MultiEditUtils.sublime-settings",
 				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/ExpandRegion/ExpandRegion.sublime-settings",
 				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/ExpandRegion/Default.sublime-commands",
 				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/Better Completion/sbc-setting.sublime-settings",
 				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/ExpandRegion/expand_to_line.py",
 				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/ExpandRegion/Main.sublime-menu",
-				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/user/个人快捷键.json",
-				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/User/Package Control.sublime-settings",
 				"/D/Program Files/Sublime Text Build 3149 x64/Data/Packages/User/ColorHighlighter.sublime-settings",
 				"/I/笔记/note/1.css",
 				"/I/笔记/note/index.html",
 				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/User/sbc-api-my-vue.sublime-settings",
-				"/I/笔记/note/ES5.js",
 				"/I/笔记/note/jquery.js",
 				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/User/Emmet.sublime-settings",
 				"/I/笔记/note/scss.scss",
 				"/I/笔记/note/css3.css",
 				"/I/笔记/note/npmAPI.js",
-				"/I/笔记/note/1.js",
 				"/I/笔记/note/js-todo.todo",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
 				"/I/笔记/note/todo.todo",
@@ -1044,10 +1047,7 @@
 				"/D/Program Files/Sublime Text 3126/Data/Packages/PostCSS Sorting/screenshot.gif",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/PostCSS Sorting/.editorconfig",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/PostCSS Sorting/Main.sublime-menu",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/PostCSS Sorting/Default (Windows).sublime-keymap",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/User/Default (Windows).sublime-keymap",
-				"/I/笔记/note/src/1.css",
-				"/D/Program Files/Sublime Text 3126/Data/Packages/Cssnext/Cssnext.sublime-settings"
+				"/D/Program Files/Sublime Text 3126/Data/Packages/PostCSS Sorting/Default (Windows).sublime-keymap"
 			],
 			"find":
 			{
@@ -1144,6 +1144,46 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"iPod",
+					" e对对大幅度辅导费对对对对eedee",
+					"发c对对对的地方ddfd",
+					"e对对大幅度辅导费对对对对eedee",
+					"d",
+					"alt",
+					"ctrl",
+					"e对对大幅度辅导费对对对对eedee",
+					"        ",
+					"abc",
+					"eee",
+					"alt",
+					"eee",
+					", ",
+					"eee",
+					"abc",
+					"ddd",
+					"abc",
+					"ddd",
+					"abc",
+					"eee",
+					"ddd",
+					"eee",
+					"ddd",
+					"abc",
+					"字母",
+					"交",
+					"交换",
+					"ddd",
+					"abc",
+					"ddd",
+					"abc",
+					"1",
+					"arr",
+					"ddd",
+					"abc",
+					"alt",
+					"text",
+					"arguments",
+					"abc",
 					"display",
 					"aaa",
 					">\n",
@@ -1231,47 +1271,7 @@
 					"max",
 					"@media",
 					"clearfix",
-					"clear",
-					"height:0;",
-					"height:0",
-					"左",
-					"左边",
-					"自适应",
-					"一真就真",
-					"h2",
-					"opacity",
-					"透明度",
-					"focus",
-					"opacity",
-					"+",
-					"base",
-					"for",
-					"，",
-					"push",
-					"length",
-					"context",
-					"done",
-					"catch",
-					"cat",
-					"index",
-					"Ready",
-					"fn.extend",
-					"post",
-					"Toggle",
-					"toggle",
-					"show",
-					"click",
-					"contextmenu",
-					"cssNumber",
-					"escapeselector",
-					"cssHooks",
-					"cssNumber",
-					"isi",
-					"isindex",
-					"\"<",
-					"video",
-					"\"<",
-					"header"
+					"clear"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1937,15 +1937,6 @@
 			"buffers":
 			[
 				{
-					"file": "note/ES5.js",
-					"settings":
-					{
-						"buffer_size": 190012,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				},
-				{
 					"file": "note/1.js",
 					"settings":
 					{
@@ -2395,6 +2386,9 @@
 			],
 			"file_history":
 			[
+				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/User/Package Control.sublime-settings",
+				"/I/笔记/note/ES5.js",
+				"/I/笔记/note/1.js",
 				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/user/个人快捷键.json",
 				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/User/Default (Windows).sublime-keymap",
 				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/MultiEditUtils/Default (Windows).sublime-keymap",
@@ -2404,18 +2398,15 @@
 				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/Better Completion/sbc-setting.sublime-settings",
 				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/ExpandRegion/expand_to_line.py",
 				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/ExpandRegion/Main.sublime-menu",
-				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/User/Package Control.sublime-settings",
 				"/D/Program Files/Sublime Text Build 3149 x64/Data/Packages/User/ColorHighlighter.sublime-settings",
 				"/I/笔记/note/1.css",
 				"/I/笔记/note/index.html",
 				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/User/sbc-api-my-vue.sublime-settings",
-				"/I/笔记/note/ES5.js",
 				"/I/笔记/note/jquery.js",
 				"/D/Program Files/Sublime Text Build 3147 x64/Data/Packages/User/Emmet.sublime-settings",
 				"/I/笔记/note/scss.scss",
 				"/I/笔记/note/css3.css",
 				"/I/笔记/note/npmAPI.js",
-				"/I/笔记/note/1.js",
 				"/I/笔记/note/js-todo.todo",
 				"/D/Program Files/Sublime Text 3126/Data/Packages/User/sbc-api-my-javascript.sublime-settings",
 				"/I/笔记/note/todo.todo",
@@ -2526,7 +2517,7 @@
 			],
 			"find":
 			{
-				"height": 45.0
+				"height": 42.0
 			},
 			"find_in_files":
 			{
@@ -2619,6 +2610,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"iPod",
 					" e对对大幅度辅导费对对对对eedee",
 					"发c对对对的地方ddfd",
 					"e对对大幅度辅导费对对对对eedee",
@@ -2745,8 +2737,7 @@
 					"max",
 					"@media",
 					"clearfix",
-					"clear",
-					"height:0;"
+					"clear"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2764,127 +2755,11 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "note/ES5.js",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 190012,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										6381,
-										6381
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-										},
-										"icon":
-										{
-										},
-										"open":
-										{
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content"
-									],
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										225,
-										5,
-										20,
-										17,
-										28,
-										41,
-										6,
-										99,
-										78,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-									"expand_region_settings": "{\"stack\": [], \"hash\": \"9d7f93cdd65acd1d2927dfa0cb99f987\"}",
-									"is_init_dirty_state": false,
-									"origPos":
-									[
-										0.0,
-										1120.8
-									],
-									"origin_encoding": "UTF-8",
-									"syncScroll": false,
-									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 1401.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
 							"file": "note/1.js",
 							"semi_transient": false,
 							"settings":
@@ -2896,8 +2771,8 @@
 								"selection":
 								[
 									[
-										490,
-										490
+										141,
+										141
 									]
 								],
 								"settings":
@@ -2907,27 +2782,12 @@
 									{
 										"close":
 										{
-											"1":
-											[
-												489,
-												490
-											]
 										},
 										"icon":
 										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/dot.png",
-												"brackethighlighter.default"
-											]
 										},
 										"open":
 										{
-											"1":
-											[
-												414,
-												415
-											]
 										},
 										"unmatched":
 										{
@@ -2935,16 +2795,16 @@
 									},
 									"bracket_highlighter.regions":
 									[
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
 										"bh_default",
 										"bh_default_center",
 										"bh_default_open",
 										"bh_default_close",
-										"bh_default_content"
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
 									],
 									"c_time":
 									[
@@ -2993,17 +2853,17 @@
 										3,
 										46
 									],
-									"is_init_dirty_state": true,
+									"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 									"origPos":
 									[
 										0.0,
-										429.6
+										0.0
 									],
 									"syncScroll": false,
 									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 537.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -3080,7 +2940,7 @@
 				"height": 156.0
 			},
 			"pinned_build_system": "Packages/User/node.sublime-build",
-			"position": "0,2,3,-1,-1,-1,-1,832,160,160,978",
+			"position": "0,2,3,-32000,-32000,-1,-1,832,160,160,978",
 			"project": "note.sublime-project",
 			"replace":
 			{

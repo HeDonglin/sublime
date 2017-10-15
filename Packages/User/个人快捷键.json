@@ -61,7 +61,7 @@
     alt+r 上
     alt+t 修改标签
     alt+y 格式化html css js
-    alt+u 括号内选中
+    alt+u 括号内选中可扩展选中
     alt+i 双引号或单引号选中
     alt+o 选中单词
     alt+p 复制整行插入下一行，选中词添加在其后
@@ -158,29 +158,44 @@
     ctrl+shift+8 转为uft-8格式
     ctrl+shift+9 大小写互换
     ctrl+shift+f2 清除书签
+    ctrl+shift+q
     ctrl+shift+w 切换是否换行显示
+    ctrl+shift+e
+    ctrl+shift+r
     ctrl+shift+t 打开已关闭的标签文件;
+    ctrl+shfit+y
+    ctrl+shift+u 开启或关闭某些语法设置
     ctrl+shift+o 打开调色板
+    ctrl+shfit+i
     ctrl+shift+p 打开控制台
+    ctrl+shift+[
+    ctrl+shift+]
+    ctrl+shift+\
     ctrl+shift+a
+    ctrl+shift+s 另存为
+    ctrl+shift+d 打开git
+    ctrl+shift+f 打开程序列表
     ctrl+shfit+h 向上生成console.log
     ctrl+shfit+k 向下生成console.log
-    ctrl+shift+s 另存为
     ctrl+shfit+j 选择到缩进
     ctrl+shfit+l 选择到段落
     ctrl+shift+; 移除所有console.log
+    ctrl+shift+'
     ctrl+shift+x 截图
     ctrl+shift+c 复制文件路径
-    ctrl+shift+d 打开git
-    ctrl+shift+f 打开程序列表
     ctrl+shift+v 缩进粘贴
-    ctrl+shift+/ 多行注释
+    ctrl+shift+b
     ctrl+shitf+n 新建窗口
+    ctrl+shift+m
+    ctrl+shift+,
+    ctrl+shift+.
+    ctrl+shift+/ 多行注释
 
     //////////////////////////////////
     ctrl+alt+q 启动
     ctrl+alt+w 切换断点
     ctrl+alt+e 清除所有断点
+    ctrl+alt+r 向上添加光标
     ctrl+alt+y 暂停或恢复
     ctrl+alt+d 选择调试
     ctrl+alt+f 结束调试
@@ -192,23 +207,23 @@
     ctrl+alt+8 逐过程:和逐语句类似，但是点击逐过程会在函数调用时,令调试器将执行转到所调用的函数声明中去
     ctrl+alt+9 当使用逐过程进入某个函数内部后，点击该按钮会跳过该函数声明的剩余部分，调试器会将执行过程移动到其父函数中。
     ctrl+alt+0 逐语句:逐行执行，以了解每一行如何操作当前的变量。当你的代码调用另一个函数的时候，调试器不会跳到那个函数的代码中去，其焦点还是当前的函数，而 Step into 则相反。
-    ctrl+alt+r 向上添加光标
     ctrl+alt+u gulp 显示输出窗口
+    ctrl+alt+i gulp 结束所有任务
     ctrl+alt+o gulp 打开任务列表
     ctrl+alt+p gulp 打开插件列表
+    ctrl+alt+a 等号对齐
+    ctrl+alt+s 自动保存
     ctrl+alt+h gulp 缓存清理
     ctrl+alt+j gulp 默认启动default任务
-    ctrl+alt+i gulp 结束所有任务
     ctrl+alt+k gulp 结束特定任务
     ctrl+alt+l gulp 任意任务启动
     ctrl+alt+; gulp 运行最后一次运行的任务
-    ctrl+alt+a 等号对齐
     ctrl+alt+n 新建模板
-    ctrl+alt+s 自动保存
     ctrl+alt+m 向下添加光标
     ctrl+alt+, 拆分选择
     ctrl+alt+up 向上添加光标，相当于shift+鼠标右键,或者按住鼠标滚轮
     ctrl+alt+down 向下添加光标，相当于shift+鼠标右键,或者按住鼠标滚轮
+
     ////////////////////////////////////
     alt+shift+1 分屏1列
     alt+shift+2 分屏2列
@@ -224,7 +239,7 @@
     alt+shift+r 向上选中
     alt+shift+t 开启或关闭拼写检测
     alt+shift+y 重新选择
-    alt+shift+u 开启或关闭某些语法设置
+    alt+shift+u
     alt+shift+i 选中内容拆分行添加光标
     alt+shift+o 撤销选择
     alt+shift+p 启动服务
@@ -249,7 +264,7 @@
     alt+shift+b 展示未保存的变化
     alt+shift+m 向下选中
     alt+shift+, 添加选择
-    alt+shift+. 激活选择
+    alt+shift+. 激活选择,多次点击循环
     alt+shift+/ 逐个取消并选择下一个
     ctrl+shift+alt+/ 选择第一个第二次反选后面几个
     ////////////////////

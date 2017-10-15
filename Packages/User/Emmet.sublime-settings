@@ -97,6 +97,8 @@
                     "cccc": "/* $1 */\n$0",
                 // 特殊
                     "in":"inherit",
+                    "!important":"!important",
+                    "!": "!important",
                 // 媒体查询
                     "@imp": "@import '${1:./}';",
                     "@import": "@import url(|);",
@@ -149,7 +151,6 @@
                     "amtfeio": "animation-timing-function:ease-in-out;",
                     "amtfl": "animation-timing-function:linear;",
                     "amtfcb": "animation-timing-function:cubic-bezier(${1:0.1}, ${2:0.7}, ${3:1.0}, ${3:0.1});",
-                    "!": "!important",
                 // 定位
                     // 定位方式
                     "pos": "position:${1:static};",
@@ -1402,7 +1403,8 @@
                 "opacify":"opacify(\\$${1:color}, ${2:增加透明度});",
                 "transparentize":"transparentize(\\$${1:color}, ${2:减少透明度});",
                 "rgba":"rgba(\\$${1:color},0.${2:5})",
-                "var":"{\\$${1:var}}"
+                "var":"{\\$${1:var}}",
+                "!default":"!default"
             }
         },
 

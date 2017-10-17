@@ -2,6 +2,7 @@
 	"afn_use_keybinding": true,
 	"atomic_save": false,
 	"auto_complete": true,
+	"show_encoding": true,
 	"auto_complete_triggers":
 	[
 		{
@@ -90,6 +91,7 @@
 		"Rust",
 		"Scala",
 		"SQL",
+		"Status Bar Time",
 		"Statusbar Path",
 		"TCL",
 		"Textile",

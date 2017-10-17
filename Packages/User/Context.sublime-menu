@@ -2,7 +2,7 @@
     {
         "command": "open_file",
         "args": {
-            "file": "$packages/user/个人快捷键.sublime-keymap"
+            "file": "$packages/user/Default (Windows).sublime-keymap"
         },
         "caption": "快捷键查询"
     },
